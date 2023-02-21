@@ -34,22 +34,6 @@ class Player:
 
 		return players
 
-	# def create_player_id(self, player):
-	# 	# example: AB12345 (2 letters and 5 numbers)
-	#
-	# 	available_numbers = list(string.digits)
-	# 	letters = ['AB', 'BC', 'CD', 'DE', 'EF', 'FG', 'GH', 'HI', 'IJ', 'JK', 'KL', 'LM', 'MN', 'NO', 'OP', 'PR',
-	# 				'RS', 'ST', 'TU', 'UV', 'VX', 'XY', 'YZ']
-	# 	id_numbers = 5
-	# 	# use one of the letters list and add it to the player_id
-	# 	player_id = letters
-	# 	for n in range(id_numbers):
-	# 		print('n', n)
-	# 		player_id += random.choice(available_numbers)
-	# 	# replace the player_id = "" with this player_id
-	# 	# check if player_id is unique
-	# 	print(player_id)
-
 # create player_id for created player
 # connect a player/s with a Tournament, add_player_to_tournament
 # save player in JSON data file
