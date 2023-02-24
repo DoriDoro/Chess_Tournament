@@ -11,6 +11,42 @@
             "first_name": "John",
             "last_name": "Kelly",
             "birth_date": "5-4-1996"
+        },
+        "3": {
+            "player_id": "DS45698",
+            "first_name": "John",
+            "last_name": "Doe",
+            "birth_date": "5-4-1984"
+        },
+        "4": {
+            "player_id": "XD74123",
+            "first_name": "Hares",
+            "last_name": "Homes",
+            "birth_date": "4-8-1996"
+        },
+        "5": {
+            "player_id": "WS78523",
+            "first_name": "Sarah",
+            "last_name": "Loop",
+            "birth_date": "26-3-1985"
+        },
+        "6": {
+            "player_id": "JK74125",
+            "first_name": "Halas",
+            "last_name": "Forge",
+            "birth_date": "7-9-1995"
+        },
+        "7": {
+            "player_id": "JH455556",
+            "first_name": "Len",
+            "last_name": "Plopp",
+            "birth_date": "24-6-1995"
+        },
+        "8": {
+            "player_id": "SD45855",
+            "first_name": "Helen",
+            "last_name": "Stark",
+            "birth_date": "7-8-1975"
         }
     }
 }

@@ -1,3 +1,5 @@
+from random import randint
+
 from tinydb import TinyDB, Query
 from unidecode import unidecode
 
@@ -37,8 +39,20 @@ class Player:
         db = TinyDB(f'data/players/player.json', indent=4)
         db.insert(data)
 
-    def create_pairs(self):
-        pass
+        # save the number of players in the database
+        players_in_db = 1
+        players_in_db += 1
+        return players_in_db
+
+    @staticmethod
+    def create_pairs(players_in_db):
+        # get the all players from database: player.json
+        db = TinyDB(f'data/players/player.json')
+
+        # get the number of players in the database to give it as param to the randint function
+        player1 = db.all()[randint(1, 100)]
+        print(player1)
+
         # create pairs to play against
         # check if they played already against each other
         # update played_against, add the players_id

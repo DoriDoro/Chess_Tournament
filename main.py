@@ -1,6 +1,8 @@
 import os
 import sys
 
+from tinydb import TinyDB, Query
+
 from model.player import Player
 
 
@@ -10,6 +12,7 @@ def main():
     print("Welcome to Chess Tournament")
 
     Player.create_player()
+    # Player.create_pairs()
 
 
 if __name__ == '__main__':
