@@ -1,0 +1,10 @@
+{
+    "_default": {
+        "1": {
+            "player_id": "AB12345",
+            "first_name": "John",
+            "last_name": "Doe",
+            "birth_date": "5-4-1984"
+        }
+    }
+}

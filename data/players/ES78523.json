@@ -1,0 +1,10 @@
+{
+    "_default": {
+        "1": {
+            "player_id": "ES78523",
+            "first_name": "Lena",
+            "last_name": "Plopp",
+            "birth_date": "7-9-1962"
+        }
+    }
+}

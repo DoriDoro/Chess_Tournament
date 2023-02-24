@@ -1,0 +1,16 @@
+{
+    "_default": {
+        "1": {
+            "player_id": "HG78523",
+            "first_name": "Benny",
+            "last_name": "Aster",
+            "birth_date": "12-3-1986"
+        },
+        "2": {
+            "player_id": "NB14589",
+            "first_name": "John",
+            "last_name": "Kelly",
+            "birth_date": "5-4-1996"
+        }
+    }
+}
