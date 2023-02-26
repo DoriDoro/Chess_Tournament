@@ -20,38 +20,30 @@ class Player:
     def __str__(self):
         return f"{self.first_name} {self.last_name}"
 
-    @staticmethod
-    def create_player():
-        player_id = str(input("Enter the ID of the player (example: AB12345): "))
-        first_name = str(input("Enter the first name of the player: "))
-        last_name = str(input(f"Enter {first_name}'s last name: "))
-        birth_date = str(input(f"Enter the birth date of {first_name} {last_name} (dd-mm-yyyy): "))
-        print(f"You have just created this player: [id]: {player_id}, [name]: {first_name} {last_name}, [birthday]: "
-              f"{birth_date}")
+    def add_played_against_to_db(self):
+        db = TinyDB(f'data/players/player.json')
+        Player_update = Query()
+        db.update({'player_id': self.player_id}, Player_update.played_against == [])
 
-        new_player = Player(player_id, first_name, last_name, birth_date)
-        data = {"player_id": new_player.player_id, "first_name": new_player.first_name,
-                "last_name": new_player.last_name, "birth_date": new_player.birth_date}
+    def add_played_tournaments_to_db(self):
+        db = TinyDB(f'data/players/player.json')
+        Player_update = Query()
+        db.update({'player_id': self.player_id}, Player_update.played_tournaments == [])
 
-        # create the database
-        # save players in data/players/{player_id}.json
-        # db = TinyDB(f'data/players/{player_id}.json', indent=4)
-        db = TinyDB(f'data/players/player.json', indent=4)
-        db.insert(data)
-
-        # save the number of players in the database
-        players_in_db = 1
-        players_in_db += 1
-        return players_in_db
-
-    @staticmethod
-    def create_pairs(players_in_db):
+    def create_pairs(self):
         # get the all players from database: player.json
         db = TinyDB(f'data/players/player.json')
 
         # get the number of players in the database to give it as param to the randint function
-        player1 = db.all()[randint(1, 100)]
-        print(player1)
+        random_player_id = db.all()[randint(1, len(db))]
+        player1 = random_player_id
+        player2 = random_player_id
+        if player1 == player2:
+            player2 = random_player_id
+
+        create_pairs = [player1, player2]
+
+
 
         # create pairs to play against
         # check if they played already against each other

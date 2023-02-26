@@ -3,7 +3,8 @@ import sys
 
 from tinydb import TinyDB, Query
 
-from model.player import Player
+# from model.player import Player
+from views.player import create_player
 
 
 def main():
@@ -11,7 +12,7 @@ def main():
     os.system("cls" if sys.platform == "win32" else "clear")
     print("Welcome to Chess Tournament")
 
-    Player.create_player()
+    create_player()
     # Player.create_pairs()
 
 

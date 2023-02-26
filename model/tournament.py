@@ -5,12 +5,12 @@ from unidecode import unidecode
 class Tournament:
 
     def __init__(
-            self, name, city, start_date, end_date, list_rounds, comments, rounds=4):
+            self, name, city, start_date, end_date, list_tours, comments, rounds=4):
         self.name = name
         self.city = city
         self.start_date = start_date
         self.end_date = end_date
-        self.list_rounds = list_rounds
+        self.list_tours = list_tours
         self.comments = comments
         self.rounds = rounds
 
@@ -18,19 +18,7 @@ class Tournament:
         self.tournament_id = ""
         self.current_round = 0
 
-    def create_tournament(self):
-        tournament_id = int(input("Please enter the ID of the Tournament: "))
-        name = str(input("Enter the name of the Chess Tournament: "))
-        city = str(input("Enter the location of the Chess Tournament: "))
-        start_date = str(input("When does the Chess Tournament starts? (dd-mm-yyyy): "))
-        end_date = str(input("Please enter the end date of the Chess Tournament (dd-mm-yyyy): "))
-        rounds = int(input("How many rounds are possible for this Chess Tournament? "))
-        comments = str(input("Do you have any comments concerning the Chess Tournament? "))
-        print(f"You have just created this tournament: [name]: {name}, [city]: {city}, [start date]: "
-              f"{start_date}, [end date]: {end_date}, [rounds]: {rounds}, [comments]: {comments}")
 
-        return {"tournament_id": tournament_id, "name": name, "city": city, "start_date": start_date,
-                "end_date": end_date, "rounds": rounds, "comments": comments}
 
     def save_tournament(self):
         pass
