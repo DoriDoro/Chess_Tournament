@@ -1,0 +1,16 @@
+{
+    "_default": {
+        "1": {
+            "tournament_id": "",
+            "name": "The Big One",
+            "city": "Chicago",
+            "start_date": "11-12-2022",
+            "end_date": "15-12-2022",
+            "list_tours": 5,
+            "rounds": 6,
+            "comments": "no",
+            "list_of_players": [],
+            "current_round": 0
+        }
+    }
+}

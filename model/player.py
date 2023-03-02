@@ -20,15 +20,15 @@ class Player:
     def __str__(self):
         return f"{self.first_name} {self.last_name}"
 
-    def add_played_against_to_db(self):
+    def update_played_against(self, opponent):
         db = TinyDB(f'data/players/player.json')
-        Player_update = Query()
-        db.update({'player_id': self.player_id}, Player_update.played_against == [])
+        query = Query()
+        db.update({'played_against': [opponent]}, query.player_id == self.player_id)
 
-    def add_played_tournaments_to_db(self):
+    def update_played_tournaments(self, tournament_name):
         db = TinyDB(f'data/players/player.json')
-        Player_update = Query()
-        db.update({'player_id': self.player_id}, Player_update.played_tournaments == [])
+        query = Query()
+        db.update({'played_tournaments': [tournament_name]}, query.played_tournaments == self.player_id)
 
     def create_pairs(self):
         # get the all players from database: player.json
@@ -42,8 +42,6 @@ class Player:
             player2 = random_player_id
 
         create_pairs = [player1, player2]
-
-
 
         # create pairs to play against
         # check if they played already against each other
