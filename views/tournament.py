@@ -12,9 +12,15 @@ def create_tournament():
     list_tours = int(input("Question: "))
     rounds = int(input("How many rounds are possible for this Chess Tournament? "))
     comments = str(input("Do you have any comments concerning the Chess Tournament? "))
-    print(f"You have just created this tournament: [Tournament ID]: {tournament_id}, [name]: {name}, "
-          f"[city]: {city}, [start date]: {start_date}, [end date]: {end_date}, [list_tours]: {list_tours}, "
-          f"[rounds]: {rounds}, [comments]: {comments}")
+    print()
+    print(f"You have just created this tournament:")
+    print(f"  [Tournament ID]: {tournament_id}")
+    print(f"  [name]: {name}")
+    print(f"  [city]: {city}")
+    print(f"  [start date]: {start_date} and [end date]: {end_date}")
+    print(f"  [list_tours]: {list_tours}")
+    print(f"  [rounds]: {rounds}")
+    print(f"  [comments]: {comments}", end="\n\n")
 
     new_tournament = Tournament(name, city, start_date, end_date, list_tours, comments, rounds)
     data = {"tournament_id": new_tournament.tournament_id, "name": new_tournament.name,

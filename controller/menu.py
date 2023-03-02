@@ -4,17 +4,20 @@ from views.tournament import create_tournament
 
 
 def handle_create_player():
-    print("Create a Player selected.")
+    print("------------------------------------------------")
+    print("CREATE A PLAYER:", end="\n\n")
     create_player()
 
 
 def handle_create_tournament():
-    print("Create a Tournament selected.")
+    print("------------------------------------------------")
+    print("CREATE A TOURNAMENT:", end="\n\n")
     create_tournament()
 
 
 def handle_start_tournament():
-    print("Start Tournament selected.")
+    print("------------------------------------------------")
+    print("START TOURNAMENT:", end="\n\n")
 
 
 def run_menu():
@@ -29,7 +32,8 @@ def run_menu():
         elif choice == "3":
             handle_start_tournament()
         elif choice == "4":
-            print("Quitting program...")
+            print("------------------------------------------------")
+            print("Quitting program...", end="\n\n")
             break
         else:
             print("Invalid choice. Please enter a number between 1 and 4.")
