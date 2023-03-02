@@ -11,6 +11,30 @@
             "comments": "no",
             "list_of_players": [],
             "current_round": 0
+        },
+        "2": {
+            "tournament_id": "",
+            "name": "Great Chance",
+            "city": "Toronto",
+            "start_date": "4-4-2022",
+            "end_date": "9-4-2022",
+            "list_tours": 6,
+            "rounds": 8,
+            "comments": "no",
+            "list_of_players": [],
+            "current_round": 0
+        },
+        "3": {
+            "tournament_id": "",
+            "name": "The Bulls",
+            "city": "Paris",
+            "start_date": "7-8-2022",
+            "end_date": "4-9-2022",
+            "list_tours": 6,
+            "rounds": 4,
+            "comments": "no",
+            "list_of_players": [],
+            "current_round": 0
         }
     }
 }

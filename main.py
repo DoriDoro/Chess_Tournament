@@ -1,8 +1,7 @@
 import os
 import sys
 
-from views.player import create_player
-from views.tournament import create_tournament
+from controller.menu import run_menu
 
 
 def main():
@@ -10,8 +9,7 @@ def main():
     os.system("cls" if sys.platform == "win32" else "clear")
     print("Welcome to Chess Tournament")
 
-    # create_player()
-    create_tournament()
+    run_menu()
 
 
 if __name__ == '__main__':

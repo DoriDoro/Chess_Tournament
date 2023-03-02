@@ -69,6 +69,26 @@
             "score": 0.0,
             "played_against": [],
             "played_tournaments": []
+        },
+        "12": {
+            "player_id": "DE14445",
+            "first_name": "Dan",
+            "last_name": "Stone",
+            "birth_date": "5-5-2000",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": []
+        },
+        "13": {
+            "player_id": "UY77896",
+            "first_name": "Harry",
+            "last_name": "Donald",
+            "birth_date": "7-8-1984",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": []
         }
     }
 }
