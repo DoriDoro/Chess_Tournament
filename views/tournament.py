@@ -28,3 +28,32 @@ def create_tournament():
 
     db = TinyDB(f'data/tournaments/tournaments.json', indent=4)
     db.insert(data)
+
+
+def get_tournaments():
+    database = TinyDB(f'data/tournaments/tournaments.json')
+
+    print("------------------------------------------------")
+    print("** CHOOSE TOURNAMENT **", end="\n\n")
+    for db in database:
+        print(f"[ID]: {db['tournament_id']}  -  [Name]: {db['name']}")
+    print()
+    print("choose * to go back to menu", end="\n\n")
+
+
+def choose_tournament():
+    database = TinyDB(f'data/tournaments/tournaments.json')
+    tournament_id_list = []
+    for db in database:
+        tournament_id_list.append(db['tournament_id'])
+
+    while True:
+        choice = int(input("Enter the Tournament_ID of your choice: "))
+
+        if choice in tournament_id_list:
+            print(f"You have chosen: {choice}", end="\n\n")
+            break
+        elif choice == "*":
+            break
+        else:
+            print("Invalid choice. Please enter the Tournament_ID.", end="\n\n")
