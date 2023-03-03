@@ -149,6 +149,16 @@
             "score": 0.0,
             "played_against": [],
             "played_tournaments": []
+        },
+        "20": {
+            "player_id": "YU45865",
+            "first_name": "Glen",
+            "last_name": "Griff",
+            "birth_date": "5-4-1975",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": []
         }
     }
 }
