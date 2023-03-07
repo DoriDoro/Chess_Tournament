@@ -1,6 +1,7 @@
 from tinydb import TinyDB
 
 from model.tournament import Tournament
+from views.player import create_player
 
 
 def create_tournament():
@@ -45,15 +46,28 @@ def choose_tournament():
     database = TinyDB(f'data/tournaments/tournaments.json')
     tournament_id_list = []
     for db in database:
-        tournament_id_list.append(db['tournament_id'])
+        tournament_id_list.append([db['tournament_id'], db['name']])
 
     while True:
-        choice = int(input("Enter the Tournament_ID of your choice: "))
+        choice = input("Enter the Tournament_ID of your choice: ")
+        print()
 
-        if choice in tournament_id_list:
-            print(f"You have chosen: {choice}", end="\n\n")
+        # check if the user choice "*" to quit:
+        if choice == "*":
             break
-        elif choice == "*":
-            break
-        else:
-            print("Invalid choice. Please enter the Tournament_ID.", end="\n\n")
+
+        # check if choice is an int and display the Tournament name or display error:
+        choice = int(choice)
+        for tournament_id, name in tournament_id_list:
+            if choice == tournament_id:
+                print(f"You have chosen: {name}.", end="\n\n")
+
+                # create while loop to add x players in one tournament
+                number_of_player = 2
+                while number_of_player > 0:
+                    create_player(name)
+                    number_of_player -= 1
+                    if number_of_player == 0:
+                        break   # break is not working as expected
+
+        print("Invalid choice. Please enter the Tournament_ID.", end="\n\n")

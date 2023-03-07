@@ -1,7 +1,6 @@
 from tinydb import TinyDB
 
 from views.menu import display_menu, get_choice
-from views.player import create_player
 from views.tournament import create_tournament, get_tournaments, choose_tournament
 
 
@@ -10,12 +9,8 @@ def handle_create_player():
     get_tournaments()
     # choose a tournament
     choose_tournament()
-
     # create player
     # save player inside the tournament
-    print("------------------------------------------------")
-    print("CREATE A PLAYER:", end="\n\n")
-    create_player()
 
 
 def handle_create_tournament():

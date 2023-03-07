@@ -1,0 +1,52 @@
+{
+    "_default": {
+        "1": {
+            "player_id": "UI74563",
+            "first_name": "John",
+            "last_name": "Smith",
+            "birth_date": "7-7-1999",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "Lago Dago"
+            ]
+        },
+        "2": {
+            "player_id": "JJ12365",
+            "first_name": "Kelly",
+            "last_name": "Dean",
+            "birth_date": "11-12-1984",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "Lago Dago"
+            ]
+        },
+        "3": {
+            "player_id": "er14563",
+            "first_name": "Jerry",
+            "last_name": "Stone",
+            "birth_date": "5-9-1987",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "Lago Dago"
+            ]
+        },
+        "4": {
+            "player_id": "JI58525",
+            "first_name": "Yvonne",
+            "last_name": "Reak",
+            "birth_date": "6-3-1989",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "Lago Dago"
+            ]
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "_default": {
+        "1": {
+            "player_id": "JJ77785",
+            "first_name": "Ben",
+            "last_name": "Stiller",
+            "birth_date": "7-8-1989",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Bulls"
+            ]
+        },
+        "2": {
+            "player_id": "JJ78523",
+            "first_name": "Ben",
+            "last_name": "Gibbens",
+            "birth_date": "7-9-1987",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Bulls"
+            ]
+        },
+        "3": {
+            "player_id": "BV74123",
+            "first_name": "Sarah",
+            "last_name": "Ren",
+            "birth_date": "9-9-1974",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Bulls"
+            ]
+        },
+        "4": {
+            "player_id": "SS78547",
+            "first_name": "William",
+            "last_name": "Jack",
+            "birth_date": "3-3-1989",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Bulls"
+            ]
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "_default": {
+        "1": {
+            "player_id": "GF78789",
+            "first_name": "Kelly",
+            "last_name": "Ben",
+            "birth_date": "4-8-1984",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "PariTours"
+            ]
+        },
+        "2": {
+            "player_id": "WW77536",
+            "first_name": "Stacy",
+            "last_name": "Barns",
+            "birth_date": "9-9-1999",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "PariTours"
+            ]
+        },
+        "3": {
+            "player_id": "JJ12563",
+            "first_name": "Ian",
+            "last_name": "Garvey",
+            "birth_date": "8-4-1977",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "PariTours"
+            ]
+        }
+    }
+}

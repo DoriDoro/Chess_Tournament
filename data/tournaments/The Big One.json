@@ -1,0 +1,28 @@
+{
+    "_default": {
+        "1": {
+            "player_id": "JJ14541",
+            "first_name": "Henry",
+            "last_name": "Smith",
+            "birth_date": "11-8-1988",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Big One"
+            ]
+        },
+        "2": {
+            "player_id": "HH14541",
+            "first_name": "Nelly",
+            "last_name": "Trick",
+            "birth_date": "9-9-1999",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Big One"
+            ]
+        }
+    }
+}
