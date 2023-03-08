@@ -1,14 +1,16 @@
 from tinydb import TinyDB
 
 from views.menu import display_menu, get_choice
-from views.tournament import create_tournament, get_tournaments, choose_tournament
+from views.tournament import add_player_to_tournament, create_tournament, display_tournaments, get_tournaments
+
+tournament_id_name_list = get_tournaments()
 
 
 def handle_create_player():
     # get all tournaments
-    get_tournaments()
+    display_tournaments(tournament_id_name_list)
     # choose a tournament
-    choose_tournament()
+    add_player_to_tournament(tournament_id_name_list)
     # create player
     # save player inside the tournament
 
@@ -25,6 +27,8 @@ def handle_start_tournament():
     # pair the players for the first round
     print("------------------------------------------------")
     print("START TOURNAMENT:", end="\n\n")
+    # get all tournaments
+    display_tournaments(tournament_id_name_list)
 
 
 def run_menu():

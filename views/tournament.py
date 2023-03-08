@@ -33,20 +33,23 @@ def create_tournament():
 
 def get_tournaments():
     database = TinyDB(f'data/tournaments/tournaments.json')
+    tournament_id_name_list = []
+    for db in database:
+        tournament_id_name_list.append([db['tournament_id'], db['name']])
 
+    return tournament_id_name_list
+
+
+def display_tournaments(tournament_id_name_list):
     print("------------------------------------------------")
     print("** CHOOSE TOURNAMENT **", end="\n\n")
-    for db in database:
-        print(f"[ID]: {db['tournament_id']}  -  [Name]: {db['name']}")
+    for db in tournament_id_name_list:
+        print(f"[ID]: {db[0]}  -  [Name]: {db[1]}")
     print()
     print("choose * to go back to menu", end="\n\n")
 
 
-def choose_tournament():
-    database = TinyDB(f'data/tournaments/tournaments.json')
-    tournament_id_list = []
-    for db in database:
-        tournament_id_list.append([db['tournament_id'], db['name']])
+def add_player_to_tournament(tournament_id_name_list):
 
     while True:
         choice = input("Enter the Tournament_ID of your choice: ")
@@ -58,9 +61,9 @@ def choose_tournament():
 
         # check if choice is an int and display the Tournament name or display error:
         choice = int(choice)
-        for tournament_id, name in tournament_id_list:
+        for tournament_id, name in tournament_id_name_list:
             if choice == tournament_id:
-                print(f"You have chosen: {name}.", end="\n\n")
+                print(f"You have chosen: {name}", end="\n\n")
 
                 # create while loop to add x players in one tournament
                 number_of_player = 8
@@ -71,3 +74,10 @@ def choose_tournament():
                         return
 
         print("Invalid choice. Please enter the Tournament_ID.", end="\n\n")
+
+
+def choose_tournament():
+    database = TinyDB(f'data/tournaments/tournaments.json')
+    tournament_id_list = []
+    for db in database:
+        tournament_id_list.append([db['tournament_id'], db['name']])
