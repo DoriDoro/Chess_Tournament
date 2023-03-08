@@ -5,6 +5,9 @@ from views.player import create_player
 
 
 def create_tournament():
+    print("------------------------------------------------")
+    print("CREATE A TOURNAMENT:", end="\n\n")
+
     tournament_id = int(input("Please enter the ID of the Tournament (example: 1234): "))
     name = str(input("Enter the name of the Chess Tournament: "))
     city = str(input("Enter the location of the Chess Tournament: "))
@@ -40,6 +43,15 @@ def get_tournaments():
     return tournament_id_name_list
 
 
+def get_players(tournament_name):
+    database = TinyDB(f'data/tournaments/{tournament_name}.json')
+    player_id_list = []
+    for db in database:
+        player_id_list.append(db['player_id'])
+
+    return player_id_list
+
+
 def display_tournaments(tournament_id_name_list):
     print("------------------------------------------------")
     print("** CHOOSE TOURNAMENT **", end="\n\n")
@@ -61,6 +73,7 @@ def add_player_to_tournament(tournament_id_name_list):
 
         # check if choice is an int and display the Tournament name or display error:
         choice = int(choice)
+
         for tournament_id, name in tournament_id_name_list:
             if choice == tournament_id:
                 print(f"You have chosen: {name}", end="\n\n")
@@ -76,8 +89,23 @@ def add_player_to_tournament(tournament_id_name_list):
         print("Invalid choice. Please enter the Tournament_ID.", end="\n\n")
 
 
-def choose_tournament():
-    database = TinyDB(f'data/tournaments/tournaments.json')
-    tournament_id_list = []
-    for db in database:
-        tournament_id_list.append([db['tournament_id'], db['name']])
+def choose_tournament(tournament_id_name_list, player_id_list):
+    print("------------------------------------------------")
+    print("START A TOURNAMENT:", end="\n\n")
+
+    while True:
+        choice = input("Enter the Tournament_ID of your choice: ")
+        print()
+
+        if choice == "*":
+            break
+
+        choice = int(choice)
+
+        for tournament_id, name in tournament_id_name_list:
+            if choice == tournament_id:
+                print(f"You have chosen: {name}", end="\n\n")
+
+        # get the first pair
+
+        print("Invalid choice. Please enter the Tournament_ID.", end="\n\n")
