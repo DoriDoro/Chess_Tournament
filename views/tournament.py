@@ -63,11 +63,11 @@ def choose_tournament():
                 print(f"You have chosen: {name}.", end="\n\n")
 
                 # create while loop to add x players in one tournament
-                number_of_player = 2
+                number_of_player = 8
                 while number_of_player > 0:
                     create_player(name)
                     number_of_player -= 1
                     if number_of_player == 0:
-                        break   # break is not working as expected
+                        return
 
         print("Invalid choice. Please enter the Tournament_ID.", end="\n\n")
