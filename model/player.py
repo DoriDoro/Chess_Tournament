@@ -1,7 +1,6 @@
 from random import randint
 
 from tinydb import TinyDB, Query
-from unidecode import unidecode
 
 
 class Player:

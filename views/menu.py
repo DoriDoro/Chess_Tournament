@@ -13,3 +13,8 @@ def display_menu():
 def get_choice():
     choice = input("Enter your choice of Options between 1 and 4: ")
     return choice
+
+
+def quitting_program():
+    print("------------------------------------------------")
+    print("Quitting program...", end="\n\n")

@@ -1,0 +1,28 @@
+{
+    "all_players": {
+        "1": {
+            "player_id": "HH55555",
+            "first_name": "Rachel ",
+            "last_name": "Phone",
+            "birth_date": "5-11-1987",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Big One"
+            ]
+        },
+        "2": {
+            "player_id": "GG15951",
+            "first_name": "Harry",
+            "last_name": "Donald",
+            "birth_date": "4-12-1999",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Big One"
+            ]
+        }
+    }
+}

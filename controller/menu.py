@@ -1,8 +1,8 @@
-from tinydb import TinyDB
-
-from views.menu import display_menu, get_choice
-from views.tournament import (
+from views.menu import display_menu, get_choice, quitting_program
+from views.player import (
     add_player_to_tournament,
+)
+from views.tournament import (
     choose_tournament,
     create_tournament,
     display_tournaments,
@@ -10,8 +10,9 @@ from views.tournament import (
     get_players,
 )
 
+
 tournament_id_name_list = get_tournaments()
-player_id_list = get_players()
+# player_id_list = get_players()
 
 
 def handle_create_player():
@@ -32,7 +33,7 @@ def handle_start_tournament():
     # pair the players for the first round
     # get all tournaments
     display_tournaments(tournament_id_name_list)
-    choose_tournament(player_id_list)
+    # choose_tournament(player_id_list)
 
 
 def run_menu():
@@ -47,8 +48,7 @@ def run_menu():
         elif choice == "3":
             handle_start_tournament()
         elif choice == "4":
-            print("------------------------------------------------")
-            print("Quitting program...", end="\n\n")
+            quitting_program()
             break
         else:
             print("Invalid choice. Please enter a number between 1 and 4.")

@@ -119,6 +119,32 @@
             "list_tours": [],
             "list_of_players": [],
             "current_round": 0
+        },
+        "11": {
+            "tournament_id": 1452,
+            "name": "Name",
+            "city": "Rennes",
+            "start_date": "1-1-2022",
+            "end_date": "5-1-2022",
+            "rounds": 5,
+            "comments": "no",
+            "list_tours": [],
+            "list_of_players": [],
+            "current_round": 0
+        }
+    },
+    "all_tournaments": {
+        "1": {
+            "tournament_id": "",
+            "name": "The Golden Summer",
+            "city": "Lisabon",
+            "start_date": "22-4-2022",
+            "end_date": "25-4-2022",
+            "rounds": 6,
+            "comments": "no",
+            "list_tours": [],
+            "list_of_players": [],
+            "current_round": 0
         }
     }
 }
