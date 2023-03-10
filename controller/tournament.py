@@ -7,7 +7,7 @@ def create_tournament_controller(data_tournament):
     new_tournament = Tournament(data_tournament["name"], data_tournament["city"],
                                 data_tournament["start_date"], data_tournament["end_date"],
                                 data_tournament["comments"], data_tournament["rounds"])
-    data = {"tournament_id": new_tournament.tournament_id, "name": new_tournament.name,
+    data = {"tournament_id": data_tournament["tournament_id"], "name": new_tournament.name,
             "city": new_tournament.city, "start_date": new_tournament.start_date,
             "end_date": new_tournament.end_date, "rounds": new_tournament.rounds, "comments": new_tournament.comments,
             "list_tours": [], "list_of_players": [], "current_round": 0}

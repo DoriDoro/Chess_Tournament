@@ -15,7 +15,7 @@ class Tournament:
 
         self.list_tours = []
         self.list_of_players = []  # add the players_id
-        self.tournament_id = ""
+        self.tournament_id = 0
         self.current_round = 0
 
 

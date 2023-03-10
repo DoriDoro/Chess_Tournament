@@ -1,0 +1,232 @@
+{
+    "all_players": {
+        "1": {
+            "player_id": "II78998",
+            "first_name": "Berry",
+            "last_name": "Phone",
+            "birth_date": "5-12-2000",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "Great Chance"
+            ]
+        },
+        "2": {
+            "player_id": "RT55552",
+            "first_name": "Drago",
+            "last_name": "Griff",
+            "birth_date": "11-10-1999",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "Great Chance"
+            ]
+        },
+        "3": {
+            "player_id": "II90025",
+            "first_name": "Danny",
+            "last_name": "Stripe",
+            "birth_date": "15-12-1999",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "Paris Tours"
+            ]
+        },
+        "4": {
+            "player_id": "JJ44444",
+            "first_name": "Jerry",
+            "last_name": "Bean",
+            "birth_date": "5-12-2000",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Big One"
+            ]
+        },
+        "5": {
+            "player_id": "HH44445",
+            "first_name": "Jerry",
+            "last_name": "Stone",
+            "birth_date": "5-12-1999",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Sensation"
+            ]
+        },
+        "6": {
+            "player_id": "JJ10203",
+            "first_name": "Sarah",
+            "last_name": "Dean",
+            "birth_date": "6-11-1998",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Golden Summer"
+            ]
+        },
+        "7": {
+            "player_id": "DE75321",
+            "first_name": "Dean",
+            "last_name": "Trello",
+            "birth_date": "9-10-1987",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Golden Summer"
+            ]
+        },
+        "8": {
+            "player_id": "JI98563",
+            "first_name": "Helen",
+            "last_name": "Stark",
+            "birth_date": "8-12-1999",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Golden Summer"
+            ]
+        },
+        "9": {
+            "player_id": "ER11102",
+            "first_name": "Odin",
+            "last_name": "Thor",
+            "birth_date": "11-11-2000",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Golden Summer"
+            ]
+        },
+        "10": {
+            "player_id": "HG11102",
+            "first_name": "Odin",
+            "last_name": "Sky",
+            "birth_date": "11-11-1999",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Golden Summer"
+            ]
+        },
+        "11": {
+            "player_id": "ER30003",
+            "first_name": "Ragnar",
+            "last_name": "Hammer",
+            "birth_date": "9-9-1999",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Golden Summer"
+            ]
+        },
+        "12": {
+            "player_id": "QQ19002",
+            "first_name": "Thor",
+            "last_name": "Weak",
+            "birth_date": "4-12-1988",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Sensation"
+            ]
+        },
+        "13": {
+            "player_id": "UU15233",
+            "first_name": "Name",
+            "last_name": "Last",
+            "birth_date": "11-11-1988",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Sensation"
+            ]
+        },
+        "14": {
+            "player_id": "IK52136",
+            "first_name": "Stella",
+            "last_name": "Darling",
+            "birth_date": "10-2-2001",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Sensation"
+            ]
+        },
+        "15": {
+            "player_id": "KS85236",
+            "first_name": "Pongo",
+            "last_name": "Ville",
+            "birth_date": "12-1-1977",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Sensation"
+            ]
+        },
+        "16": {
+            "player_id": "OO10023",
+            "first_name": "Rodger",
+            "last_name": "Hill",
+            "birth_date": "3-12-1988",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Sensation"
+            ]
+        },
+        "17": {
+            "player_id": "UJ14521",
+            "first_name": "Dulce",
+            "last_name": "Young",
+            "birth_date": "9-8-1999",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Sensation"
+            ]
+        },
+        "18": {
+            "player_id": "II14563",
+            "first_name": "Digory",
+            "last_name": "Carter",
+            "birth_date": "14-10-1990",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Sensation"
+            ]
+        },
+        "19": {
+            "player_id": "UU14789",
+            "first_name": "Polly",
+            "last_name": "Rouen",
+            "birth_date": "3-1-2000",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Sensation"
+            ]
+        }
+    }
+}

@@ -1,38 +1,38 @@
 from views.menu import display_menu, get_choice, quitting_program
 from views.player import (
-    add_player_to_tournament,
+    add_player_to_tournament_view,
+    get_players_view,
 )
 from views.tournament import (
-    choose_tournament,
-    create_tournament,
-    display_tournaments,
-    get_tournaments,
-    get_players,
+    choose_tournament_view,
+    create_tournament_view,
+    display_tournaments_view,
+    get_tournaments_view,
 )
 
 
-tournament_id_name_list = get_tournaments()
+tournament_id_name_list = get_tournaments_view()
 # player_id_list = get_players()
 
 
 def handle_create_player():
     # get all tournaments
-    display_tournaments(tournament_id_name_list)
+    display_tournaments_view(tournament_id_name_list)
     # choose a tournament
-    add_player_to_tournament(tournament_id_name_list)
+    add_player_to_tournament_view(tournament_id_name_list)
     # create player
     # save player inside the tournament
 
 
 def handle_create_tournament():
-    create_tournament()
+    create_tournament_view()
 
 
 def handle_start_tournament():
     # choose a tournament
     # pair the players for the first round
     # get all tournaments
-    display_tournaments(tournament_id_name_list)
+    display_tournaments_view(tournament_id_name_list)
     # choose_tournament(player_id_list)
 
 

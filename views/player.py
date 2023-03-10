@@ -1,3 +1,5 @@
+from tinydb import TinyDB
+
 from controller.player import create_player_controller
 
 
@@ -5,8 +7,8 @@ def create_player_view(name_of_tournament):
     print("------------------------------------------------")
     print("CREATE A PLAYER:", end="\n\n")
 
-    player_id = str(input("Enter the ID of the player (example: AB12345): "))
-    first_name = str(input("Enter the first name of the player: "))
+    player_id = str(input("Enter the player ID (example: AB12345): "))
+    first_name = str(input("Enter the first name: "))
     last_name = str(input(f"Enter {first_name}'s last name: "))
     birth_date = str(input(f"Enter the birth date of {first_name} {last_name} (dd-mm-yyyy): "))
     print()
@@ -21,7 +23,18 @@ def create_player_view(name_of_tournament):
     create_player_controller(data_player)
 
 
-def add_player_to_tournament(tournament_id_name_list):
+def get_players_view():
+    database = TinyDB(f'data/tournaments/players.json')
+    players_table = database.table("all_players")
+
+    player_id_list = []
+    for db in players_table:
+        player_id_list.append(db['player_id'])
+
+    return player_id_list
+
+
+def add_player_to_tournament_view(tournament_id_name_list):
 
     while True:
         choice = input("Enter the Tournament_ID of your choice: ")

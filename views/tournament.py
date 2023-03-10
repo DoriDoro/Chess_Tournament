@@ -3,13 +3,13 @@ from tinydb import TinyDB
 from controller.tournament import create_tournament_controller
 
 
-def create_tournament():
+def create_tournament_view():
     print("------------------------------------------------")
     print("CREATE A TOURNAMENT:", end="\n\n")
 
-    tournament_id = int(input("Please enter the ID of the Tournament (example: 1234): "))
-    name = str(input("Enter the name of the Chess Tournament: "))
-    city = str(input("Enter the location of the Chess Tournament: "))
+    tournament_id = int(input("Tournament ID (example: 1234): "))
+    name = str(input("Enter the name: "))
+    city = str(input("Enter the location: "))
     start_date = str(input("When does the Chess Tournament starts? (dd-mm-yyyy): "))
     end_date = str(input("Please enter the end date of the Chess Tournament (dd-mm-yyyy): "))
     rounds = int(input("How many rounds are possible for this Chess Tournament? "))
@@ -29,25 +29,19 @@ def create_tournament():
     create_tournament_controller(data_tournament)
 
 
-def get_tournaments():
+def get_tournaments_view():
     database = TinyDB(f'data/tournaments/tournaments.json')
+    tournament_table = database.table("all_tournaments")
+
     tournament_id_name_list = []
-    for db in database:
+
+    for db in tournament_table:
         tournament_id_name_list.append([db['tournament_id'], db['name']])
 
     return tournament_id_name_list
 
 
-def get_players(tournament_name):
-    database = TinyDB(f'data/tournaments/{tournament_name}.json')
-    player_id_list = []
-    for db in database:
-        player_id_list.append(db['player_id'])
-
-    return player_id_list
-
-
-def display_tournaments(tournament_id_name_list):
+def display_tournaments_view(tournament_id_name_list):
     print("------------------------------------------------")
     print("** CHOOSE TOURNAMENT **", end="\n\n")
     for db in tournament_id_name_list:
@@ -56,7 +50,7 @@ def display_tournaments(tournament_id_name_list):
     print("choose * to go back to menu", end="\n\n")
 
 
-def choose_tournament(tournament_id_name_list, player_id_list):
+def choose_tournament_view(tournament_id_name_list, player_id_list):
     print("------------------------------------------------")
     print("START A TOURNAMENT:", end="\n\n")
 
