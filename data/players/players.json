@@ -227,6 +227,30 @@
             "played_tournaments": [
                 "The Sensation"
             ]
+        },
+        "20": {
+            "player_id": "WE12365",
+            "first_name": "Chris",
+            "last_name": "Sterling",
+            "birth_date": "12-10-1980",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Big One"
+            ]
+        },
+        "21": {
+            "player_id": "UI78547",
+            "first_name": "Julia",
+            "last_name": "Stark",
+            "birth_date": "9-10-1998",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "The Big One"
+            ]
         }
     }
 }

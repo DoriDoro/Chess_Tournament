@@ -1,4 +1,3 @@
-import json
 from tinydb import TinyDB, Query
 
 from model.player import Player
