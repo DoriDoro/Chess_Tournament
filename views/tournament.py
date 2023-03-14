@@ -1,5 +1,6 @@
 from tinydb import TinyDB
 
+from controller.player import pair_players_controller
 from controller.tournament import create_tournament_controller
 
 
@@ -50,7 +51,7 @@ def display_tournaments_view(tournament_id_name_list):
     print("choose * to go back to menu", end="\n\n")
 
 
-def choose_tournament_view(tournament_id_name_list, player_id_list):
+def choose_tournament_view(tournament_id_name_list):
     print("------------------------------------------------")
     print("START A TOURNAMENT:", end="\n\n")
 
@@ -67,6 +68,11 @@ def choose_tournament_view(tournament_id_name_list, player_id_list):
             if choice == tournament_id:
                 print(f"You have chosen: {name}", end="\n\n")
 
-        # get the first pair
+                # get the first pair
+                pair_player = pair_players_controller(name)
+                print(f"  The first pair for - {name} - are:")
+                print(f"  {pair_player[0]} and {pair_player[1]}")
+
+                return
 
         print("Invalid choice. Please enter the Tournament_ID.", end="\n\n")

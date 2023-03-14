@@ -23,17 +23,6 @@ def create_player_view(name_of_tournament):
     create_player_controller(data_player)
 
 
-def get_players_view():
-    database = TinyDB(f'data/tournaments/players.json')
-    players_table = database.table("all_players")
-
-    player_id_list = []
-    for db in players_table:
-        player_id_list.append(db['player_id'])
-
-    return player_id_list
-
-
 def add_player_to_tournament_view(tournament_id_name_list):
 
     while True:

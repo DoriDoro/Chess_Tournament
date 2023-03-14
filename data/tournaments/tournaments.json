@@ -31,7 +31,8 @@
                 "OO10023",
                 "UJ14521",
                 "II14563",
-                "UU14789"
+                "UU14789",
+                "JU74521"
             ],
             "current_round": 0
         },
@@ -56,6 +57,59 @@
             "city": "Paris",
             "start_date": "16-5-2022",
             "end_date": "22-5-2022",
+            "rounds": 5,
+            "comments": "no",
+            "list_tours": [],
+            "list_of_players": [
+                "ER7785"
+            ],
+            "current_round": 0
+        },
+        "5": {
+            "tournament_id": 8953,
+            "name": "Great Chance",
+            "city": "Torronto",
+            "start_date": "4-4-2022",
+            "end_date": "9-4-2022",
+            "rounds": 8,
+            "comments": "no",
+            "list_tours": [],
+            "list_of_players": [
+                "WE14512",
+                "PO12521"
+            ],
+            "current_round": 0
+        },
+        "6": {
+            "tournament_id": 4563,
+            "name": "The Bulls",
+            "city": "Chicago",
+            "start_date": "7-8-2022",
+            "end_date": "15-8-2022",
+            "rounds": 6,
+            "comments": "no",
+            "list_tours": [],
+            "list_of_players": [],
+            "current_round": 0
+        },
+        "7": {
+            "tournament_id": 1234,
+            "name": "The Princess",
+            "city": "Berlin",
+            "start_date": "6-6-2022",
+            "end_date": "9-6-2022",
+            "rounds": 4,
+            "comments": "no",
+            "list_tours": [],
+            "list_of_players": [],
+            "current_round": 0
+        },
+        "8": {
+            "tournament_id": 9998,
+            "name": "Handshake",
+            "city": "Warschau",
+            "start_date": "11-10-2022",
+            "end_date": "15-10-2022",
             "rounds": 5,
             "comments": "no",
             "list_tours": [],

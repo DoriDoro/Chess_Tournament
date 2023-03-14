@@ -1,7 +1,6 @@
 from views.menu import display_menu, get_choice, quitting_program
 from views.player import (
     add_player_to_tournament_view,
-    get_players_view,
 )
 from views.tournament import (
     choose_tournament_view,
@@ -12,7 +11,6 @@ from views.tournament import (
 
 
 tournament_id_name_list = get_tournaments_view()
-# player_id_list = get_players()
 
 
 def handle_create_player():
@@ -33,7 +31,7 @@ def handle_start_tournament():
     # pair the players for the first round
     # get all tournaments
     display_tournaments_view(tournament_id_name_list)
-    # choose_tournament(player_id_list)
+    choose_tournament_view(tournament_id_name_list)
 
 
 def run_menu():
