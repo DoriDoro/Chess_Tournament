@@ -14,12 +14,8 @@ tournament_id_name_list = get_tournaments_view()
 
 
 def handle_create_player():
-    # get all tournaments
     display_tournaments_view(tournament_id_name_list)
-    # choose a tournament
     add_player_to_tournament_view(tournament_id_name_list)
-    # create player
-    # save player inside the tournament
 
 
 def handle_create_tournament():
@@ -27,9 +23,6 @@ def handle_create_tournament():
 
 
 def handle_start_tournament():
-    # choose a tournament
-    # pair the players for the first round
-    # get all tournaments
     display_tournaments_view(tournament_id_name_list)
     choose_tournament_view(tournament_id_name_list)
 

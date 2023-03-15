@@ -24,7 +24,6 @@
             "comments": "no",
             "list_tours": [],
             "list_of_players": [
-                "EE95603",
                 "QQ19002",
                 "IK52136",
                 "KS85236",
@@ -61,7 +60,9 @@
             "comments": "no",
             "list_tours": [],
             "list_of_players": [
-                "ER7785"
+                "ER7785",
+                "JJ14523",
+                "JJ14589"
             ],
             "current_round": 0
         },
@@ -113,7 +114,10 @@
             "rounds": 5,
             "comments": "no",
             "list_tours": [],
-            "list_of_players": [],
+            "list_of_players": [
+                "SD14587",
+                "RT99900"
+            ],
             "current_round": 0
         }
     }

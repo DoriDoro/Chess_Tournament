@@ -323,6 +323,54 @@
             "played_tournaments": [
                 "Great Chance"
             ]
+        },
+        "28": {
+            "player_id": "SD14587",
+            "first_name": "Karl",
+            "last_name": "Heat",
+            "birth_date": "9-10-1980",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "Handshake"
+            ]
+        },
+        "29": {
+            "player_id": "RT99900",
+            "first_name": "Kate",
+            "last_name": "Kaplan",
+            "birth_date": "4-12-1987",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "Handshake"
+            ]
+        },
+        "30": {
+            "player_id": "JJ14523",
+            "first_name": "John",
+            "last_name": "Light",
+            "birth_date": "11-4-1980",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "Paris Tours"
+            ]
+        },
+        "31": {
+            "player_id": "JJ14589",
+            "first_name": "Garry",
+            "last_name": "Bath",
+            "birth_date": "5-11-2000",
+            "rank": 0,
+            "score": 0.0,
+            "played_against": [],
+            "played_tournaments": [
+                "Paris Tours"
+            ]
         }
     }
 }

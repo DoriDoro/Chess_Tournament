@@ -49,3 +49,8 @@ def add_player_to_tournament_view(tournament_id_name_list):
                         return
 
         print("Invalid choice. Please enter the Tournament_ID.", end="\n\n")
+
+
+def add_additional_player_to_tournament_view(name_of_tournament):
+    print("   There are not enough players available for this tournament.", end="\n\n")
+    create_player_view(name_of_tournament)

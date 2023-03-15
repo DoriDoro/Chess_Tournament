@@ -71,8 +71,6 @@ def choose_tournament_view(tournament_id_name_list):
                 # get the first pair
                 pair_player = pair_players_controller(name)
                 print(f"  The first pair for - {name} - are:")
-                print(f"  {pair_player[0]} and {pair_player[1]}")
-
-                return
+                print(f"  {pair_player[0]} and {pair_player[1]}", end="\n\n")
 
         print("Invalid choice. Please enter the Tournament_ID.", end="\n\n")
