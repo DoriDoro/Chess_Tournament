@@ -43,4 +43,4 @@ def run_menu():
             quitting_program()
             break
         else:
-            print("Invalid choice. Please enter a number between 1 and 4.")
+            print(" Invalid choice. Please enter a number between 1 and 4.")

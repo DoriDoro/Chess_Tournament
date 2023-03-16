@@ -18,7 +18,7 @@
         "2": {
             "tournament_id": 4585,
             "name": "The Sensation",
-            "city": "Moskau",
+            "city": "Moscau",
             "start_date": "16-1-2022",
             "end_date": "25-1-2022",
             "rounds": 5,
@@ -239,6 +239,18 @@
                 "OL74743",
                 "UI14253"
             ],
+            "current_round": 0
+        },
+        "16": {
+            "tournament_id": 6569,
+            "name": "Gigant Chess",
+            "city": "Amsterdam",
+            "start_date": "9-6-2022",
+            "end_date": "12-6-2022",
+            "rounds": 6,
+            "comments": "no",
+            "list_tours": [],
+            "list_of_players": [],
             "current_round": 0
         }
     }

@@ -13,11 +13,12 @@ def verify_number_of_player(name_of_tournament):
     # check if 8 players are inside the list_of_players:
     number_of_players = len(get_verified_list_of_players_before)
 
-    while number_of_players < 2:
+    while number_of_players < 2:  # TODO 8
         add_additional_player_to_tournament_view(name_of_tournament)
         number_of_players += 1
 
     get_verified_list_of_players = get_player_id_from_list_of_players(name_of_tournament)
+
     return get_verified_list_of_players
 
 
@@ -47,8 +48,8 @@ def get_name_of_player(player_ids, name_of_tournament):
     player_2 = player_table.get(Query().player_id == player_id_2)
     p2_name = player_2['first_name'] + " " + player_2['last_name']
 
-    if player_2 is None:
-        pair_players_controller(name_of_tournament)
+    # if player_2 is None:
+    #     pair_players_controller(name_of_tournament)
 
     return p1_name, p2_name
 
@@ -85,7 +86,6 @@ def create_player_controller(data_player):
 
 def pair_players_controller(name_of_tournament):
     get_verified_list_of_players = verify_number_of_player(name_of_tournament)
-    print("pair_players list", get_verified_list_of_players)
 
     # k=2 choose two unique values
     paired_players = random.sample(get_verified_list_of_players, k=2)
