@@ -15,3 +15,5 @@ def create_tournament_controller(data_tournament):
     db = TinyDB(f'data/tournaments/tournaments.json', indent=4)
     all_tournaments = db.table("all_tournaments")
     all_tournaments.insert(data)
+    # close the db and save all changes made
+    db.close()

@@ -10,7 +10,8 @@
             "comments": "no",
             "list_tours": [],
             "list_of_players": [
-                "JI98563"
+                "JI98563",
+                "YU60023"
             ],
             "current_round": 0
         },
@@ -62,7 +63,9 @@
             "list_of_players": [
                 "ER7785",
                 "JJ14523",
-                "JJ14589"
+                "JJ14589",
+                "EE55585",
+                "IO45656"
             ],
             "current_round": 0
         },
@@ -90,7 +93,12 @@
             "rounds": 6,
             "comments": "no",
             "list_tours": [],
-            "list_of_players": [],
+            "list_of_players": [
+                "GY14589",
+                "ER14525",
+                "RE55596",
+                "ER14528"
+            ],
             "current_round": 0
         },
         "7": {
@@ -102,7 +110,11 @@
             "rounds": 4,
             "comments": "no",
             "list_tours": [],
-            "list_of_players": [],
+            "list_of_players": [
+                "JK555523",
+                "IO65236",
+                "UI14523"
+            ],
             "current_round": 0
         },
         "8": {
@@ -117,6 +129,115 @@
             "list_of_players": [
                 "SD14587",
                 "RT99900"
+            ],
+            "current_round": 0
+        },
+        "9": {
+            "tournament_id": 7414,
+            "name": "The Magic Tournament",
+            "city": "Oslo",
+            "start_date": "5-10-2022",
+            "end_date": "15-10-2022",
+            "rounds": 6,
+            "comments": "no",
+            "list_tours": [],
+            "list_of_players": [
+                "QW96325",
+                "EE88558"
+            ],
+            "current_round": 0
+        },
+        "10": {
+            "tournament_id": 8585,
+            "name": "The Chess Club",
+            "city": "Barcelona",
+            "start_date": "4-5-2022",
+            "end_date": "9-5-2022",
+            "rounds": 5,
+            "comments": "no",
+            "list_tours": [],
+            "list_of_players": [
+                "II98598",
+                "UU5858"
+            ],
+            "current_round": 0
+        },
+        "11": {
+            "tournament_id": 5588,
+            "name": "The Pearl Chess",
+            "city": "Wien",
+            "start_date": "9-9-2022",
+            "end_date": "18-9-2022",
+            "rounds": 7,
+            "comments": "no",
+            "list_tours": [],
+            "list_of_players": [
+                "RT45854",
+                "HJ22200",
+                "JJ14521"
+            ],
+            "current_round": 0
+        },
+        "12": {
+            "tournament_id": 7753,
+            "name": "The New World",
+            "city": "Bern",
+            "start_date": "11-3-2022",
+            "end_date": "20-3-2022",
+            "rounds": 4,
+            "comments": "no",
+            "list_tours": [],
+            "list_of_players": [
+                "PO11211",
+                "YU14525",
+                "UI14141"
+            ],
+            "current_round": 0
+        },
+        "13": {
+            "tournament_id": 5585,
+            "name": "China Chess Tournament",
+            "city": "Peking",
+            "start_date": "6-5-2022",
+            "end_date": "12-5-2022",
+            "rounds": 6,
+            "comments": "no",
+            "list_tours": [],
+            "list_of_players": [
+                "WW77583",
+                "ER14149",
+                "IO45245"
+            ],
+            "current_round": 0
+        },
+        "14": {
+            "tournament_id": 9955,
+            "name": "Saint Antonin Nantes",
+            "city": "Nantes",
+            "start_date": "8-8-2022",
+            "end_date": "15-8-2022",
+            "rounds": 4,
+            "comments": "no",
+            "list_tours": [],
+            "list_of_players": [
+                "WE15151",
+                "UI12121",
+                "UI14875"
+            ],
+            "current_round": 0
+        },
+        "15": {
+            "tournament_id": 70,
+            "name": "The James Bond Tournament",
+            "city": "Budapest",
+            "start_date": "7-7-2022",
+            "end_date": "14-7-2022",
+            "rounds": 7,
+            "comments": "no",
+            "list_tours": [],
+            "list_of_players": [
+                "OL74743",
+                "UI14253"
             ],
             "current_round": 0
         }

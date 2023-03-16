@@ -10,10 +10,9 @@ from views.tournament import (
 )
 
 
-tournament_id_name_list = get_tournaments_view()
-
-
 def handle_create_player():
+    tournament_id_name_list = get_tournaments_view()
+
     display_tournaments_view(tournament_id_name_list)
     add_player_to_tournament_view(tournament_id_name_list)
 
@@ -23,6 +22,8 @@ def handle_create_tournament():
 
 
 def handle_start_tournament():
+    tournament_id_name_list = get_tournaments_view()
+
     display_tournaments_view(tournament_id_name_list)
     choose_tournament_view(tournament_id_name_list)
 

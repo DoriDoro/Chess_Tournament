@@ -5,7 +5,7 @@ from controller.player import create_player_controller
 
 def create_player_view(name_of_tournament):
     print("------------------------------------------------")
-    print("CREATE A PLAYER:", end="\n\n")
+    print("** CREATE A PLAYER **", end="\n\n")
 
     player_id = str(input("Player ID (example: AB12345): "))
     first_name = str(input("First name: "))
