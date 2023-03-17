@@ -8,7 +8,7 @@
             "end_date": "25-4-2022",
             "rounds": 6,
             "comments": "no",
-            "list_tours": [],
+            "list_rounds": {},
             "list_of_players": [
                 "JI98563",
                 "YU60023"
@@ -23,7 +23,7 @@
             "end_date": "25-1-2022",
             "rounds": 5,
             "comments": "no",
-            "list_tours": [],
+            "list_rounds": {},
             "list_of_players": [
                 "QQ19002",
                 "IK52136",
@@ -44,7 +44,7 @@
             "end_date": "15-9-2022",
             "rounds": 6,
             "comments": "no",
-            "list_tours": [],
+            "list_rounds": {},
             "list_of_players": [
                 "WE12365",
                 "UI78547"
@@ -59,7 +59,7 @@
             "end_date": "22-5-2022",
             "rounds": 5,
             "comments": "no",
-            "list_tours": [],
+            "list_rounds": {},
             "list_of_players": [
                 "ER7785",
                 "JJ14523",
@@ -77,7 +77,7 @@
             "end_date": "9-4-2022",
             "rounds": 8,
             "comments": "no",
-            "list_tours": [],
+            "list_rounds": {},
             "list_of_players": [
                 "WE14512",
                 "PO12521"
@@ -92,7 +92,7 @@
             "end_date": "15-8-2022",
             "rounds": 6,
             "comments": "no",
-            "list_tours": [],
+            "list_rounds": {},
             "list_of_players": [
                 "GY14589",
                 "ER14525",
@@ -111,7 +111,7 @@
             "end_date": "9-6-2022",
             "rounds": 4,
             "comments": "no",
-            "list_tours": [],
+            "list_rounds": {},
             "list_of_players": [
                 "JK555523",
                 "IO65236",
@@ -127,7 +127,7 @@
             "end_date": "15-10-2022",
             "rounds": 5,
             "comments": "no",
-            "list_tours": [],
+            "list_rounds": {},
             "list_of_players": [
                 "SD14587",
                 "RT99900"
@@ -142,7 +142,7 @@
             "end_date": "15-10-2022",
             "rounds": 6,
             "comments": "no",
-            "list_tours": [],
+            "list_rounds": {},
             "list_of_players": [
                 "QW96325",
                 "EE88558"
@@ -157,7 +157,7 @@
             "end_date": "9-5-2022",
             "rounds": 5,
             "comments": "no",
-            "list_tours": [],
+            "list_rounds": {},
             "list_of_players": [
                 "II98598",
                 "UU5858"
@@ -172,7 +172,7 @@
             "end_date": "18-9-2022",
             "rounds": 7,
             "comments": "no",
-            "list_tours": [],
+            "list_rounds": {},
             "list_of_players": [
                 "RT45854",
                 "HJ22200",
@@ -188,7 +188,7 @@
             "end_date": "20-3-2022",
             "rounds": 4,
             "comments": "no",
-            "list_tours": [],
+            "list_rounds": {},
             "list_of_players": [
                 "PO11211",
                 "YU14525",
@@ -204,7 +204,7 @@
             "end_date": "12-5-2022",
             "rounds": 6,
             "comments": "no",
-            "list_tours": [],
+            "list_rounds": {},
             "list_of_players": [
                 "WW77583",
                 "ER14149",
@@ -220,7 +220,7 @@
             "end_date": "15-8-2022",
             "rounds": 4,
             "comments": "no",
-            "list_tours": [],
+            "list_rounds": {},
             "list_of_players": [
                 "WE15151",
                 "UI12121",
@@ -236,7 +236,7 @@
             "end_date": "14-7-2022",
             "rounds": 7,
             "comments": "no",
-            "list_tours": [],
+            "list_rounds": {},
             "list_of_players": [
                 "OL74743",
                 "UI14253"
@@ -251,7 +251,7 @@
             "end_date": "12-6-2022",
             "rounds": 6,
             "comments": "no",
-            "list_tours": [],
+            "list_rounds": {},
             "list_of_players": [
                 "UU14524",
                 "RT85235"

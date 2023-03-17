@@ -10,7 +10,7 @@ def create_tournament_controller(data_tournament):
     data = {"tournament_id": data_tournament["tournament_id"], "name": new_tournament.name,
             "city": new_tournament.city, "start_date": new_tournament.start_date,
             "end_date": new_tournament.end_date, "rounds": new_tournament.rounds, "comments": new_tournament.comments,
-            "list_tours": [], "list_of_players": [], "current_round": 0}
+            "list_rounds": {}, "list_of_players": [], "current_round": 0}
 
     db = TinyDB(f'data/tournaments/tournaments.json', indent=4)
     all_tournaments = db.table("all_tournaments")
