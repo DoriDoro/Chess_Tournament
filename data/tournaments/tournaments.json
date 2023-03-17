@@ -97,7 +97,9 @@
                 "GY14589",
                 "ER14525",
                 "RE55596",
-                "ER14528"
+                "ER14528",
+                "UU11111",
+                "EE11111"
             ],
             "current_round": 0
         },
@@ -250,7 +252,10 @@
             "rounds": 6,
             "comments": "no",
             "list_tours": [],
-            "list_of_players": [],
+            "list_of_players": [
+                "UU14524",
+                "RT85235"
+            ],
             "current_round": 0
         }
     }

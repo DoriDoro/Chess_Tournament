@@ -11,7 +11,7 @@ def display_menu():
 
 
 def get_choice():
-    choice = input("Enter your choice of Options between 1 and 4: ")
+    choice = input(" Enter your choice of Options between 1 and 4: ")
     return choice
 
 

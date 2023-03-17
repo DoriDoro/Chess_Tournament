@@ -17,19 +17,3 @@ class Tournament:
         self.list_of_players = []  # add the players_id
         self.tournament_id = 0
         self.current_round = 0
-
-
-
-    def save_tournament(self):
-        pass
-    # take the dict from create_tournament and save it
-    # save in json in data/tournaments/{name}.json
-
-    def get_tournaments(self, name_of_tournament):
-        pass
-    # get a tournament by tournament_id from json file
-    # update the list_of_players of tournament, add the players_id
-
-    def calculate_current_round(self):
-        pass
-# update current_round, add 1

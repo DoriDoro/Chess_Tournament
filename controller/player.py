@@ -33,7 +33,7 @@ def get_player_id_from_list_of_players(name_of_tournament):
     return get_list_of_players
 
 
-def get_name_of_player(player_ids, name_of_tournament):
+def get_name_of_player(player_ids):
     database = TinyDB(f'data/players/players.json', indent=4)
     player_table = database.table("all_players")
 
@@ -46,10 +46,7 @@ def get_name_of_player(player_ids, name_of_tournament):
     p1_name = f"{player_1['first_name']} {player_1['last_name']}"
 
     player_2 = player_table.get(Query().player_id == player_id_2)
-    p2_name = player_2['first_name'] + " " + player_2['last_name']
-
-    # if player_2 is None:
-    #     pair_players_controller(name_of_tournament)
+    p2_name = f"{player_2['first_name']} {player_2['last_name']}"
 
     return p1_name, p2_name
 
@@ -65,12 +62,26 @@ def add_player_id_to_list_of_players_controller(player_id, tournament_name):
     database.close()
 
 
+def add_player_id_to_played_against_controller(paired_players, name_of_tournament):
+    db = TinyDB('data/players/players.json', indent=4)
+    player_table = db.table("all_players")
+
+    player_id_1 = paired_players[0]
+    player_id_2 = paired_players[1]
+
+    player_table.update({'played_tournaments': {'name': name_of_tournament, 'played_against': [paired_players[1]]}},
+                        Query().player_id == player_id_1)
+    player_table.update({'played_tournaments': {'name': name_of_tournament, 'played_against': [paired_players[0]]}},
+                        Query().player_id == player_id_2)
+
+
 def create_player_controller(data_player):
     new_player = Player(data_player["player_id"], data_player["first_name"], data_player["last_name"],
                         data_player["birth_date"])
     data = {"player_id": new_player.player_id, "first_name": new_player.first_name,
             "last_name": new_player.last_name, "birth_date": new_player.birth_date,
-            "rank": 0, "score": 0.0, "played_against": [], "played_tournaments": [data_player["name_of_tournament"]]}
+            "rank": 0, "score": 0.0,
+            "played_tournaments": {"name": data_player["name_of_tournament"], "played_against": []}}
 
     # add player_id to the tournament in tournaments.json inside list_of_players:
     add_player_id_to_list_of_players_controller(new_player.player_id, data_player["name_of_tournament"])
@@ -90,7 +101,14 @@ def pair_players_controller(name_of_tournament):
     # k=2 choose two unique values
     paired_players = random.sample(get_verified_list_of_players, k=2)
 
+    # save paired_players in opponent
+    add_player_id_to_played_against_controller(paired_players, name_of_tournament)
+
     # get player_id, first_name and last_name
-    list_of_names = get_name_of_player(paired_players, name_of_tournament)
+    list_of_names = get_name_of_player(paired_players)
 
     return list_of_names
+
+
+def pair_players_several_rounds_controller(name_of_tournament):
+    pass

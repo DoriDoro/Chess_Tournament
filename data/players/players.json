@@ -7,10 +7,10 @@
             "birth_date": "5-12-2000",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "Great Chance"
-            ]
+            "played_tournaments": {
+                "name": "Great Chance",
+                "played_against": []
+            }
         },
         "2": {
             "player_id": "RT55552",
@@ -19,10 +19,10 @@
             "birth_date": "11-10-1999",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "Great Chance"
-            ]
+            "played_tournaments": {
+                "name": "Great Chance",
+                "played_against": []
+            }
         },
         "3": {
             "player_id": "II90025",
@@ -31,10 +31,12 @@
             "birth_date": "15-12-1999",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "Paris Tours"
-            ]
+            "played_tournaments": {
+                "name": "Paris Tours",
+                "played_against": [
+                    "OL14147"
+                ]
+            }
         },
         "4": {
             "player_id": "JJ44444",
@@ -43,10 +45,10 @@
             "birth_date": "5-12-2000",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Big One"
-            ]
+            "played_tournaments": {
+                "name": "The Big One",
+                "played_against": []
+            }
         },
         "5": {
             "player_id": "HH44445",
@@ -55,10 +57,10 @@
             "birth_date": "5-12-1999",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Sensation"
-            ]
+            "played_tournaments": {
+                "name": "The Sensation",
+                "played_against": []
+            }
         },
         "6": {
             "player_id": "JJ10203",
@@ -67,10 +69,10 @@
             "birth_date": "6-11-1998",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Golden Summer"
-            ]
+            "played_tournaments": {
+                "name": "The Golden Summer",
+                "played_against": []
+            }
         },
         "7": {
             "player_id": "DE75321",
@@ -79,10 +81,10 @@
             "birth_date": "9-10-1987",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Golden Summer"
-            ]
+            "played_tournaments": {
+                "name": "The Golden Summer",
+                "played_against": []
+            }
         },
         "8": {
             "player_id": "JI98563",
@@ -91,10 +93,12 @@
             "birth_date": "8-12-1999",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Golden Summer"
-            ]
+            "played_tournaments": {
+                "name": "The Golden Summer",
+                "played_against": [
+                    "YU60023"
+                ]
+            }
         },
         "9": {
             "player_id": "ER11102",
@@ -103,10 +107,10 @@
             "birth_date": "11-11-2000",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Golden Summer"
-            ]
+            "played_tournaments": {
+                "name": "The Golden Summer",
+                "played_against": []
+            }
         },
         "10": {
             "player_id": "HG11102",
@@ -115,10 +119,10 @@
             "birth_date": "11-11-1999",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Golden Summer"
-            ]
+            "played_tournaments": {
+                "name": "The Golden Summer",
+                "played_against": []
+            }
         },
         "11": {
             "player_id": "ER30003",
@@ -127,10 +131,10 @@
             "birth_date": "9-9-1999",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Golden Summer"
-            ]
+            "played_tournaments": {
+                "name": "The Golden Summer",
+                "played_against": []
+            }
         },
         "12": {
             "player_id": "QQ19002",
@@ -139,10 +143,10 @@
             "birth_date": "4-12-1988",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Sensation"
-            ]
+            "played_tournaments": {
+                "name": "The Sensation",
+                "played_against": []
+            }
         },
         "13": {
             "player_id": "UU15233",
@@ -151,10 +155,10 @@
             "birth_date": "11-11-1988",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Sensation"
-            ]
+            "played_tournaments": {
+                "name": "The Sensation",
+                "played_against": []
+            }
         },
         "14": {
             "player_id": "IK52136",
@@ -163,10 +167,10 @@
             "birth_date": "10-2-2001",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Sensation"
-            ]
+            "played_tournaments": {
+                "name": "The Sensation",
+                "played_against": []
+            }
         },
         "15": {
             "player_id": "KS85236",
@@ -175,10 +179,10 @@
             "birth_date": "12-1-1977",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Sensation"
-            ]
+            "played_tournaments": {
+                "name": "The Sensation",
+                "played_against": []
+            }
         },
         "16": {
             "player_id": "OO10023",
@@ -187,10 +191,10 @@
             "birth_date": "3-12-1988",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Sensation"
-            ]
+            "played_tournaments": {
+                "name": "The Sensation",
+                "played_against": []
+            }
         },
         "17": {
             "player_id": "UJ14521",
@@ -199,10 +203,10 @@
             "birth_date": "9-8-1999",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Sensation"
-            ]
+            "played_tournaments": {
+                "name": "The Sensation",
+                "played_against": []
+            }
         },
         "18": {
             "player_id": "II14563",
@@ -211,10 +215,10 @@
             "birth_date": "14-10-1990",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Sensation"
-            ]
+            "played_tournaments": {
+                "name": "The Sensation",
+                "played_against": []
+            }
         },
         "19": {
             "player_id": "UU14789",
@@ -223,10 +227,10 @@
             "birth_date": "3-1-2000",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Sensation"
-            ]
+            "played_tournaments": {
+                "name": "The Sensation",
+                "played_against": []
+            }
         },
         "20": {
             "player_id": "WE12365",
@@ -235,10 +239,10 @@
             "birth_date": "12-10-1980",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Big One"
-            ]
+            "played_tournaments": {
+                "name": "The Big One",
+                "played_against": []
+            }
         },
         "21": {
             "player_id": "UI78547",
@@ -247,10 +251,10 @@
             "birth_date": "9-10-1998",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Big One"
-            ]
+            "played_tournaments": {
+                "name": "The Big One",
+                "played_against": []
+            }
         },
         "22": {
             "player_id": "UY14785",
@@ -259,10 +263,10 @@
             "birth_date": "11-11-1991",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "Handshake"
-            ]
+            "played_tournaments": {
+                "name": "Handshake",
+                "played_against": []
+            }
         },
         "23": {
             "player_id": "UY14785",
@@ -271,10 +275,10 @@
             "birth_date": "11-11-1991",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Princess"
-            ]
+            "played_tournaments": {
+                "name": "The Princess",
+                "played_against": []
+            }
         },
         "24": {
             "player_id": "ER7785",
@@ -283,10 +287,10 @@
             "birth_date": "4-4-1980",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "Paris Tours"
-            ]
+            "played_tournaments": {
+                "name": "Paris Tours",
+                "played_against": []
+            }
         },
         "25": {
             "player_id": "JU74521",
@@ -295,10 +299,10 @@
             "birth_date": "9-9-1999",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Sensation"
-            ]
+            "played_tournaments": {
+                "name": "The Sensation",
+                "played_against": []
+            }
         },
         "26": {
             "player_id": "WE14512",
@@ -307,10 +311,10 @@
             "birth_date": "5-8-2001",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "Great Chance"
-            ]
+            "played_tournaments": {
+                "name": "Great Chance",
+                "played_against": []
+            }
         },
         "27": {
             "player_id": "PO12521",
@@ -319,10 +323,10 @@
             "birth_date": "7-11-2002",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "Great Chance"
-            ]
+            "played_tournaments": {
+                "name": "Great Chance",
+                "played_against": []
+            }
         },
         "28": {
             "player_id": "SD14587",
@@ -331,10 +335,10 @@
             "birth_date": "9-10-1980",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "Handshake"
-            ]
+            "played_tournaments": {
+                "name": "Handshake",
+                "played_against": []
+            }
         },
         "29": {
             "player_id": "RT99900",
@@ -343,10 +347,10 @@
             "birth_date": "4-12-1987",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "Handshake"
-            ]
+            "played_tournaments": {
+                "name": "Handshake",
+                "played_against": []
+            }
         },
         "30": {
             "player_id": "JJ14523",
@@ -355,10 +359,10 @@
             "birth_date": "11-4-1980",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "Paris Tours"
-            ]
+            "played_tournaments": {
+                "name": "Paris Tours",
+                "played_against": []
+            }
         },
         "31": {
             "player_id": "JJ14589",
@@ -367,10 +371,10 @@
             "birth_date": "5-11-2000",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "Paris Tours"
-            ]
+            "played_tournaments": {
+                "name": "Paris Tours",
+                "played_against": []
+            }
         },
         "32": {
             "player_id": "JK555523",
@@ -379,10 +383,10 @@
             "birth_date": "4-9-1984",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Princess"
-            ]
+            "played_tournaments": {
+                "name": "The Princess",
+                "played_against": []
+            }
         },
         "33": {
             "player_id": "IO65236",
@@ -391,10 +395,10 @@
             "birth_date": "9-9-1999",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Princess"
-            ]
+            "played_tournaments": {
+                "name": "The Princess",
+                "played_against": []
+            }
         },
         "34": {
             "player_id": "UI14523",
@@ -403,10 +407,10 @@
             "birth_date": "7-7-18-988",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Princess"
-            ]
+            "played_tournaments": {
+                "name": "The Princess",
+                "played_against": []
+            }
         },
         "35": {
             "player_id": "GY14589",
@@ -415,10 +419,10 @@
             "birth_date": "5-12-1998",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Bulls"
-            ]
+            "played_tournaments": {
+                "name": "The Bulls",
+                "played_against": []
+            }
         },
         "36": {
             "player_id": "ER14525",
@@ -427,10 +431,10 @@
             "birth_date": "5-5-1980",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Bulls"
-            ]
+            "played_tournaments": {
+                "name": "The Bulls",
+                "played_against": []
+            }
         },
         "37": {
             "player_id": "RE55596",
@@ -439,10 +443,10 @@
             "birth_date": "11-10-1988",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Bulls"
-            ]
+            "played_tournaments": {
+                "name": "The Bulls",
+                "played_against": []
+            }
         },
         "38": {
             "player_id": "ER14528",
@@ -451,10 +455,10 @@
             "birth_date": "8-8-1998",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Bulls"
-            ]
+            "played_tournaments": {
+                "name": "The Bulls",
+                "played_against": []
+            }
         },
         "39": {
             "player_id": "EE55585",
@@ -463,10 +467,10 @@
             "birth_date": "9-10-2000",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "Paris Tours"
-            ]
+            "played_tournaments": {
+                "name": "Paris Tours",
+                "played_against": []
+            }
         },
         "40": {
             "player_id": "IO45656",
@@ -475,10 +479,10 @@
             "birth_date": "11-10-1998",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "Paris Tours"
-            ]
+            "played_tournaments": {
+                "name": "Paris Tours",
+                "played_against": []
+            }
         },
         "41": {
             "player_id": "RT45854",
@@ -487,10 +491,10 @@
             "birth_date": "4-10-1989",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Pearl Chess"
-            ]
+            "played_tournaments": {
+                "name": "The Pearl Chess",
+                "played_against": []
+            }
         },
         "42": {
             "player_id": "HJ22200",
@@ -499,10 +503,10 @@
             "birth_date": "9-9-1999",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Pearl Chess"
-            ]
+            "played_tournaments": {
+                "name": "The Pearl Chess",
+                "played_against": []
+            }
         },
         "43": {
             "player_id": "JJ14521",
@@ -511,10 +515,10 @@
             "birth_date": "11-10-2001",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Pearl Chess"
-            ]
+            "played_tournaments": {
+                "name": "The Pearl Chess",
+                "played_against": []
+            }
         },
         "44": {
             "player_id": "PO11211",
@@ -523,10 +527,10 @@
             "birth_date": "6-12-1980",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The New World"
-            ]
+            "played_tournaments": {
+                "name": "The New World",
+                "played_against": []
+            }
         },
         "45": {
             "player_id": "YU14525",
@@ -535,10 +539,10 @@
             "birth_date": "11-11-2000",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The New World"
-            ]
+            "played_tournaments": {
+                "name": "The New World",
+                "played_against": []
+            }
         },
         "46": {
             "player_id": "UI14141",
@@ -547,10 +551,10 @@
             "birth_date": "5-5-1998",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The New World"
-            ]
+            "played_tournaments": {
+                "name": "The New World",
+                "played_against": []
+            }
         },
         "47": {
             "player_id": "WW77583",
@@ -559,10 +563,10 @@
             "birth_date": "11-12-2000",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "China Chess Tournament"
-            ]
+            "played_tournaments": {
+                "name": "China Chess Tournament",
+                "played_against": []
+            }
         },
         "48": {
             "player_id": "ER14149",
@@ -571,10 +575,10 @@
             "birth_date": "5-5-1980",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "China Chess Tournament"
-            ]
+            "played_tournaments": {
+                "name": "China Chess Tournament",
+                "played_against": []
+            }
         },
         "49": {
             "player_id": "IO45245",
@@ -583,10 +587,10 @@
             "birth_date": "4-6-1998",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "China Chess Tournament"
-            ]
+            "played_tournaments": {
+                "name": "China Chess Tournament",
+                "played_against": []
+            }
         },
         "50": {
             "player_id": "WE15151",
@@ -595,10 +599,10 @@
             "birth_date": "6-5-2000",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "Saint Antonin Nantes"
-            ]
+            "played_tournaments": {
+                "name": "Saint Antonin Nantes",
+                "played_against": []
+            }
         },
         "51": {
             "player_id": "UI12121",
@@ -607,10 +611,10 @@
             "birth_date": "11-11-2000",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "Saint Antonin Nantes"
-            ]
+            "played_tournaments": {
+                "name": "Saint Antonin Nantes",
+                "played_against": []
+            }
         },
         "52": {
             "player_id": "UI14875",
@@ -619,10 +623,10 @@
             "birth_date": "9-10-1988",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "Saint Antonin Nantes"
-            ]
+            "played_tournaments": {
+                "name": "Saint Antonin Nantes",
+                "played_against": []
+            }
         },
         "53": {
             "player_id": "II98598",
@@ -631,10 +635,10 @@
             "birth_date": "11-7-2000",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Chess Club"
-            ]
+            "played_tournaments": {
+                "name": "The Chess Club",
+                "played_against": []
+            }
         },
         "54": {
             "player_id": "UU5858",
@@ -643,10 +647,10 @@
             "birth_date": "5-9-1998",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Chess Club"
-            ]
+            "played_tournaments": {
+                "name": "The Chess Club",
+                "played_against": []
+            }
         },
         "55": {
             "player_id": "QW96325",
@@ -655,10 +659,10 @@
             "birth_date": "5-9-2000",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Magic Tournament"
-            ]
+            "played_tournaments": {
+                "name": "The Magic Tournament",
+                "played_against": []
+            }
         },
         "56": {
             "player_id": "EE88558",
@@ -667,10 +671,10 @@
             "birth_date": "7-10-2001",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Magic Tournament"
-            ]
+            "played_tournaments": {
+                "name": "The Magic Tournament",
+                "played_against": []
+            }
         },
         "57": {
             "player_id": "OL74743",
@@ -679,10 +683,10 @@
             "birth_date": "11-4-1988",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The James Bond Tournament"
-            ]
+            "played_tournaments": {
+                "name": "The James Bond Tournament",
+                "played_against": []
+            }
         },
         "58": {
             "player_id": "UI14253",
@@ -691,10 +695,10 @@
             "birth_date": "5-5-1999",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The James Bond Tournament"
-            ]
+            "played_tournaments": {
+                "name": "The James Bond Tournament",
+                "played_against": []
+            }
         },
         "59": {
             "player_id": "YU60023",
@@ -703,10 +707,12 @@
             "birth_date": "5-9-2000",
             "rank": 0,
             "score": 0.0,
-            "played_against": [],
-            "played_tournaments": [
-                "The Golden Summer"
-            ]
+            "played_tournaments": {
+                "name": "The Golden Summer",
+                "played_against": [
+                    "JI98563"
+                ]
+            }
         }
     }
 }
