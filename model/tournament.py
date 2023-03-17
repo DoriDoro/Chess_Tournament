@@ -1,5 +1,3 @@
-from tinydb import TinyDB
-from unidecode import unidecode
 
 
 class Tournament:
@@ -14,6 +12,6 @@ class Tournament:
         self.rounds = rounds
 
         self.list_rounds = []
-        self.list_of_players = []  # add the players_id
+        self.list_of_players = []
         self.tournament_id = 0
         self.current_round = 0

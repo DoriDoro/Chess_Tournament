@@ -3,6 +3,7 @@ from tinydb import TinyDB
 from model.tournament import Tournament
 
 
+# option 2: create tournament:
 def create_tournament_controller(data_tournament):
     new_tournament = Tournament(data_tournament["name"], data_tournament["city"],
                                 data_tournament["start_date"], data_tournament["end_date"],

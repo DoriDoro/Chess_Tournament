@@ -5,76 +5,7 @@ from tinydb import TinyDB, Query
 from model.player import Player
 
 
-def verify_number_of_player(name_of_tournament):
-    from views.player import add_additional_player_to_tournament_view
-
-    get_verified_list_of_players_before = get_player_id_from_list_of_players(name_of_tournament)
-
-    # check if 8 players are inside the list_of_players:
-    number_of_players = len(get_verified_list_of_players_before)
-
-    while number_of_players < 2:  # TODO 8
-        add_additional_player_to_tournament_view(name_of_tournament)
-        number_of_players += 1
-
-    get_verified_list_of_players = get_player_id_from_list_of_players(name_of_tournament)
-
-    return get_verified_list_of_players
-
-
-def get_player_id_from_list_of_players(name_of_tournament):
-    database = TinyDB(f'data/tournaments/tournaments.json', indent=4)
-    tournament_table = database.table("all_tournaments")
-    # get the list_of_player from tournaments.json, table: all_tournaments
-    tournament = tournament_table.get(Query().name == name_of_tournament)
-
-    get_list_of_players = tournament['list_of_players']
-
-    return get_list_of_players
-
-
-def get_name_of_player(player_ids):
-    database = TinyDB(f'data/players/players.json', indent=4)
-    player_table = database.table("all_players")
-
-    # create single player from player_ids list:
-    player_id_1 = player_ids[0]
-    player_id_2 = player_ids[1]
-
-    # get name from database:
-    player_1 = player_table.get(Query().player_id == player_id_1)
-    p1_name = f"{player_1['first_name']} {player_1['last_name']}"
-
-    player_2 = player_table.get(Query().player_id == player_id_2)
-    p2_name = f"{player_2['first_name']} {player_2['last_name']}"
-
-    return p1_name, p2_name
-
-
-def add_player_id_to_list_of_players_controller(player_id, tournament_name):
-    get_list_of_players = get_player_id_from_list_of_players(tournament_name)
-
-    database = TinyDB(f'data/tournaments/tournaments.json', indent=4)
-    tournament_table = database.table("all_tournaments")
-
-    # update the list_of_player list in tournaments.json:
-    tournament_table.update({"list_of_players": get_list_of_players + [player_id]}, Query().name == tournament_name)
-    database.close()
-
-
-def add_player_id_to_played_against_controller(paired_players, name_of_tournament):
-    db = TinyDB('data/players/players.json', indent=4)
-    player_table = db.table("all_players")
-
-    player_id_1 = paired_players[0]
-    player_id_2 = paired_players[1]
-
-    player_table.update({'played_tournaments': {'name': name_of_tournament, 'played_against': [paired_players[1]]}},
-                        Query().player_id == player_id_1)
-    player_table.update({'played_tournaments': {'name': name_of_tournament, 'played_against': [paired_players[0]]}},
-                        Query().player_id == player_id_2)
-
-
+# option 1: create player:
 def create_player_controller(data_player):
     new_player = Player(data_player["player_id"], data_player["first_name"], data_player["last_name"],
                         data_player["birth_date"])
@@ -95,6 +26,30 @@ def create_player_controller(data_player):
     db.close()
 
 
+def add_player_id_to_list_of_players_controller(player_id, tournament_name):
+    get_list_of_players = get_player_id_from_list_of_players(tournament_name)
+
+    database = TinyDB(f'data/tournaments/tournaments.json', indent=4)
+    tournament_table = database.table("all_tournaments")
+
+    # update the list_of_player list in tournaments.json:
+    tournament_table.update({"list_of_players": get_list_of_players + [player_id]}, Query().name == tournament_name)
+    database.close()
+
+
+# option 1: create player and option 3: start a tournament:
+def get_player_id_from_list_of_players(name_of_tournament):
+    database = TinyDB(f'data/tournaments/tournaments.json', indent=4)
+    tournament_table = database.table("all_tournaments")
+    # get the list_of_player from tournaments.json, table: all_tournaments
+    tournament = tournament_table.get(Query().name == name_of_tournament)
+
+    get_list_of_players = tournament['list_of_players']
+
+    return get_list_of_players
+
+
+# option 3: start a tournament:
 def pair_players_controller(name_of_tournament):
     get_verified_list_of_players = verify_number_of_player(name_of_tournament)
 
@@ -108,6 +63,54 @@ def pair_players_controller(name_of_tournament):
     list_of_names = get_name_of_player(paired_players)
 
     return list_of_names
+
+
+def verify_number_of_player(name_of_tournament):
+    from views.player import add_additional_player_to_tournament_view
+
+    get_verified_list_of_players_before = get_player_id_from_list_of_players(name_of_tournament)
+
+    # check if 8 players are inside the list_of_players:
+    number_of_players = len(get_verified_list_of_players_before)
+
+    while number_of_players < 2:  # TODO 8
+        add_additional_player_to_tournament_view(name_of_tournament)
+        number_of_players += 1
+
+    get_verified_list_of_players = get_player_id_from_list_of_players(name_of_tournament)
+
+    return get_verified_list_of_players
+
+
+def add_player_id_to_played_against_controller(paired_players, name_of_tournament):
+    db = TinyDB('data/players/players.json', indent=4)
+    player_table = db.table("all_players")
+
+    player_id_1 = paired_players[0]
+    player_id_2 = paired_players[1]
+
+    player_table.update({'played_tournaments': {'name': name_of_tournament, 'played_against': [paired_players[1]]}},
+                        Query().player_id == player_id_1)
+    player_table.update({'played_tournaments': {'name': name_of_tournament, 'played_against': [paired_players[0]]}},
+                        Query().player_id == player_id_2)
+
+
+def get_name_of_player(player_ids):
+    database = TinyDB(f'data/players/players.json', indent=4)
+    player_table = database.table("all_players")
+
+    # create single player from player_ids list:
+    player_id_1 = player_ids[0]
+    player_id_2 = player_ids[1]
+
+    # get name from database:
+    player_1 = player_table.get(Query().player_id == player_id_1)
+    p1_name = f"{player_1['first_name']} {player_1['last_name']}"
+
+    player_2 = player_table.get(Query().player_id == player_id_2)
+    p2_name = f"{player_2['first_name']} {player_2['last_name']}"
+
+    return p1_name, p2_name
 
 
 def pair_players_several_rounds_controller(name_of_tournament):

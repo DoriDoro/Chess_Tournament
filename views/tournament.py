@@ -4,6 +4,20 @@ from controller.player import pair_players_controller
 from controller.tournament import create_tournament_controller
 
 
+# get tournaments for option 1: create a player and option 3: start a tournament
+def get_tournaments_view():
+    database = TinyDB(f'data/tournaments/tournaments.json')
+    tournament_table = database.table("all_tournaments")
+
+    tournament_id_name_list = []
+
+    for db in tournament_table:
+        tournament_id_name_list.append([db['tournament_id'], db['name']])
+
+    return tournament_id_name_list
+
+
+# option 2: create a tournament:
 def create_tournament_view():
     print("------------------------------------------------")
     print(" ** CREATE A TOURNAMENT **", end="\n\n")
@@ -30,18 +44,7 @@ def create_tournament_view():
     create_tournament_controller(data_tournament)
 
 
-def get_tournaments_view():
-    database = TinyDB(f'data/tournaments/tournaments.json')
-    tournament_table = database.table("all_tournaments")
-
-    tournament_id_name_list = []
-
-    for db in tournament_table:
-        tournament_id_name_list.append([db['tournament_id'], db['name']])
-
-    return tournament_id_name_list
-
-
+# option 3: start a tournament:
 def display_tournaments_view(tournament_id_name_list):
     print("------------------------------------------------")
     print(" ** CHOOSE A TOURNAMENT **", end="\n\n")
@@ -51,6 +54,7 @@ def display_tournaments_view(tournament_id_name_list):
     print("   choose * to go back to menu", end="\n\n")
 
 
+# option 3: start a tournament:
 def choose_tournament_view(tournament_id_name_list):
     print("------------------------------------------------")
     print(" ** START A TOURNAMENT **", end="\n\n")
@@ -71,7 +75,7 @@ def choose_tournament_view(tournament_id_name_list):
                 # get the first pair
                 pair_player = pair_players_controller(name)
                 print(f"  The first pair for - {name} - are:")
-                print(f"  {pair_player[0]} and {pair_player[1]}", end="\n\n")  # save in played_against
+                print(f"  {pair_player[0]} and {pair_player[1]}", end="\n\n")
                 return
 
         print(" Invalid choice. Please enter the Tournament_ID.", end="\n\n")

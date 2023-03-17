@@ -1,7 +1,3 @@
-from random import randint
-
-from tinydb import TinyDB, Query
-
 
 class Player:
 
@@ -13,7 +9,7 @@ class Player:
 
         self.rank = 0
         self.score = 0.0
-        self.played_tournaments = {}  # add the tournament_name and played_against list with player_ids
+        self.played_tournaments = {}
 
     def __str__(self):
         return f"{self.first_name} {self.last_name}"
