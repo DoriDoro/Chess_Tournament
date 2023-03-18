@@ -34,7 +34,7 @@
                 "UU14789",
                 "JU74521"
             ],
-            "current_round": 0
+            "current_round": 4
         },
         "3": {
             "tournament_id": 4456,
@@ -61,7 +61,7 @@
             "comments": "no",
             "list_rounds": {},
             "list_of_players": [
-                "ER7785",
+                "ER77854",
                 "JJ14523",
                 "JJ14589",
                 "EE55585",
@@ -254,9 +254,28 @@
             "list_rounds": {},
             "list_of_players": [
                 "UU14524",
-                "RT85235"
+                "RT85235",
+                "ER14257",
+                "WE12859"
             ],
             "current_round": 0
+        },
+        "17": {
+            "tournament_id": 5586,
+            "name": "Dragon Chess",
+            "city": "Bukarest",
+            "start_date": "8-3-2022",
+            "end_date": "15-3-2022",
+            "rounds": 5,
+            "comments": "no",
+            "list_rounds": {},
+            "list_of_players": [
+                "WW98002",
+                "VD55296",
+                "WE58525",
+                "UI74848"
+            ],
+            "current_round": 1
         }
     }
 }

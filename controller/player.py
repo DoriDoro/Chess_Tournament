@@ -5,6 +5,10 @@ from tinydb import TinyDB, Query
 from model.player import Player
 
 
+# TODO: if already player inside the list_of_players in tournament do not add several the tournament,
+#  perhaps not necessary
+
+
 # option 1: create player:
 def create_player_controller(data_player):
     new_player = Player(data_player["player_id"], data_player["first_name"], data_player["last_name"],
@@ -50,18 +54,59 @@ def get_player_id_from_list_of_players(name_of_tournament):
 
 
 # option 3: start a tournament:
+
+def _get_tournament_table():
+    db_tournament = TinyDB(f'data/tournaments/tournaments.json', indent=4)
+    return db_tournament.table("all_tournaments")
+
+
+def _get_tournament(name_of_tournament):
+    db_tournament = TinyDB(f'data/tournaments/tournaments.json', indent=4)
+    tournament_table = db_tournament.table("all_tournaments")
+
+    return tournament_table.get(Query().name == name_of_tournament)
+
+
+def _get_player_table():
+    db_player = TinyDB('data/players/players.json', indent=4)
+    player_table = db_player.table("all_players")
+
+    return player_table
+
+
+def _get_player(player_id):
+    db_player = TinyDB('data/players/players.json', indent=4)
+    player_table = db_player.table("all_players")
+
+    return player_table.get(Query().player_id == player_id)
+
+
 def pair_players_controller(name_of_tournament):
-    get_verified_list_of_players = verify_number_of_player(name_of_tournament)
+    list_of_players = _get_tournament(name_of_tournament)["list_of_players"]  # get list of all players inside list_of_players
+    current_round = _get_tournament(name_of_tournament)["current_round"]  # get the current_round
+    rounds = _get_tournament(name_of_tournament)["rounds"]   # gets the rounds in total to play
 
-    # k=2 choose two unique values
-    paired_players = random.sample(get_verified_list_of_players, k=2)
+    get_played_against = []
+    for player_id in list_of_players:
+        get_played_against_of_player = _get_player(player_id)['played_tournaments']['played_against']
 
-    # save paired_players in opponent
-    add_player_id_to_played_against_controller(paired_players, name_of_tournament)
+        data = {"player_id": player_id, "played_against": get_played_against_of_player}
+        get_played_against.append(data)
 
-    # get player_id, first_name and last_name
-    list_of_names = get_name_of_player(paired_players)
+    if current_round <= rounds:
+        get_verified_list_of_players = verify_number_of_player(name_of_tournament)
+        # k=2 choose two unique values
+        paired_players = random.sample(get_verified_list_of_players, k=2)
+        # save paired_players in opponent
+        add_player_id_to_played_against_controller(paired_players, name_of_tournament)
+        # get player_id, first_name and last_name
+        list_of_names = get_name_of_player(paired_players)
 
+    # update rounds in tournament
+    tournament_table = _get_tournament_table()
+    tournament_table.update({"current_round": (current_round + 1)}, Query().name == name_of_tournament)
+
+    # TODO: if current_round is more than rounds do something...
     return list_of_names
 
 
@@ -82,17 +127,21 @@ def verify_number_of_player(name_of_tournament):
     return get_verified_list_of_players
 
 
-def add_player_id_to_played_against_controller(paired_players, name_of_tournament):
-    db = TinyDB('data/players/players.json', indent=4)
-    player_table = db.table("all_players")
+def add_player_id_to_played_against_controller(player_ids, name_of_tournament):
+    player_table = _get_player_table()
 
-    player_id_1 = paired_players[0]
-    player_id_2 = paired_players[1]
+    get_played_against_player_1 = _get_player(player_ids[0])["played_tournaments"]["played_against"]
+    get_played_against_player_1 = get_played_against_player_1 + [player_ids[1]]  # TODO adds duplicates to the list?
 
-    player_table.update({'played_tournaments': {'name': name_of_tournament, 'played_against': [paired_players[1]]}},
-                        Query().player_id == player_id_1)
-    player_table.update({'played_tournaments': {'name': name_of_tournament, 'played_against': [paired_players[0]]}},
-                        Query().player_id == player_id_2)
+    get_played_against_player_2 = _get_player(player_ids[1])["played_tournaments"]["played_against"]
+    get_played_against_player_2 = get_played_against_player_2 + [player_ids[0]]
+
+    player_table.update({"played_tournaments": {"name": name_of_tournament,
+                                                "played_against": [get_played_against_player_1]}},
+                        Query().player_id == player_ids[0])
+    player_table.update({'played_tournaments': {'name': name_of_tournament,
+                                                'played_against': [get_played_against_player_2]}},
+                        Query().player_id == player_ids[1])
 
 
 def get_name_of_player(player_ids):
@@ -111,7 +160,3 @@ def get_name_of_player(player_ids):
     p2_name = f"{player_2['first_name']} {player_2['last_name']}"
 
     return p1_name, p2_name
-
-
-def pair_players_several_rounds_controller(name_of_tournament):
-    pass

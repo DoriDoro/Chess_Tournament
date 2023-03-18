@@ -145,7 +145,9 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": []
+                "played_against": [
+                    "UJ14521"
+                ]
             }
         },
         "13": {
@@ -169,7 +171,9 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": []
+                "played_against": [
+                    "JU74521"
+                ]
             }
         },
         "15": {
@@ -181,7 +185,9 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": []
+                "played_against": [
+                    "OO10023"
+                ]
             }
         },
         "16": {
@@ -193,7 +199,9 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": []
+                "played_against": [
+                    "KS85236"
+                ]
             }
         },
         "17": {
@@ -205,7 +213,11 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": []
+                "played_against": [
+                    [
+                        "II14563"
+                    ]
+                ]
             }
         },
         "18": {
@@ -217,7 +229,12 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": []
+                "played_against": [
+                    [
+                        "UJ14521",
+                        "UU14789"
+                    ]
+                ]
             }
         },
         "19": {
@@ -229,7 +246,12 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": []
+                "played_against": [
+                    [
+                        "OO10023",
+                        "II14563"
+                    ]
+                ]
             }
         },
         "20": {
@@ -281,7 +303,7 @@
             }
         },
         "24": {
-            "player_id": "ER7785",
+            "player_id": "ER77854",
             "first_name": "Dan",
             "last_name": "Stone",
             "birth_date": "4-4-1980",
@@ -301,7 +323,9 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": []
+                "played_against": [
+                    "UJ14521"
+                ]
             }
         },
         "26": {
@@ -361,7 +385,9 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "Paris Tours",
-                "played_against": []
+                "played_against": [
+                    "IO45656"
+                ]
             }
         },
         "31": {
@@ -469,7 +495,9 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "Paris Tours",
-                "played_against": []
+                "played_against": [
+                    "JJ14523"
+                ]
             }
         },
         "40": {
@@ -481,7 +509,9 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "Paris Tours",
-                "played_against": []
+                "played_against": [
+                    "JJ14523"
+                ]
             }
         },
         "41": {
@@ -710,8 +740,85 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "JI98563"
+                    "JI98563",
+                    "JJ10203"
                 ]
+            }
+        },
+        "60": {
+            "player_id": "ER14257",
+            "first_name": "Drego",
+            "last_name": "Zar",
+            "birth_date": "5-5-2000",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "Gigant Chess",
+                "played_against": []
+            }
+        },
+        "61": {
+            "player_id": "WE12859",
+            "first_name": "James",
+            "last_name": "Lin",
+            "birth_date": "6-7-1980",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "Gigant Chess",
+                "played_against": []
+            }
+        },
+        "62": {
+            "player_id": "WW98002",
+            "first_name": "Flinn",
+            "last_name": "Bucca",
+            "birth_date": "4-7-1981",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "Dragon Chess",
+                "played_against": [
+                    "VD55296"
+                ]
+            }
+        },
+        "63": {
+            "player_id": "VD55296",
+            "first_name": "Lady",
+            "last_name": "Clagon",
+            "birth_date": "8-10-2001",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "Dragon Chess",
+                "played_against": [
+                    "WW98002"
+                ]
+            }
+        },
+        "64": {
+            "player_id": "WE58525",
+            "first_name": "Danny",
+            "last_name": "Devito",
+            "birth_date": "4-9-2000",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "Dragon Chess",
+                "played_against": []
+            }
+        },
+        "65": {
+            "player_id": "UI74848",
+            "first_name": "Jerry",
+            "last_name": "Thomson",
+            "birth_date": "7-10-2001",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "Dragon Chess",
+                "played_against": []
             }
         }
     }
