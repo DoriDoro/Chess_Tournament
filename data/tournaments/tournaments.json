@@ -11,9 +11,14 @@
             "list_rounds": {},
             "list_of_players": [
                 "JI98563",
-                "YU60023"
+                "YU60023",
+                "JJ10203",
+                "DE75321",
+                "ER11102",
+                "HG11102",
+                "ER30003"
             ],
-            "current_round": 0
+            "current_round": 2
         },
         "2": {
             "tournament_id": 4585,
@@ -34,7 +39,7 @@
                 "UU14789",
                 "JU74521"
             ],
-            "current_round": 4
+            "current_round": 7
         },
         "3": {
             "tournament_id": 4456,
@@ -47,9 +52,10 @@
             "list_rounds": {},
             "list_of_players": [
                 "WE12365",
-                "UI78547"
+                "UI78547",
+                "JJ44444"
             ],
-            "current_round": 0
+            "current_round": 3
         },
         "4": {
             "tournament_id": 7898,
@@ -65,9 +71,10 @@
                 "JJ14523",
                 "JJ14589",
                 "EE55585",
-                "IO45656"
+                "IO45656",
+                "II90025"
             ],
-            "current_round": 0
+            "current_round": 1
         },
         "5": {
             "tournament_id": 8953,
@@ -80,7 +87,9 @@
             "list_rounds": {},
             "list_of_players": [
                 "WE14512",
-                "PO12521"
+                "PO12521",
+                "II78998",
+                "RT55552"
             ],
             "current_round": 0
         },
@@ -115,7 +124,8 @@
             "list_of_players": [
                 "JK555523",
                 "IO65236",
-                "UI14523"
+                "UI14523",
+                "UY14785"
             ],
             "current_round": 0
         },
@@ -130,7 +140,8 @@
             "list_rounds": {},
             "list_of_players": [
                 "SD14587",
-                "RT99900"
+                "RT99900",
+                "UY14785"
             ],
             "current_round": 0
         },
@@ -145,7 +156,8 @@
             "list_rounds": {},
             "list_of_players": [
                 "QW96325",
-                "EE88558"
+                "EE88558",
+                "UU15233"
             ],
             "current_round": 0
         },
@@ -160,7 +172,8 @@
             "list_rounds": {},
             "list_of_players": [
                 "II98598",
-                "UU5858"
+                "UU5858",
+                "HH44445"
             ],
             "current_round": 0
         },
@@ -224,9 +237,11 @@
             "list_of_players": [
                 "WE15151",
                 "UI12121",
-                "UI14875"
+                "UI14875",
+                "WE95258",
+                "TU85856"
             ],
-            "current_round": 0
+            "current_round": 1
         },
         "15": {
             "tournament_id": 70,
