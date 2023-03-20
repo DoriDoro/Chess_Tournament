@@ -48,7 +48,9 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Big One",
-                "played_against": []
+                "played_against": [
+                    "WE12365"
+                ]
             }
         },
         "5": {
@@ -97,8 +99,6 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "YU60023",
-                    "YU60023",
                     "YU60023"
                 ]
             }
@@ -124,7 +124,10 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Golden Summer",
-                "played_against": []
+                "played_against": [
+                    "YU60023",
+                    "ER30003"
+                ]
             }
         },
         "11": {
@@ -136,7 +139,9 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Golden Summer",
-                "played_against": []
+                "played_against": [
+                    "HG11102"
+                ]
             }
         },
         "12": {
@@ -150,7 +155,6 @@
                 "name": "The Sensation",
                 "played_against": [
                     "UJ14521",
-                    "II14563",
                     "II14563"
                 ]
             }
@@ -177,7 +181,8 @@
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
-                    "JU74521"
+                    "JU74521",
+                    "UJ14521"
                 ]
             }
         },
@@ -221,7 +226,8 @@
                 "name": "The Sensation",
                 "played_against": [
                     "II14563",
-                    "UU14789"
+                    "UU14789",
+                    "IK52136"
                 ]
             }
         },
@@ -238,8 +244,7 @@
                     "UJ14521",
                     "UU14789",
                     "QQ19002",
-                    "OO10023",
-                    "QQ19002"
+                    "OO10023"
                 ]
             }
         },
@@ -270,8 +275,7 @@
                 "name": "The Big One",
                 "played_against": [
                     "UI78547",
-                    "UI78547",
-                    "UI78547"
+                    "JJ44444"
                 ]
             }
         },
@@ -285,8 +289,6 @@
             "played_tournaments": {
                 "name": "The Big One",
                 "played_against": [
-                    "WE12365",
-                    "WE12365",
                     "WE12365"
                 ]
             }
@@ -731,7 +733,9 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
-                "played_against": []
+                "played_against": [
+                    "UI14253"
+                ]
             }
         },
         "58": {
@@ -743,7 +747,9 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
-                "played_against": []
+                "played_against": [
+                    "OL74743"
+                ]
             }
         },
         "59": {
@@ -758,8 +764,7 @@
                 "played_against": [
                     "JI98563",
                     "JJ10203",
-                    "JI98563",
-                    "JI98563"
+                    "HG11102"
                 ]
             }
         },

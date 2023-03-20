@@ -59,6 +59,7 @@ def add_player_id_to_list_of_players_controller(player_id, tournament_name):
 
 
 # option 1: create player and option 3: start a tournament:
+# this function is not necessary
 def get_player_id_from_list_of_players(name_of_tournament):
     tournament = _get_tournament(name_of_tournament)
     get_list_of_players = tournament['list_of_players']
@@ -75,16 +76,28 @@ def pair_players_controller(name_of_tournament):
     get_played_against = []
     for player_id in list_of_players:
         get_played_against_of_player = _get_player(player_id)['played_tournaments']['played_against']
+        # print('get+player', get_played_against_of_player)  # list played_against  ['YU60023', 'ER30003']
 
         data = {"player_id": player_id, "played_against": get_played_against_of_player}
         get_played_against.append(data)
 
     if current_round <= rounds:
-        get_verified_list_of_players = verify_number_of_player(name_of_tournament)
+        # get_verified_list_of_players = verify_number_of_player(name_of_tournament)  #  == list-of_player
+
         # k=2 choose two unique values
-        paired_players = random.sample(get_verified_list_of_players, k=2)
+        paired_players = random.sample(list_of_players, k=2)  # ['YU60023', 'ER30003']
+        # take player_id[0] get the played_against and check the played_against list with player_id[1]
+        for player in get_played_against:
+            if player["player_id"] == paired_players[0]:
+                if paired_players[1] in player["played_against"]:
+                    paired_players = random.sample(list_of_players, k=2)
+            elif player["player_id"] == paired_players[1]:
+                if paired_players[0] in player["played_against"]:
+                    paired_players = random.sample(list_of_players, k=2)
+
         # save paired_players in opponent
-        add_player_id_to_played_against_controller(paired_players, name_of_tournament)
+        # add_player_id_to_played_against_controller(paired_players, name_of_tournament)
+
         # get player_id, first_name and last_name
         list_of_names = get_name_of_player(paired_players)
 
