@@ -8,7 +8,26 @@
             "end_date": "25-4-2022",
             "rounds": 6,
             "comments": "no",
-            "list_rounds": {},
+            "list_rounds": {
+                "0": [
+                    [
+                        "JI98563",
+                        "YU60023"
+                    ],
+                    [
+                        "JJ10203",
+                        "DE75321"
+                    ],
+                    [
+                        "ER11102",
+                        "HG11102"
+                    ],
+                    [
+                        "ER30003",
+                        "WE15453"
+                    ]
+                ]
+            },
             "list_of_players": [
                 "JI98563",
                 "YU60023",
@@ -16,7 +35,8 @@
                 "DE75321",
                 "ER11102",
                 "HG11102",
-                "ER30003"
+                "ER30003",
+                "WE15453"
             ],
             "current_round": 1
         },
@@ -39,7 +59,7 @@
                 "UU14789",
                 "JU74521"
             ],
-            "current_round": 2
+            "current_round": 0
         },
         "3": {
             "tournament_id": 4456,
@@ -55,7 +75,7 @@
                 "UI78547",
                 "JJ44444"
             ],
-            "current_round": 7
+            "current_round": 0
         },
         "4": {
             "tournament_id": 7898,
@@ -74,7 +94,7 @@
                 "IO45656",
                 "II90025"
             ],
-            "current_round": 1
+            "current_round": 0
         },
         "5": {
             "tournament_id": 8953,
@@ -241,7 +261,7 @@
                 "WE95258",
                 "TU85856"
             ],
-            "current_round": 1
+            "current_round": 0
         },
         "15": {
             "tournament_id": 70,
@@ -256,7 +276,7 @@
                 "OL74743",
                 "UI14253"
             ],
-            "current_round": 1
+            "current_round": 0
         },
         "16": {
             "tournament_id": 6569,
@@ -268,8 +288,6 @@
             "comments": "no",
             "list_rounds": {},
             "list_of_players": [
-                "UU14524",
-                "RT85235",
                 "ER14257",
                 "WE12859"
             ],
@@ -290,7 +308,7 @@
                 "WE58525",
                 "UI74848"
             ],
-            "current_round": 1
+            "current_round": 0
         }
     }
 }

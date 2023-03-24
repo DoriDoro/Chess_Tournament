@@ -11,7 +11,7 @@ class Tournament:
         self.comments = comments
         self.rounds = rounds
 
-        self.list_rounds = []
+        self.list_rounds = {}
         self.list_of_players = []
         self.tournament_id = 0
         self.current_round = 0

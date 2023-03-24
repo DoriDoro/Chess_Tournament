@@ -33,10 +33,7 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "Paris Tours",
-                "played_against": [
-                    "OL14147",
-                    "JJ14523"
-                ]
+                "played_against": []
             }
         },
         "4": {
@@ -48,9 +45,7 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Big One",
-                "played_against": [
-                    "WE12365"
-                ]
+                "played_against": []
             }
         },
         "5": {
@@ -74,7 +69,10 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Golden Summer",
-                "played_against": []
+                "played_against": [
+                    "DE75321",
+                    "JJ10203"
+                ]
             }
         },
         "7": {
@@ -86,7 +84,10 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Golden Summer",
-                "played_against": []
+                "played_against": [
+                    "JJ10203",
+                    "DE75321"
+                ]
             }
         },
         "8": {
@@ -99,7 +100,8 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "YU60023"
+                    "YU60023",
+                    "JI98563"
                 ]
             }
         },
@@ -112,7 +114,10 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Golden Summer",
-                "played_against": []
+                "played_against": [
+                    "HG11102",
+                    "ER11102"
+                ]
             }
         },
         "10": {
@@ -125,8 +130,8 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "YU60023",
-                    "ER30003"
+                    "ER11102",
+                    "HG11102"
                 ]
             }
         },
@@ -140,7 +145,8 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "HG11102"
+                    "WE15453",
+                    "ER30003"
                 ]
             }
         },
@@ -153,10 +159,7 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": [
-                    "UJ14521",
-                    "II14563"
-                ]
+                "played_against": []
             }
         },
         "13": {
@@ -180,10 +183,7 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": [
-                    "JU74521",
-                    "UJ14521"
-                ]
+                "played_against": []
             }
         },
         "15": {
@@ -195,9 +195,7 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": [
-                    "OO10023"
-                ]
+                "played_against": []
             }
         },
         "16": {
@@ -209,10 +207,7 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": [
-                    "KS85236",
-                    "II14563"
-                ]
+                "played_against": []
             }
         },
         "17": {
@@ -224,11 +219,7 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": [
-                    "II14563",
-                    "UU14789",
-                    "IK52136"
-                ]
+                "played_against": []
             }
         },
         "18": {
@@ -240,12 +231,7 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": [
-                    "UJ14521",
-                    "UU14789",
-                    "QQ19002",
-                    "OO10023"
-                ]
+                "played_against": []
             }
         },
         "19": {
@@ -257,11 +243,7 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": [
-                    "OO10023",
-                    "II14563",
-                    "UJ14521"
-                ]
+                "played_against": []
             }
         },
         "20": {
@@ -273,10 +255,7 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Big One",
-                "played_against": [
-                    "UI78547",
-                    "JJ44444"
-                ]
+                "played_against": []
             }
         },
         "21": {
@@ -288,9 +267,7 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Big One",
-                "played_against": [
-                    "WE12365"
-                ]
+                "played_against": []
             }
         },
         "22": {
@@ -338,9 +315,7 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": [
-                    "UJ14521"
-                ]
+                "played_against": []
             }
         },
         "26": {
@@ -400,10 +375,7 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "Paris Tours",
-                "played_against": [
-                    "IO45656",
-                    "II90025"
-                ]
+                "played_against": []
             }
         },
         "31": {
@@ -511,9 +483,7 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "Paris Tours",
-                "played_against": [
-                    "JJ14523"
-                ]
+                "played_against": []
             }
         },
         "40": {
@@ -525,9 +495,7 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "Paris Tours",
-                "played_against": [
-                    "JJ14523"
-                ]
+                "played_against": []
             }
         },
         "41": {
@@ -671,9 +639,7 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "Saint Antonin Nantes",
-                "played_against": [
-                    "TU85856"
-                ]
+                "played_against": []
             }
         },
         "53": {
@@ -733,9 +699,7 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
-                "played_against": [
-                    "UI14253"
-                ]
+                "played_against": []
             }
         },
         "58": {
@@ -747,9 +711,7 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
-                "played_against": [
-                    "OL74743"
-                ]
+                "played_against": []
             }
         },
         "59": {
@@ -763,8 +725,7 @@
                 "name": "The Golden Summer",
                 "played_against": [
                     "JI98563",
-                    "JJ10203",
-                    "HG11102"
+                    "YU60023"
                 ]
             }
         },
@@ -801,9 +762,7 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "Dragon Chess",
-                "played_against": [
-                    "VD55296"
-                ]
+                "played_against": []
             }
         },
         "63": {
@@ -815,9 +774,7 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "Dragon Chess",
-                "played_against": [
-                    "WW98002"
-                ]
+                "played_against": []
             }
         },
         "64": {
@@ -865,8 +822,21 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "Saint Antonin Nantes",
+                "played_against": []
+            }
+        },
+        "68": {
+            "player_id": "WE15453",
+            "first_name": "Bilan",
+            "last_name": "Urk",
+            "birth_date": "9-8-1992",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "The Golden Summer",
                 "played_against": [
-                    "UI14875"
+                    "ER30003",
+                    "WE15453"
                 ]
             }
         }
