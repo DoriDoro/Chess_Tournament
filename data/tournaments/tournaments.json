@@ -6,10 +6,10 @@
             "city": "Lisabon",
             "start_date": "22-4-2022",
             "end_date": "25-4-2022",
-            "rounds": 6,
+            "rounds": 4,
             "comments": "no",
             "list_rounds": {
-                "0": [
+                "1": [
                     [
                         "JI98563",
                         "YU60023"
@@ -26,6 +26,60 @@
                         "ER30003",
                         "WE15453"
                     ]
+                ],
+                "2": [
+                    [
+                        "JI98563",
+                        "JJ10203"
+                    ],
+                    [
+                        "DE75321",
+                        "YU60023"
+                    ],
+                    [
+                        "ER11102",
+                        "ER30003"
+                    ],
+                    [
+                        "WE15453",
+                        "HG11102"
+                    ]
+                ],
+                "3": [
+                    [
+                        "JI98563",
+                        "DE75321"
+                    ],
+                    [
+                        "YU60023",
+                        "JJ10203"
+                    ],
+                    [
+                        "ER11102",
+                        "WE15453"
+                    ],
+                    [
+                        "HG11102",
+                        "ER30003"
+                    ]
+                ],
+                "4": [
+                    [
+                        "JI98563",
+                        "ER11102"
+                    ],
+                    [
+                        "YU60023",
+                        "HG11102"
+                    ],
+                    [
+                        "JJ10203",
+                        "ER30003"
+                    ],
+                    [
+                        "DE75321",
+                        "WE15453"
+                    ]
                 ]
             },
             "list_of_players": [
@@ -38,7 +92,7 @@
                 "ER30003",
                 "WE15453"
             ],
-            "current_round": 1
+            "current_round": 4
         },
         "2": {
             "tournament_id": 4585,
@@ -46,7 +100,7 @@
             "city": "Moscau",
             "start_date": "16-1-2022",
             "end_date": "25-1-2022",
-            "rounds": 5,
+            "rounds": 4,
             "comments": "no",
             "list_rounds": {},
             "list_of_players": [
@@ -67,7 +121,7 @@
             "city": "Dallas",
             "start_date": "5-9-2022",
             "end_date": "15-9-2022",
-            "rounds": 6,
+            "rounds": 4,
             "comments": "no",
             "list_rounds": {},
             "list_of_players": [
@@ -83,7 +137,7 @@
             "city": "Paris",
             "start_date": "16-5-2022",
             "end_date": "22-5-2022",
-            "rounds": 5,
+            "rounds": 4,
             "comments": "no",
             "list_rounds": {},
             "list_of_players": [
@@ -102,7 +156,7 @@
             "city": "Torronto",
             "start_date": "4-4-2022",
             "end_date": "9-4-2022",
-            "rounds": 8,
+            "rounds": 4,
             "comments": "no",
             "list_rounds": {},
             "list_of_players": [
@@ -119,7 +173,7 @@
             "city": "Chicago",
             "start_date": "7-8-2022",
             "end_date": "15-8-2022",
-            "rounds": 6,
+            "rounds": 4,
             "comments": "no",
             "list_rounds": {},
             "list_of_players": [
@@ -155,7 +209,7 @@
             "city": "Warschau",
             "start_date": "11-10-2022",
             "end_date": "15-10-2022",
-            "rounds": 5,
+            "rounds": 4,
             "comments": "no",
             "list_rounds": {},
             "list_of_players": [
@@ -171,7 +225,7 @@
             "city": "Oslo",
             "start_date": "5-10-2022",
             "end_date": "15-10-2022",
-            "rounds": 6,
+            "rounds": 4,
             "comments": "no",
             "list_rounds": {},
             "list_of_players": [
@@ -187,7 +241,7 @@
             "city": "Barcelona",
             "start_date": "4-5-2022",
             "end_date": "9-5-2022",
-            "rounds": 5,
+            "rounds": 4,
             "comments": "no",
             "list_rounds": {},
             "list_of_players": [
@@ -203,7 +257,7 @@
             "city": "Wien",
             "start_date": "9-9-2022",
             "end_date": "18-9-2022",
-            "rounds": 7,
+            "rounds": 4,
             "comments": "no",
             "list_rounds": {},
             "list_of_players": [
@@ -235,7 +289,7 @@
             "city": "Peking",
             "start_date": "6-5-2022",
             "end_date": "12-5-2022",
-            "rounds": 6,
+            "rounds": 4,
             "comments": "no",
             "list_rounds": {},
             "list_of_players": [
@@ -269,7 +323,7 @@
             "city": "Budapest",
             "start_date": "7-7-2022",
             "end_date": "14-7-2022",
-            "rounds": 7,
+            "rounds": 4,
             "comments": "no",
             "list_rounds": {},
             "list_of_players": [
@@ -284,7 +338,7 @@
             "city": "Amsterdam",
             "start_date": "9-6-2022",
             "end_date": "12-6-2022",
-            "rounds": 6,
+            "rounds": 4,
             "comments": "no",
             "list_rounds": {},
             "list_of_players": [
@@ -299,7 +353,7 @@
             "city": "Bukarest",
             "start_date": "8-3-2022",
             "end_date": "15-3-2022",
-            "rounds": 5,
+            "rounds": 4,
             "comments": "no",
             "list_rounds": {},
             "list_of_players": [
@@ -307,6 +361,21 @@
                 "VD55296",
                 "WE58525",
                 "UI74848"
+            ],
+            "current_round": 0
+        },
+        "18": {
+            "tournament_id": 7787,
+            "name": "The Glen Tournament",
+            "city": "San Diego",
+            "start_date": "5-5-2022",
+            "end_date": "10-5-2022",
+            "rounds": 4,
+            "comments": "no",
+            "list_rounds": {},
+            "list_of_players": [
+                "GH95896",
+                "SE77008"
             ],
             "current_round": 0
         }

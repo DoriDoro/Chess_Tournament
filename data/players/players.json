@@ -70,7 +70,10 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "DE75321",
+                    "ER30003",
+                    "WE15453",
+                    "ER11102",
+                    "HG11102",
                     "JJ10203"
                 ]
             }
@@ -85,7 +88,10 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "JJ10203",
+                    "ER11102",
+                    "HG11102",
+                    "ER30003",
+                    "WE15453",
                     "DE75321"
                 ]
             }
@@ -100,7 +106,10 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "YU60023",
+                    "ER11102",
+                    "HG11102",
+                    "ER30003",
+                    "WE15453",
                     "JI98563"
                 ]
             }
@@ -115,7 +124,10 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "HG11102",
+                    "JI98563",
+                    "YU60023",
+                    "JJ10203",
+                    "DE75321",
                     "ER11102"
                 ]
             }
@@ -130,7 +142,10 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "ER11102",
+                    "DE75321",
+                    "JJ10203",
+                    "YU60023",
+                    "JI98563",
                     "HG11102"
                 ]
             }
@@ -145,7 +160,10 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "WE15453",
+                    "JJ10203",
+                    "DE75321",
+                    "JI98563",
+                    "YU60023",
                     "ER30003"
                 ]
             }
@@ -724,7 +742,10 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "JI98563",
+                    "WE15453",
+                    "ER30003",
+                    "HG11102",
+                    "ER11102",
                     "YU60023"
                 ]
             }
@@ -835,9 +856,36 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "ER30003",
+                    "JI98563",
+                    "YU60023",
+                    "JJ10203",
+                    "DE75321",
                     "WE15453"
                 ]
+            }
+        },
+        "69": {
+            "player_id": "GH95896",
+            "first_name": "Victor",
+            "last_name": "Degon",
+            "birth_date": "5-6-1997",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "The Glen Tournament",
+                "played_against": []
+            }
+        },
+        "70": {
+            "player_id": "SE77008",
+            "first_name": "Alina",
+            "last_name": "Starkler",
+            "birth_date": "11-12-2000",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "The Glen Tournament",
+                "played_against": []
             }
         }
     }

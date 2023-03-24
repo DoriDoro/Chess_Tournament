@@ -48,23 +48,12 @@ def create_player_controller(data_player):
     all_players.insert(data)
 
 
-def add_player_id_to_list_of_players_controller(player_id, tournament_name):
-    get_list_of_players = get_player_id_from_list_of_players(tournament_name)
+def add_player_id_to_list_of_players_controller(player_id, name_of_tournament):
+    get_list_of_players = _get_tournament(name_of_tournament)['list_of_players']
 
     tournament_table = _get_tournament_table()
 
-    # update the list_of_player list in tournaments.json:
-    tournament_table.update({"list_of_players": get_list_of_players + [player_id]}, Query().name == tournament_name)
-    # database.close()
-
-
-# option 1: create player and option 3: start a tournament:
-# this function is not necessary
-def get_player_id_from_list_of_players(name_of_tournament):
-    tournament = _get_tournament(name_of_tournament)
-    get_list_of_players = tournament['list_of_players']
-
-    return get_list_of_players
+    tournament_table.update({"list_of_players": get_list_of_players + [player_id]}, Query().name == name_of_tournament)
 
 
 # option 3: start a tournament:
@@ -75,46 +64,36 @@ def pair_players_first_round_controller(name_of_tournament):
     for i in range(0, len(list_of_players), 2):
         pair = [list_of_players[i], list_of_players[i+1]]
         pair_players.append(pair)
-        print("pair_players", pair_players)
 
     return pair_players
 
 
-def pair_players_next_rounds_controller(name_of_tournament):
-    list_of_players = _get_tournament(name_of_tournament)["list_of_players"]
+def pair_players_next_rounds_controller(name_of_tournament, current_round):
 
-    get_played_against = []
-    for player_id in list_of_players:
-        # print("list", _get_player(player_id)['played_tournaments']['played_against'])
-        get_played_against_of_player = _get_player(player_id)['played_tournaments']['played_against']
+    paired_players = pair_players_first_round_controller(name_of_tournament)
+    paired_players_tournament = _get_tournament(name_of_tournament)['list_rounds']
 
-        data = {"player_id": player_id, "played_against": get_played_against_of_player}
-        get_played_against.append(data)
+    current_list_rounds = paired_players_tournament[f"{current_round}"]
 
-    paired_players = random.sample(list_of_players, k=2)
-    # [['JI98563', 'YU60023'], ['JJ10203', 'DE75321'], ['ER11102', 'HG11102'], ['ER30003', 'WE15453']]
-    print("paired", paired_players)
+    if current_round < 3:
+        new_pair_players = []
+        for i in range(len(current_list_rounds)):
+            if i % 2 == 0:
+                new_pair_players.append([current_list_rounds[i][0], current_list_rounds[i+1][0]])
+                new_pair_players.append([current_list_rounds[i+1][1], current_list_rounds[i][1]])
 
-    for player in get_played_against:
-        if player["player_id"] == paired_players[0]:
-            print("player", player)
-            if paired_players[1] in player["played_against"]:
-                print("player 2", paired_players[1])
-                print("list played against", player["played_against"])
-                paired_players = random.sample(list_of_players, k=2)
-                print("paired 2", paired_players)
-        elif player["player_id"] == paired_players[1]:
-            print("player", player)
-            if paired_players[0] in player["played_against"]:
-                print("player 1", paired_players[0])
-                print("list played against", player["played_against"])
-                paired_players = random.sample(list_of_players, k=2)
-                print("else paired", paired_players)
+        return new_pair_players
 
-    return get_played_against
+    elif current_round == 3:
+        new_pair_players = [[paired_players[0][0], paired_players[2][0]], [paired_players[0][1], paired_players[2][1]],
+                            [paired_players[1][0], paired_players[3][0]], [paired_players[1][1], paired_players[3][1]]]
+
+        return new_pair_players
 
 
 def pair_players_controller(name_of_tournament):
+    from views.player import end_tournament_view
+
     current_round = _get_tournament(name_of_tournament)["current_round"]
     rounds = _get_tournament(name_of_tournament)["rounds"]
 
@@ -126,19 +105,17 @@ def pair_players_controller(name_of_tournament):
         add_player_id_to_played_against_controller(paired_players, name_of_tournament, current_round)
         list_of_names = get_name_of_player(paired_players)
 
-    elif current_round <= rounds:
-        paired_players = pair_players_next_rounds_controller(name_of_tournament)
-        print("next pairs", paired_players)
+    elif current_round < rounds:
+        second_paired_players = pair_players_next_rounds_controller(name_of_tournament, current_round)
+        paired_players = second_paired_players
 
         add_player_id_to_played_against_controller(paired_players, name_of_tournament, current_round)
         list_of_names = get_name_of_player(paired_players)
 
-    # TODO: if current_round is more than rounds do something...
     else:
-        print("The tournament is over!")
+        return end_tournament_view(name_of_tournament)
 
     # update rounds in tournament
-    # TODO create private function
     tournament_table = _get_tournament_table()
     tournament_table.update({"current_round": (current_round + 1)}, Query().name == name_of_tournament)
 
@@ -148,16 +125,15 @@ def pair_players_controller(name_of_tournament):
 def verify_number_of_player(name_of_tournament):
     from views.player import add_additional_player_to_tournament_view
 
-    get_verified_list_of_players_before = get_player_id_from_list_of_players(name_of_tournament)
+    get_verified_list_of_players_before = _get_tournament(name_of_tournament)['list_of_players']
 
-    # check if 8 players are inside the list_of_players:
     number_of_players = len(get_verified_list_of_players_before)
 
     while number_of_players < 8:
         add_additional_player_to_tournament_view(name_of_tournament)
         number_of_players += 1
 
-    get_verified_list_of_players = get_player_id_from_list_of_players(name_of_tournament)
+    get_verified_list_of_players = _get_tournament(name_of_tournament)['list_of_players']
 
     return get_verified_list_of_players
 
@@ -165,6 +141,7 @@ def verify_number_of_player(name_of_tournament):
 def add_player_id_to_played_against_controller(player_ids, name_of_tournament, current_round):
     tournament_table = _get_tournament_table()
     player_table = _get_player_table()
+    data_list_rounds = _get_tournament(name_of_tournament)["list_rounds"]
 
     # TODO: simplify this function  for i in range(0, 4)
     get_played_against_player_1 = _get_player(player_ids[0][0])["played_tournaments"]["played_against"]
@@ -191,9 +168,10 @@ def add_player_id_to_played_against_controller(player_ids, name_of_tournament, c
     get_played_against_player_8 = _get_player(player_ids[3][1])["played_tournaments"]["played_against"]
     get_played_against_player_8 += [player_ids[3][0]]
 
-    data = {current_round: player_ids}
+    data = {(current_round+1): player_ids}
+    data_list_rounds.update(data)
 
-    tournament_table.update({"list_rounds": data}, Query().name == name_of_tournament)
+    tournament_table.update({"list_rounds": data_list_rounds}, Query().name == name_of_tournament)
 
     # TODO simplify this function
     player_table.update({"played_tournaments": {"name": name_of_tournament,

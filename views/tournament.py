@@ -27,7 +27,6 @@ def create_tournament_view():
     city = str(input(" Location of tournament: "))
     start_date = str(input(" Start date (dd-mm-yyyy): "))
     end_date = str(input(" End date (dd-mm-yyyy): "))
-    rounds = int(input(" Number of rounds? "))
     comments = str(input(" Any comments? "))
     print()
     print(f" You have just created this tournament:")
@@ -35,11 +34,10 @@ def create_tournament_view():
     print(f"   [name]: {name}")
     print(f"   [city]: {city}")
     print(f"   [start date]: {start_date} and [end date]: {end_date}")
-    print(f"   [rounds]: {rounds}")
     print(f"   [comments]: {comments}", end="\n\n")
 
     data_tournament = {"tournament_id": tournament_id, "name": name, "city": city, "start_date": start_date,
-                       "end_date": end_date, "rounds": rounds, "comments": comments}
+                       "end_date": end_date, "rounds": 4, "comments": comments}
 
     create_tournament_controller(data_tournament)
 
@@ -74,6 +72,7 @@ def choose_tournament_view(tournament_id_name_list):
 
                 # get the first pair
                 pair_player = pair_players_controller(name)
+                # TODO if tournament is over the print below are not working anymore
                 print(f"  The first pairs for - {name} - are:", end="\n\n")
                 print(f"  {pair_player[0]} and {pair_player[1]}")
                 print(f"  {pair_player[2]} and {pair_player[3]}")

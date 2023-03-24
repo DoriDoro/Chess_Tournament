@@ -21,8 +21,7 @@ def add_player_to_tournament_view(tournament_id_name_list):
             if choice == tournament_id:
                 print(f" You have chosen: {name}", end="\n\n")
 
-                # create while loop to add x players in one tournament
-                number_of_player = 2
+                number_of_player = 8
                 while number_of_player > 0:
                     create_player_view(name)
                     number_of_player -= 1
@@ -57,3 +56,7 @@ def create_player_view(name_of_tournament):
 def add_additional_player_to_tournament_view(name_of_tournament):
     print("   There are not enough players available for this tournament.", end="\n\n")
     create_player_view(name_of_tournament)
+
+
+def end_tournament_view(name_of_tournament):
+    print(f"  The {name_of_tournament} is over.")
