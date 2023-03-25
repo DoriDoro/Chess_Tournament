@@ -92,25 +92,25 @@ def pair_players_next_rounds_controller(name_of_tournament, current_round):
 
 
 def pair_players_controller(name_of_tournament):
-    from views.player import end_tournament_view
+    from views.tournament import end_tournament_view
 
     current_round = _get_tournament(name_of_tournament)["current_round"]
     rounds = _get_tournament(name_of_tournament)["rounds"]
 
-    verify_number_of_player(name_of_tournament)
+    verify_number_of_player_controller(name_of_tournament)
 
     if current_round == 0:
         paired_players = pair_players_first_round_controller(name_of_tournament)
 
         add_player_id_to_played_against_controller(paired_players, name_of_tournament, current_round)
-        list_of_names = get_name_of_player(paired_players)
+        list_of_names = get_name_of_player_controller(paired_players)
 
     elif current_round < rounds:
         second_paired_players = pair_players_next_rounds_controller(name_of_tournament, current_round)
         paired_players = second_paired_players
 
         add_player_id_to_played_against_controller(paired_players, name_of_tournament, current_round)
-        list_of_names = get_name_of_player(paired_players)
+        list_of_names = get_name_of_player_controller(paired_players)
 
     else:
         return end_tournament_view(name_of_tournament)
@@ -122,7 +122,7 @@ def pair_players_controller(name_of_tournament):
     return list_of_names
 
 
-def verify_number_of_player(name_of_tournament):
+def verify_number_of_player_controller(name_of_tournament):
     from views.player import add_additional_player_to_tournament_view
 
     get_verified_list_of_players_before = _get_tournament(name_of_tournament)['list_of_players']
@@ -203,7 +203,7 @@ def add_player_id_to_played_against_controller(player_ids, name_of_tournament, c
                         Query().player_id == player_ids[3][0])
 
 
-def get_name_of_player(player_ids):
+def get_name_of_player_controller(player_ids):
     player_table = _get_player_table()
 
     player_1 = player_table.get(Query().player_id == player_ids[0][0])
@@ -231,3 +231,46 @@ def get_name_of_player(player_ids):
     p8_name = f"{player_8['first_name']} {player_8['last_name']}"
 
     return p1_name, p2_name, p3_name, p4_name, p5_name, p6_name, p7_name, p8_name
+
+
+def create_score_controller(list_score):
+    """
+    player1 : player2
+    1 win player1  1  player1 1 point player2 0 points
+    2 win player2  1
+    3 same 0.5 for each player
+    """
+    # player_ids:
+    # [['WE12365', 'OL45645'], ['UI78547', 'JJ44444'], ['ER85756', 'WS96860'], ['UI14241', 'TY85763']]
+    # input how is winner
+
+    print(list_score)
+    """  
+      [
+      ['Helen Stark', 'Dean Trello', 1], 
+      ['Danny Blitz', 'Sarah Dean', 2], 
+      ['Odin Thor', 'Bilan Urk', 3], 
+      ['Odin Sky', 'Ragnar Hammer', 2]
+      ]
+      
+      1 means first player has won the match.")
+      2 means second player has won the match.")
+      3 is for a draw."
+    """
+    for i in range(0, 4):
+        if list_score[i][2] == 1:
+            print("first player won")
+            # add 1 point to score of player 1
+            # add 0 point to score of player 2
+        elif list_score[i][2] == 2:
+            print("second player won")
+            # add 0 point to score of player 1
+            # add 1 point to score of player 2
+        else:
+            print("draw")
+            # add 0.5 points to both player
+
+
+def update_score_controller(player_id, name_of_tournament):
+    score = _get_player(player_id)["score"]
+

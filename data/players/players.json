@@ -45,7 +45,11 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Big One",
-                "played_against": []
+                "played_against": [
+                    "UI14241",
+                    "TY85763",
+                    "JJ44444"
+                ]
             }
         },
         "5": {
@@ -70,10 +74,15 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "ER30003",
                     "WE15453",
-                    "ER11102",
+                    "ER30003",
                     "HG11102",
+                    "ER11102",
+                    "YU60023",
+                    "JI98563",
+                    "JJ10203",
+                    "DE75321",
+                    "YU60023",
                     "JJ10203"
                 ]
             }
@@ -92,6 +101,11 @@
                     "HG11102",
                     "ER30003",
                     "WE15453",
+                    "JI98563",
+                    "YU60023",
+                    "DE75321",
+                    "JJ10203",
+                    "JI98563",
                     "DE75321"
                 ]
             }
@@ -110,6 +124,11 @@
                     "HG11102",
                     "ER30003",
                     "WE15453",
+                    "DE75321",
+                    "JJ10203",
+                    "JI98563",
+                    "YU60023",
+                    "DE75321",
                     "JI98563"
                 ]
             }
@@ -128,6 +147,11 @@
                     "YU60023",
                     "JJ10203",
                     "DE75321",
+                    "WE15453",
+                    "ER30003",
+                    "ER11102",
+                    "HG11102",
+                    "WE15453",
                     "ER11102"
                 ]
             }
@@ -142,10 +166,15 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "DE75321",
                     "JJ10203",
-                    "YU60023",
+                    "DE75321",
                     "JI98563",
+                    "YU60023",
+                    "ER30003",
+                    "WE15453",
+                    "HG11102",
+                    "ER11102",
+                    "ER30003",
                     "HG11102"
                 ]
             }
@@ -160,10 +189,15 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "JJ10203",
                     "DE75321",
-                    "JI98563",
+                    "JJ10203",
                     "YU60023",
+                    "JI98563",
+                    "HG11102",
+                    "ER11102",
+                    "ER30003",
+                    "WE15453",
+                    "HG11102",
                     "ER30003"
                 ]
             }
@@ -177,7 +211,10 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": []
+                "played_against": [
+                    "OO10023",
+                    "QQ19002"
+                ]
             }
         },
         "13": {
@@ -201,7 +238,10 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": []
+                "played_against": [
+                    "KS85236",
+                    "IK52136"
+                ]
             }
         },
         "15": {
@@ -213,7 +253,10 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": []
+                "played_against": [
+                    "IK52136",
+                    "KS85236"
+                ]
             }
         },
         "16": {
@@ -225,7 +268,10 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": []
+                "played_against": [
+                    "QQ19002",
+                    "OO10023"
+                ]
             }
         },
         "17": {
@@ -237,7 +283,10 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": []
+                "played_against": [
+                    "JU74521",
+                    "UJ14521"
+                ]
             }
         },
         "18": {
@@ -249,7 +298,10 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": []
+                "played_against": [
+                    "UU14789",
+                    "II14563"
+                ]
             }
         },
         "19": {
@@ -261,7 +313,10 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": []
+                "played_against": [
+                    "II14563",
+                    "UU14789"
+                ]
             }
         },
         "20": {
@@ -273,7 +328,11 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Big One",
-                "played_against": []
+                "played_against": [
+                    "WS96860",
+                    "ER85756",
+                    "WE12365"
+                ]
             }
         },
         "21": {
@@ -285,7 +344,11 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Big One",
-                "played_against": []
+                "played_against": [
+                    "TY85763",
+                    "UI14241",
+                    "UI78547"
+                ]
             }
         },
         "22": {
@@ -333,7 +396,10 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The Sensation",
-                "played_against": []
+                "played_against": [
+                    "UJ14521",
+                    "JU74521"
+                ]
             }
         },
         "26": {
@@ -717,7 +783,12 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
-                "played_against": []
+                "played_against": [
+                    "CX555263",
+                    "QW14293",
+                    "DF100025",
+                    "OL74743"
+                ]
             }
         },
         "58": {
@@ -729,7 +800,12 @@
             "score": 0.0,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
-                "played_against": []
+                "played_against": [
+                    "DF100025",
+                    "IO25223",
+                    "CX555263",
+                    "UI14253"
+                ]
             }
         },
         "59": {
@@ -742,10 +818,15 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "WE15453",
                     "ER30003",
-                    "HG11102",
+                    "WE15453",
                     "ER11102",
+                    "HG11102",
+                    "JJ10203",
+                    "DE75321",
+                    "YU60023",
+                    "JI98563",
+                    "JJ10203",
                     "YU60023"
                 ]
             }
@@ -860,6 +941,11 @@
                     "YU60023",
                     "JJ10203",
                     "DE75321",
+                    "ER11102",
+                    "HG11102",
+                    "WE15453",
+                    "ER30003",
+                    "ER11102",
                     "WE15453"
                 ]
             }
@@ -886,6 +972,236 @@
             "played_tournaments": {
                 "name": "The Glen Tournament",
                 "played_against": []
+            }
+        },
+        "71": {
+            "player_id": "OL45645",
+            "first_name": "Oliver",
+            "last_name": "Hack",
+            "birth_date": "5-12-2001",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "The Big One",
+                "played_against": [
+                    "ER85756",
+                    "WS96860",
+                    "OL45645"
+                ]
+            }
+        },
+        "72": {
+            "player_id": "ER85756",
+            "first_name": "Lenny",
+            "last_name": "San",
+            "birth_date": "4-7-2002",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "The Big One",
+                "played_against": [
+                    "OL45645",
+                    "WE12365",
+                    "ER85756"
+                ]
+            }
+        },
+        "73": {
+            "player_id": "UI14241",
+            "first_name": "Dori",
+            "last_name": "Fish",
+            "birth_date": "9-10-2000",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "The Big One",
+                "played_against": [
+                    "JJ44444",
+                    "UI78547",
+                    "UI14241"
+                ]
+            }
+        },
+        "74": {
+            "player_id": "TY85763",
+            "first_name": "Allen",
+            "last_name": "Fitch",
+            "birth_date": "10-3-2001",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "The Big One",
+                "played_against": [
+                    "UI78547",
+                    "JJ44444",
+                    "TY85763"
+                ]
+            }
+        },
+        "75": {
+            "player_id": "WS96860",
+            "first_name": "Karl",
+            "last_name": "School",
+            "birth_date": "2-7-1998",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "The Big One",
+                "played_against": [
+                    "WE12365",
+                    "OL45645",
+                    "WS96860"
+                ]
+            }
+        },
+        "76": {
+            "player_id": "SD15003",
+            "first_name": "Paul",
+            "last_name": "Ian",
+            "birth_date": "5-10-1980",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "Dragon Chess",
+                "played_against": []
+            }
+        },
+        "77": {
+            "player_id": "UU00023",
+            "first_name": "Nasa",
+            "last_name": "Sira",
+            "birth_date": "10-10-1999",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "Dragon Chess",
+                "played_against": []
+            }
+        },
+        "78": {
+            "player_id": "YI11059",
+            "first_name": "Yannik",
+            "last_name": "York",
+            "birth_date": "4-7-1980",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "Dragon Chess",
+                "played_against": []
+            }
+        },
+        "79": {
+            "player_id": "CD14365",
+            "first_name": "Berry",
+            "last_name": "Dean",
+            "birth_date": "10-2-1999",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "Dragon Chess",
+                "played_against": []
+            }
+        },
+        "80": {
+            "player_id": "EW45245",
+            "first_name": "Josh",
+            "last_name": "Bash",
+            "birth_date": "7-10-1980",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "The James Bond Tournament",
+                "played_against": [
+                    "QW14293",
+                    "CX555263",
+                    "IO25223",
+                    "EW45245"
+                ]
+            }
+        },
+        "81": {
+            "player_id": "HN15978",
+            "first_name": "Terry",
+            "last_name": "Losh",
+            "birth_date": "2-10-1999",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "The James Bond Tournament",
+                "played_against": [
+                    "IO25223",
+                    "DF100025",
+                    "QW14293",
+                    "HN15978"
+                ]
+            }
+        },
+        "82": {
+            "player_id": "DF100025",
+            "first_name": "Henry",
+            "last_name": "Lower",
+            "birth_date": "5-5-1998",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "The James Bond Tournament",
+                "played_against": [
+                    "UI14253",
+                    "HN15978",
+                    "OL74743",
+                    "DF100025"
+                ]
+            }
+        },
+        "83": {
+            "player_id": "CX555263",
+            "first_name": "Ronald",
+            "last_name": "Weddle",
+            "birth_date": "8-8-1998",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "The James Bond Tournament",
+                "played_against": [
+                    "OL74743",
+                    "EW45245",
+                    "UI14253",
+                    "CX555263"
+                ]
+            }
+        },
+        "84": {
+            "player_id": "IO25223",
+            "first_name": "Dian",
+            "last_name": "Blah",
+            "birth_date": "6-10-1980",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "The James Bond Tournament",
+                "played_against": [
+                    "HN15978",
+                    "UI14253",
+                    "EW45245",
+                    "IO25223"
+                ]
+            }
+        },
+        "85": {
+            "player_id": "QW14293",
+            "first_name": "Shela",
+            "last_name": "Hat",
+            "birth_date": "5-10-1998",
+            "rank": 0,
+            "score": 0.0,
+            "played_tournaments": {
+                "name": "The James Bond Tournament",
+                "played_against": [
+                    "EW45245",
+                    "OL74743",
+                    "HN15978",
+                    "QW14293"
+                ]
             }
         }
     }

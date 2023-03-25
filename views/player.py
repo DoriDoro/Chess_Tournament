@@ -56,7 +56,3 @@ def create_player_view(name_of_tournament):
 def add_additional_player_to_tournament_view(name_of_tournament):
     print("   There are not enough players available for this tournament.", end="\n\n")
     create_player_view(name_of_tournament)
-
-
-def end_tournament_view(name_of_tournament):
-    print(f"  The {name_of_tournament} is over.")
