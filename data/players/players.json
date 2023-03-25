@@ -6,7 +6,7 @@
             "last_name": "Phone",
             "birth_date": "5-12-2000",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Great Chance",
                 "played_against": []
@@ -18,7 +18,7 @@
             "last_name": "Griff",
             "birth_date": "11-10-1999",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Great Chance",
                 "played_against": []
@@ -30,7 +30,7 @@
             "last_name": "Stripe",
             "birth_date": "15-12-1999",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Paris Tours",
                 "played_against": []
@@ -42,7 +42,7 @@
             "last_name": "Bean",
             "birth_date": "5-12-2000",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Big One",
                 "played_against": [
@@ -58,7 +58,7 @@
             "last_name": "Stone",
             "birth_date": "5-12-1999",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Chess Club",
                 "played_against": []
@@ -70,16 +70,22 @@
             "last_name": "Dean",
             "birth_date": "6-11-1998",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "WE15453",
-                    "ER30003",
-                    "HG11102",
-                    "ER11102",
-                    "YU60023",
                     "JI98563",
+                    "JJ10203",
+                    "DE75321",
+                    "YU60023",
+                    "JJ10203",
+                    "ER30003",
+                    "WE15453",
+                    "HG11102",
+                    "ER30003",
+                    "WE15453",
+                    "HG11102",
+                    "ER30003",
                     "JJ10203",
                     "DE75321",
                     "YU60023",
@@ -93,16 +99,22 @@
             "last_name": "Trello",
             "birth_date": "9-10-1987",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "ER11102",
-                    "HG11102",
-                    "ER30003",
-                    "WE15453",
-                    "JI98563",
                     "YU60023",
+                    "DE75321",
+                    "JJ10203",
+                    "JI98563",
+                    "DE75321",
+                    "WE15453",
+                    "ER30003",
+                    "ER11102",
+                    "WE15453",
+                    "ER30003",
+                    "ER11102",
+                    "WE15453",
                     "DE75321",
                     "JJ10203",
                     "JI98563",
@@ -116,16 +128,22 @@
             "last_name": "Stark",
             "birth_date": "8-12-1999",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
+                    "JJ10203",
+                    "JI98563",
+                    "YU60023",
+                    "DE75321",
+                    "JI98563",
                     "ER11102",
                     "HG11102",
-                    "ER30003",
                     "WE15453",
-                    "DE75321",
-                    "JJ10203",
+                    "ER11102",
+                    "HG11102",
+                    "WE15453",
+                    "ER11102",
                     "JI98563",
                     "YU60023",
                     "DE75321",
@@ -139,16 +157,22 @@
             "last_name": "Thor",
             "birth_date": "11-11-2000",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
+                    "ER30003",
+                    "ER11102",
+                    "HG11102",
+                    "WE15453",
+                    "ER11102",
                     "JI98563",
                     "YU60023",
-                    "JJ10203",
                     "DE75321",
-                    "WE15453",
-                    "ER30003",
+                    "JI98563",
+                    "YU60023",
+                    "DE75321",
+                    "JI98563",
                     "ER11102",
                     "HG11102",
                     "WE15453",
@@ -162,16 +186,22 @@
             "last_name": "Sky",
             "birth_date": "11-11-1999",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "JJ10203",
-                    "DE75321",
-                    "JI98563",
-                    "YU60023",
-                    "ER30003",
                     "WE15453",
+                    "HG11102",
+                    "ER11102",
+                    "ER30003",
+                    "HG11102",
+                    "YU60023",
+                    "JI98563",
+                    "JJ10203",
+                    "YU60023",
+                    "JI98563",
+                    "JJ10203",
+                    "YU60023",
                     "HG11102",
                     "ER11102",
                     "ER30003",
@@ -185,16 +215,22 @@
             "last_name": "Hammer",
             "birth_date": "9-9-1999",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "DE75321",
-                    "JJ10203",
-                    "YU60023",
-                    "JI98563",
-                    "HG11102",
                     "ER11102",
+                    "ER30003",
+                    "WE15453",
+                    "HG11102",
+                    "ER30003",
+                    "JJ10203",
+                    "DE75321",
+                    "YU60023",
+                    "JJ10203",
+                    "DE75321",
+                    "YU60023",
+                    "JJ10203",
                     "ER30003",
                     "WE15453",
                     "HG11102",
@@ -208,7 +244,7 @@
             "last_name": "Weak",
             "birth_date": "4-12-1988",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
@@ -223,7 +259,7 @@
             "last_name": "Last",
             "birth_date": "11-11-1988",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Magic Tournament",
                 "played_against": []
@@ -235,7 +271,7 @@
             "last_name": "Darling",
             "birth_date": "10-2-2001",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
@@ -250,7 +286,7 @@
             "last_name": "Ville",
             "birth_date": "12-1-1977",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
@@ -265,7 +301,7 @@
             "last_name": "Hill",
             "birth_date": "3-12-1988",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
@@ -280,7 +316,7 @@
             "last_name": "Young",
             "birth_date": "9-8-1999",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
@@ -295,7 +331,7 @@
             "last_name": "Carter",
             "birth_date": "14-10-1990",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
@@ -310,7 +346,7 @@
             "last_name": "Rouen",
             "birth_date": "3-1-2000",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
@@ -325,7 +361,7 @@
             "last_name": "Sterling",
             "birth_date": "12-10-1980",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Big One",
                 "played_against": [
@@ -341,7 +377,7 @@
             "last_name": "Stark",
             "birth_date": "9-10-1998",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Big One",
                 "played_against": [
@@ -357,7 +393,7 @@
             "last_name": "Donna",
             "birth_date": "11-11-1991",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Handshake",
                 "played_against": []
@@ -369,7 +405,7 @@
             "last_name": "Donald",
             "birth_date": "11-11-1991",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Princess",
                 "played_against": []
@@ -381,7 +417,7 @@
             "last_name": "Stone",
             "birth_date": "4-4-1980",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Paris Tours",
                 "played_against": []
@@ -393,7 +429,7 @@
             "last_name": "Ben",
             "birth_date": "9-9-1999",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
@@ -408,7 +444,7 @@
             "last_name": "Milan",
             "birth_date": "5-8-2001",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Great Chance",
                 "played_against": []
@@ -420,7 +456,7 @@
             "last_name": "Bright",
             "birth_date": "7-11-2002",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Great Chance",
                 "played_against": []
@@ -432,7 +468,7 @@
             "last_name": "Heat",
             "birth_date": "9-10-1980",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Handshake",
                 "played_against": []
@@ -444,7 +480,7 @@
             "last_name": "Kaplan",
             "birth_date": "4-12-1987",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Handshake",
                 "played_against": []
@@ -456,7 +492,7 @@
             "last_name": "Light",
             "birth_date": "11-4-1980",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Paris Tours",
                 "played_against": []
@@ -468,7 +504,7 @@
             "last_name": "Bath",
             "birth_date": "5-11-2000",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Paris Tours",
                 "played_against": []
@@ -480,7 +516,7 @@
             "last_name": "Drago",
             "birth_date": "4-9-1984",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Princess",
                 "played_against": []
@@ -492,7 +528,7 @@
             "last_name": "Yak",
             "birth_date": "9-9-1999",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Princess",
                 "played_against": []
@@ -504,7 +540,7 @@
             "last_name": "Stone",
             "birth_date": "7-7-18-988",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Princess",
                 "played_against": []
@@ -516,7 +552,7 @@
             "last_name": "Stone",
             "birth_date": "5-12-1998",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Bulls",
                 "played_against": []
@@ -528,7 +564,7 @@
             "last_name": "Stone",
             "birth_date": "5-5-1980",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Bulls",
                 "played_against": []
@@ -540,7 +576,7 @@
             "last_name": "Stone",
             "birth_date": "11-10-1988",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Bulls",
                 "played_against": []
@@ -552,7 +588,7 @@
             "last_name": "Stark",
             "birth_date": "8-8-1998",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Bulls",
                 "played_against": []
@@ -564,7 +600,7 @@
             "last_name": "Hart",
             "birth_date": "9-10-2000",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Paris Tours",
                 "played_against": []
@@ -576,7 +612,7 @@
             "last_name": "Oppenauer",
             "birth_date": "11-10-1998",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Paris Tours",
                 "played_against": []
@@ -588,7 +624,7 @@
             "last_name": "Bird",
             "birth_date": "4-10-1989",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Pearl Chess",
                 "played_against": []
@@ -600,7 +636,7 @@
             "last_name": "Bloom",
             "birth_date": "9-9-1999",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Pearl Chess",
                 "played_against": []
@@ -612,7 +648,7 @@
             "last_name": "Wagon",
             "birth_date": "11-10-2001",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Pearl Chess",
                 "played_against": []
@@ -624,7 +660,7 @@
             "last_name": "Crazy",
             "birth_date": "6-12-1980",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The New World",
                 "played_against": []
@@ -636,7 +672,7 @@
             "last_name": "Disney",
             "birth_date": "11-11-2000",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The New World",
                 "played_against": []
@@ -648,7 +684,7 @@
             "last_name": "White",
             "birth_date": "5-5-1998",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The New World",
                 "played_against": []
@@ -660,7 +696,7 @@
             "last_name": "Vihle",
             "birth_date": "11-12-2000",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "China Chess Tournament",
                 "played_against": []
@@ -672,7 +708,7 @@
             "last_name": "Tarzan",
             "birth_date": "5-5-1980",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "China Chess Tournament",
                 "played_against": []
@@ -684,7 +720,7 @@
             "last_name": "Cross",
             "birth_date": "4-6-1998",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "China Chess Tournament",
                 "played_against": []
@@ -696,7 +732,7 @@
             "last_name": "Wired",
             "birth_date": "6-5-2000",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Saint Antonin Nantes",
                 "played_against": []
@@ -708,7 +744,7 @@
             "last_name": "Jones",
             "birth_date": "11-11-2000",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Saint Antonin Nantes",
                 "played_against": []
@@ -720,7 +756,7 @@
             "last_name": "Zen",
             "birth_date": "9-10-1988",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Saint Antonin Nantes",
                 "played_against": []
@@ -732,7 +768,7 @@
             "last_name": "Flinn",
             "birth_date": "11-7-2000",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Chess Club",
                 "played_against": []
@@ -744,7 +780,7 @@
             "last_name": "Devito",
             "birth_date": "5-9-1998",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Chess Club",
                 "played_against": []
@@ -756,7 +792,7 @@
             "last_name": "Bright",
             "birth_date": "5-9-2000",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Magic Tournament",
                 "played_against": []
@@ -768,7 +804,7 @@
             "last_name": "Russov",
             "birth_date": "7-10-2001",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Magic Tournament",
                 "played_against": []
@@ -780,7 +816,7 @@
             "last_name": "Carter",
             "birth_date": "11-4-1988",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
                 "played_against": [
@@ -797,7 +833,7 @@
             "last_name": "Lose",
             "birth_date": "5-5-1999",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
                 "played_against": [
@@ -814,16 +850,22 @@
             "last_name": "Blitz",
             "birth_date": "5-9-2000",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "ER30003",
-                    "WE15453",
-                    "ER11102",
-                    "HG11102",
-                    "JJ10203",
                     "DE75321",
+                    "YU60023",
+                    "JI98563",
+                    "JJ10203",
+                    "YU60023",
+                    "HG11102",
+                    "ER11102",
+                    "ER30003",
+                    "HG11102",
+                    "ER11102",
+                    "ER30003",
+                    "HG11102",
                     "YU60023",
                     "JI98563",
                     "JJ10203",
@@ -837,7 +879,7 @@
             "last_name": "Zar",
             "birth_date": "5-5-2000",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Gigant Chess",
                 "played_against": []
@@ -849,7 +891,7 @@
             "last_name": "Lin",
             "birth_date": "6-7-1980",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Gigant Chess",
                 "played_against": []
@@ -861,7 +903,7 @@
             "last_name": "Bucca",
             "birth_date": "4-7-1981",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Dragon Chess",
                 "played_against": []
@@ -873,7 +915,7 @@
             "last_name": "Clagon",
             "birth_date": "8-10-2001",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Dragon Chess",
                 "played_against": []
@@ -885,7 +927,7 @@
             "last_name": "Devito",
             "birth_date": "4-9-2000",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Dragon Chess",
                 "played_against": []
@@ -897,7 +939,7 @@
             "last_name": "Thomson",
             "birth_date": "7-10-2001",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Dragon Chess",
                 "played_against": []
@@ -909,7 +951,7 @@
             "last_name": "Steal",
             "birth_date": "4-5-1998",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Saint Antonin Nantes",
                 "played_against": []
@@ -921,7 +963,7 @@
             "last_name": "Leger",
             "birth_date": "7-9-1999",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Saint Antonin Nantes",
                 "played_against": []
@@ -933,16 +975,22 @@
             "last_name": "Urk",
             "birth_date": "9-8-1992",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "JI98563",
-                    "YU60023",
-                    "JJ10203",
-                    "DE75321",
-                    "ER11102",
                     "HG11102",
+                    "WE15453",
+                    "ER30003",
+                    "ER11102",
+                    "WE15453",
+                    "DE75321",
+                    "JJ10203",
+                    "JI98563",
+                    "DE75321",
+                    "JJ10203",
+                    "JI98563",
+                    "DE75321",
                     "WE15453",
                     "ER30003",
                     "ER11102",
@@ -956,7 +1004,7 @@
             "last_name": "Degon",
             "birth_date": "5-6-1997",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Glen Tournament",
                 "played_against": []
@@ -968,7 +1016,7 @@
             "last_name": "Starkler",
             "birth_date": "11-12-2000",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Glen Tournament",
                 "played_against": []
@@ -980,7 +1028,7 @@
             "last_name": "Hack",
             "birth_date": "5-12-2001",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Big One",
                 "played_against": [
@@ -996,7 +1044,7 @@
             "last_name": "San",
             "birth_date": "4-7-2002",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Big One",
                 "played_against": [
@@ -1012,7 +1060,7 @@
             "last_name": "Fish",
             "birth_date": "9-10-2000",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Big One",
                 "played_against": [
@@ -1028,7 +1076,7 @@
             "last_name": "Fitch",
             "birth_date": "10-3-2001",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Big One",
                 "played_against": [
@@ -1044,7 +1092,7 @@
             "last_name": "School",
             "birth_date": "2-7-1998",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Big One",
                 "played_against": [
@@ -1060,7 +1108,7 @@
             "last_name": "Ian",
             "birth_date": "5-10-1980",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Dragon Chess",
                 "played_against": []
@@ -1072,7 +1120,7 @@
             "last_name": "Sira",
             "birth_date": "10-10-1999",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Dragon Chess",
                 "played_against": []
@@ -1084,7 +1132,7 @@
             "last_name": "York",
             "birth_date": "4-7-1980",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Dragon Chess",
                 "played_against": []
@@ -1096,7 +1144,7 @@
             "last_name": "Dean",
             "birth_date": "10-2-1999",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "Dragon Chess",
                 "played_against": []
@@ -1108,7 +1156,7 @@
             "last_name": "Bash",
             "birth_date": "7-10-1980",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
                 "played_against": [
@@ -1125,7 +1173,7 @@
             "last_name": "Losh",
             "birth_date": "2-10-1999",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
                 "played_against": [
@@ -1142,7 +1190,7 @@
             "last_name": "Lower",
             "birth_date": "5-5-1998",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
                 "played_against": [
@@ -1159,7 +1207,7 @@
             "last_name": "Weddle",
             "birth_date": "8-8-1998",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
                 "played_against": [
@@ -1176,7 +1224,7 @@
             "last_name": "Blah",
             "birth_date": "6-10-1980",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
                 "played_against": [
@@ -1193,7 +1241,7 @@
             "last_name": "Hat",
             "birth_date": "5-10-1998",
             "rank": 0,
-            "score": 0.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
                 "played_against": [

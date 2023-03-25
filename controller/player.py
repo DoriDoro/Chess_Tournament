@@ -38,7 +38,7 @@ def create_player_controller(data_player):
                         data_player["birth_date"])
     data = {"player_id": new_player.player_id, "first_name": new_player.first_name,
             "last_name": new_player.last_name, "birth_date": new_player.birth_date,
-            "rank": 0, "score": 0.0,
+            "rank": 0, "score": 0,
             "played_tournaments": {"name": data_player["name_of_tournament"], "played_against": []}}
 
     # add player_id to the tournament in tournaments.json inside list_of_players:
@@ -119,7 +119,7 @@ def pair_players_controller(name_of_tournament):
     tournament_table = _get_tournament_table()
     tournament_table.update({"current_round": (current_round + 1)}, Query().name == name_of_tournament)
 
-    return list_of_names
+    return {"paired_players": paired_players, "list_of_names": list_of_names}
 
 
 def verify_number_of_player_controller(name_of_tournament):
@@ -234,41 +234,31 @@ def get_name_of_player_controller(player_ids):
 
 
 def create_score_controller(list_score):
-    """
-    player1 : player2
-    1 win player1  1  player1 1 point player2 0 points
-    2 win player2  1
-    3 same 0.5 for each player
-    """
-    # player_ids:
-    # [['WE12365', 'OL45645'], ['UI78547', 'JJ44444'], ['ER85756', 'WS96860'], ['UI14241', 'TY85763']]
-    # input how is winner
+    player_table = _get_player_table()
 
-    print(list_score)
-    """  
-      [
-      ['Helen Stark', 'Dean Trello', 1], 
-      ['Danny Blitz', 'Sarah Dean', 2], 
-      ['Odin Thor', 'Bilan Urk', 3], 
-      ['Odin Sky', 'Ragnar Hammer', 2]
-      ]
-      
-      1 means first player has won the match.")
-      2 means second player has won the match.")
-      3 is for a draw."
-    """
+    player_ids_score = {}
+    for pair in list_score[4]:
+        for player_id in pair:
+            score_table = player_table.get(Query().player_id == player_id)
+            score = score_table["score"]
+            data = {"player_id": player_id, "score": score}
+            player_ids_score[player_id] = data
+
     for i in range(0, 4):
-        if list_score[i][2] == 1:
-            print("first player won")
-            # add 1 point to score of player 1
-            # add 0 point to score of player 2
-        elif list_score[i][2] == 2:
-            print("second player won")
-            # add 0 point to score of player 1
-            # add 1 point to score of player 2
-        else:
-            print("draw")
-            # add 0.5 points to both player
+        if list_score[i][1] == 1:
+            for player_id in list_score[i][0]:
+                if player_id == list_score[i][0][0]:
+                    player_table.update({"score": (player_ids_score[player_id]["score"] + 1)},
+                                        Query().player_id == player_id)
+        elif list_score[i][1] == 2:
+            for player_id in list_score[i][0]:
+                if player_id == list_score[i][0][1]:
+                    player_table.update({"score": (player_ids_score[player_id]["score"] + 1)},
+                                        Query().player_id == player_id)
+        elif list_score[i][1] == 3:
+            for player_id in list_score[i][0]:
+                player_table.update({"score": (player_ids_score[player_id]["score"] + 0.5)},
+                                    Query().player_id == player_id)
 
 
 def update_score_controller(player_id, name_of_tournament):

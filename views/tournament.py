@@ -71,13 +71,16 @@ def choose_tournament_view(tournament_id_name_list):
                 print(f" You have chosen: {name}", end="\n\n")
 
                 # get the first pair
-                pair_players = pair_players_controller(name)
+                paired_players = pair_players_controller(name)
+                pair_players_names = paired_players["list_of_names"]
+                pair_players_ids = paired_players["paired_players"]
+
                 # TODO if tournament is over the print below are not working anymore
                 print(f"  The pairs for - {name} - are:", end="\n\n")
-                print(f"   pair 1  - {pair_players[0]} and {pair_players[1]}")
-                print(f"   pair 2  - {pair_players[2]} and {pair_players[3]}")
-                print(f"   pair 3  - {pair_players[4]} and {pair_players[5]}")
-                print(f"   pair 4  - {pair_players[6]} and {pair_players[7]}", end="\n\n")
+                print(f"   pair 1  - {pair_players_names[0]} and {pair_players_names[1]}")
+                print(f"   pair 2  - {pair_players_names[2]} and {pair_players_names[3]}")
+                print(f"   pair 3  - {pair_players_names[4]} and {pair_players_names[5]}")
+                print(f"   pair 4  - {pair_players_names[6]} and {pair_players_names[7]}", end="\n\n")
 
                 while True:
                     print("  You choose the score of each match.", end="\n\n")
@@ -91,20 +94,21 @@ def choose_tournament_view(tournament_id_name_list):
                     print("   2 means second player has won the match.")
                     print("   3 is for a draw.", end="\n\n")
 
-                    print("   Enter your choice for these matches: ", end="\n\n")
+                    print("  Enter your choice for these matches: ", end="\n\n")
 
-                    pair1 = int(input(f"  {pair_players[0]} and {pair_players[1]}: "))
+                    pair1 = int(input(f"  {pair_players_names[0]} and {pair_players_names[1]}: "))
                     print()
-                    pair2 = int(input(f"  {pair_players[2]} and {pair_players[3]}: "))
+                    pair2 = int(input(f"  {pair_players_names[2]} and {pair_players_names[3]}: "))
                     print()
-                    pair3 = int(input(f"  {pair_players[4]} and {pair_players[5]}: "))
+                    pair3 = int(input(f"  {pair_players_names[4]} and {pair_players_names[5]}: "))
                     print()
-                    pair4 = int(input(f"  {pair_players[6]} and {pair_players[7]}: "))
+                    pair4 = int(input(f"  {pair_players_names[6]} and {pair_players_names[7]}: "))
 
-                    list_score = [[pair_players[0], pair_players[1], pair1],
-                                  [pair_players[2], pair_players[3], pair2],
-                                  [pair_players[4], pair_players[5], pair3],
-                                  [pair_players[6], pair_players[7], pair4]
+                    list_score = [[pair_players_ids[0], pair1],
+                                  [pair_players_ids[1], pair2],
+                                  [pair_players_ids[2], pair3],
+                                  [pair_players_ids[3], pair4],
+                                  pair_players_ids
                                   ]
 
                     print()

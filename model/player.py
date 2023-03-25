@@ -8,7 +8,7 @@ class Player:
         self.birth_date = birth_date
 
         self.rank = 0
-        self.score = 0.0
+        self.score = 0
         self.played_tournaments = {}
 
     def __str__(self):
