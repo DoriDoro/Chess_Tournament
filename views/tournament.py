@@ -1,7 +1,7 @@
 from tinydb import TinyDB
 
 from controller.player import pair_players_controller, create_score_controller
-from controller.tournament import create_tournament_controller
+from controller.tournament import create_tournament_controller, reorganize_list_score_tournament_controller
 
 
 # get tournaments for option 1: create a player and option 3: start a tournament
@@ -70,24 +70,21 @@ def choose_tournament_view(tournament_id_name_list):
             if choice == tournament_id:
                 print(f" You have chosen: {name}", end="\n\n")
 
-                # get the first pair
                 paired_players = pair_players_controller(name)
-                pair_players_names = paired_players["list_of_names"]
-                pair_players_ids = paired_players["paired_players"]
+                if paired_players is None:
+                    return
+                else:
+                    pair_players_names = paired_players["list_of_names"]
+                    pair_players_ids = paired_players["paired_players"]
 
-                # TODO if tournament is over the print below are not working anymore
-                print(f"  The pairs for - {name} - are:", end="\n\n")
-                print(f"   pair 1  - {pair_players_names[0]} and {pair_players_names[1]}")
-                print(f"   pair 2  - {pair_players_names[2]} and {pair_players_names[3]}")
-                print(f"   pair 3  - {pair_players_names[4]} and {pair_players_names[5]}")
-                print(f"   pair 4  - {pair_players_names[6]} and {pair_players_names[7]}", end="\n\n")
+                    # TODO if tournament is over the print below are not working anymore
+                    print(f"  The pairs for - {name} - are:", end="\n\n")
+                    print(f"   pair 1  - {pair_players_names[0]} and {pair_players_names[1]}")
+                    print(f"   pair 2  - {pair_players_names[2]} and {pair_players_names[3]}")
+                    print(f"   pair 3  - {pair_players_names[4]} and {pair_players_names[5]}")
+                    print(f"   pair 4  - {pair_players_names[6]} and {pair_players_names[7]}", end="\n\n")
 
-                while True:
                     print("  You choose the score of each match.", end="\n\n")
-
-                    # chose the winner: 1 means player one in a pair is the winner
-                    # 2 means player two in a pair is the winner
-                    # means draw
 
                     print("   Please enter: 1, 2 or 3.")
                     print("   1 means first player has won the match.")
@@ -97,27 +94,59 @@ def choose_tournament_view(tournament_id_name_list):
                     print("  Enter your choice for these matches: ", end="\n\n")
 
                     pair1 = int(input(f"  {pair_players_names[0]} and {pair_players_names[1]}: "))
-                    print()
                     pair2 = int(input(f"  {pair_players_names[2]} and {pair_players_names[3]}: "))
-                    print()
                     pair3 = int(input(f"  {pair_players_names[4]} and {pair_players_names[5]}: "))
-                    print()
                     pair4 = int(input(f"  {pair_players_names[6]} and {pair_players_names[7]}: "))
 
-                    list_score = [[pair_players_ids[0], pair1],
-                                  [pair_players_ids[1], pair2],
-                                  [pair_players_ids[2], pair3],
-                                  [pair_players_ids[3], pair4],
-                                  pair_players_ids
-                                  ]
+                    list_score_tournament = [[pair_players_ids[0], pair1,
+                                             [pair_players_names[0], pair_players_names[1]]],
+                                             [pair_players_ids[1], pair2,
+                                             [pair_players_names[2], pair_players_names[3]]],
+                                             [pair_players_ids[2], pair3,
+                                             [pair_players_names[4], pair_players_names[5]]],
+                                             [pair_players_ids[3], pair4,
+                                             [pair_players_names[6], pair_players_names[7]]],
+                                             pair_players_ids
+                                             ]
 
                     print()
 
-                    create_score_controller(list_score)
+                    list_of_scores = create_score_controller(list_score_tournament)
+                    reorganise_result = reorganize_list_score_tournament_controller(list_score_tournament, list_of_scores)
 
-                return
+                    display_tournament_results_view(list_of_scores, reorganise_result, name)
+
+                    return
 
         print(" Invalid choice. Please enter the Tournament_ID.", end="\n\n")
+
+
+def display_tournament_results_view(list_of_scores, dict_score_tournament, name_of_tournament):
+    print("------------------------------------------------")
+    print(" ** RESULT OF A TOURNAMENT **", end="\n\n")
+
+    print(f" These results are for the tournament:  - {name_of_tournament} - ", end="\n\n")
+
+    for i in dict_score_tournament:
+        if dict_score_tournament[i]["score"] == 1:
+            print(f"   {i}: {dict_score_tournament[i]['names'][0]} against "
+                  f"{dict_score_tournament[i]['names'][1]}  -- 1 : 0 ")
+
+        elif dict_score_tournament[i]["score"] == 2:
+            print(f"   {i}: {dict_score_tournament[i]['names'][0]} against "
+                  f"{dict_score_tournament[i]['names'][1]}  -- 0 : 1 ")
+
+        else:
+            print(f"   {i}: {dict_score_tournament[i]['names'][0]} against "
+                  f"{dict_score_tournament[i]['names'][1]}  -- 0.5 : 0.5 ")
+    print()
+
+    print(f" The score of each player: ", end="\n\n")
+
+    for k, v in list_of_scores.items():
+        name = v["name"]
+        score = v["score"]
+        print(f"   {name} has {score} points.")
 
 
 def end_tournament_view(name_of_tournament):
