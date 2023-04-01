@@ -31,12 +31,3 @@ def reorganize_list_score_tournament_controller(list_score_tournament, list_of_s
         }
 
     return dict_score_tournament
-
-
-def display_results_controller(paired_players, name_of_tournament):
-    pass
-    # single pair: names
-    # result of the match
-
-def end_results_controller():
-    pass

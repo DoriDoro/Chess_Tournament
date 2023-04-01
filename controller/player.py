@@ -32,6 +32,22 @@ def _get_player(player_id):
     return player_table.get(Query().player_id == player_id)
 
 
+def _get_score_of_player(list_score_tournament):
+    player_table = _get_player_table()
+
+    player_ids_score = {}
+
+    for pair in list_score_tournament[4]:
+        for player_id in pair:
+            score_table = player_table.get(Query().player_id == player_id)
+            name = f'{score_table["first_name"]} {score_table["last_name"]}'
+            score = score_table["score"]
+            data = {"player_id": player_id, "score": score, "name": name}
+            player_ids_score[player_id] = data
+
+    return player_ids_score
+
+
 # option 1: create player:
 def create_player_controller(data_player):
     new_player = Player(data_player["player_id"], data_player["first_name"], data_player["last_name"],
@@ -234,44 +250,26 @@ def get_name_of_player_controller(player_ids):
 
 
 def create_score_controller(list_score_tournament):
-    # TODO score is not correct, displays the old score
     player_table = _get_player_table()
 
-    player_ids_score = {}
+    player_ids_score = _get_score_of_player(list_score_tournament)
 
-    for pair in list_score_tournament[4]:
-        for player_id in pair:
-            score_table = player_table.get(Query().player_id == player_id)
-            name = f'{score_table["first_name"]} {score_table["last_name"]}'
-            score = score_table["score"]
-            data = {"player_id": player_id, "score": score, "name": name}
-            player_ids_score[player_id] = data
+    for i in range(0, 4):
+        if list_score_tournament[i][1] == 1:
+            for player_id in list_score_tournament[i][0]:
+                if player_id == list_score_tournament[i][0][0]:
+                    player_table.update({"score": (player_ids_score[player_id]["score"] + 1)},
+                                        Query().player_id == player_id)
+        elif list_score_tournament[i][1] == 2:
+            for player_id in list_score_tournament[i][0]:
+                if player_id == list_score_tournament[i][0][1]:
+                    player_table.update({"score": (player_ids_score[player_id]["score"] + 1)},
+                                        Query().player_id == player_id)
+        elif list_score_tournament[i][1] == 3:
+            for player_id in list_score_tournament[i][0]:
+                player_table.update({"score": (player_ids_score[player_id]["score"] + 0.5)},
+                                    Query().player_id == player_id)
 
-            for i in range(0, 4):
-                if list_score_tournament[i][1] == 1:
-                    for player in list_score_tournament[i][0]:
-                        if player == list_score_tournament[i][0][0]:
-                            player_table.update({"score": (player_ids_score[player_id]["score"] + 1)},
-                                                Query().player_id == player_id)
-                elif list_score_tournament[i][1] == 2:
-                    for player in list_score_tournament[i][0]:
-                        if player == list_score_tournament[i][0][1]:
-                            player_table.update({"score": (player_ids_score[player_id]["score"] + 1)},
-                                                Query().player_id == player_id)
-                elif list_score_tournament[i][1] == 3:
-                    for player in list_score_tournament[i][0]:
-                        player_table.update({"score": (player_ids_score[player_id]["score"] + 1)},
-                                            Query().player_id == player_id)
+    updated_player_ids_score = _get_score_of_player(list_score_tournament)
 
-# get_list_of_players = _get_tournament(name_of_tournament)['list_of_players']
-# tournament_table = _get_tournament_table()
-# tournament_table.update({"list_of_players": get_list_of_players + [player_id]}, Query().name == name_of_tournament)
-
-    print("player_ids_score", player_ids_score)
-
-    return player_ids_score
-
-
-def update_score_controller(player_id, name_of_tournament):
-    score = _get_player(player_id)["score"]
-
+    return updated_player_ids_score

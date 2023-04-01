@@ -20,7 +20,7 @@ def add_player_to_tournament_view(tournament_id_name_list):
         for tournament_id, name in tournament_id_name_list:
             if choice == tournament_id:
                 print(f" You have chosen: {name}", end="\n\n")
-
+                # TODO if already 8 players in tournament, do not add any player, choose other tournament
                 number_of_player = 8
                 while number_of_player > 0:
                     create_player_view(name)

@@ -145,7 +145,7 @@ def display_tournament_results_view(list_of_scores, dict_score_tournament, name_
 
     for k, v in list_of_scores.items():
         name = v["name"]
-        score = v["score"]
+        score = float(v["score"])
         print(f"   {name} has {score} points.")
 
 
