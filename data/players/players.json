@@ -194,6 +194,11 @@
                     "WE15453",
                     "HG11102",
                     "ER30003",
+                    "JJ10203",
+                    "DE75321",
+                    "JJ10203",
+                    "DE75321",
+                    "YU60023",
                     "JJ10203"
                 ]
             }
@@ -204,7 +209,7 @@
             "last_name": "Trello",
             "birth_date": "9-10-1987",
             "rank": 0,
-            "score": 3.0,
+            "score": 4.0,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
@@ -323,6 +328,11 @@
                     "ER30003",
                     "ER11102",
                     "WE15453",
+                    "DE75321",
+                    "JJ10203",
+                    "DE75321",
+                    "JJ10203",
+                    "JI98563",
                     "DE75321"
                 ]
             }
@@ -333,7 +343,7 @@
             "last_name": "Stark",
             "birth_date": "8-12-1999",
             "rank": 0,
-            "score": 6.5,
+            "score": 7.5,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
@@ -452,6 +462,11 @@
                     "HG11102",
                     "WE15453",
                     "ER11102",
+                    "JI98563",
+                    "YU60023",
+                    "JI98563",
+                    "YU60023",
+                    "DE75321",
                     "JI98563"
                 ]
             }
@@ -462,7 +477,7 @@
             "last_name": "Thor",
             "birth_date": "11-11-2000",
             "rank": 0,
-            "score": 5.5,
+            "score": 6.5,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
@@ -581,6 +596,11 @@
                     "YU60023",
                     "DE75321",
                     "JI98563",
+                    "ER11102",
+                    "HG11102",
+                    "ER11102",
+                    "HG11102",
+                    "WE15453",
                     "ER11102"
                 ]
             }
@@ -710,6 +730,11 @@
                     "JI98563",
                     "JJ10203",
                     "YU60023",
+                    "HG11102",
+                    "ER11102",
+                    "HG11102",
+                    "ER11102",
+                    "ER30003",
                     "HG11102"
                 ]
             }
@@ -720,7 +745,7 @@
             "last_name": "Hammer",
             "birth_date": "9-9-1999",
             "rank": 0,
-            "score": 6.0,
+            "score": 6.5,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
@@ -839,6 +864,11 @@
                     "DE75321",
                     "YU60023",
                     "JJ10203",
+                    "ER30003",
+                    "WE15453",
+                    "ER30003",
+                    "WE15453",
+                    "HG11102",
                     "ER30003"
                 ]
             }
@@ -1607,6 +1637,11 @@
                     "ER11102",
                     "ER30003",
                     "HG11102",
+                    "YU60023",
+                    "JI98563",
+                    "YU60023",
+                    "JI98563",
+                    "JJ10203",
                     "YU60023"
                 ]
             }
@@ -1745,7 +1780,7 @@
             "last_name": "Urk",
             "birth_date": "9-8-1992",
             "rank": 0,
-            "score": 4.5,
+            "score": 5.0,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
@@ -1864,6 +1899,11 @@
                     "JJ10203",
                     "JI98563",
                     "DE75321",
+                    "WE15453",
+                    "ER30003",
+                    "WE15453",
+                    "ER30003",
+                    "ER11102",
                     "WE15453"
                 ]
             }

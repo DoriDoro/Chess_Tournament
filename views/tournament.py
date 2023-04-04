@@ -1,7 +1,9 @@
 from tinydb import TinyDB
 
 from controller.player import pair_players_controller, create_score_controller
-from controller.tournament import create_tournament_controller, reorganize_list_score_tournament_controller
+from controller.tournament import (
+    create_tournament_controller, reorganize_list_score_tournament_controller, get_current_round_controller
+)
 
 
 # get tournaments for option 1: create a player and option 3: start a tournament
@@ -67,10 +69,24 @@ def choose_tournament_view(tournament_id_name_list):
         choice = int(choice)
 
         for tournament_id, name in tournament_id_name_list:
+            check_current_round = get_current_round_controller(name)
+
             if choice == tournament_id:
                 print(f" You have chosen: {name}", end="\n\n")
 
+                while True:
+                    if check_current_round > 0:
+                        yes_no = str(input(f"   Do you want to continue with {name}  - [yes] or [no]?  "))
+
+                        if yes_no == 'yes':
+                            pass
+                        elif yes_no == 'no':
+                            return
+                        else:
+                            print(" Invalid answer. Please enter [yes] or [no].", end="\n\n")
+
                 paired_players = pair_players_controller(name)
+
                 if paired_players is None:
                     return
                 else:
@@ -112,7 +128,7 @@ def choose_tournament_view(tournament_id_name_list):
                     print()
 
                     list_of_scores = create_score_controller(list_score_tournament)
-                    reorganise_result = reorganize_list_score_tournament_controller(list_score_tournament, list_of_scores)
+                    reorganise_result = reorganize_list_score_tournament_controller(list_score_tournament)
 
                     display_tournament_results_view(list_of_scores, reorganise_result, name)
 

@@ -1,7 +1,19 @@
-from tinydb import TinyDB
+from tinydb import TinyDB, Query
 
 from model.tournament import Tournament
 
+
+# private functions:
+def _get_tournament_table():
+    db_tournament = TinyDB(f'data/tournaments/tournaments.json', indent=4)
+    return db_tournament.table("all_tournaments")
+
+
+def _get_tournament(name_of_tournament):
+    db_tournament = TinyDB(f'data/tournaments/tournaments.json', indent=4)
+    tournament_table = db_tournament.table("all_tournaments")
+
+    return tournament_table.get(Query().name == name_of_tournament)
 
 # option 2: create tournament:
 def create_tournament_controller(data_tournament):
@@ -20,7 +32,8 @@ def create_tournament_controller(data_tournament):
     db.close()
 
 
-def reorganize_list_score_tournament_controller(list_score_tournament, list_of_scores):
+# option 3: start a tournament:
+def reorganize_list_score_tournament_controller(list_score_tournament):
     dict_score_tournament = {}
 
     for i, item in enumerate(list_score_tournament[:-1]):
@@ -31,3 +44,7 @@ def reorganize_list_score_tournament_controller(list_score_tournament, list_of_s
         }
 
     return dict_score_tournament
+
+
+def get_current_round_controller(name_of_tournament):
+    return _get_tournament(name_of_tournament)["current_round"]
