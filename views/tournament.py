@@ -2,7 +2,10 @@ from tinydb import TinyDB
 
 from controller.player import pair_players_controller, create_score_controller
 from controller.tournament import (
-    create_tournament_controller, reorganize_list_score_tournament_controller, get_current_round_controller
+    create_tournament_controller,
+    reorganize_list_score_tournament_controller,
+    get_current_round_controller,
+    get_list_round_info_controller,
 )
 
 
@@ -74,17 +77,27 @@ def choose_tournament_view(tournament_id_name_list):
             if choice == tournament_id:
                 print(f" You have chosen: {name}", end="\n\n")
 
-                while True:
-                    if check_current_round > 0:
-                        yes_no = str(input(f"   Do you want to continue with {name}  - [yes] or [no]?  "))
+                if check_current_round > 0:
+                    yes_no = str(input(f"   Do you want to continue with {name}  - [yes] or [no]?  "))
+                    print()
 
-                        if yes_no == 'yes':
-                            pass
-                        elif yes_no == 'no':
-                            return
+                    if yes_no == 'yes':
+                        get_last_round = get_list_round_info_controller(name)
+                        get_last_round = int(get_last_round)
+
+                        if get_last_round < 4:
+                            next_round = get_last_round + 1
+                            print(f"   The last time you was playing -{name}- in round {get_last_round}.")
+                            print(f"   You will continue with the round {next_round}.", end="\n\n")
                         else:
-                            print(" Invalid answer. Please enter [yes] or [no].", end="\n\n")
+                            end_tournament_view(name)
+                            return
+                    elif yes_no == 'no':
+                        return
+                    else:
+                        print(" Invalid answer. Please enter [yes] or [no].", end="\n\n")
 
+                # start the next round:
                 paired_players = pair_players_controller(name)
 
                 if paired_players is None:
@@ -124,13 +137,12 @@ def choose_tournament_view(tournament_id_name_list):
                                              [pair_players_names[6], pair_players_names[7]]],
                                              pair_players_ids
                                              ]
-
                     print()
 
                     list_of_scores = create_score_controller(list_score_tournament)
-                    reorganise_result = reorganize_list_score_tournament_controller(list_score_tournament)
+                    dict_score_tournament = reorganize_list_score_tournament_controller(list_score_tournament)
 
-                    display_tournament_results_view(list_of_scores, reorganise_result, name)
+                    display_tournament_results_view(list_of_scores, dict_score_tournament, name)
 
                     return
 

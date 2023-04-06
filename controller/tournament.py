@@ -15,6 +15,7 @@ def _get_tournament(name_of_tournament):
 
     return tournament_table.get(Query().name == name_of_tournament)
 
+
 # option 2: create tournament:
 def create_tournament_controller(data_tournament):
     new_tournament = Tournament(data_tournament["name"], data_tournament["city"],
@@ -46,5 +47,26 @@ def reorganize_list_score_tournament_controller(list_score_tournament):
     return dict_score_tournament
 
 
+def add_pair_to_list_rounds(name_of_tournament, data_list_rounds):
+    tournament_table = _get_tournament_table()
+
+    tournament_table.update({"list_rounds": data_list_rounds}, Query().name == name_of_tournament)
+
+
+# def add_result_to_list_rounds(name_of_tournament, data_result_list_rounds):
+#     tournament_table = _get_tournament_table()["list_rounds"]
+#     print('list rounds ', tournament_table)
+#
+#     tournament_table.update({"list_rounds": data_result_list_rounds}, Query().name == name_of_tournament)
+
+
 def get_current_round_controller(name_of_tournament):
     return _get_tournament(name_of_tournament)["current_round"]
+
+
+def get_list_round_info_controller(name_of_tournament):
+    list_rounds_rounds = _get_tournament(name_of_tournament)["list_rounds"]
+
+    for rounds in list_rounds_rounds.items():
+        last_round = rounds[0]
+    return last_round

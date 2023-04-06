@@ -3,6 +3,7 @@ import random
 from tinydb import TinyDB, Query
 
 from model.player import Player
+from controller.tournament import add_pair_to_list_rounds
 
 
 # private functions:
@@ -185,9 +186,10 @@ def add_player_id_to_played_against_controller(player_ids, name_of_tournament, c
     get_played_against_player_8 += [player_ids[3][0]]
 
     data = {(current_round+1): player_ids}
+
     data_list_rounds.update(data)
 
-    tournament_table.update({"list_rounds": data_list_rounds}, Query().name == name_of_tournament)
+    add_pair_to_list_rounds(name_of_tournament, data_list_rounds)
 
     # TODO simplify this function
     player_table.update({"played_tournaments": {"name": name_of_tournament,
