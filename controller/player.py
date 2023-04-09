@@ -1,5 +1,3 @@
-import random
-
 from tinydb import TinyDB, Query
 
 from model.player import Player
@@ -156,7 +154,6 @@ def verify_number_of_player_controller(name_of_tournament):
 
 
 def add_player_id_to_played_against_controller(player_ids, name_of_tournament, current_round):
-    tournament_table = _get_tournament_table()
     player_table = _get_player_table()
     data_list_rounds = _get_tournament(name_of_tournament)["list_rounds"]
 
@@ -275,3 +272,14 @@ def create_score_controller(list_score_tournament):
     updated_player_ids_score = _get_score_of_player(list_score_tournament)
 
     return updated_player_ids_score
+
+
+def get_results_players():
+    players = _get_player_table()
+
+    data_players = {}
+    for i, player in enumerate(players):
+        name = f'{player["first_name"]} {player["last_name"]}'
+        data_players[player["player_id"]] = name
+
+    return data_players

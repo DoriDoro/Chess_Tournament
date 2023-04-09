@@ -1,11 +1,12 @@
 from tinydb import TinyDB
 
-from controller.player import pair_players_controller, create_score_controller
+from controller.player import pair_players_controller, create_score_controller, get_results_players
 from controller.tournament import (
     create_tournament_controller,
     reorganize_list_score_tournament_controller,
     get_current_round_controller,
     get_list_round_info_controller,
+    get_results_tournaments,
 )
 
 
@@ -24,7 +25,7 @@ def get_tournaments_view():
 
 # option 2: create a tournament:
 def create_tournament_view():
-    print("------------------------------------------------")
+    print("--------------------------------------------------------------------------")
     print(" ** CREATE A TOURNAMENT **", end="\n\n")
 
     tournament_id = int(input(" Tournament ID (example: 1234): "))
@@ -49,7 +50,7 @@ def create_tournament_view():
 
 # option 3: start a tournament:
 def display_tournaments_view(tournament_id_name_list):
-    print("------------------------------------------------")
+    print("--------------------------------------------------------------------------")
     print(" ** CHOOSE A TOURNAMENT **", end="\n\n")
     for db in tournament_id_name_list:
         print(f" [ID]: {db[0]}  -  [Name]: {db[1]}")
@@ -59,7 +60,7 @@ def display_tournaments_view(tournament_id_name_list):
 
 # option 3: start a tournament:
 def choose_tournament_view(tournament_id_name_list):
-    print("------------------------------------------------")
+    print("--------------------------------------------------------------------------")
     print(" ** START A TOURNAMENT **", end="\n\n")
 
     while True:
@@ -150,7 +151,7 @@ def choose_tournament_view(tournament_id_name_list):
 
 
 def display_tournament_results_view(list_of_scores, dict_score_tournament, name_of_tournament):
-    print("------------------------------------------------")
+    print("--------------------------------------------------------------------------")
     print(" ** RESULT OF A TOURNAMENT **", end="\n\n")
 
     print(f" These results are for the tournament:  - {name_of_tournament} - ", end="\n\n")
@@ -179,3 +180,66 @@ def display_tournament_results_view(list_of_scores, dict_score_tournament, name_
 
 def end_tournament_view(name_of_tournament):
     print(f"  The {name_of_tournament} is over.")
+
+    display_end_result()
+
+
+def display_end_result():
+    print("--------------------------------------------------------------------------")
+    print(" ** RESULT OF ALL TOURNAMENTS **", end="\n\n")
+
+    results_tournaments = get_results_tournaments()
+    results_players = get_results_players()
+
+    player_names = []
+    for i, name in results_players.items():
+        player_names.append(name)
+    player_names.sort()
+
+    print(" -- ALL PLAYERS: ", end="\n\n")
+    for i, name in enumerate(player_names):
+        if i != len(player_names) - 1:
+            if i % 5 == 4:
+                print(name + ", ")
+            else:
+                print(name + ", ", end="")
+        else:
+            print("and " + name)
+    print(end="\n\n")
+
+    print(" NAMES OF TOURNAMENTS: ", end="\n\n")
+    for name in results_tournaments:
+        print(name)
+    print(end="\n\n")
+
+    print(" -- NAMES AND DATES OF TOURNAMENTS: ", end="\n\n")
+
+    for name, info in results_tournaments.items():
+        print(f"[Name]: {name}")
+        print(f' [starting]: {info["start_date"]} and [ending]: {info["end_date"]}', end="\n\n")
+
+    print(" -- ALL PLAYERS OF TOURNAMENT: ", end="\n\n")
+
+    for name_tournament, info in results_tournaments.items():
+        print(f"[Name of tournament]: {name_tournament}", end="\n\n")
+        print("[Name of players]: ")
+        player_names = sorted([player["name"] for player in info["player_data"].values()])
+        for name in player_names:
+            print(f" {name}")
+        print()
+
+    print("  -- ALL MATCHES OF TOURNAMENT: ", end="\n\n")
+
+    for name_of_tournament, data in results_tournaments.items():
+        print(f"[Name of tournament]: {name_of_tournament}", end="\n\n")
+        print("[Matches of players]: ")
+        for pair_list in results_tournaments[name_tournament]["list_rounds"].values():
+            for pair in pair_list:
+                match_name_list = []
+                for player_id, name in results_players.items():
+                    if pair[0] == player_id:
+                        match_name_list.append(name)
+                    elif pair[1] == player_id:
+                        match_name_list.append(name)
+                print(f" {match_name_list[0]}   played against   {match_name_list[1]}")
+        print(end="\n\n")

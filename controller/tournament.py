@@ -16,6 +16,13 @@ def _get_tournament(name_of_tournament):
     return tournament_table.get(Query().name == name_of_tournament)
 
 
+def _get_player(player_id):
+    db_player = TinyDB('data/players/players.json', indent=4)
+    player_table = db_player.table("all_players")
+
+    return player_table.get(Query().player_id == player_id)
+
+
 # option 2: create tournament:
 def create_tournament_controller(data_tournament):
     new_tournament = Tournament(data_tournament["name"], data_tournament["city"],
@@ -53,13 +60,6 @@ def add_pair_to_list_rounds(name_of_tournament, data_list_rounds):
     tournament_table.update({"list_rounds": data_list_rounds}, Query().name == name_of_tournament)
 
 
-# def add_result_to_list_rounds(name_of_tournament, data_result_list_rounds):
-#     tournament_table = _get_tournament_table()["list_rounds"]
-#     print('list rounds ', tournament_table)
-#
-#     tournament_table.update({"list_rounds": data_result_list_rounds}, Query().name == name_of_tournament)
-
-
 def get_current_round_controller(name_of_tournament):
     return _get_tournament(name_of_tournament)["current_round"]
 
@@ -70,3 +70,29 @@ def get_list_round_info_controller(name_of_tournament):
     for rounds in list_rounds_rounds.items():
         last_round = rounds[0]
     return last_round
+
+
+def get_results_tournaments():
+    tournaments = _get_tournament_table()
+
+    data_tournaments_players = {}
+    for tournament in tournaments:
+        name_of_tournament = tournament["name"]
+        start_date = tournament["start_date"]
+        end_date = tournament["end_date"]
+        list_of_players = tournament["list_of_players"]
+        list_rounds = tournament["list_rounds"]
+
+        data_player = {}
+        for player_id in list_of_players:
+            player_table = _get_player(player_id)
+            name = f'{player_table["first_name"]} {player_table["last_name"]}'
+            score = player_table["score"]
+            data = {"player_id": player_id, "name": name, "score": score}
+            data_player[player_id] = data
+
+        data_tournament = {"name": name_of_tournament, "start_date": start_date, "end_date": end_date,
+                           "list_of_players": list_of_players, "list_rounds": list_rounds, "player_data": data_player}
+        data_tournaments_players[name_of_tournament] = data_tournament
+
+    return data_tournaments_players

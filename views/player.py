@@ -33,7 +33,7 @@ def add_player_to_tournament_view(tournament_id_name_list):
 
 # option 1: create player and option 3: start a tournament:
 def create_player_view(name_of_tournament):
-    print("------------------------------------------------")
+    print("--------------------------------------------------------------------------")
     print(" ** CREATE A PLAYER **", end="\n\n")
 
     player_id = str(input(" Player ID (example: AB12345): "))
