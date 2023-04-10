@@ -12,4 +12,4 @@ class Player:
         self.played_tournaments = {}
 
     def __str__(self):
-        return f"{self.first_name} {self.last_name}"
+        return f" {self.first_name} {self.last_name}"

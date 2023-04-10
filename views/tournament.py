@@ -1,12 +1,17 @@
 from tinydb import TinyDB
 
-from controller.player import pair_players_controller, create_score_controller, get_results_players
+from controller.player import (
+    pair_players_controller,
+    create_score_controller,
+    get_results_players,
+)
 from controller.tournament import (
     create_tournament_controller,
     reorganize_list_score_tournament_controller,
     get_current_round_controller,
     get_list_round_info_controller,
-    get_results_tournaments,
+    get_results_tournaments_controller,
+    set_end_date_controller,
 )
 
 
@@ -177,14 +182,16 @@ def display_tournament_results_view(list_of_scores, dict_score_tournament, name_
 def end_tournament_view(name_of_tournament):
     print(f"  The {name_of_tournament} is over.")
 
-    display_end_result()
+    set_end_date_controller(name_of_tournament)
+
+    display_end_result_view()
 
 
-def display_end_result():
+def display_end_result_view():
     print("--------------------------------------------------------------------------")
     print(" ** RESULT OF ALL TOURNAMENTS **", end="\n\n")
 
-    results_tournaments = get_results_tournaments()
+    results_tournaments = get_results_tournaments_controller()
     results_players = get_results_players()
 
     player_names = []

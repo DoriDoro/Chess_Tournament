@@ -46,7 +46,9 @@ def create_tournament_controller(data_tournament):
         "current_round": 0
     }
 
+    # usage of datetime, serialization necessary
     json_data = json.dumps(data)
+    # insert() of TinyDB expects dictionary no json string, so parse data
     parsed_data = json.loads(json_data)
 
     db = TinyDB(f'data/tournaments/tournaments.json', indent=4)
@@ -88,7 +90,7 @@ def get_list_round_info_controller(name_of_tournament):
     return last_round
 
 
-def get_results_tournaments():
+def get_results_tournaments_controller():
     tournaments = _get_tournament_table()
 
     data_tournaments_players = {}
@@ -112,3 +114,14 @@ def get_results_tournaments():
         data_tournaments_players[name_of_tournament] = data_tournament
 
     return data_tournaments_players
+
+
+def set_end_date_controller(name_of_tournament):
+    tournament_tabel = _get_tournament_table()
+
+    end_date = datetime.now().isoformat()
+
+    json_data = json.dumps(end_date)
+    parsed_json = json.loads(json_data)
+
+    tournament_tabel.update({"end_date": parsed_json}, Query().name == name_of_tournament)

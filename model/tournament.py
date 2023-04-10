@@ -15,3 +15,6 @@ class Tournament:
         self.list_of_players = []
         self.tournament_id = 0
         self.current_round = 0
+
+    def __str__(self):
+        return f" You are playing: {self.name}"

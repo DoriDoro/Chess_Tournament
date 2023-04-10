@@ -51,10 +51,15 @@ def _get_score_of_player(list_score_tournament):
 def create_player_controller(data_player):
     new_player = Player(data_player["player_id"], data_player["first_name"], data_player["last_name"],
                         data_player["birth_date"])
-    data = {"player_id": new_player.player_id, "first_name": new_player.first_name,
-            "last_name": new_player.last_name, "birth_date": new_player.birth_date,
-            "rank": 0, "score": 0,
-            "played_tournaments": {"name": data_player["name_of_tournament"], "played_against": []}}
+    data = {
+        "player_id": new_player.player_id,
+        "first_name": new_player.first_name,
+        "last_name": new_player.last_name,
+        "birth_date": new_player.birth_date,
+        "rank": 0,
+        "score": 0,
+        "played_tournaments": {"name": data_player["name_of_tournament"], "played_against": []}
+    }
 
     # add player_id to the tournament in tournaments.json inside list_of_players:
     add_player_id_to_list_of_players_controller(new_player.player_id, data_player["name_of_tournament"])
