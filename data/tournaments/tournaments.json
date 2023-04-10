@@ -1128,16 +1128,6 @@
             ],
             "current_round": 4
         },
-        "18": {
-            "tournament_id": 3301,
-            "name": "The Bruze",
-            "city": "Bruz",
-            "rounds": 4,
-            "comments": "Test",
-            "list_rounds": {},
-            "list_of_players": [],
-            "current_round": 0
-        },
         "19": {
             "tournament_id": 1234,
             "name": "Test Name",
@@ -1149,6 +1139,100 @@
             "list_rounds": {},
             "list_of_players": [],
             "current_round": 0
+        },
+        "20": {
+            "tournament_id": 4455,
+            "name": "The Next Level",
+            "city": "Sao Paulo",
+            "start_date": "2023-04-10T16:33:42.788626",
+            "end_date": "2023-04-10T16:44:52.347122",
+            "rounds": 4,
+            "comments": "not finished yet, but soon",
+            "list_rounds": {
+                "1": [
+                    [
+                        "ER12589",
+                        "HJ25600"
+                    ],
+                    [
+                        "EE20002",
+                        "JN24862"
+                    ],
+                    [
+                        "UH65265",
+                        "HG25874"
+                    ],
+                    [
+                        "ES15951",
+                        "OL88820"
+                    ]
+                ],
+                "2": [
+                    [
+                        "ER12589",
+                        "EE20002"
+                    ],
+                    [
+                        "JN24862",
+                        "HJ25600"
+                    ],
+                    [
+                        "UH65265",
+                        "ES15951"
+                    ],
+                    [
+                        "OL88820",
+                        "HG25874"
+                    ]
+                ],
+                "3": [
+                    [
+                        "ER12589",
+                        "JN24862"
+                    ],
+                    [
+                        "HJ25600",
+                        "EE20002"
+                    ],
+                    [
+                        "UH65265",
+                        "OL88820"
+                    ],
+                    [
+                        "HG25874",
+                        "ES15951"
+                    ]
+                ],
+                "4": [
+                    [
+                        "ER12589",
+                        "UH65265"
+                    ],
+                    [
+                        "HJ25600",
+                        "HG25874"
+                    ],
+                    [
+                        "EE20002",
+                        "ES15951"
+                    ],
+                    [
+                        "JN24862",
+                        "OL88820"
+                    ]
+                ]
+            },
+            "list_of_players": [
+                "ER12589",
+                "HJ25600",
+                "EE20002",
+                "JN24862",
+                "UH65265",
+                "HG25874",
+                "ES15951",
+                "OL88820"
+            ],
+            "current_round": 4
         }
     }
 }

@@ -210,7 +210,7 @@ def display_end_result_view():
             print("and " + name)
     print(end="\n\n")
 
-    print(" NAMES OF TOURNAMENTS: ", end="\n\n")
+    print(" -- NAMES OF TOURNAMENTS: ", end="\n\n")
     for name in results_tournaments:
         print(name)
     print(end="\n\n")
@@ -219,7 +219,7 @@ def display_end_result_view():
 
     for name, info in results_tournaments.items():
         print(f"[Name]: {name}")
-        print(f' [starting]: {info["start_date"]} and [ending]: {info["end_date"]}', end="\n\n")
+        print(f' [start] {info["start_date"]} and [end]: {info["end_date"]}', end="\n\n")
 
     print(" -- ALL PLAYERS OF TOURNAMENT: ", end="\n\n")
 
