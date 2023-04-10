@@ -31,19 +31,15 @@ def create_tournament_view():
     tournament_id = int(input(" Tournament ID (example: 1234): "))
     name = str(input(" Name of tournament: "))
     city = str(input(" Location of tournament: "))
-    start_date = str(input(" Start date (dd-mm-yyyy): "))
-    end_date = str(input(" End date (dd-mm-yyyy): "))
     comments = str(input(" Any comments? "))
     print()
     print(f" You have just created this tournament:")
     print(f"   [Tournament ID]: {tournament_id}")
     print(f"   [name]: {name}")
     print(f"   [city]: {city}")
-    print(f"   [start date]: {start_date} and [end date]: {end_date}")
     print(f"   [comments]: {comments}", end="\n\n")
 
-    data_tournament = {"tournament_id": tournament_id, "name": name, "city": city, "start_date": start_date,
-                       "end_date": end_date, "rounds": 4, "comments": comments}
+    data_tournament = {"tournament_id": tournament_id, "name": name, "city": city, "rounds": 4, "comments": comments}
 
     create_tournament_controller(data_tournament)
 

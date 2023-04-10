@@ -1127,6 +1127,28 @@
                 "CD14365"
             ],
             "current_round": 4
+        },
+        "18": {
+            "tournament_id": 3301,
+            "name": "The Bruze",
+            "city": "Bruz",
+            "rounds": 4,
+            "comments": "Test",
+            "list_rounds": {},
+            "list_of_players": [],
+            "current_round": 0
+        },
+        "19": {
+            "tournament_id": 1234,
+            "name": "Test Name",
+            "city": "Test City",
+            "start_date": "2023-04-10T15:15:00.239874",
+            "end_date": "ongoing",
+            "rounds": 4,
+            "comments": "Test",
+            "list_rounds": {},
+            "list_of_players": [],
+            "current_round": 0
         }
     }
 }
