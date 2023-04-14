@@ -1,7 +1,10 @@
+import random
+
+from itertools import combinations
 from tinydb import TinyDB, Query
 
-from model.player import Player
-from controller.tournament import add_pair_to_list_rounds
+from models.player import Player
+from controllers.tournament import add_pairs_to_list_rounds_controller
 
 
 # private functions:
@@ -29,6 +32,12 @@ def _get_player(player_id):
     player_table = db_player.table("all_players")
 
     return player_table.get(Query().player_id == player_id)
+
+
+def _get_all_possible_pairs(name_of_tournament):
+    list_of_players = _get_tournament(name_of_tournament)["list_of_players"]
+
+    return set(combinations(list_of_players, 2))
 
 
 def _get_score_of_player(list_score_tournament):
@@ -78,35 +87,32 @@ def add_player_id_to_list_of_players_controller(player_id, name_of_tournament):
 
 # option 3: start a tournament:
 def pair_players_first_round_controller(name_of_tournament):
-    list_of_players = _get_tournament(name_of_tournament)["list_of_players"]
+    all_possible_pairs = _get_all_possible_pairs(name_of_tournament)
 
     pair_players = []
-    for i in range(0, len(list_of_players), 2):
-        pair = [list_of_players[i], list_of_players[i+1]]
-        pair_players.append(pair)
+    for i in range(4):
+        new_pair = random.sample(all_possible_pairs, 1)[0]
+        pair_players.append(new_pair)
 
     return pair_players
 
 
 def pair_players_next_rounds_controller(name_of_tournament, current_round):
+    all_possible_pairs = _get_all_possible_pairs(name_of_tournament)
 
-    paired_players = pair_players_first_round_controller(name_of_tournament)
     paired_players_tournament = _get_tournament(name_of_tournament)['list_rounds']
-
     current_list_rounds = paired_players_tournament[f"{current_round}"]
 
-    if current_round < 3:
+    already_played_pairs = set(tuple(list_rounds) for list_rounds in current_list_rounds)
+
+    if current_round < 4:
         new_pair_players = []
-        for i in range(len(current_list_rounds)):
-            if i % 2 == 0:
-                new_pair_players.append([current_list_rounds[i][0], current_list_rounds[i+1][0]])
-                new_pair_players.append([current_list_rounds[i+1][1], current_list_rounds[i][1]])
+        for i in range(4):
+            remaining_pairs = all_possible_pairs - already_played_pairs
+            new_pair = random.sample(remaining_pairs, 1)[0]
 
-        return new_pair_players
-
-    elif current_round == 3:
-        new_pair_players = [[paired_players[0][0], paired_players[2][0]], [paired_players[0][1], paired_players[2][1]],
-                            [paired_players[1][0], paired_players[3][0]], [paired_players[1][1], paired_players[3][1]]]
+            already_played_pairs.add(new_pair)
+            new_pair_players.append(new_pair)
 
         return new_pair_players
 
@@ -191,7 +197,7 @@ def add_player_id_to_played_against_controller(player_ids, name_of_tournament, c
 
     data_list_rounds.update(data)
 
-    add_pair_to_list_rounds(name_of_tournament, data_list_rounds)
+    add_pairs_to_list_rounds_controller(name_of_tournament, data_list_rounds)
 
     # TODO simplify this function
     player_table.update({"played_tournaments": {"name": name_of_tournament,

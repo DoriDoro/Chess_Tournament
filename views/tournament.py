@@ -1,11 +1,11 @@
 from tinydb import TinyDB
 
-from controller.player import (
+from controllers.player import (
     pair_players_controller,
     create_score_controller,
     get_results_players,
 )
-from controller.tournament import (
+from controllers.tournament import (
     create_tournament_controller,
     reorganize_list_score_tournament_controller,
     get_current_round_controller,

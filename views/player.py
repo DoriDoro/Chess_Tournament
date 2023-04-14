@@ -1,6 +1,6 @@
 from tinydb import TinyDB
 
-from controller.player import create_player_controller
+from controllers.player import create_player_controller
 
 
 # option 1: create player:

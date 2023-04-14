@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 from tinydb import TinyDB, Query
 
-from model.tournament import Tournament
+from models.tournament import Tournament
 
 
 # private functions:
@@ -63,7 +63,7 @@ def reorganize_list_score_tournament_controller(list_score_tournament):
     dict_score_tournament = {}
 
     for i, item in enumerate(list_score_tournament[:-1]):
-        dict_score_tournament[f"pair{i+1}"] = {
+        dict_score_tournament[f"pair{i + 1}"] = {
             "score": item[1],
             "names": item[2],
             "paired_players": item[0]
@@ -72,10 +72,28 @@ def reorganize_list_score_tournament_controller(list_score_tournament):
     return dict_score_tournament
 
 
-def add_pair_to_list_rounds(name_of_tournament, data_list_rounds):
+def add_pairs_to_list_rounds_controller(name_of_tournament, data_list_rounds):
     tournament_table = _get_tournament_table()
 
-    tournament_table.update({"list_rounds": data_list_rounds}, Query().name == name_of_tournament)
+    data = {}
+    pair_player_score = []
+
+    player_score = []
+    for keys, values in data_list_rounds.items():
+        for pairs in values:
+            for player_id in pairs:
+                get_player = _get_player(player_id)
+                player_score.append(get_player)
+                score = get_player["score"]
+                player_score.append({"score": score})
+
+    for i in range(0, len(player_score), 2):
+        sublist = player_score[i:i+2]
+        pair_player_score.append(sublist)
+
+    data[keys] = pair_player_score
+
+    tournament_table.update({"list_rounds": data}, Query().name == name_of_tournament)
 
 
 def get_current_round_controller(name_of_tournament):
@@ -106,12 +124,15 @@ def get_results_tournaments_controller():
             player_table = _get_player(player_id)
             name = f'{player_table["first_name"]} {player_table["last_name"]}'
             score = player_table["score"]
-            data = {"player_id": player_id, "name": name, "score": score}
-            data_player[player_id] = data
+            data_player[player_id] = {"name": name, "score": score}
 
-        data_tournament = {"name": name_of_tournament, "start_date": start_date, "end_date": end_date,
-                           "list_of_players": list_of_players, "list_rounds": list_rounds, "player_data": data_player}
-        data_tournaments_players[name_of_tournament] = data_tournament
+        data_tournaments_players[name_of_tournament] = {
+            "start_date": start_date,
+            "end_date": end_date,
+            "list_of_players": list_of_players,
+            "list_rounds": list_rounds,
+            "player_data": data_player
+        }
 
     return data_tournaments_players
 
