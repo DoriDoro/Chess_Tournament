@@ -57,11 +57,12 @@
             "last_name": "Bean",
             "birth_date": "5-12-2000",
             "rank": 0,
-            "score": 0,
+            "score": 1,
             "played_tournaments": {
                 "name": "The Big One",
                 "played_against": [
-                    "UI14241",
+                    "UI78547",
+                    "JJ44444",
                     "TY85763",
                     "JJ44444"
                 ]
@@ -90,33 +91,12 @@
             "last_name": "Dean",
             "birth_date": "6-11-1998",
             "rank": 0,
-            "score": 16.0,
+            "score": 17.0,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
                     "JJ10203",
-                    "DE75321",
-                    "JJ10203",
-                    "JI98563",
-                    "DE75321",
                     "WE15453",
-                    "ER30003",
-                    "ER11102",
-                    "WE15453",
-                    "DE75321",
-                    "JI98563",
-                    "JJ10203",
-                    "YU60023",
-                    "HG11102",
-                    "JI98563",
-                    "JJ10203",
-                    "WE15453",
-                    "ER30003",
-                    "WE15453",
-                    "YU60023",
-                    "JJ10203",
-                    "HG11102",
-                    "JI98563",
                     "JJ10203"
                 ]
             }
@@ -131,29 +111,8 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "JJ10203",
-                    "DE75321",
-                    "JJ10203",
-                    "JI98563",
-                    "DE75321",
-                    "WE15453",
-                    "ER30003",
-                    "ER11102",
-                    "WE15453",
-                    "DE75321",
-                    "JI98563",
-                    "JJ10203",
                     "YU60023",
                     "HG11102",
-                    "JI98563",
-                    "WE15453",
-                    "JJ10203",
-                    "ER30003",
-                    "WE15453",
-                    "DE75321",
-                    "ER30003",
-                    "JJ10203",
-                    "ER11102",
                     "DE75321"
                 ]
             }
@@ -164,33 +123,11 @@
             "last_name": "Stark",
             "birth_date": "8-12-1999",
             "rank": 0,
-            "score": 14.0,
+            "score": 15.0,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "JJ10203",
-                    "DE75321",
-                    "JJ10203",
-                    "JI98563",
-                    "DE75321",
-                    "WE15453",
-                    "ER30003",
-                    "ER11102",
-                    "WE15453",
-                    "DE75321",
-                    "JI98563",
-                    "JJ10203",
                     "YU60023",
-                    "HG11102",
-                    "JI98563",
-                    "JJ10203",
-                    "WE15453",
-                    "ER30003",
-                    "WE15453",
-                    "YU60023",
-                    "JJ10203",
-                    "ER30003",
-                    "JJ10203",
                     "JI98563"
                 ]
             }
@@ -205,29 +142,7 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "ER11102",
-                    "WE15453",
-                    "ER30003",
-                    "WE15453",
-                    "HG11102",
-                    "ER30003",
-                    "JJ10203",
-                    "DE75321",
                     "YU60023",
-                    "JJ10203",
-                    "ER30003",
-                    "YU60023",
-                    "DE75321",
-                    "HG11102",
-                    "JJ10203",
-                    "WE15453",
-                    "JI98563",
-                    "YU60023",
-                    "HG11102",
-                    "ER11102",
-                    "JI98563",
-                    "ER11102",
-                    "JJ10203",
                     "ER30003",
                     "ER11102"
                 ]
@@ -243,26 +158,7 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "ER11102",
-                    "WE15453",
-                    "ER30003",
-                    "WE15453",
-                    "HG11102",
-                    "ER30003",
-                    "JJ10203",
                     "DE75321",
-                    "YU60023",
-                    "JJ10203",
-                    "ER30003",
-                    "YU60023",
-                    "DE75321",
-                    "HG11102",
-                    "JJ10203",
-                    "WE15453",
-                    "JI98563",
-                    "ER11102",
-                    "YU60023",
-                    "WE15453",
                     "HG11102"
                 ]
             }
@@ -273,33 +169,10 @@
             "last_name": "Hammer",
             "birth_date": "9-9-1999",
             "rank": 0,
-            "score": 12.5,
+            "score": 13.5,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "JJ10203",
-                    "DE75321",
-                    "JJ10203",
-                    "JI98563",
-                    "DE75321",
-                    "WE15453",
-                    "ER30003",
-                    "ER11102",
-                    "WE15453",
-                    "DE75321",
-                    "JI98563",
-                    "JJ10203",
-                    "YU60023",
-                    "HG11102",
-                    "JI98563",
-                    "WE15453",
-                    "JJ10203",
-                    "ER30003",
-                    "WE15453",
-                    "DE75321",
-                    "ER30003",
-                    "JJ10203",
-                    "ER11102",
                     "ER30003"
                 ]
             }
@@ -310,12 +183,14 @@
             "last_name": "Weak",
             "birth_date": "4-12-1988",
             "rank": 0,
-            "score": 0,
+            "score": 0.5,
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
                     "JU74521",
                     "UJ14521",
+                    "QQ19002",
+                    "KS85236",
                     "QQ19002"
                 ]
             }
@@ -347,8 +222,10 @@
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
+                    "JU74521",
+                    "UJ14521",
+                    "QQ19002",
                     "UU14789",
-                    "II14563",
                     "IK52136"
                 ]
             }
@@ -359,12 +236,14 @@
             "last_name": "Ville",
             "birth_date": "12-1-1977",
             "rank": 0,
-            "score": 0,
+            "score": 0.5,
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
                     "II14563",
                     "UU14789",
+                    "KS85236",
+                    "QQ19002",
                     "KS85236"
                 ]
             }
@@ -375,11 +254,13 @@
             "last_name": "Hill",
             "birth_date": "3-12-1988",
             "rank": 0,
-            "score": 0,
+            "score": 1,
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
+                    "JU74521",
                     "UJ14521",
+                    "QQ19002",
                     "JU74521",
                     "OO10023"
                 ]
@@ -395,8 +276,10 @@
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
+                    "UJ14521",
+                    "JU74521",
                     "OO10023",
-                    "QQ19002",
+                    "II14563",
                     "UJ14521"
                 ]
             }
@@ -411,8 +294,9 @@
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
-                    "KS85236",
-                    "IK52136",
+                    "OO10023",
+                    "QQ19002",
+                    "UJ14521",
                     "II14563"
                 ]
             }
@@ -427,8 +311,9 @@
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
+                    "UU14789",
+                    "II14563",
                     "IK52136",
-                    "KS85236",
                     "UU14789"
                 ]
             }
@@ -439,12 +324,13 @@
             "last_name": "Sterling",
             "birth_date": "12-10-1980",
             "rank": 0,
-            "score": 0,
+            "score": 0.5,
             "played_tournaments": {
                 "name": "The Big One",
                 "played_against": [
-                    "WS96860",
-                    "ER85756",
+                    "TY85763",
+                    "UI14241",
+                    "UI78547",
                     "WE12365"
                 ]
             }
@@ -455,12 +341,13 @@
             "last_name": "Stark",
             "birth_date": "9-10-1998",
             "rank": 0,
-            "score": 0,
+            "score": 0.5,
             "played_tournaments": {
                 "name": "The Big One",
                 "played_against": [
-                    "TY85763",
-                    "UI14241",
+                    "WS96860",
+                    "ER85756",
+                    "WE12365",
                     "UI78547"
                 ]
             }
@@ -522,11 +409,13 @@
             "last_name": "Ben",
             "birth_date": "9-9-1999",
             "rank": 0,
-            "score": 0,
+            "score": 1,
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
-                    "QQ19002",
+                    "KS85236",
+                    "IK52136",
+                    "II14563",
                     "OO10023",
                     "JU74521"
                 ]
@@ -899,27 +788,8 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "ER11102",
-                    "WE15453",
                     "ER30003",
-                    "WE15453",
-                    "HG11102",
-                    "ER30003",
-                    "JJ10203",
-                    "DE75321",
-                    "YU60023",
-                    "JJ10203",
-                    "ER30003",
-                    "YU60023",
-                    "DE75321",
-                    "HG11102",
-                    "JJ10203",
-                    "WE15453",
                     "JI98563",
-                    "DE75321",
-                    "JJ10203",
-                    "ER30003",
-                    "DE75321",
                     "YU60023"
                 ]
             }
@@ -1010,33 +880,12 @@
             "last_name": "Urk",
             "birth_date": "9-8-1992",
             "rank": 0,
-            "score": 11.0,
+            "score": 11.5,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "JJ10203",
-                    "DE75321",
-                    "JJ10203",
-                    "JI98563",
-                    "DE75321",
-                    "WE15453",
-                    "ER30003",
-                    "ER11102",
-                    "WE15453",
-                    "DE75321",
-                    "JI98563",
-                    "JJ10203",
-                    "YU60023",
-                    "HG11102",
-                    "JI98563",
                     "WE15453",
                     "JJ10203",
-                    "ER30003",
-                    "WE15453",
-                    "DE75321",
-                    "ER30003",
-                    "JI98563",
-                    "HG11102",
                     "WE15453"
                 ]
             }
@@ -1071,12 +920,13 @@
             "last_name": "Hack",
             "birth_date": "5-12-2001",
             "rank": 0,
-            "score": 0,
+            "score": 0.5,
             "played_tournaments": {
                 "name": "The Big One",
                 "played_against": [
-                    "ER85756",
                     "WS96860",
+                    "ER85756",
+                    "WE12365",
                     "OL45645"
                 ]
             }
@@ -1103,11 +953,12 @@
             "last_name": "Fish",
             "birth_date": "9-10-2000",
             "rank": 0,
-            "score": 0,
+            "score": 1,
             "played_tournaments": {
                 "name": "The Big One",
                 "played_against": [
-                    "JJ44444",
+                    "TY85763",
+                    "UI14241",
                     "UI78547",
                     "UI14241"
                 ]
@@ -1123,7 +974,8 @@
             "played_tournaments": {
                 "name": "The Big One",
                 "played_against": [
-                    "UI78547",
+                    "UI14241",
+                    "TY85763",
                     "JJ44444",
                     "TY85763"
                 ]

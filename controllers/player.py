@@ -40,6 +40,7 @@ def _get_all_possible_pairs(name_of_tournament):
     return set(combinations(list_of_players, 2))
 
 
+# TODO changed the dictionary player_ids_scores
 def _get_score_of_player(list_score_tournament):
     player_table = _get_player_table()
 
@@ -50,8 +51,7 @@ def _get_score_of_player(list_score_tournament):
             score_table = player_table.get(Query().player_id == player_id)
             name = f'{score_table["first_name"]} {score_table["last_name"]}'
             score = score_table["score"]
-            data = {"player_id": player_id, "score": score, "name": name}
-            player_ids_score[player_id] = data
+            player_ids_score[player_id] = {"score": score, "name": name}
 
     return player_ids_score
 
@@ -90,18 +90,42 @@ def pair_players_first_round_controller(name_of_tournament):
     all_possible_pairs = _get_all_possible_pairs(name_of_tournament)
 
     pair_players = []
-    for i in range(4):
+
+    while len(pair_players) < 4:
         new_pair = random.sample(all_possible_pairs, 1)[0]
-        pair_players.append(new_pair)
+        player_ids = [player_id for pair in pair_players for player_id in pair]
+        if not any(player_id in player_ids for player_id in new_pair):
+            pair_players.append(new_pair)
 
     return pair_players
 
 
 def pair_players_next_rounds_controller(name_of_tournament, current_round):
+    """
+    Each round is generated dynamically based on the players' results in the current tournament.
+    Sort all players according to their total number of points in the tournament.
+    ○ Match the players in order (player 1 with player 2, player 3 with player 4 and so on).
+    ○ If several players have the same number of points, you can choose them randomly.
+    ○ When generating pairs, avoid creating identical matches (i.e. the same players playing against each other several times).
+    ■ For example, if player 1 has already played against player 2,
+    match him with player 3 instead
+    """
+    # Sort all players according to their total number of points in the tournament.
+    paired_players_tournament = _get_tournament(name_of_tournament)['list_rounds']
+    current_list_rounds = paired_players_tournament[f"{current_round}"]
+
+    sorted_list_rounds = sorted(current_list_rounds, key=lambda x: x[1]["score"])
+
+    print('second', sorted_list_rounds)
+
+
+    """
     all_possible_pairs = _get_all_possible_pairs(name_of_tournament)
 
     paired_players_tournament = _get_tournament(name_of_tournament)['list_rounds']
     current_list_rounds = paired_players_tournament[f"{current_round}"]
+
+    print("current_list_rounds", current_list_rounds)
 
     already_played_pairs = set(tuple(list_rounds) for list_rounds in current_list_rounds)
 
@@ -115,7 +139,7 @@ def pair_players_next_rounds_controller(name_of_tournament, current_round):
             new_pair_players.append(new_pair)
 
         return new_pair_players
-
+    """
 
 def pair_players_controller(name_of_tournament):
     from views.tournament import end_tournament_view
@@ -132,8 +156,7 @@ def pair_players_controller(name_of_tournament):
         list_of_names = get_name_of_player_controller(paired_players)
 
     elif current_round < rounds:
-        second_paired_players = pair_players_next_rounds_controller(name_of_tournament, current_round)
-        paired_players = second_paired_players
+        paired_players = pair_players_next_rounds_controller(name_of_tournament, current_round)
 
         add_player_id_to_played_against_controller(paired_players, name_of_tournament, current_round)
         list_of_names = get_name_of_player_controller(paired_players)
@@ -203,6 +226,7 @@ def add_player_id_to_played_against_controller(player_ids, name_of_tournament, c
     player_table.update({"played_tournaments": {"name": name_of_tournament,
                                                 "played_against": get_played_against_player_1}},
                         Query().player_id == player_ids[0][1])
+
     player_table.update({'played_tournaments': {'name': name_of_tournament,
                                                 'played_against': get_played_against_player_2}},
                         Query().player_id == player_ids[0][0])
