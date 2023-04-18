@@ -105,13 +105,35 @@ def pair_players_next_rounds_controller(name_of_tournament, current_round):
     ■ For example, if player 1 has already played against player 2,
     match him with player 3 instead
     """
-    # Sort all players according to their score in the tournament.
-    paired_players_tournament = _get_tournament(name_of_tournament)['list_rounds']
-    current_list_rounds = paired_players_tournament[f"{current_round}"]
+    list_rounds_tournament = _get_tournament(name_of_tournament)['list_rounds']
+    current_list_rounds = list_rounds_tournament[f"{current_round}"]
 
+    # Sort all players according to their score in the tournament.
     sorted_list_rounds = sorted(current_list_rounds, key=lambda x: x[1]["score"])
+    """
+    print('sorted list rounds', sorted_list_rounds):
+    [
+        [{'player_id': 'YU60023', 'first_name': 'Danny', 'last_name': 'Blitz', 'birth_date': '5-9-2000', 'rank': 0, 
+        'score': 0, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['YU60023']}}, {'score': 0}], 
+        [{'player_id': 'JI98563', 'first_name': 'Helen', 'last_name': 'Stark', 'birth_date': '8-12-1999', 'rank': 0, 
+        'score': 0, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['JI98563']}}, {'score': 0}], 
+        [{'player_id': 'ER30003', 'first_name': 'Ragnar', 'last_name': 'Hammer', 'birth_date': '9-9-1999', 'rank': 0, 
+        'score': 0.5, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['ER30003']}}, {'score': 0.5}], 
+        [{'player_id': 'HG11102', 'first_name': 'Odin', 'last_name': 'Sky', 'birth_date': '11-11-1999', 'rank': 0, 
+        'score': 0.5, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['HG11102']}}, {'score': 0.5}], 
+        [{'player_id': 'WE15453', 'first_name': 'Bilan', 'last_name': 'Urk', 'birth_date': '9-8-1992', 'rank': 0, 
+        'score': 0.5, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['WE15453']}}, {'score': 0.5}], 
+        [{'player_id': 'JJ10203', 'first_name': 'Sarah', 'last_name': 'Dean', 'birth_date': '6-11-1998', 'rank': 0, 
+        'score': 0.5, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['JJ10203']}}, {'score': 0.5}], 
+        [{'player_id': 'ER11102', 'first_name': 'Odin', 'last_name': 'Thor', 'birth_date': '11-11-2000', 'rank': 0, 
+        'score': 1, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['ER11102']}}, {'score': 1}], 
+        [{'player_id': 'DE75321', 'first_name': 'Dean', 'last_name': 'Trello', 'birth_date': '9-10-1987', 'rank': 0, 
+        'score': 1, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['DE75321']}}, {'score': 1}]
+    ]
+    """
 
     # match players, avoid identical matches
+
 
 
 def pair_players_controller(name_of_tournament):
@@ -164,59 +186,46 @@ def add_player_id_to_played_against_controller(player_ids, name_of_tournament):
     player_table = _get_player_table()
 
     # TODO: simplify this function  for i in range(0, 4)
-    get_played_against_player_1 = _get_player(player_ids[0][0])["played_tournaments"]["played_against"]
-    get_played_against_player_1 += [player_ids[0][1]]
+    player_1 = _get_player(player_ids[0][0])["played_tournaments"]["played_against"]
+    player_1 += [player_ids[0][1]]
+    player_2 = _get_player(player_ids[0][1])["played_tournaments"]["played_against"]
+    player_2 += [player_ids[0][0]]
 
-    get_played_against_player_2 = _get_player(player_ids[0][1])["played_tournaments"]["played_against"]
-    get_played_against_player_2 += [player_ids[0][0]]
+    player_3 = _get_player(player_ids[1][0])["played_tournaments"]["played_against"]
+    player_3 += [player_ids[1][1]]
+    player_4 = _get_player(player_ids[1][1])["played_tournaments"]["played_against"]
+    player_4 += [player_ids[1][0]]
 
-    get_played_against_player_3 = _get_player(player_ids[1][0])["played_tournaments"]["played_against"]
-    get_played_against_player_3 += [player_ids[1][1]]
+    player_5 = _get_player(player_ids[2][0])["played_tournaments"]["played_against"]
+    player_5 += [player_ids[2][1]]
+    player_6 = _get_player(player_ids[2][1])["played_tournaments"]["played_against"]
+    player_6 += [player_ids[2][0]]
 
-    get_played_against_player_4 = _get_player(player_ids[1][1])["played_tournaments"]["played_against"]
-    get_played_against_player_4 += [player_ids[1][0]]
-
-    get_played_against_player_5 = _get_player(player_ids[2][0])["played_tournaments"]["played_against"]
-    get_played_against_player_5 += [player_ids[2][1]]
-
-    get_played_against_player_6 = _get_player(player_ids[2][1])["played_tournaments"]["played_against"]
-    get_played_against_player_6 += [player_ids[2][0]]
-
-    get_played_against_player_7 = _get_player(player_ids[3][0])["played_tournaments"]["played_against"]
-    get_played_against_player_7 += [player_ids[3][1]]
-
-    get_played_against_player_8 = _get_player(player_ids[3][1])["played_tournaments"]["played_against"]
-    get_played_against_player_8 += [player_ids[3][0]]
+    player_7 = _get_player(player_ids[3][0])["played_tournaments"]["played_against"]
+    player_7 += [player_ids[3][1]]
+    player_8 = _get_player(player_ids[3][1])["played_tournaments"]["played_against"]
+    player_8 += [player_ids[3][0]]
 
     # TODO simplify this function
-    player_table.update({"played_tournaments": {"name": name_of_tournament,
-                                                "played_against": get_played_against_player_1}},
+    player_table.update({"played_tournaments": {"name": name_of_tournament, "played_against": player_1}},
+                        Query().player_id == player_ids[0][0])
+    player_table.update({'played_tournaments': {'name': name_of_tournament, 'played_against': player_2}},
                         Query().player_id == player_ids[0][1])
 
-    player_table.update({'played_tournaments': {'name': name_of_tournament,
-                                                'played_against': get_played_against_player_2}},
-                        Query().player_id == player_ids[0][0])
-
-    player_table.update({"played_tournaments": {"name": name_of_tournament,
-                                                "played_against": get_played_against_player_3}},
-                        Query().player_id == player_ids[1][1])
-    player_table.update({'played_tournaments': {'name': name_of_tournament,
-                                                'played_against': get_played_against_player_4}},
+    player_table.update({"played_tournaments": {"name": name_of_tournament, "played_against": player_3}},
                         Query().player_id == player_ids[1][0])
+    player_table.update({'played_tournaments': {'name': name_of_tournament, 'played_against': player_4}},
+                        Query().player_id == player_ids[1][1])
 
-    player_table.update({"played_tournaments": {"name": name_of_tournament,
-                                                "played_against": get_played_against_player_5}},
-                        Query().player_id == player_ids[2][1])
-    player_table.update({'played_tournaments': {'name': name_of_tournament,
-                                                'played_against': get_played_against_player_6}},
+    player_table.update({"played_tournaments": {"name": name_of_tournament, "played_against": player_5}},
                         Query().player_id == player_ids[2][0])
+    player_table.update({'played_tournaments': {'name': name_of_tournament, 'played_against': player_6}},
+                        Query().player_id == player_ids[2][1])
 
-    player_table.update({"played_tournaments": {"name": name_of_tournament,
-                                                "played_against": get_played_against_player_7}},
-                        Query().player_id == player_ids[3][1])
-    player_table.update({'played_tournaments': {'name': name_of_tournament,
-                                                'played_against': get_played_against_player_8}},
+    player_table.update({"played_tournaments": {"name": name_of_tournament, "played_against": player_7}},
                         Query().player_id == player_ids[3][0])
+    player_table.update({'played_tournaments': {'name': name_of_tournament, 'played_against': player_8}},
+                        Query().player_id == player_ids[3][1])
 
 
 def get_name_of_player_controller(player_ids):

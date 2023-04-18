@@ -12,10 +12,10 @@
                 "1": [
                     [
                         {
-                            "player_id": "YU60023",
-                            "first_name": "Danny",
-                            "last_name": "Blitz",
-                            "birth_date": "5-9-2000",
+                            "player_id": "JJ10203",
+                            "first_name": "Sarah",
+                            "last_name": "Dean",
+                            "birth_date": "6-11-1998",
                             "rank": 0,
                             "score": 0,
                             "played_tournaments": {
@@ -31,16 +31,16 @@
                     ],
                     [
                         {
-                            "player_id": "ER11102",
-                            "first_name": "Odin",
-                            "last_name": "Thor",
-                            "birth_date": "11-11-2000",
+                            "player_id": "YU60023",
+                            "first_name": "Danny",
+                            "last_name": "Blitz",
+                            "birth_date": "5-9-2000",
                             "rank": 0,
                             "score": 1,
                             "played_tournaments": {
                                 "name": "The Golden Summer",
                                 "played_against": [
-                                    "ER11102"
+                                    "JJ10203"
                                 ]
                             }
                         },
@@ -50,16 +50,55 @@
                     ],
                     [
                         {
-                            "player_id": "ER30003",
-                            "first_name": "Ragnar",
-                            "last_name": "Hammer",
-                            "birth_date": "9-9-1999",
+                            "player_id": "JI98563",
+                            "first_name": "Helen",
+                            "last_name": "Stark",
+                            "birth_date": "8-12-1999",
+                            "rank": 0,
+                            "score": 1,
+                            "played_tournaments": {
+                                "name": "The Golden Summer",
+                                "played_against": [
+                                    "WE15453"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "WE15453",
+                            "first_name": "Bilan",
+                            "last_name": "Urk",
+                            "birth_date": "9-8-1992",
+                            "rank": 0,
+                            "score": 0,
+                            "played_tournaments": {
+                                "name": "The Golden Summer",
+                                "played_against": [
+                                    "JI98563"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "ER11102",
+                            "first_name": "Odin",
+                            "last_name": "Thor",
+                            "birth_date": "11-11-2000",
                             "rank": 0,
                             "score": 0.5,
                             "played_tournaments": {
                                 "name": "The Golden Summer",
                                 "played_against": [
-                                    "ER30003"
+                                    "ER11102",
+                                    "HG11102"
                                 ]
                             }
                         },
@@ -78,7 +117,7 @@
                             "played_tournaments": {
                                 "name": "The Golden Summer",
                                 "played_against": [
-                                    "HG11102"
+                                    "ER11102"
                                 ]
                             }
                         },
@@ -88,40 +127,21 @@
                     ],
                     [
                         {
-                            "player_id": "WE15453",
-                            "first_name": "Bilan",
-                            "last_name": "Urk",
-                            "birth_date": "9-8-1992",
+                            "player_id": "ER30003",
+                            "first_name": "Ragnar",
+                            "last_name": "Hammer",
+                            "birth_date": "9-9-1999",
                             "rank": 0,
-                            "score": 0.5,
+                            "score": 0,
                             "played_tournaments": {
                                 "name": "The Golden Summer",
                                 "played_against": [
-                                    "WE15453"
+                                    "DE75321"
                                 ]
                             }
                         },
                         {
-                            "score": 0.5
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "JJ10203",
-                            "first_name": "Sarah",
-                            "last_name": "Dean",
-                            "birth_date": "6-11-1998",
-                            "rank": 0,
-                            "score": 0.5,
-                            "played_tournaments": {
-                                "name": "The Golden Summer",
-                                "played_against": [
-                                    "JJ10203"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 0.5
+                            "score": 0
                         }
                     ],
                     [
@@ -135,31 +155,12 @@
                             "played_tournaments": {
                                 "name": "The Golden Summer",
                                 "played_against": [
-                                    "DE75321"
+                                    "ER30003"
                                 ]
                             }
                         },
                         {
                             "score": 1
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "JI98563",
-                            "first_name": "Helen",
-                            "last_name": "Stark",
-                            "birth_date": "8-12-1999",
-                            "rank": 0,
-                            "score": 0,
-                            "played_tournaments": {
-                                "name": "The Golden Summer",
-                                "played_against": [
-                                    "JI98563"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 0
                         }
                     ]
                 ]
