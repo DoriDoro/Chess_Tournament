@@ -2,12 +2,13 @@ from tinydb import TinyDB
 
 from controllers.player import (
     pair_players_controller,
-    create_score_controller,
+    update_score_controller,
     get_results_players,
 )
 from controllers.tournament import (
     create_tournament_controller,
     reorganize_list_score_tournament_controller,
+    add_player_score_to_list_rounds_controller,
     get_current_round_controller,
     get_list_round_info_controller,
     get_results_tournaments_controller,
@@ -74,12 +75,12 @@ def choose_tournament_view(tournament_id_name_list):
         choice = int(choice)
 
         for tournament_id, name in tournament_id_name_list:
-            check_current_round = get_current_round_controller(name)
+            current_round = get_current_round_controller(name)
 
             if choice == tournament_id:
                 print(f" You have chosen: {name}", end="\n\n")
 
-                if check_current_round > 0:
+                if current_round > 0:
                     yes_no = str(input(f"   Do you want to continue with {name}  - [yes] or [no]?  "))
                     print()
 
@@ -108,7 +109,6 @@ def choose_tournament_view(tournament_id_name_list):
                     pair_players_names = paired_players["list_of_names"]
                     pair_players_ids = paired_players["paired_players"]
 
-                    # TODO if tournament is over the print below are not working anymore
                     print(f"  The pairs for - {name} - are:", end="\n\n")
                     print(f"   pair 1  - {pair_players_names[0]} and {pair_players_names[1]}")
                     print(f"   pair 2  - {pair_players_names[2]} and {pair_players_names[3]}")
@@ -122,26 +122,26 @@ def choose_tournament_view(tournament_id_name_list):
                     print("   2 means second player has won the match.")
                     print("   3 is for a draw.", end="\n\n")
 
-                    print("  Enter your choice for these matches: ", end="\n\n")
+                    print("  Enter the score for these matches: ", end="\n\n")
 
                     pair1 = int(input(f"  {pair_players_names[0]} and {pair_players_names[1]}: "))
                     pair2 = int(input(f"  {pair_players_names[2]} and {pair_players_names[3]}: "))
                     pair3 = int(input(f"  {pair_players_names[4]} and {pair_players_names[5]}: "))
                     pair4 = int(input(f"  {pair_players_names[6]} and {pair_players_names[7]}: "))
 
-                    list_score_tournament = [[pair_players_ids[0], pair1,
-                                             [pair_players_names[0], pair_players_names[1]]],
-                                             [pair_players_ids[1], pair2,
-                                             [pair_players_names[2], pair_players_names[3]]],
-                                             [pair_players_ids[2], pair3,
-                                             [pair_players_names[4], pair_players_names[5]]],
-                                             [pair_players_ids[3], pair4,
-                                             [pair_players_names[6], pair_players_names[7]]],
-                                             pair_players_ids
-                                             ]
+                    list_score_tournament = [
+                        [pair_players_ids[0], pair1, [pair_players_names[0], pair_players_names[1]]],
+                        [pair_players_ids[1], pair2, [pair_players_names[2], pair_players_names[3]]],
+                        [pair_players_ids[2], pair3, [pair_players_names[4], pair_players_names[5]]],
+                        [pair_players_ids[3], pair4, [pair_players_names[6], pair_players_names[7]]],
+                        pair_players_ids
+                        ]
                     print()
 
-                    list_of_scores = create_score_controller(list_score_tournament)
+                    list_of_scores = update_score_controller(list_score_tournament)
+
+                    add_player_score_to_list_rounds_controller(name, list_of_scores, current_round)
+
                     dict_score_tournament = reorganize_list_score_tournament_controller(list_score_tournament)
 
                     display_tournament_results_view(list_of_scores, dict_score_tournament, name)

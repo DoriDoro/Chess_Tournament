@@ -91,12 +91,10 @@
             "last_name": "Dean",
             "birth_date": "6-11-1998",
             "rank": 0,
-            "score": 17.0,
+            "score": 0.5,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "JJ10203",
-                    "WE15453",
                     "JJ10203"
                 ]
             }
@@ -107,12 +105,10 @@
             "last_name": "Trello",
             "birth_date": "9-10-1987",
             "rank": 0,
-            "score": 11.0,
+            "score": 1,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "YU60023",
-                    "HG11102",
                     "DE75321"
                 ]
             }
@@ -123,11 +119,10 @@
             "last_name": "Stark",
             "birth_date": "8-12-1999",
             "rank": 0,
-            "score": 15.0,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "YU60023",
                     "JI98563"
                 ]
             }
@@ -138,12 +133,10 @@
             "last_name": "Thor",
             "birth_date": "11-11-2000",
             "rank": 0,
-            "score": 15.0,
+            "score": 1,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "YU60023",
-                    "ER30003",
                     "ER11102"
                 ]
             }
@@ -154,11 +147,10 @@
             "last_name": "Sky",
             "birth_date": "11-11-1999",
             "rank": 0,
-            "score": 16.0,
+            "score": 0.5,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "DE75321",
                     "HG11102"
                 ]
             }
@@ -169,7 +161,7 @@
             "last_name": "Hammer",
             "birth_date": "9-9-1999",
             "rank": 0,
-            "score": 13.5,
+            "score": 0.5,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
@@ -187,10 +179,8 @@
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
-                    "JU74521",
-                    "UJ14521",
                     "QQ19002",
-                    "KS85236",
+                    "UU14789",
                     "QQ19002"
                 ]
             }
@@ -218,14 +208,12 @@
             "last_name": "Darling",
             "birth_date": "10-2-2001",
             "rank": 0,
-            "score": 0,
+            "score": 1,
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
-                    "JU74521",
+                    "OO10023",
                     "UJ14521",
-                    "QQ19002",
-                    "UU14789",
                     "IK52136"
                 ]
             }
@@ -236,14 +224,12 @@
             "last_name": "Ville",
             "birth_date": "12-1-1977",
             "rank": 0,
-            "score": 0.5,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
-                    "II14563",
-                    "UU14789",
                     "KS85236",
-                    "QQ19002",
+                    "II14563",
                     "KS85236"
                 ]
             }
@@ -258,9 +244,7 @@
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
-                    "JU74521",
-                    "UJ14521",
-                    "QQ19002",
+                    "IK52136",
                     "JU74521",
                     "OO10023"
                 ]
@@ -276,10 +260,8 @@
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
-                    "UJ14521",
                     "JU74521",
-                    "OO10023",
-                    "II14563",
+                    "IK52136",
                     "UJ14521"
                 ]
             }
@@ -290,13 +272,12 @@
             "last_name": "Carter",
             "birth_date": "14-10-1990",
             "rank": 0,
-            "score": 0,
+            "score": 1,
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
-                    "OO10023",
-                    "QQ19002",
-                    "UJ14521",
+                    "II14563",
+                    "KS85236",
                     "II14563"
                 ]
             }
@@ -307,13 +288,12 @@
             "last_name": "Rouen",
             "birth_date": "3-1-2000",
             "rank": 0,
-            "score": 0,
+            "score": 0.5,
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
                     "UU14789",
-                    "II14563",
-                    "IK52136",
+                    "QQ19002",
                     "UU14789"
                 ]
             }
@@ -409,13 +389,11 @@
             "last_name": "Ben",
             "birth_date": "9-9-1999",
             "rank": 0,
-            "score": 1,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Sensation",
                 "played_against": [
-                    "KS85236",
-                    "IK52136",
-                    "II14563",
+                    "UJ14521",
                     "OO10023",
                     "JU74521"
                 ]
@@ -784,12 +762,10 @@
             "last_name": "Blitz",
             "birth_date": "5-9-2000",
             "rank": 0,
-            "score": 12.5,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "ER30003",
-                    "JI98563",
                     "YU60023"
                 ]
             }
@@ -880,12 +856,10 @@
             "last_name": "Urk",
             "birth_date": "9-8-1992",
             "rank": 0,
-            "score": 11.5,
+            "score": 0.5,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "WE15453",
-                    "JJ10203",
                     "WE15453"
                 ]
             }

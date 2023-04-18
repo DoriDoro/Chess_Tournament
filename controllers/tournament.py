@@ -26,6 +26,13 @@ def _get_player(player_id):
     return player_table.get(Query().player_id == player_id)
 
 
+def _get_player_table():
+    db_player = TinyDB('data/players/players.json', indent=4)
+    player_table = db_player.table("all_players")
+
+    return player_table
+
+
 # option 2: create tournament:
 def create_tournament_controller(data_tournament):
     new_tournament = Tournament(data_tournament["name"], data_tournament["city"],
@@ -72,26 +79,24 @@ def reorganize_list_score_tournament_controller(list_score_tournament):
     return dict_score_tournament
 
 
-def add_pairs_to_list_rounds_controller(name_of_tournament, data_list_rounds):
+def add_player_score_to_list_rounds_controller(name_of_tournament, list_of_scores, current_round):
     tournament_table = _get_tournament_table()
 
     data = {}
     pair_player_score = []
 
     player_score = []
-    for keys, values in data_list_rounds.items():
-        for pairs in values:
-            for player_id in pairs:
-                get_player = _get_player(player_id)
-                player_score.append(get_player)
-                score = get_player["score"]
-                player_score.append({"score": score})
+    for key, value in list_of_scores.items():
+        get_player = _get_player(key)
+        player_score.append(get_player)
+        score = get_player["score"]
+        player_score.append({"score": score})
 
     for i in range(0, len(player_score), 2):
         sublist = player_score[i:i+2]
         pair_player_score.append(sublist)
 
-    data[keys] = pair_player_score
+    data[current_round + 1] = pair_player_score
 
     tournament_table.update({"list_rounds": data}, Query().name == name_of_tournament)
 
