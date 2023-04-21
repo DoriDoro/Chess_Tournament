@@ -91,11 +91,11 @@
             "last_name": "Dean",
             "birth_date": "6-11-1998",
             "rank": 0,
-            "score": 0,
+            "score": 1,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "YU60023"
+                    "ER11102"
                 ]
             }
         },
@@ -109,7 +109,7 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "ER30003"
+                    "WE15453"
                 ]
             }
         },
@@ -119,11 +119,11 @@
             "last_name": "Stark",
             "birth_date": "8-12-1999",
             "rank": 0,
-            "score": 1,
+            "score": 0.5,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "WE15453"
+                    "YU60023"
                 ]
             }
         },
@@ -133,12 +133,11 @@
             "last_name": "Thor",
             "birth_date": "11-11-2000",
             "rank": 0,
-            "score": 0.5,
+            "score": 0,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "ER11102",
-                    "HG11102"
+                    "JJ10203"
                 ]
             }
         },
@@ -148,11 +147,11 @@
             "last_name": "Sky",
             "birth_date": "11-11-1999",
             "rank": 0,
-            "score": 0.5,
+            "score": 1,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "ER11102"
+                    "ER30003"
                 ]
             }
         },
@@ -166,7 +165,7 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "DE75321"
+                    "HG11102"
                 ]
             }
         },
@@ -763,11 +762,11 @@
             "last_name": "Blitz",
             "birth_date": "5-9-2000",
             "rank": 0,
-            "score": 1,
+            "score": 0.5,
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "JJ10203"
+                    "JI98563"
                 ]
             }
         },
@@ -861,7 +860,7 @@
             "played_tournaments": {
                 "name": "The Golden Summer",
                 "played_against": [
-                    "JI98563"
+                    "DE75321"
                 ]
             }
         },

@@ -32,19 +32,18 @@ def _get_player(player_id):
     return player_table.get(Query().player_id == player_id)
 
 
-# TODO integrate the index, to know which player_id has to move
 def _reorder_create_pairs(i, create_pairs):
-    first_element = create_pairs[0]
-    middle_part = create_pairs[1:7]
-    last_element = create_pairs[-1]
+    i += 1
+    pop_element = create_pairs.pop(i)
 
-    first_last = [first_element, last_element]
-    new_create_pairs = first_last + middle_part
+    if i < 7:
+        create_pairs.append(pop_element)
+    else:
+        create_pairs.insert(0, pop_element)
 
-    return new_create_pairs
+    return create_pairs
 
 
-# TODO changed the dictionary player_ids_scores
 def _get_score_of_player(list_score_tournament):
     player_table = _get_player_table()
 
@@ -111,11 +110,22 @@ def pair_players_next_rounds_controller(name_of_tournament, current_round):
     """
     list_rounds_tournament = _get_tournament(name_of_tournament)['list_rounds']
     current_list_rounds = list_rounds_tournament[f"{current_round}"]
+    print(current_list_rounds)
 
     # Sort all players according to their score in the tournament.
     sorted_list_rounds = sorted(current_list_rounds, key=lambda x: x[1]["score"])
     """
     print('sorted list rounds', sorted_list_rounds):
+    [
+    [
+    [{'player_id': 'ER11102', 'first_name': 'Odin', 'last_name': 'Thor', 'birth_date': '11-11-2000', 'rank': 0, 
+    'score': 0, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['JJ10203']}}, {'score': 0}], 
+    [{'player_id': 'JJ10203', 'first_name': 'Sarah', 'last_name': 'Dean', 'birth_date': '6-11-1998', 'rank': 0, 
+    'score': 1, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['ER11102']}}, {'score': 1}], 
+    [{'player_id': 'DE75321', 'first_name': 'Dean', 'last_name': 'Trello', 'birth_date': '9-10-1987', 'rank': 0, 
+    'score': 1, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['WE15453']}}, {'score': 1}], [{'player_id': 'WE15453', 'first_name': 'Bilan', 'last_name': 'Urk', 'birth_date': '9-8-1992', 'rank': 0, 'score': 0, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['DE75321']}}, {'score': 0}], [{'player_id': 'JI98563', 'first_name': 'Helen', 'last_name': 'Stark', 'birth_date': '8-12-1999', 'rank': 0, 'score': 0.5, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['YU60023']}}, {'score': 0.5}], [{'player_id': 'YU60023', 'first_name': 'Danny', 'last_name': 'Blitz', 'birth_date': '5-9-2000', 'rank': 0, 'score': 0.5, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['JI98563']}}, {'score': 0.5}], [{'player_id': 'ER30003', 'first_name': 'Ragnar', 'last_name': 'Hammer', 'birth_date': '9-9-1999', 'rank': 0, 'score': 0, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['HG11102']}}, {'score': 0}], [{'player_id': 'HG11102', 'first_name': 'Odin', 'last_name': 'Sky', 'birth_date': '11-11-1999', 'rank': 0, 'score': 1, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['ER30003']}}, {'score': 1}]]]
+
+    
     [
     [{'player_id': 'JJ10203', 'first_name': 'Sarah', 'last_name': 'Dean', 'birth_date': '6-11-1998', 'rank': 0, 
     'score': 0, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['YU60023']}}, {'score': 0}],
@@ -147,7 +157,7 @@ def pair_players_next_rounds_controller(name_of_tournament, current_round):
     """
     player_id_played_against
     {
-    'JJ10203': {'played_against': ['YU60023']}, 
+    'JJ10203': {'played_against': ['YU60023','ER11102', 'HG11102']}, 
     'WE15453': {'played_against': ['JI98563']}, 
     'ER30003': {'played_against': ['DE75321']}, 
     'ER11102': {'played_against': ['HG11102']}, 
@@ -160,31 +170,37 @@ def pair_players_next_rounds_controller(name_of_tournament, current_round):
     # match players, avoid already paired:
     for player_id, played_against in player_id_played_against.items():
         create_pairs.append(player_id)
-
-    counter = 0
-    while counter < len(create_pairs):
-        for i, p_id in enumerate(create_pairs):
-            if i % 2 != 0:
-                for k, v in player_id_played_against.items():
-                    if k == p_id:
-                        for player in v["played_against"]:
-                            if player == create_pairs[i-1]:
-                                print('already played against each other')
-                                # function to take the create_pairs and move the player_ids
-                                # TODO create function to create_pairs and restart the function
-                                #  if the _reorder_create_pairs gets called
-                                _reorder_create_pairs(i, create_pairs)
-                            else:
-                                print('success')
-
+    """
+    print('create pairs', create_pairs)
+    create pairs ['JJ10203', 'WE15453', 'ER30003', 'ER11102', 'HG11102', 'YU60023', 'JI98563', 'DE75321']
+    """
+    already_played_against = False
+    for i, p_id in enumerate(create_pairs):
+        print('1', create_pairs)
+        if i % 2 == 0:
+            for k, v in player_id_played_against.items():
+                if k == p_id:
+                    for player in v["played_against"]:
+                        if player == create_pairs[i + 1]:
+                            print('already played against each other')
+                            reordered_create_pairs = _reorder_create_pairs(i, create_pairs)
+                            already_played_against = True
+                            break
+                    if already_played_against:
+                        create_pairs = reordered_create_pairs
+                        already_played_against = False
+                        continue
+                    else:
+                        print('success')
 
 
     # convert to tuple:
     pair_players = list(zip(create_pairs[0::2], create_pairs[1::2]))
-    print('pair players', pair_players)
     """
+    print('pair players', pair_players)
     pair players [('JJ10203', 'WE15453'), ('ER30003', 'ER11102'), ('HG11102', 'YU60023'), ('JI98563', 'DE75321')]
     """
+    return pair_players
 
 
 def pair_players_controller(name_of_tournament):
@@ -338,9 +354,8 @@ def update_score_controller(list_score_tournament):
 def get_results_players():
     players = _get_player_table()
 
-    # TODO check function, enumerate not necessary
     data_players = {}
-    for i, player in enumerate(players):
+    for player in players:
         name = f'{player["first_name"]} {player["last_name"]}'
         data_players[player["player_id"]] = name
 
