@@ -3,7 +3,7 @@ from tinydb import TinyDB
 from controllers.player import (
     pair_players_controller,
     update_score_controller,
-    get_results_players,
+    get_results_players_controller,
 )
 from controllers.tournament import (
     create_tournament_controller,
@@ -192,14 +192,14 @@ def display_end_result_view():
     print(" ** RESULT OF ALL TOURNAMENTS **", end="\n\n")
 
     results_tournaments = get_results_tournaments_controller()
-    results_players = get_results_players()
+    results_players = get_results_players_controller()
 
     player_names = []
     for i, name in results_players.items():
         player_names.append(name)
     player_names.sort()
 
-    print(" -- ALL PLAYERS: ", end="\n\n")
+    print(" -- ALL PLAYERS: --", end="\n\n")
     for i, name in enumerate(player_names):
         if i != len(player_names) - 1:
             if i % 5 == 4:
@@ -210,18 +210,18 @@ def display_end_result_view():
             print("and " + name)
     print(end="\n\n")
 
-    print(" -- NAMES OF TOURNAMENTS: ", end="\n\n")
-    for name in results_tournaments:
-        print(name)
+    print(" -- NAMES OF TOURNAMENTS: --", end="\n\n")
+    for name, values in results_tournaments.items():
+        print(f' [ID] {values["tournament_id"]} [name] {name}')
     print(end="\n\n")
 
-    print(" -- NAMES AND DATES OF TOURNAMENTS: ", end="\n\n")
+    print(" -- NAMES AND DATES OF TOURNAMENTS: --", end="\n\n")
 
     for name, info in results_tournaments.items():
-        print(f"[Name]: {name}")
-        print(f' [start] {info["start_date"]} and [end]: {info["end_date"]}', end="\n\n")
+        print(f" {name}")
+        print(f'  [start]: {info["start_date"]} and [end]: {info["end_date"]}', end="\n\n")
 
-    print(" -- ALL PLAYERS OF TOURNAMENT: ", end="\n\n")
+    print(" -- PLAYERS OF EACH TOURNAMENT: --", end="\n\n")
 
     for name_tournament, info in results_tournaments.items():
         print(f"[Name of tournament]: {name_tournament}", end="\n\n")
@@ -231,18 +231,18 @@ def display_end_result_view():
             print(f" {name}")
         print()
 
-    print("  -- ALL MATCHES OF TOURNAMENT: ", end="\n\n")
+    print("  -- ALL MATCHES OF TOURNAMENT: --", end="\n\n")
 
     for name_of_tournament, data in results_tournaments.items():
         print(f"[Name of tournament]: {name_of_tournament}", end="\n\n")
         print("[Matches of players]: ")
-        for pair_list in results_tournaments[name_tournament]["list_rounds"].values():
-            for pair in pair_list:
-                match_name_list = []
-                for player_id, name in results_players.items():
-                    if pair[0] == player_id:
-                        match_name_list.append(name)
-                    elif pair[1] == player_id:
-                        match_name_list.append(name)
-                print(f" {match_name_list[0]}   played against   {match_name_list[1]}")
+        pair_count = 0
+        for rounds in results_tournaments[name_tournament]["list_rounds"].values():
+            for i, player in enumerate(rounds.keys()):
+                if i % 2 == 0:
+                    pair = [rounds[player]["name"], rounds[list(rounds.keys())[i + 1]]["name"]]
+                    print(f" {pair[0]}   played against   {pair[1]}")
+                    pair_count += 1
+                    if pair_count % 4 == 0:
+                        print()
         print(end="\n\n")

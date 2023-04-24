@@ -45,7 +45,7 @@ def create_tournament_controller(data_tournament):
     new_tournament = Tournament(data_tournament["name"], data_tournament["city"],
                                 data_tournament["comments"], data_tournament["rounds"])
 
-    start_date = datetime.now().isoformat()
+    start_date = _serialize_date()
 
     data = {
         "tournament_id": data_tournament["tournament_id"],
@@ -60,14 +60,9 @@ def create_tournament_controller(data_tournament):
         "current_round": 0
     }
 
-    # usage of datetime, serialization necessary
-    json_data = json.dumps(data)
-    # insert() of TinyDB expects dictionary no json string, so parse data
-    parsed_data = json.loads(json_data)
-
     db = TinyDB(f'data/tournaments/tournaments.json', indent=4)
     all_tournaments = db.table("all_tournaments")
-    all_tournaments.insert(parsed_data)
+    all_tournaments.insert(data)
     # close the db and save all changes made
     db.close()
 
@@ -105,14 +100,11 @@ def add_player_score_to_list_rounds_controller(name_of_tournament, list_of_score
         sublist = player_score[i:i+2]
         pair_player_score.append(sublist)
 
-    """
-    print('player score ', player_score)
-    print('pair player score', pair_player_score)
-    player score  [{'player_id': 'DE75321', 'first_name': 'Dean', 'last_name': 'Trello', 'birth_date': '9-10-1987', 'rank': 0, 'score': 1, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['WE15453']}}, {'score': 1}, {'player_id': 'YU60023', 'first_name': 'Danny', 'last_name': 'Blitz', 'birth_date': '5-9-2000', 'rank': 0, 'score': 0.5, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['JI98563']}}, {'score': 0.5}, {'player_id': 'ER11102', 'first_name': 'Odin', 'last_name': 'Thor', 'birth_date': '11-11-2000', 'rank': 0, 'score': 0, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['JJ10203']}}, {'score': 0}, {'player_id': 'JI98563', 'first_name': 'Helen', 'last_name': 'Stark', 'birth_date': '8-12-1999', 'rank': 0, 'score': 0.5, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['YU60023']}}, {'score': 0.5}, {'player_id': 'WE15453', 'first_name': 'Bilan', 'last_name': 'Urk', 'birth_date': '9-8-1992', 'rank': 0, 'score': 0, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['DE75321']}}, {'score': 0}, {'player_id': 'ER30003', 'first_name': 'Ragnar', 'last_name': 'Hammer', 'birth_date': '9-9-1999', 'rank': 0, 'score': 0, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['HG11102']}}, {'score': 0}, {'player_id': 'JJ10203', 'first_name': 'Sarah', 'last_name': 'Dean', 'birth_date': '6-11-1998', 'rank': 0, 'score': 1, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['ER11102']}}, {'score': 1}, {'player_id': 'HG11102', 'first_name': 'Odin', 'last_name': 'Sky', 'birth_date': '11-11-1999', 'rank': 0, 'score': 1, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['ER30003']}}, {'score': 1}]
-    pair player score [[{'player_id': 'DE75321', 'first_name': 'Dean', 'last_name': 'Trello', 'birth_date': '9-10-1987', 'rank': 0, 'score': 1, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['WE15453']}}, {'score': 1}], [{'player_id': 'YU60023', 'first_name': 'Danny', 'last_name': 'Blitz', 'birth_date': '5-9-2000', 'rank': 0, 'score': 0.5, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['JI98563']}}, {'score': 0.5}], [{'player_id': 'ER11102', 'first_name': 'Odin', 'last_name': 'Thor', 'birth_date': '11-11-2000', 'rank': 0, 'score': 0, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['JJ10203']}}, {'score': 0}], [{'player_id': 'JI98563', 'first_name': 'Helen', 'last_name': 'Stark', 'birth_date': '8-12-1999', 'rank': 0, 'score': 0.5, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['YU60023']}}, {'score': 0.5}], [{'player_id': 'WE15453', 'first_name': 'Bilan', 'last_name': 'Urk', 'birth_date': '9-8-1992', 'rank': 0, 'score': 0, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['DE75321']}}, {'score': 0}], [{'player_id': 'ER30003', 'first_name': 'Ragnar', 'last_name': 'Hammer', 'birth_date': '9-9-1999', 'rank': 0, 'score': 0, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['HG11102']}}, {'score': 0}], [{'player_id': 'JJ10203', 'first_name': 'Sarah', 'last_name': 'Dean', 'birth_date': '6-11-1998', 'rank': 0, 'score': 1, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['ER11102']}}, {'score': 1}], [{'player_id': 'HG11102', 'first_name': 'Odin', 'last_name': 'Sky', 'birth_date': '11-11-1999', 'rank': 0, 'score': 1, 'played_tournaments': {'name': 'The Golden Summer', 'played_against': ['ER30003']}}, {'score': 1}]]
-    """
+    round_end_date = _serialize_date()
+    pair_player_score.pop(1)
+    pair_player_score.insert(1, round_end_date)
 
-    get_list_rounds[f"Round {current_round + 1}"] = pair_player_score
+    get_list_rounds[current_round + 1] = pair_player_score
 
     tournament_table.update({"list_rounds": get_list_rounds}, Query().name == name_of_tournament)
 
@@ -122,10 +114,11 @@ def get_current_round_controller(name_of_tournament):
 
 
 def get_list_round_info_controller(name_of_tournament):
-    list_rounds_rounds = _get_tournament(name_of_tournament)["list_rounds"]
+    list_rounds = _get_tournament(name_of_tournament)["list_rounds"]
 
-    for rounds in list_rounds_rounds.items():
+    for rounds in list_rounds.items():
         last_round = rounds[0]
+
     return last_round
 
 
@@ -135,23 +128,34 @@ def get_results_tournaments_controller():
     data_tournaments_players = {}
     for tournament in tournaments:
         name_of_tournament = tournament["name"]
+        tournament_id = tournament["tournament_id"]
         start_date = tournament["start_date"]
         end_date = tournament["end_date"]
         list_of_players = tournament["list_of_players"]
         list_rounds = tournament["list_rounds"]
 
+        data_list_rounds = {}
+        for round_number, values in list_rounds.items():
+            data_list_rounds_player = {}
+            for data in values[2:]:
+                player_id = data[0]["player_id"]
+                fname = data[0]["first_name"]
+                lname = data[0]["last_name"]
+                name_of_player = f"{fname} {lname}"
+                data_list_rounds_player[player_id] = {"name": name_of_player}
+                data_list_rounds[round_number] = data_list_rounds_player
+
         data_player = {}
         for player_id in list_of_players:
             player_table = _get_player(player_id)
             name = f'{player_table["first_name"]} {player_table["last_name"]}'
-            score = player_table["score"]
-            data_player[player_id] = {"name": name, "score": score}
+            data_player[player_id] = {"name": name}
 
         data_tournaments_players[name_of_tournament] = {
+            "tournament_id": tournament_id,
             "start_date": start_date,
             "end_date": end_date,
-            "list_of_players": list_of_players,
-            "list_rounds": list_rounds,
+            "list_rounds": data_list_rounds,
             "player_data": data_player
         }
 
@@ -161,9 +165,6 @@ def get_results_tournaments_controller():
 def set_end_date_controller(name_of_tournament):
     tournament_table = _get_tournament_table()
 
-    end_date = datetime.now().isoformat()
+    end_date = _serialize_date()
 
-    json_data = json.dumps(end_date)
-    parsed_json = json.loads(json_data)
-
-    tournament_table.update({"end_date": parsed_json}, Query().name == name_of_tournament)
+    tournament_table.update({"end_date": end_date}, Query().name == name_of_tournament)
