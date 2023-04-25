@@ -6,10 +6,12 @@
             "last_name": "Phone",
             "birth_date": "5-12-2000",
             "rank": 0,
-            "score": 3,
+            "score": 4,
             "played_tournaments": {
                 "name": "Great Chance",
-                "played_against": []
+                "played_against": [
+                    "SD14256"
+                ]
             }
         },
         "2": {
@@ -18,10 +20,12 @@
             "last_name": "Griff",
             "birth_date": "11-10-1999",
             "rank": 0,
-            "score": 1.0,
+            "score": 2.0,
             "played_tournaments": {
                 "name": "Great Chance",
-                "played_against": []
+                "played_against": [
+                    "SL15963"
+                ]
             }
         },
         "3": {
@@ -355,12 +359,13 @@
             "rank": 0,
             "score": 7.0,
             "played_tournaments": {
-                "name": "Handshake",
+                "name": "The Princess",
                 "played_against": [
                     "UI52793",
                     "UY14257",
                     "ER55692",
-                    "UY14785"
+                    "UY14785",
+                    "JK555523"
                 ]
             }
         },
@@ -372,12 +377,13 @@
             "rank": 0,
             "score": 7.0,
             "played_tournaments": {
-                "name": "Handshake",
+                "name": "The Princess",
                 "played_against": [
                     "UI52793",
                     "UY14257",
                     "ER55692",
-                    "UY14785"
+                    "UY14785",
+                    "JK555523"
                 ]
             }
         },
@@ -421,14 +427,15 @@
             "last_name": "Milan",
             "birth_date": "5-8-2001",
             "rank": 0,
-            "score": 2,
+            "score": 2.5,
             "played_tournaments": {
                 "name": "Great Chance",
                 "played_against": [
                     "HJ44695",
                     "SD14256",
                     "DE77551",
-                    "WE14512"
+                    "WE14512",
+                    "PO12521"
                 ]
             }
         },
@@ -438,14 +445,15 @@
             "last_name": "Bright",
             "birth_date": "7-11-2002",
             "rank": 0,
-            "score": 2.5,
+            "score": 3.0,
             "played_tournaments": {
                 "name": "Great Chance",
                 "played_against": [
                     "DE77551",
                     "SL15963",
                     "HJ44695",
-                    "PO12521"
+                    "PO12521",
+                    "WE14512"
                 ]
             }
         },
@@ -530,7 +538,8 @@
                     "UU11775",
                     "HJ15932",
                     "DE95990",
-                    "JK555523"
+                    "JK555523",
+                    "UY14785"
                 ]
             }
         },
@@ -547,7 +556,8 @@
                     "DE95990",
                     "HU55550",
                     "UU11775",
-                    "IO65236"
+                    "IO65236",
+                    "UU11775"
                 ]
             }
         },
@@ -564,7 +574,8 @@
                     "HJ15932",
                     "UU11775",
                     "HU55550",
-                    "UI14523"
+                    "UI14523",
+                    "HU55550"
                 ]
             }
         },
@@ -1217,14 +1228,15 @@
             "last_name": "Gilbert",
             "birth_date": "11-7-1986",
             "rank": 0,
-            "score": 1.0,
+            "score": 2.0,
             "played_tournaments": {
                 "name": "Great Chance",
                 "played_against": [
                     "PO12521",
                     "RT55552",
                     "WE14512",
-                    "DE77551"
+                    "DE77551",
+                    "HJ44695"
                 ]
             }
         },
@@ -1241,7 +1253,8 @@
                     "WE14512",
                     "II78998",
                     "PO12521",
-                    "HJ44695"
+                    "HJ44695",
+                    "DE77551"
                 ]
             }
         },
@@ -1258,7 +1271,8 @@
                     "RT55552",
                     "PO12521",
                     "II78998",
-                    "SL15963"
+                    "SL15963",
+                    "RT55552"
                 ]
             }
         },
@@ -1275,7 +1289,8 @@
                     "II78998",
                     "WE14512",
                     "RT55552",
-                    "SD14256"
+                    "SD14256",
+                    "II78998"
                 ]
             }
         },
@@ -1360,7 +1375,8 @@
                     "IO65236",
                     "UY14785",
                     "JK555523",
-                    "DE95990"
+                    "DE95990",
+                    "HJ15932"
                 ]
             }
         },
@@ -1377,7 +1393,8 @@
                     "JK555523",
                     "UI14523",
                     "IO65236",
-                    "UU11775"
+                    "UU11775",
+                    "IO65236"
                 ]
             }
         },
@@ -1394,7 +1411,8 @@
                     "UY14785",
                     "IO65236",
                     "UI14523",
-                    "HU55550"
+                    "HU55550",
+                    "UI14523"
                 ]
             }
         },
@@ -1411,7 +1429,8 @@
                     "UI14523",
                     "JK555523",
                     "UY14785",
-                    "HJ15932"
+                    "HJ15932",
+                    "DE95990"
                 ]
             }
         },

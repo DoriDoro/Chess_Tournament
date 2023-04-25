@@ -5,7 +5,7 @@
             "name": "The Golden Summer",
             "city": "Lisabon",
             "start_date": "22-4-2022",
-            "end_date": "2023-04-24 21:18",
+            "end_date": "2023-04-24 21:46",
             "rounds": 4,
             "comments": "no",
             "list_rounds": {
@@ -2111,7 +2111,188 @@
             "end_date": "9-4-2022",
             "rounds": 4,
             "comments": "no",
-            "list_rounds": {},
+            "list_rounds": {
+                "1": [
+                    "2023-04-24 21:49",
+                    "2023-04-24 21:49",
+                    [
+                        {
+                            "player_id": "II78998",
+                            "first_name": "Berry",
+                            "last_name": "Phone",
+                            "birth_date": "5-12-2000",
+                            "rank": 0,
+                            "score": 4,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "SD14256"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "SD14256",
+                            "first_name": "Donald",
+                            "last_name": "Albert",
+                            "birth_date": "4-8-1995",
+                            "rank": 0,
+                            "score": 3.0,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "II78998",
+                                    "WE14512",
+                                    "RT55552",
+                                    "SD14256",
+                                    "II78998"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "HJ44695",
+                            "first_name": "Duke",
+                            "last_name": "Hastings",
+                            "birth_date": "2-2-1998",
+                            "rank": 0,
+                            "score": 3.0,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "WE14512",
+                                    "II78998",
+                                    "PO12521",
+                                    "HJ44695",
+                                    "DE77551"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "DE77551",
+                            "first_name": "Alberta",
+                            "last_name": "Gilbert",
+                            "birth_date": "11-7-1986",
+                            "rank": 0,
+                            "score": 2.0,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "PO12521",
+                                    "RT55552",
+                                    "WE14512",
+                                    "DE77551",
+                                    "HJ44695"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "WE14512",
+                            "first_name": "Dillan",
+                            "last_name": "Milan",
+                            "birth_date": "5-8-2001",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "HJ44695",
+                                    "SD14256",
+                                    "DE77551",
+                                    "WE14512",
+                                    "PO12521"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "PO12521",
+                            "first_name": "Cesar",
+                            "last_name": "Bright",
+                            "birth_date": "7-11-2002",
+                            "rank": 0,
+                            "score": 3.0,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "DE77551",
+                                    "SL15963",
+                                    "HJ44695",
+                                    "PO12521",
+                                    "WE14512"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "SL15963",
+                            "first_name": "Walter",
+                            "last_name": "Breterman",
+                            "birth_date": "5-10-1999",
+                            "rank": 0,
+                            "score": 0.5,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "RT55552",
+                                    "PO12521",
+                                    "II78998",
+                                    "SL15963",
+                                    "RT55552"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 0.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "RT55552",
+                            "first_name": "Drago",
+                            "last_name": "Griff",
+                            "birth_date": "11-10-1999",
+                            "rank": 0,
+                            "score": 2.0,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "SL15963"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.0
+                        }
+                    ]
+                ]
+            },
             "list_of_players": [
                 "WE14512",
                 "PO12521",
@@ -2122,7 +2303,7 @@
                 "SL15963",
                 "SD14256"
             ],
-            "current_round": 0
+            "current_round": 1
         },
         "6": {
             "tournament_id": 4563,
@@ -2164,7 +2345,7 @@
                 "HU55550",
                 "HJ15932"
             ],
-            "current_round": 0
+            "current_round": 1
         },
         "8": {
             "tournament_id": 9998,

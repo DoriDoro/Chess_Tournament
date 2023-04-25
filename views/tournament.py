@@ -18,7 +18,7 @@ from controllers.tournament import (
 
 # get tournaments for option 1: create a player and option 3: start a tournament
 def get_tournaments_view():
-    database = TinyDB(f'data/tournaments/tournaments.json')
+    database = TinyDB('data/tournaments/tournaments.json')
     tournament_table = database.table("all_tournaments")
 
     tournament_id_name_list = []
@@ -39,7 +39,7 @@ def create_tournament_view():
     city = str(input(" Location of tournament: "))
     comments = str(input(" Any comments? "))
     print()
-    print(f" You have just created this tournament:")
+    print(" You have just created this tournament:")
     print(f"   [Tournament ID]: {tournament_id}")
     print(f"   [name]: {name}")
     print(f"   [city]: {city}")
@@ -171,7 +171,7 @@ def display_tournament_results_view(list_of_scores, dict_score_tournament, name_
                   f"{dict_score_tournament[i]['names'][1]}  -- 0.5 : 0.5 ")
     print()
 
-    print(f" The score of each player: ", end="\n\n")
+    print(" The score of each player: ", end="\n\n")
 
     for k, v in list_of_scores.items():
         name = v["name"]

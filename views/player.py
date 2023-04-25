@@ -1,5 +1,3 @@
-from tinydb import TinyDB
-
 from controllers.player import create_player_controller
 
 
@@ -41,7 +39,7 @@ def create_player_view(name_of_tournament):
     last_name = str(input(f" Enter {first_name}'s last name: "))
     birth_date = str(input(f" Enter the birth date of {first_name} {last_name} (dd-mm-yyyy): "))
     print()
-    print(f" You have just created this player: ")
+    print(" You have just created this player: ")
     print(f"   [id]: {player_id}")
     print(f"   [name]: {first_name} {last_name}")
     print(f"   [birthday]: {birth_date}", end="\n\n")

@@ -1,19 +1,19 @@
 import json
 
 from datetime import datetime
-from tinydb import TinyDB, Query, where
+from tinydb import TinyDB, Query
 
 from models.tournament import Tournament
 
 
 # private functions:
 def _get_tournament_table():
-    db_tournament = TinyDB(f'data/tournaments/tournaments.json', indent=4)
+    db_tournament = TinyDB('data/tournaments/tournaments.json', indent=4)
     return db_tournament.table("all_tournaments")
 
 
 def _get_tournament(name_of_tournament):
-    db_tournament = TinyDB(f'data/tournaments/tournaments.json', indent=4)
+    db_tournament = TinyDB('data/tournaments/tournaments.json', indent=4)
     tournament_table = db_tournament.table("all_tournaments")
 
     return tournament_table.get(Query().name == name_of_tournament)
@@ -60,7 +60,7 @@ def create_tournament_controller(data_tournament):
         "current_round": 0
     }
 
-    db = TinyDB(f'data/tournaments/tournaments.json', indent=4)
+    db = TinyDB('data/tournaments/tournaments.json', indent=4)
     all_tournaments = db.table("all_tournaments")
     all_tournaments.insert(data)
     # close the db and save all changes made

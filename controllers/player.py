@@ -7,12 +7,12 @@ from models.player import Player
 
 # private functions:
 def _get_tournament_table():
-    db_tournament = TinyDB(f'data/tournaments/tournaments.json', indent=4)
+    db_tournament = TinyDB('data/tournaments/tournaments.json', indent=4)
     return db_tournament.table("all_tournaments")
 
 
 def _get_tournament(name_of_tournament):
-    db_tournament = TinyDB(f'data/tournaments/tournaments.json', indent=4)
+    db_tournament = TinyDB('data/tournaments/tournaments.json', indent=4)
     tournament_table = db_tournament.table("all_tournaments")
 
     return tournament_table.get(Query().name == name_of_tournament)
@@ -120,23 +120,6 @@ def pair_players_next_rounds_controller(name_of_tournament, current_round):
         player_id = player["player_id"]
         create_pairs.append(player_id)
 
-    """
-    print('create pairs', create_pairs)
-    create pairs ['JJ10203', 'WE15453', 'ER30003', 'ER11102', 'HG11102', 'YU60023', 'JI98563', 'DE75321']
-    
-    sorted list rounds
-    [
-    {'player_id': 'YU60023', 'played_against': ['ER30003', 'ER30003'], 'score': 0.5}, 
-    {'player_id': 'HG11102', 'played_against': ['WE15453', 'JI98563'], 'score': 0.5}, 
-    {'player_id': 'WE15453', 'played_against': ['HG11102', 'ER11102'], 'score': 1.0}, 
-    {'player_id': 'JI98563', 'played_against': ['JJ10203', 'HG11102'], 'score': 1}, 
-    {'player_id': 'DE75321', 'played_against': ['ER11102', 'JJ10203'], 'score': 1}, 
-    {'player_id': 'JJ10203', 'played_against': ['JI98563', 'DE75321'], 'score': 1}, 
-    {'player_id': 'ER30003', 'played_against': ['YU60023', 'YU60023'], 'score': 1.5}, 
-    {'player_id': 'ER11102', 'played_against': ['DE75321', 'WE15453'], 'score': 1.5}
-    ]
-    """
-
     already_played_against = False
     for i, p_id in enumerate(create_pairs):
         if i % 2 == 0:
@@ -154,10 +137,6 @@ def pair_players_next_rounds_controller(name_of_tournament, current_round):
 
     # convert to tuple:
     pair_players = list(zip(create_pairs[0::2], create_pairs[1::2]))
-    """
-    print('pair players', pair_players)
-    pair players [('JJ10203', 'WE15453'), ('ER30003', 'ER11102'), ('HG11102', 'YU60023'), ('JI98563', 'DE75321')
-    """
 
     return pair_players
 
