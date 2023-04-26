@@ -190,77 +190,30 @@ def verify_number_of_player_controller(name_of_tournament):
 def add_player_id_to_played_against_controller(player_ids, name_of_tournament):
     player_table = _get_player_table()
 
-    # TODO: simplify this function  for i in range(0, 4)
-    player_1 = _get_player(player_ids[0][0])["played_tournaments"]["played_against"]
-    player_1 += [player_ids[0][1]]
-    player_2 = _get_player(player_ids[0][1])["played_tournaments"]["played_against"]
-    player_2 += [player_ids[0][0]]
+    for player in player_ids:
+        player_tmp1 = _get_player(player[0])["played_tournaments"]["played_against"] + [player[1]]
+        player_tmp2 = _get_player(player[1])["played_tournaments"]["played_against"] + [player[0]]
 
-    player_3 = _get_player(player_ids[1][0])["played_tournaments"]["played_against"]
-    player_3 += [player_ids[1][1]]
-    player_4 = _get_player(player_ids[1][1])["played_tournaments"]["played_against"]
-    player_4 += [player_ids[1][0]]
-
-    player_5 = _get_player(player_ids[2][0])["played_tournaments"]["played_against"]
-    player_5 += [player_ids[2][1]]
-    player_6 = _get_player(player_ids[2][1])["played_tournaments"]["played_against"]
-    player_6 += [player_ids[2][0]]
-
-    player_7 = _get_player(player_ids[3][0])["played_tournaments"]["played_against"]
-    player_7 += [player_ids[3][1]]
-    player_8 = _get_player(player_ids[3][1])["played_tournaments"]["played_against"]
-    player_8 += [player_ids[3][0]]
-
-    # TODO simplify this function
-    player_table.update({"played_tournaments": {"name": name_of_tournament, "played_against": player_1}},
-                        Query().player_id == player_ids[0][0])
-    player_table.update({'played_tournaments': {'name': name_of_tournament, 'played_against': player_2}},
-                        Query().player_id == player_ids[0][1])
-
-    player_table.update({"played_tournaments": {"name": name_of_tournament, "played_against": player_3}},
-                        Query().player_id == player_ids[1][0])
-    player_table.update({'played_tournaments': {'name': name_of_tournament, 'played_against': player_4}},
-                        Query().player_id == player_ids[1][1])
-
-    player_table.update({"played_tournaments": {"name": name_of_tournament, "played_against": player_5}},
-                        Query().player_id == player_ids[2][0])
-    player_table.update({'played_tournaments': {'name': name_of_tournament, 'played_against': player_6}},
-                        Query().player_id == player_ids[2][1])
-
-    player_table.update({"played_tournaments": {"name": name_of_tournament, "played_against": player_7}},
-                        Query().player_id == player_ids[3][0])
-    player_table.update({'played_tournaments': {'name': name_of_tournament, 'played_against': player_8}},
-                        Query().player_id == player_ids[3][1])
+        player_table.update({"played_tournaments": {"name": name_of_tournament, "played_against": player_tmp1}},
+                            Query().player_id == player[0])
+        player_table.update({'played_tournaments': {'name': name_of_tournament, 'played_against': player_tmp2}},
+                            Query().player_id == player[1])
 
 
 def get_name_of_player_controller(player_ids):
     player_table = _get_player_table()
 
-    player_1 = player_table.get(Query().player_id == player_ids[0][0])
-    p1_name = f"{player_1['first_name']} {player_1['last_name']}"
+    pair_table = []
+    for pair in player_ids:
+        player_tmp1 = player_table.get(Query().player_id == pair[0])
+        p1_name = f"{player_tmp1['first_name']} {player_tmp1['last_name']}"
+        pair_table.append(p1_name)
 
-    player_2 = player_table.get(Query().player_id == player_ids[0][1])
-    p2_name = f"{player_2['first_name']} {player_2['last_name']}"
+        player_tmp2 = player_table.get(Query().player_id == pair[1])
+        p2_name = f"{player_tmp2['first_name']} {player_tmp2['last_name']}"
+        pair_table.append(p2_name)
 
-    player_3 = player_table.get(Query().player_id == player_ids[1][0])
-    p3_name = f"{player_3['first_name']} {player_3['last_name']}"
-
-    player_4 = player_table.get(Query().player_id == player_ids[1][1])
-    p4_name = f"{player_4['first_name']} {player_4['last_name']}"
-
-    player_5 = player_table.get(Query().player_id == player_ids[2][0])
-    p5_name = f"{player_5['first_name']} {player_5['last_name']}"
-
-    player_6 = player_table.get(Query().player_id == player_ids[2][1])
-    p6_name = f"{player_6['first_name']} {player_6['last_name']}"
-
-    player_7 = player_table.get(Query().player_id == player_ids[3][0])
-    p7_name = f"{player_7['first_name']} {player_7['last_name']}"
-
-    player_8 = player_table.get(Query().player_id == player_ids[3][1])
-    p8_name = f"{player_8['first_name']} {player_8['last_name']}"
-
-    return p1_name, p2_name, p3_name, p4_name, p5_name, p6_name, p7_name, p8_name
+    return pair_table
 
 
 def update_score_controller(list_score_tournament):

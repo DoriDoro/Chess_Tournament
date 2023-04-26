@@ -5,7 +5,7 @@
             "name": "The Golden Summer",
             "city": "Lisabon",
             "start_date": "22-4-2022",
-            "end_date": "2023-04-24 21:46",
+            "end_date": "2023-04-26 17:41",
             "rounds": 4,
             "comments": "no",
             "list_rounds": {
@@ -2472,7 +2472,628 @@
             "end_date": "2023-04-10T16:44:52.347122",
             "rounds": 4,
             "comments": "not finished yet, but soon",
-            "list_rounds": {},
+            "list_rounds": {
+                "1": [
+                    "2023-04-26 18:09",
+                    "2023-04-26 18:09",
+                    [
+                        {
+                            "player_id": "JN24862",
+                            "first_name": "Harry",
+                            "last_name": "Smith",
+                            "birth_date": "5-10-1989",
+                            "rank": 0,
+                            "score": 3,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "ES15951",
+                                    "UH65265",
+                                    "OL88820",
+                                    "JN24862",
+                                    "HJ25600",
+                                    "HJ25600"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "HJ25600",
+                            "first_name": "Jerry",
+                            "last_name": "Bean",
+                            "birth_date": "9-10-2000",
+                            "rank": 0,
+                            "score": 2,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "UH65265",
+                                    "ES15951",
+                                    "HG25874",
+                                    "HJ25600",
+                                    "JN24862",
+                                    "JN24862"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "OL88820",
+                            "first_name": "Theo",
+                            "last_name": "Chef",
+                            "birth_date": "10-10-1998",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "EE20002",
+                                    "ER12589",
+                                    "JN24862",
+                                    "OL88820",
+                                    "EE20002",
+                                    "EE20002"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "EE20002",
+                            "first_name": "Walter",
+                            "last_name": "Donny",
+                            "birth_date": "12-12-1998",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "OL88820",
+                                    "HG25874",
+                                    "ES15951",
+                                    "EE20002",
+                                    "OL88820",
+                                    "OL88820"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "ES15951",
+                            "first_name": "Olive",
+                            "last_name": "Yak",
+                            "birth_date": "4-2-1999",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "JN24862",
+                                    "HJ25600",
+                                    "EE20002",
+                                    "ES15951",
+                                    "HG25874",
+                                    "HG25874"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "HG25874",
+                            "first_name": "Valery",
+                            "last_name": "Neck",
+                            "birth_date": "5-6-2002",
+                            "rank": 0,
+                            "score": 2.0,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "ER12589",
+                                    "EE20002",
+                                    "HJ25600",
+                                    "HG25874",
+                                    "ES15951",
+                                    "ES15951"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UH65265",
+                            "first_name": "Kate",
+                            "last_name": "Citty",
+                            "birth_date": "8-8-1998",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "HJ25600",
+                                    "JN24862",
+                                    "ER12589",
+                                    "UH65265",
+                                    "ER12589",
+                                    "ER12589"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "ER12589",
+                            "first_name": "Berry",
+                            "last_name": "Hole",
+                            "birth_date": "4-1-1999",
+                            "rank": 0,
+                            "score": 2.0,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "HG25874",
+                                    "OL88820",
+                                    "UH65265",
+                                    "ER12589",
+                                    "UH65265",
+                                    "UH65265"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.0
+                        }
+                    ]
+                ],
+                "2": [
+                    "2023-04-26 18:14",
+                    "2023-04-26 18:14",
+                    [
+                        {
+                            "player_id": "ES15951",
+                            "first_name": "Olive",
+                            "last_name": "Yak",
+                            "birth_date": "4-2-1999",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "JN24862",
+                                    "HJ25600",
+                                    "EE20002",
+                                    "ES15951",
+                                    "HG25874",
+                                    "HG25874",
+                                    "HG25874"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "HG25874",
+                            "first_name": "Valery",
+                            "last_name": "Neck",
+                            "birth_date": "5-6-2002",
+                            "rank": 0,
+                            "score": 2.0,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "ER12589",
+                                    "EE20002",
+                                    "HJ25600",
+                                    "HG25874",
+                                    "ES15951",
+                                    "ES15951",
+                                    "ES15951"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "ER12589",
+                            "first_name": "Berry",
+                            "last_name": "Hole",
+                            "birth_date": "4-1-1999",
+                            "rank": 0,
+                            "score": 2.0,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "HG25874",
+                                    "OL88820",
+                                    "UH65265",
+                                    "ER12589",
+                                    "UH65265",
+                                    "UH65265",
+                                    "EE20002"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "EE20002",
+                            "first_name": "Walter",
+                            "last_name": "Donny",
+                            "birth_date": "12-12-1998",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "OL88820",
+                                    "HG25874",
+                                    "ES15951",
+                                    "EE20002",
+                                    "OL88820",
+                                    "OL88820",
+                                    "ER12589"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "JN24862",
+                            "first_name": "Harry",
+                            "last_name": "Smith",
+                            "birth_date": "5-10-1989",
+                            "rank": 0,
+                            "score": 4,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "ES15951",
+                                    "UH65265",
+                                    "OL88820",
+                                    "JN24862",
+                                    "HJ25600",
+                                    "HJ25600",
+                                    "UH65265"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UH65265",
+                            "first_name": "Kate",
+                            "last_name": "Citty",
+                            "birth_date": "8-8-1998",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "HJ25600",
+                                    "JN24862",
+                                    "ER12589",
+                                    "UH65265",
+                                    "ER12589",
+                                    "ER12589",
+                                    "JN24862"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "HJ25600",
+                            "first_name": "Jerry",
+                            "last_name": "Bean",
+                            "birth_date": "9-10-2000",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "UH65265",
+                                    "ES15951",
+                                    "HG25874",
+                                    "HJ25600",
+                                    "JN24862",
+                                    "JN24862",
+                                    "OL88820"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "OL88820",
+                            "first_name": "Theo",
+                            "last_name": "Chef",
+                            "birth_date": "10-10-1998",
+                            "rank": 0,
+                            "score": 4.0,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "EE20002",
+                                    "ER12589",
+                                    "JN24862",
+                                    "OL88820",
+                                    "EE20002",
+                                    "EE20002",
+                                    "HJ25600"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.0
+                        }
+                    ]
+                ],
+                "3": [
+                    "2023-04-26 19:09",
+                    "2023-04-26 19:09",
+                    [
+                        {
+                            "player_id": "HG25874",
+                            "first_name": "Valery",
+                            "last_name": "Neck",
+                            "birth_date": "5-6-2002",
+                            "rank": 0,
+                            "score": 2.0,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "ER12589",
+                                    "EE20002",
+                                    "HJ25600",
+                                    "HG25874",
+                                    "ES15951",
+                                    "ES15951",
+                                    "ES15951",
+                                    "ES15951",
+                                    "ES15951"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "ES15951",
+                            "first_name": "Olive",
+                            "last_name": "Yak",
+                            "birth_date": "4-2-1999",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "JN24862",
+                                    "HJ25600",
+                                    "EE20002",
+                                    "ES15951",
+                                    "HG25874",
+                                    "HG25874",
+                                    "HG25874",
+                                    "HG25874",
+                                    "HG25874"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "HJ25600",
+                            "first_name": "Jerry",
+                            "last_name": "Bean",
+                            "birth_date": "9-10-2000",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "UH65265",
+                                    "ES15951",
+                                    "HG25874",
+                                    "HJ25600",
+                                    "JN24862",
+                                    "JN24862",
+                                    "OL88820",
+                                    "EE20002",
+                                    "EE20002"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "EE20002",
+                            "first_name": "Walter",
+                            "last_name": "Donny",
+                            "birth_date": "12-12-1998",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "OL88820",
+                                    "HG25874",
+                                    "ES15951",
+                                    "EE20002",
+                                    "OL88820",
+                                    "OL88820",
+                                    "ER12589",
+                                    "HJ25600",
+                                    "HJ25600"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UH65265",
+                            "first_name": "Kate",
+                            "last_name": "Citty",
+                            "birth_date": "8-8-1998",
+                            "rank": 0,
+                            "score": 4.0,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "HJ25600",
+                                    "JN24862",
+                                    "ER12589",
+                                    "UH65265",
+                                    "ER12589",
+                                    "ER12589",
+                                    "JN24862",
+                                    "OL88820",
+                                    "OL88820"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "OL88820",
+                            "first_name": "Theo",
+                            "last_name": "Chef",
+                            "birth_date": "10-10-1998",
+                            "rank": 0,
+                            "score": 4.5,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "EE20002",
+                                    "ER12589",
+                                    "JN24862",
+                                    "OL88820",
+                                    "EE20002",
+                                    "EE20002",
+                                    "HJ25600",
+                                    "UH65265",
+                                    "UH65265"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "ER12589",
+                            "first_name": "Berry",
+                            "last_name": "Hole",
+                            "birth_date": "4-1-1999",
+                            "rank": 0,
+                            "score": 2.0,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "HG25874",
+                                    "OL88820",
+                                    "UH65265",
+                                    "ER12589",
+                                    "UH65265",
+                                    "UH65265",
+                                    "EE20002",
+                                    "JN24862",
+                                    "JN24862"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "JN24862",
+                            "first_name": "Harry",
+                            "last_name": "Smith",
+                            "birth_date": "5-10-1989",
+                            "rank": 0,
+                            "score": 5,
+                            "played_tournaments": {
+                                "name": "The Next Level",
+                                "played_against": [
+                                    "ES15951",
+                                    "UH65265",
+                                    "OL88820",
+                                    "JN24862",
+                                    "HJ25600",
+                                    "HJ25600",
+                                    "UH65265",
+                                    "ER12589",
+                                    "ER12589"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 5
+                        }
+                    ]
+                ]
+            },
             "list_of_players": [
                 "ER12589",
                 "HJ25600",
@@ -2483,14 +3104,14 @@
                 "ES15951",
                 "OL88820"
             ],
-            "current_round": 0
+            "current_round": 3
         },
         "21": {
             "tournament_id": 1498,
             "name": "Last Chance",
             "city": "Freiburg",
             "start_date": "2023-04-21 18:31",
-            "end_date": "2023-04-21 18:37",
+            "end_date": "2023-04-26 17:41",
             "rounds": 4,
             "comments": "no",
             "list_rounds": {

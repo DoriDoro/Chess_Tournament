@@ -1699,14 +1699,19 @@
             "last_name": "Hole",
             "birth_date": "4-1-1999",
             "rank": 0,
-            "score": 1.5,
+            "score": 2.0,
             "played_tournaments": {
                 "name": "The Next Level",
                 "played_against": [
                     "HG25874",
                     "OL88820",
                     "UH65265",
-                    "ER12589"
+                    "ER12589",
+                    "UH65265",
+                    "UH65265",
+                    "EE20002",
+                    "JN24862",
+                    "JN24862"
                 ]
             }
         },
@@ -1716,14 +1721,19 @@
             "last_name": "Bean",
             "birth_date": "9-10-2000",
             "rank": 0,
-            "score": 2,
+            "score": 3.5,
             "played_tournaments": {
                 "name": "The Next Level",
                 "played_against": [
                     "UH65265",
                     "ES15951",
                     "HG25874",
-                    "HJ25600"
+                    "HJ25600",
+                    "JN24862",
+                    "JN24862",
+                    "OL88820",
+                    "EE20002",
+                    "EE20002"
                 ]
             }
         },
@@ -1733,14 +1743,19 @@
             "last_name": "Donny",
             "birth_date": "12-12-1998",
             "rank": 0,
-            "score": 2.0,
+            "score": 3.5,
             "played_tournaments": {
                 "name": "The Next Level",
                 "played_against": [
                     "OL88820",
                     "HG25874",
                     "ES15951",
-                    "EE20002"
+                    "EE20002",
+                    "OL88820",
+                    "OL88820",
+                    "ER12589",
+                    "HJ25600",
+                    "HJ25600"
                 ]
             }
         },
@@ -1750,14 +1765,19 @@
             "last_name": "Smith",
             "birth_date": "5-10-1989",
             "rank": 0,
-            "score": 2,
+            "score": 5,
             "played_tournaments": {
                 "name": "The Next Level",
                 "played_against": [
                     "ES15951",
                     "UH65265",
                     "OL88820",
-                    "JN24862"
+                    "JN24862",
+                    "HJ25600",
+                    "HJ25600",
+                    "UH65265",
+                    "ER12589",
+                    "ER12589"
                 ]
             }
         },
@@ -1767,14 +1787,19 @@
             "last_name": "Citty",
             "birth_date": "8-8-1998",
             "rank": 0,
-            "score": 3,
+            "score": 4.0,
             "played_tournaments": {
                 "name": "The Next Level",
                 "played_against": [
                     "HJ25600",
                     "JN24862",
                     "ER12589",
-                    "UH65265"
+                    "UH65265",
+                    "ER12589",
+                    "ER12589",
+                    "JN24862",
+                    "OL88820",
+                    "OL88820"
                 ]
             }
         },
@@ -1784,14 +1809,19 @@
             "last_name": "Neck",
             "birth_date": "5-6-2002",
             "rank": 0,
-            "score": 1.0,
+            "score": 2.0,
             "played_tournaments": {
                 "name": "The Next Level",
                 "played_against": [
                     "ER12589",
                     "EE20002",
                     "HJ25600",
-                    "HG25874"
+                    "HG25874",
+                    "ES15951",
+                    "ES15951",
+                    "ES15951",
+                    "ES15951",
+                    "ES15951"
                 ]
             }
         },
@@ -1801,14 +1831,19 @@
             "last_name": "Yak",
             "birth_date": "4-2-1999",
             "rank": 0,
-            "score": 1.5,
+            "score": 3.5,
             "played_tournaments": {
                 "name": "The Next Level",
                 "played_against": [
                     "JN24862",
                     "HJ25600",
                     "EE20002",
-                    "ES15951"
+                    "ES15951",
+                    "HG25874",
+                    "HG25874",
+                    "HG25874",
+                    "HG25874",
+                    "HG25874"
                 ]
             }
         },
@@ -1818,14 +1853,19 @@
             "last_name": "Chef",
             "birth_date": "10-10-1998",
             "rank": 0,
-            "score": 3.0,
+            "score": 4.5,
             "played_tournaments": {
                 "name": "The Next Level",
                 "played_against": [
                     "EE20002",
                     "ER12589",
                     "JN24862",
-                    "OL88820"
+                    "OL88820",
+                    "EE20002",
+                    "EE20002",
+                    "HJ25600",
+                    "UH65265",
+                    "UH65265"
                 ]
             }
         },
