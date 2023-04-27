@@ -8,33 +8,33 @@ from models.tournament import Tournament
 
 # private functions:
 def _get_tournament_table():
-    db_tournament = TinyDB('data/tournaments/tournaments.json', indent=4)
+    db_tournament = TinyDB("data/tournaments/tournaments.json", indent=4)
     return db_tournament.table("all_tournaments")
 
 
 def _get_tournament(name_of_tournament):
-    db_tournament = TinyDB('data/tournaments/tournaments.json', indent=4)
+    db_tournament = TinyDB("data/tournaments/tournaments.json", indent=4)
     tournament_table = db_tournament.table("all_tournaments")
 
     return tournament_table.get(Query().name == name_of_tournament)
 
 
 def _get_player(player_id):
-    db_player = TinyDB('data/players/players.json', indent=4)
+    db_player = TinyDB("data/players/players.json", indent=4)
     player_table = db_player.table("all_players")
 
     return player_table.get(Query().player_id == player_id)
 
 
 def _get_player_table():
-    db_player = TinyDB('data/players/players.json', indent=4)
+    db_player = TinyDB("data/players/players.json", indent=4)
     player_table = db_player.table("all_players")
 
     return player_table
 
 
 def _serialize_date():
-    start_date = datetime.now().strftime('%Y-%m-%d %H:%M')
+    start_date = datetime.now().strftime("%Y-%m-%d %H:%M")
 
     json_data = json.dumps(start_date)
     return json.loads(json_data)
@@ -42,8 +42,12 @@ def _serialize_date():
 
 # option 2: create tournament:
 def create_tournament_controller(data_tournament):
-    new_tournament = Tournament(data_tournament["name"], data_tournament["city"],
-                                data_tournament["comments"], data_tournament["rounds"])
+    new_tournament = Tournament(
+        data_tournament["name"],
+        data_tournament["city"],
+        data_tournament["comments"],
+        data_tournament["rounds"],
+    )
 
     start_date = _serialize_date()
 
@@ -57,10 +61,10 @@ def create_tournament_controller(data_tournament):
         "comments": new_tournament.comments,
         "list_rounds": {},
         "list_of_players": [],
-        "current_round": 0
+        "current_round": 0,
     }
 
-    db = TinyDB('data/tournaments/tournaments.json', indent=4)
+    db = TinyDB("data/tournaments/tournaments.json", indent=4)
     all_tournaments = db.table("all_tournaments")
     all_tournaments.insert(data)
     # close the db and save all changes made
@@ -75,13 +79,15 @@ def reorganize_list_score_tournament_controller(list_score_tournament):
         dict_score_tournament[f"pair{i + 1}"] = {
             "score": item[1],
             "names": item[2],
-            "paired_players": item[0]
+            "paired_players": item[0],
         }
 
     return dict_score_tournament
 
 
-def add_player_score_to_list_rounds_controller(name_of_tournament, list_of_scores, current_round):
+def add_player_score_to_list_rounds_controller(
+    name_of_tournament, list_of_scores, current_round
+):
     tournament_table = _get_tournament_table()
     get_list_rounds = _get_tournament(name_of_tournament)["list_rounds"]
     round_start_date = _serialize_date()
@@ -97,7 +103,7 @@ def add_player_score_to_list_rounds_controller(name_of_tournament, list_of_score
         player_score.append({"score": score})
 
     for i in range(0, len(player_score), 2):
-        sublist = player_score[i:i+2]
+        sublist = player_score[i: i + 2]
         pair_player_score.append(sublist)
 
     round_end_date = _serialize_date()
@@ -106,7 +112,9 @@ def add_player_score_to_list_rounds_controller(name_of_tournament, list_of_score
 
     get_list_rounds[current_round + 1] = pair_player_score
 
-    tournament_table.update({"list_rounds": get_list_rounds}, Query().name == name_of_tournament)
+    tournament_table.update(
+        {"list_rounds": get_list_rounds}, Query().name == name_of_tournament
+    )
 
 
 def get_current_round_controller(name_of_tournament):
@@ -156,7 +164,7 @@ def get_results_tournaments_controller():
             "start_date": start_date,
             "end_date": end_date,
             "list_rounds": data_list_rounds,
-            "player_data": data_player
+            "player_data": data_player,
         }
 
     return data_tournaments_players

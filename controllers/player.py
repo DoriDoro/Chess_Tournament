@@ -7,26 +7,26 @@ from models.player import Player
 
 # private functions:
 def _get_tournament_table():
-    db_tournament = TinyDB('data/tournaments/tournaments.json', indent=4)
+    db_tournament = TinyDB("data/tournaments/tournaments.json", indent=4)
     return db_tournament.table("all_tournaments")
 
 
 def _get_tournament(name_of_tournament):
-    db_tournament = TinyDB('data/tournaments/tournaments.json', indent=4)
+    db_tournament = TinyDB("data/tournaments/tournaments.json", indent=4)
     tournament_table = db_tournament.table("all_tournaments")
 
     return tournament_table.get(Query().name == name_of_tournament)
 
 
 def _get_player_table():
-    db_player = TinyDB('data/players/players.json', indent=4)
+    db_player = TinyDB("data/players/players.json", indent=4)
     player_table = db_player.table("all_players")
 
     return player_table
 
 
 def _get_player(player_id):
-    db_player = TinyDB('data/players/players.json', indent=4)
+    db_player = TinyDB("data/players/players.json", indent=4)
     player_table = db_player.table("all_players")
 
     return player_table.get(Query().player_id == player_id)
@@ -61,8 +61,12 @@ def _get_score_of_player(list_score_tournament):
 
 # option 1: create player:
 def create_player_controller(data_player):
-    new_player = Player(data_player["player_id"], data_player["first_name"], data_player["last_name"],
-                        data_player["birth_date"])
+    new_player = Player(
+        data_player["player_id"],
+        data_player["first_name"],
+        data_player["last_name"],
+        data_player["birth_date"],
+    )
     data = {
         "player_id": new_player.player_id,
         "first_name": new_player.first_name,
@@ -70,11 +74,16 @@ def create_player_controller(data_player):
         "birth_date": new_player.birth_date,
         "rank": 0,
         "score": 0,
-        "played_tournaments": {"name": data_player["name_of_tournament"], "played_against": []}
+        "played_tournaments": {
+            "name": data_player["name_of_tournament"],
+            "played_against": [],
+        },
     }
 
     # add player_id to the tournament in tournaments.json inside list_of_players:
-    add_player_id_to_list_of_players_controller(new_player.player_id, data_player["name_of_tournament"])
+    add_player_id_to_list_of_players_controller(
+        new_player.player_id, data_player["name_of_tournament"]
+    )
 
     all_players = _get_player_table()
     all_players.insert(data)
@@ -85,7 +94,10 @@ def add_player_id_to_list_of_players_controller(player_id, name_of_tournament):
 
     tournament_table = _get_tournament_table()
 
-    tournament_table.update({"list_of_players": get_list_of_players + [player_id]}, Query().name == name_of_tournament)
+    tournament_table.update(
+        {"list_of_players": get_list_of_players + [player_id]},
+        Query().name == name_of_tournament,
+    )
 
 
 # option 3: start a tournament:
@@ -99,7 +111,7 @@ def pair_players_first_round_controller(name_of_tournament):
 
 
 def pair_players_next_rounds_controller(name_of_tournament, current_round):
-    list_rounds_tournament = _get_tournament(name_of_tournament)['list_rounds']
+    list_rounds_tournament = _get_tournament(name_of_tournament)["list_rounds"]
     current_list_rounds = list_rounds_tournament[f"{current_round}"]
 
     player_id_played_score_against = []
@@ -109,10 +121,17 @@ def pair_players_next_rounds_controller(name_of_tournament, current_round):
                 player_id = player["player_id"]
                 score = player["score"]
                 opponents = player["played_tournaments"]["played_against"]
-                player_id_played_score_against\
-                    .append({"player_id": player_id, "played_against": opponents, "score": score})
+                player_id_played_score_against.append(
+                    {
+                        "player_id": player_id,
+                        "played_against": opponents,
+                        "score": score,
+                    }
+                )
 
-    sorted_list_rounds = sorted(player_id_played_score_against, key=lambda x: x['score'])
+    sorted_list_rounds = sorted(
+        player_id_played_score_against, key=lambda x: x["score"]
+    )
 
     create_pairs = []
     # match players, avoid already paired:
@@ -127,7 +146,9 @@ def pair_players_next_rounds_controller(name_of_tournament, current_round):
                 if player_data["player_id"] == p_id:
                     for player in player_data["played_against"]:
                         if player == create_pairs[i + 1]:
-                            reordered_create_pairs = _reorder_create_pairs(i, create_pairs)
+                            reordered_create_pairs = _reorder_create_pairs(
+                                i, create_pairs
+                            )
                             already_played_against = True
                             break
                     if already_played_against:
@@ -156,7 +177,9 @@ def pair_players_controller(name_of_tournament):
         list_of_names = get_name_of_player_controller(paired_players)
 
     elif current_round < rounds:
-        paired_players = pair_players_next_rounds_controller(name_of_tournament, current_round)
+        paired_players = pair_players_next_rounds_controller(
+            name_of_tournament, current_round
+        )
 
         add_player_id_to_played_against_controller(paired_players, name_of_tournament)
         list_of_names = get_name_of_player_controller(paired_players)
@@ -166,7 +189,9 @@ def pair_players_controller(name_of_tournament):
 
     # update rounds in tournament
     tournament_table = _get_tournament_table()
-    tournament_table.update({"current_round": (current_round + 1)}, Query().name == name_of_tournament)
+    tournament_table.update(
+        {"current_round": (current_round + 1)}, Query().name == name_of_tournament
+    )
 
     return {"paired_players": paired_players, "list_of_names": list_of_names}
 
@@ -174,7 +199,9 @@ def pair_players_controller(name_of_tournament):
 def verify_number_of_player_controller(name_of_tournament):
     from views.player import add_additional_player_to_tournament_view
 
-    get_verified_list_of_players_before = _get_tournament(name_of_tournament)['list_of_players']
+    get_verified_list_of_players_before = _get_tournament(name_of_tournament)[
+        "list_of_players"
+    ]
 
     number_of_players = len(get_verified_list_of_players_before)
 
@@ -182,7 +209,9 @@ def verify_number_of_player_controller(name_of_tournament):
         add_additional_player_to_tournament_view(name_of_tournament)
         number_of_players += 1
 
-    get_verified_list_of_players = _get_tournament(name_of_tournament)['list_of_players']
+    get_verified_list_of_players = _get_tournament(name_of_tournament)[
+        "list_of_players"
+    ]
 
     return get_verified_list_of_players
 
@@ -191,13 +220,31 @@ def add_player_id_to_played_against_controller(player_ids, name_of_tournament):
     player_table = _get_player_table()
 
     for player in player_ids:
-        player_tmp1 = _get_player(player[0])["played_tournaments"]["played_against"] + [player[1]]
-        player_tmp2 = _get_player(player[1])["played_tournaments"]["played_against"] + [player[0]]
+        player_tmp1 = _get_player(player[0])["played_tournaments"]["played_against"] + [
+            player[1]
+        ]
+        player_tmp2 = _get_player(player[1])["played_tournaments"]["played_against"] + [
+            player[0]
+        ]
 
-        player_table.update({"played_tournaments": {"name": name_of_tournament, "played_against": player_tmp1}},
-                            Query().player_id == player[0])
-        player_table.update({'played_tournaments': {'name': name_of_tournament, 'played_against': player_tmp2}},
-                            Query().player_id == player[1])
+        player_table.update(
+            {
+                "played_tournaments": {
+                    "name": name_of_tournament,
+                    "played_against": player_tmp1,
+                }
+            },
+            Query().player_id == player[0],
+        )
+        player_table.update(
+            {
+                "played_tournaments": {
+                    "name": name_of_tournament,
+                    "played_against": player_tmp2,
+                }
+            },
+            Query().player_id == player[1],
+        )
 
 
 def get_name_of_player_controller(player_ids):
@@ -225,17 +272,23 @@ def update_score_controller(list_score_tournament):
         if list_score_tournament[i][1] == 1:
             for player_id in list_score_tournament[i][0]:
                 if player_id == list_score_tournament[i][0][0]:
-                    player_table.update({"score": (player_ids_score[player_id]["score"] + 1)},
-                                        Query().player_id == player_id)
+                    player_table.update(
+                        {"score": (player_ids_score[player_id]["score"] + 1)},
+                        Query().player_id == player_id,
+                    )
         elif list_score_tournament[i][1] == 2:
             for player_id in list_score_tournament[i][0]:
                 if player_id == list_score_tournament[i][0][1]:
-                    player_table.update({"score": (player_ids_score[player_id]["score"] + 1)},
-                                        Query().player_id == player_id)
+                    player_table.update(
+                        {"score": (player_ids_score[player_id]["score"] + 1)},
+                        Query().player_id == player_id,
+                    )
         elif list_score_tournament[i][1] == 3:
             for player_id in list_score_tournament[i][0]:
-                player_table.update({"score": (player_ids_score[player_id]["score"] + 0.5)},
-                                    Query().player_id == player_id)
+                player_table.update(
+                    {"score": (player_ids_score[player_id]["score"] + 0.5)},
+                    Query().player_id == player_id,
+                )
 
     updated_player_ids_score = _get_score_of_player(list_score_tournament)
 

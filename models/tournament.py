@@ -1,9 +1,5 @@
-
-
 class Tournament:
-
-    def __init__(
-            self, name, city, comments, rounds=4):
+    def __init__(self, name, city, comments, rounds=4):
         self.name = name
         self.city = city
         self.comments = comments

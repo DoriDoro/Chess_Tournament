@@ -1,6 +1,4 @@
-
 class Player:
-
     def __init__(self, player_id, first_name, last_name, birth_date):
         self.player_id = player_id
         self.first_name = first_name
