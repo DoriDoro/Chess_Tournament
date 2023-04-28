@@ -1,7 +1,7 @@
 import os
 import sys
 
-from controllers.menu import run_menu
+from controllers.menu import MenuControllers
 
 
 def main():
@@ -9,7 +9,8 @@ def main():
     os.system("cls" if sys.platform == "win32" else "clear")
     print("  -- Welcome to Chess Tournament --")
 
-    run_menu()
+    menu = MenuControllers()
+    menu.run_menu()
 
 
 if __name__ == "__main__":
