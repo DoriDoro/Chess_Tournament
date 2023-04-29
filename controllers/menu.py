@@ -1,34 +1,29 @@
 from views.menu import MenuView
-from views.player import (
-    add_player_to_tournament_view,
-)
-from views.tournament import (
-    choose_tournament_view,
-    create_tournament_view,
-    display_tournaments_view,
-    get_tournaments_view,
-)
+from views.player import PlayerView
+from views.tournament import TournamentView
 
 
 class MenuControllers:
 
     def __init__(self):
         self.menu = MenuView()
+        self.tournament = TournamentView()
+        self.player = PlayerView()
 
     def handle_create_player(self):
-        tournament_id_name_list = get_tournaments_view()
+        tournament_id_name_list = self.tournament.get_tournaments_view()
 
-        display_tournaments_view(tournament_id_name_list)
-        add_player_to_tournament_view(tournament_id_name_list)
+        self.tournament.display_tournaments_view(tournament_id_name_list)
+        self.player.add_player_to_tournament_view(tournament_id_name_list)
 
     def handle_create_tournament(self):
-        create_tournament_view()
+        self.tournament.create_tournament_view()
 
     def handle_start_tournament(self):
-        tournament_id_name_list = get_tournaments_view()
+        tournament_id_name_list = self.tournament.get_tournaments_view()
 
-        display_tournaments_view(tournament_id_name_list)
-        choose_tournament_view(tournament_id_name_list)
+        self.tournament.display_tournaments_view(tournament_id_name_list)
+        self.tournament.choose_tournament_view(tournament_id_name_list)
 
     def run_menu(self):
         while True:
