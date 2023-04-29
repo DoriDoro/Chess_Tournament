@@ -1,4 +1,4 @@
-from views.menu import display_menu, get_choice, quitting_program
+from views.menu import MenuView
 from views.player import (
     add_player_to_tournament_view,
 )
@@ -12,8 +12,8 @@ from views.tournament import (
 
 class MenuControllers:
 
-    def __int__(self):
-        pass
+    def __init__(self):
+        self.menu = MenuView()
 
     def handle_create_player(self):
         tournament_id_name_list = get_tournaments_view()
@@ -32,8 +32,8 @@ class MenuControllers:
 
     def run_menu(self):
         while True:
-            display_menu()
-            choice = get_choice()
+            self.menu.display_menu()
+            choice = self.menu.get_choice()
 
             if choice == "1":
                 self.handle_create_player()
@@ -42,7 +42,7 @@ class MenuControllers:
             elif choice == "3":
                 self.handle_start_tournament()
             elif choice == "4":
-                quitting_program()
+                self.menu.quitting_program()
                 break
             else:
                 print("  Invalid choice. Please enter a number between 1 and 4.")
