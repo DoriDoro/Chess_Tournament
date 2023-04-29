@@ -1,25 +1,14 @@
 from tinydb import TinyDB
 
-from controllers.player import (
-    pair_players_controller,
-    update_score_controller,
-    get_results_players_controller,
-)
-from controllers.tournament import (
-    create_tournament_controller,
-    reorganize_list_score_tournament_controller,
-    add_player_score_to_list_rounds_controller,
-    get_current_round_controller,
-    get_list_round_info_controller,
-    get_results_tournaments_controller,
-    set_end_date_controller,
-)
+from controllers.player import PlayerControllers
+from controllers.tournament import TournamentControllers
 
 
 class TournamentView:
 
     def __init__(self):
-        pass
+        self.player_controller = PlayerControllers()
+        self.tournament_controller = TournamentControllers()
 
     # get tournaments for option 1: create a player and option 3: start a tournament
     def get_tournaments_view(self):
@@ -57,7 +46,7 @@ class TournamentView:
             "comments": comments,
         }
 
-        create_tournament_controller(data_tournament)
+        self.tournament_controller.create_tournament_controller(data_tournament)
 
     # option 3: start a tournament:
     def display_tournaments_view(self, tournament_id_name_list):
@@ -82,7 +71,7 @@ class TournamentView:
             choice = int(choice)
 
             for tournament_id, name in tournament_id_name_list:
-                current_round = get_current_round_controller(name)
+                current_round = self.tournament_controller.get_current_round_controller(name)
 
                 if choice == tournament_id:
                     print(f" You have chosen: {name}", end="\n\n")
@@ -96,7 +85,7 @@ class TournamentView:
                         print()
 
                         if yes_no == "yes":
-                            get_last_round = get_list_round_info_controller(name)
+                            get_last_round = self.tournament_controller.get_list_round_info_controller(name)
                             get_last_round = int(get_last_round)
 
                             if get_last_round < 4:
@@ -119,7 +108,7 @@ class TournamentView:
                             )
 
                     # start the next round:
-                    paired_players = pair_players_controller(name)
+                    paired_players = self.player_controller.pair_players_controller(name)
 
                     if paired_players is None:
                         return
@@ -197,13 +186,13 @@ class TournamentView:
                         ]
                         print()
 
-                        list_of_scores = update_score_controller(list_score_tournament)
+                        list_of_scores = self.player_controller.update_score_controller(list_score_tournament)
 
-                        add_player_score_to_list_rounds_controller(
+                        self.tournament_controller.add_player_score_to_list_rounds_controller(
                             name, list_of_scores, current_round
                         )
 
-                        dict_score_tournament = reorganize_list_score_tournament_controller(
+                        dict_score_tournament = self.tournament_controller.reorganize_list_score_tournament_controller(
                             list_score_tournament
                         )
 
@@ -255,7 +244,7 @@ class TournamentView:
     def end_tournament_view(self, name_of_tournament):
         print(f"  The {name_of_tournament} is over.")
 
-        set_end_date_controller(name_of_tournament)
+        self.tournament_controller.set_end_date_controller(name_of_tournament)
 
         self.display_end_result_view()
 
@@ -264,8 +253,8 @@ class TournamentView:
         print("--------------------------------------------------------------------------")
         print(" ** RESULT OF ALL TOURNAMENTS **", end="\n\n")
 
-        results_tournaments = get_results_tournaments_controller()
-        results_players = get_results_players_controller()
+        results_tournaments = self.tournament_controller.get_results_tournaments_controller()
+        results_players = self.player_controller.get_results_players_controller()
 
         player_names = []
         for i, name in results_players.items():

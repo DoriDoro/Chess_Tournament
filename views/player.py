@@ -1,10 +1,18 @@
-from controllers.player import create_player_controller
+from tinydb import TinyDB, Query
+from controllers.player import PlayerControllers
 
 
 class PlayerView:
 
     def __init__(self):
-        pass
+        self.player_controllers = PlayerControllers()
+
+    # private function:
+    def _get_tournament(self, name_of_tournament):
+        db_tournament = TinyDB("data/tournaments/tournaments.json", indent=4)
+        tournament_table = db_tournament.table("all_tournaments")
+
+        return tournament_table.get(Query().name == name_of_tournament)
 
     # option 1: create player:
     def add_player_to_tournament_view(self, tournament_id_name_list):
@@ -19,18 +27,29 @@ class PlayerView:
             # check if choice is an int and display the Tournament name or display error:
             choice = int(choice)
 
+            tournament_found = False
             for tournament_id, name in tournament_id_name_list:
+                get_number_players = self._get_tournament(name)["list_of_players"]
+                number_players = len(get_number_players)
+
                 if choice == tournament_id:
                     print(f" You have chosen: {name}", end="\n\n")
-                    # TODO if already 8 players in tournament, do not add any player, choose other tournament
-                    number_of_player = 8
-                    while number_of_player > 0:
-                        self.create_player_view(name)
-                        number_of_player -= 1
-                        if number_of_player == 0:
-                            return
+                    tournament_found = True
 
-            print(" Invalid choice. Please enter the Tournament_ID.", end="\n\n")
+                    if number_players == 8:
+                        print(f"  {name} has already 8 players. Please choose an other tournament.")
+                        print("   or choose * to go back to menu", end="\n\n")
+                        break
+
+                    else:
+                        number_of_player = 8
+                        while number_of_player > 0:
+                            self.create_player_view(name)
+                            number_of_player -= 1
+                            if number_of_player == 0:
+                                return
+            if not tournament_found:
+                print(" Invalid choice. Please enter the Tournament_ID.", end="\n\n")
 
     # option 1: create player and option 3: start a tournament:
     def create_player_view(self, name_of_tournament):
@@ -57,7 +76,7 @@ class PlayerView:
             "birth_date": birth_date,
         }
 
-        create_player_controller(data_player)
+        self.player_controllers.create_player_controller(data_player)
 
     # option 3: start tournament:
     def add_additional_player_to_tournament_view(self, name_of_tournament):
