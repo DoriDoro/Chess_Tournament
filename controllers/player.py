@@ -201,6 +201,7 @@ class PlayerControllers:
 
         number_of_players = len(get_verified_list_of_players_before)
 
+        # TODO
         while number_of_players < 8:
             player_view.add_additional_player_to_tournament_view(name_of_tournament)
             number_of_players += 1
