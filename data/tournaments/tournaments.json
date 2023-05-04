@@ -5,7 +5,7 @@
             "name": "The Golden Summer",
             "city": "Lisabon",
             "start_date": "22-4-2022",
-            "end_date": "2023-04-26 17:41",
+            "end_date": "2023-05-04 17:43",
             "rounds": 4,
             "comments": "no",
             "list_rounds": {
@@ -2474,6 +2474,454 @@
                             "score": 0.5
                         }
                     ]
+                ],
+                "3": [
+                    "2023-05-04 15:53",
+                    "2023-05-04 15:53",
+                    [
+                        {
+                            "player_id": "IO45656",
+                            "first_name": "Paul",
+                            "last_name": "Oppenauer",
+                            "birth_date": "11-10-1998",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "Paris Tours",
+                                "played_against": [
+                                    "JJ14523",
+                                    "EE55585",
+                                    "ER77854",
+                                    "IO45656",
+                                    "II90025",
+                                    "ED14289",
+                                    "EE55585",
+                                    "EE55585",
+                                    "EE55585"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "EE55585",
+                            "first_name": "Dean",
+                            "last_name": "Hart",
+                            "birth_date": "9-10-2000",
+                            "rank": 0,
+                            "score": 0,
+                            "played_tournaments": {
+                                "name": "Paris Tours",
+                                "played_against": [
+                                    "DE12548",
+                                    "IO45656",
+                                    "ED14289",
+                                    "EE55585",
+                                    "JJ14589",
+                                    "DE12548",
+                                    "IO45656",
+                                    "IO45656",
+                                    "IO45656"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "JJ14523",
+                            "first_name": "John",
+                            "last_name": "Light",
+                            "birth_date": "11-4-1980",
+                            "rank": 0,
+                            "score": 1.0,
+                            "played_tournaments": {
+                                "name": "Paris Tours",
+                                "played_against": [
+                                    "IO45656",
+                                    "DE12548",
+                                    "II90025",
+                                    "JJ14523",
+                                    "DE12548",
+                                    "ER77854",
+                                    "II90025",
+                                    "II90025",
+                                    "II90025"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "II90025",
+                            "first_name": "Danny",
+                            "last_name": "Stripe",
+                            "birth_date": "15-12-1999",
+                            "rank": 0,
+                            "score": 1.0,
+                            "played_tournaments": {
+                                "name": "Paris Tours",
+                                "played_against": [
+                                    "ER77854",
+                                    "JJ14589",
+                                    "JJ14523",
+                                    "II90025",
+                                    "IO45656",
+                                    "JJ14589",
+                                    "JJ14523",
+                                    "JJ14523",
+                                    "JJ14523"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "DE12548",
+                            "first_name": "John",
+                            "last_name": "Hentix",
+                            "birth_date": "11-10-2001",
+                            "rank": 0,
+                            "score": 2.0,
+                            "played_tournaments": {
+                                "name": "Paris Tours",
+                                "played_against": [
+                                    "EE55585",
+                                    "JJ14523",
+                                    "JJ14589",
+                                    "DE12548",
+                                    "JJ14523",
+                                    "EE55585",
+                                    "ED14289",
+                                    "ED14289",
+                                    "ED14289"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "ED14289",
+                            "first_name": "William",
+                            "last_name": "Steal",
+                            "birth_date": "2-10-2000",
+                            "rank": 0,
+                            "score": 2.0,
+                            "played_tournaments": {
+                                "name": "Paris Tours",
+                                "played_against": [
+                                    "JJ14589",
+                                    "ER77854",
+                                    "EE55585",
+                                    "ED14289",
+                                    "ER77854",
+                                    "IO45656",
+                                    "DE12548",
+                                    "DE12548",
+                                    "DE12548"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "JJ14589",
+                            "first_name": "Garry",
+                            "last_name": "Bath",
+                            "birth_date": "5-11-2000",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "Paris Tours",
+                                "played_against": [
+                                    "ED14289",
+                                    "II90025",
+                                    "DE12548",
+                                    "JJ14589",
+                                    "EE55585",
+                                    "II90025",
+                                    "ER77854",
+                                    "ER77854",
+                                    "ER77854"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "ER77854",
+                            "first_name": "Dan",
+                            "last_name": "Stone",
+                            "birth_date": "4-4-1980",
+                            "rank": 0,
+                            "score": 2,
+                            "played_tournaments": {
+                                "name": "Paris Tours",
+                                "played_against": [
+                                    "II90025",
+                                    "ED14289",
+                                    "IO45656",
+                                    "ER77854",
+                                    "ED14289",
+                                    "JJ14523",
+                                    "JJ14589",
+                                    "JJ14589",
+                                    "JJ14589"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2
+                        }
+                    ]
+                ],
+                "4": [
+                    "2023-05-04 15:55",
+                    "2023-05-04 15:55",
+                    [
+                        {
+                            "player_id": "ER77854",
+                            "first_name": "Dan",
+                            "last_name": "Stone",
+                            "birth_date": "4-4-1980",
+                            "rank": 0,
+                            "score": 2,
+                            "played_tournaments": {
+                                "name": "Paris Tours",
+                                "played_against": [
+                                    "II90025",
+                                    "ED14289",
+                                    "IO45656",
+                                    "ER77854",
+                                    "ED14289",
+                                    "JJ14523",
+                                    "JJ14589",
+                                    "JJ14589",
+                                    "JJ14589",
+                                    "EE55585"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "EE55585",
+                            "first_name": "Dean",
+                            "last_name": "Hart",
+                            "birth_date": "9-10-2000",
+                            "rank": 0,
+                            "score": 1,
+                            "played_tournaments": {
+                                "name": "Paris Tours",
+                                "played_against": [
+                                    "DE12548",
+                                    "IO45656",
+                                    "ED14289",
+                                    "EE55585",
+                                    "JJ14589",
+                                    "DE12548",
+                                    "IO45656",
+                                    "IO45656",
+                                    "IO45656",
+                                    "ER77854"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "JJ14523",
+                            "first_name": "John",
+                            "last_name": "Light",
+                            "birth_date": "11-4-1980",
+                            "rank": 0,
+                            "score": 1.0,
+                            "played_tournaments": {
+                                "name": "Paris Tours",
+                                "played_against": [
+                                    "IO45656",
+                                    "DE12548",
+                                    "II90025",
+                                    "JJ14523",
+                                    "DE12548",
+                                    "ER77854",
+                                    "II90025",
+                                    "II90025",
+                                    "II90025",
+                                    "II90025"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "II90025",
+                            "first_name": "Danny",
+                            "last_name": "Stripe",
+                            "birth_date": "15-12-1999",
+                            "rank": 0,
+                            "score": 2.0,
+                            "played_tournaments": {
+                                "name": "Paris Tours",
+                                "played_against": [
+                                    "ER77854",
+                                    "JJ14589",
+                                    "JJ14523",
+                                    "II90025",
+                                    "IO45656",
+                                    "JJ14589",
+                                    "JJ14523",
+                                    "JJ14523",
+                                    "JJ14523",
+                                    "JJ14523"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "DE12548",
+                            "first_name": "John",
+                            "last_name": "Hentix",
+                            "birth_date": "11-10-2001",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "Paris Tours",
+                                "played_against": [
+                                    "EE55585",
+                                    "JJ14523",
+                                    "JJ14589",
+                                    "DE12548",
+                                    "JJ14523",
+                                    "EE55585",
+                                    "ED14289",
+                                    "ED14289",
+                                    "ED14289",
+                                    "ED14289"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "ED14289",
+                            "first_name": "William",
+                            "last_name": "Steal",
+                            "birth_date": "2-10-2000",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "Paris Tours",
+                                "played_against": [
+                                    "JJ14589",
+                                    "ER77854",
+                                    "EE55585",
+                                    "ED14289",
+                                    "ER77854",
+                                    "IO45656",
+                                    "DE12548",
+                                    "DE12548",
+                                    "DE12548",
+                                    "DE12548"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "IO45656",
+                            "first_name": "Paul",
+                            "last_name": "Oppenauer",
+                            "birth_date": "11-10-1998",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "Paris Tours",
+                                "played_against": [
+                                    "JJ14523",
+                                    "EE55585",
+                                    "ER77854",
+                                    "IO45656",
+                                    "II90025",
+                                    "ED14289",
+                                    "EE55585",
+                                    "EE55585",
+                                    "EE55585",
+                                    "JJ14589"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "JJ14589",
+                            "first_name": "Garry",
+                            "last_name": "Bath",
+                            "birth_date": "5-11-2000",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "Paris Tours",
+                                "played_against": [
+                                    "ED14289",
+                                    "II90025",
+                                    "DE12548",
+                                    "JJ14589",
+                                    "EE55585",
+                                    "II90025",
+                                    "ER77854",
+                                    "ER77854",
+                                    "ER77854",
+                                    "IO45656"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ]
                 ]
             },
             "list_of_players": [
@@ -2486,14 +2934,14 @@
                 "DE12548",
                 "ED14289"
             ],
-            "current_round": 2
+            "current_round": 4
         },
         "5": {
             "tournament_id": 8953,
             "name": "Great Chance",
             "city": "Torronto",
             "start_date": "4-4-2022",
-            "end_date": "9-4-2022",
+            "end_date": "2023-05-04 16:02",
             "rounds": 4,
             "comments": "no",
             "list_rounds": {
@@ -2676,6 +3124,594 @@
                             "score": 2.0
                         }
                     ]
+                ],
+                "2": [
+                    "2023-05-04 15:57",
+                    "2023-05-04 15:57",
+                    [
+                        {
+                            "player_id": "SL15963",
+                            "first_name": "Walter",
+                            "last_name": "Breterman",
+                            "birth_date": "5-10-1999",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "RT55552",
+                                    "PO12521",
+                                    "II78998",
+                                    "SL15963",
+                                    "RT55552",
+                                    "DE77551"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "DE77551",
+                            "first_name": "Alberta",
+                            "last_name": "Gilbert",
+                            "birth_date": "11-7-1986",
+                            "rank": 0,
+                            "score": 2.0,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "PO12521",
+                                    "RT55552",
+                                    "WE14512",
+                                    "DE77551",
+                                    "HJ44695",
+                                    "SL15963"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "RT55552",
+                            "first_name": "Drago",
+                            "last_name": "Griff",
+                            "birth_date": "11-10-1999",
+                            "rank": 0,
+                            "score": 3.0,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "SL15963",
+                                    "WE14512"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "WE14512",
+                            "first_name": "Dillan",
+                            "last_name": "Milan",
+                            "birth_date": "5-8-2001",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "HJ44695",
+                                    "SD14256",
+                                    "DE77551",
+                                    "WE14512",
+                                    "PO12521",
+                                    "RT55552"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "SD14256",
+                            "first_name": "Donald",
+                            "last_name": "Albert",
+                            "birth_date": "4-8-1995",
+                            "rank": 0,
+                            "score": 3.0,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "II78998",
+                                    "WE14512",
+                                    "RT55552",
+                                    "SD14256",
+                                    "II78998",
+                                    "HJ44695"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "HJ44695",
+                            "first_name": "Duke",
+                            "last_name": "Hastings",
+                            "birth_date": "2-2-1998",
+                            "rank": 0,
+                            "score": 4.0,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "WE14512",
+                                    "II78998",
+                                    "PO12521",
+                                    "HJ44695",
+                                    "DE77551",
+                                    "SD14256"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "PO12521",
+                            "first_name": "Cesar",
+                            "last_name": "Bright",
+                            "birth_date": "7-11-2002",
+                            "rank": 0,
+                            "score": 4.0,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "DE77551",
+                                    "SL15963",
+                                    "HJ44695",
+                                    "PO12521",
+                                    "WE14512",
+                                    "II78998"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "II78998",
+                            "first_name": "Berry",
+                            "last_name": "Phone",
+                            "birth_date": "5-12-2000",
+                            "rank": 0,
+                            "score": 4,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "SD14256",
+                                    "PO12521"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4
+                        }
+                    ]
+                ],
+                "3": [
+                    "2023-05-04 16:01",
+                    "2023-05-04 16:01",
+                    [
+                        {
+                            "player_id": "PO12521",
+                            "first_name": "Cesar",
+                            "last_name": "Bright",
+                            "birth_date": "7-11-2002",
+                            "rank": 0,
+                            "score": 4.0,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "DE77551",
+                                    "SL15963",
+                                    "HJ44695",
+                                    "PO12521",
+                                    "WE14512",
+                                    "II78998",
+                                    "SL15963"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "SL15963",
+                            "first_name": "Walter",
+                            "last_name": "Breterman",
+                            "birth_date": "5-10-1999",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "RT55552",
+                                    "PO12521",
+                                    "II78998",
+                                    "SL15963",
+                                    "RT55552",
+                                    "DE77551",
+                                    "PO12521"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "WE14512",
+                            "first_name": "Dillan",
+                            "last_name": "Milan",
+                            "birth_date": "5-8-2001",
+                            "rank": 0,
+                            "score": 3.0,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "HJ44695",
+                                    "SD14256",
+                                    "DE77551",
+                                    "WE14512",
+                                    "PO12521",
+                                    "RT55552",
+                                    "RT55552"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "RT55552",
+                            "first_name": "Drago",
+                            "last_name": "Griff",
+                            "birth_date": "11-10-1999",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "SL15963",
+                                    "WE14512",
+                                    "WE14512"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "SD14256",
+                            "first_name": "Donald",
+                            "last_name": "Albert",
+                            "birth_date": "4-8-1995",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "II78998",
+                                    "WE14512",
+                                    "RT55552",
+                                    "SD14256",
+                                    "II78998",
+                                    "HJ44695",
+                                    "HJ44695"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "HJ44695",
+                            "first_name": "Duke",
+                            "last_name": "Hastings",
+                            "birth_date": "2-2-1998",
+                            "rank": 0,
+                            "score": 4.5,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "WE14512",
+                                    "II78998",
+                                    "PO12521",
+                                    "HJ44695",
+                                    "DE77551",
+                                    "SD14256",
+                                    "SD14256"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "II78998",
+                            "first_name": "Berry",
+                            "last_name": "Phone",
+                            "birth_date": "5-12-2000",
+                            "rank": 0,
+                            "score": 4,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "SD14256",
+                                    "PO12521",
+                                    "DE77551"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "DE77551",
+                            "first_name": "Alberta",
+                            "last_name": "Gilbert",
+                            "birth_date": "11-7-1986",
+                            "rank": 0,
+                            "score": 3.0,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "PO12521",
+                                    "RT55552",
+                                    "WE14512",
+                                    "DE77551",
+                                    "HJ44695",
+                                    "SL15963",
+                                    "II78998"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.0
+                        }
+                    ]
+                ],
+                "4": [
+                    "2023-05-04 16:02",
+                    "2023-05-04 16:02",
+                    [
+                        {
+                            "player_id": "SL15963",
+                            "first_name": "Walter",
+                            "last_name": "Breterman",
+                            "birth_date": "5-10-1999",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "RT55552",
+                                    "PO12521",
+                                    "II78998",
+                                    "SL15963",
+                                    "RT55552",
+                                    "DE77551",
+                                    "PO12521",
+                                    "WE14512"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "WE14512",
+                            "first_name": "Dillan",
+                            "last_name": "Milan",
+                            "birth_date": "5-8-2001",
+                            "rank": 0,
+                            "score": 4.0,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "HJ44695",
+                                    "SD14256",
+                                    "DE77551",
+                                    "WE14512",
+                                    "PO12521",
+                                    "RT55552",
+                                    "RT55552",
+                                    "SL15963"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "DE77551",
+                            "first_name": "Alberta",
+                            "last_name": "Gilbert",
+                            "birth_date": "11-7-1986",
+                            "rank": 0,
+                            "score": 4.0,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "PO12521",
+                                    "RT55552",
+                                    "WE14512",
+                                    "DE77551",
+                                    "HJ44695",
+                                    "SL15963",
+                                    "II78998",
+                                    "SD14256"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "SD14256",
+                            "first_name": "Donald",
+                            "last_name": "Albert",
+                            "birth_date": "4-8-1995",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "II78998",
+                                    "WE14512",
+                                    "RT55552",
+                                    "SD14256",
+                                    "II78998",
+                                    "HJ44695",
+                                    "HJ44695",
+                                    "DE77551"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "PO12521",
+                            "first_name": "Cesar",
+                            "last_name": "Bright",
+                            "birth_date": "7-11-2002",
+                            "rank": 0,
+                            "score": 4.5,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "DE77551",
+                                    "SL15963",
+                                    "HJ44695",
+                                    "PO12521",
+                                    "WE14512",
+                                    "II78998",
+                                    "SL15963",
+                                    "HJ44695"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "HJ44695",
+                            "first_name": "Duke",
+                            "last_name": "Hastings",
+                            "birth_date": "2-2-1998",
+                            "rank": 0,
+                            "score": 5.0,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "WE14512",
+                                    "II78998",
+                                    "PO12521",
+                                    "HJ44695",
+                                    "DE77551",
+                                    "SD14256",
+                                    "SD14256",
+                                    "PO12521"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 5.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "RT55552",
+                            "first_name": "Drago",
+                            "last_name": "Griff",
+                            "birth_date": "11-10-1999",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "SL15963",
+                                    "WE14512",
+                                    "WE14512",
+                                    "II78998"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "II78998",
+                            "first_name": "Berry",
+                            "last_name": "Phone",
+                            "birth_date": "5-12-2000",
+                            "rank": 0,
+                            "score": 5,
+                            "played_tournaments": {
+                                "name": "Great Chance",
+                                "played_against": [
+                                    "SD14256",
+                                    "PO12521",
+                                    "DE77551",
+                                    "RT55552"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 5
+                        }
+                    ]
                 ]
             },
             "list_of_players": [
@@ -2688,7 +3724,7 @@
                 "SL15963",
                 "SD14256"
             ],
-            "current_round": 1
+            "current_round": 4
         },
         "6": {
             "tournament_id": 4563,
@@ -2698,7 +3734,196 @@
             "end_date": "15-8-2022",
             "rounds": 4,
             "comments": "no",
-            "list_rounds": {},
+            "list_rounds": {
+                "1": [
+                    "2023-05-04 16:20",
+                    "2023-05-04 16:20",
+                    [
+                        {
+                            "player_id": "DE66652",
+                            "first_name": "Cynthia",
+                            "last_name": "Cole",
+                            "birth_date": "4-1-1998",
+                            "rank": 0,
+                            "score": 2.0,
+                            "played_tournaments": {
+                                "name": "The Bulls",
+                                "played_against": [
+                                    "RE55596",
+                                    "GY14589",
+                                    "ER14528",
+                                    "DE66652",
+                                    "ER14525"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "ER14525",
+                            "first_name": "Bella",
+                            "last_name": "Stone",
+                            "birth_date": "5-5-1980",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "The Bulls",
+                                "played_against": [
+                                    "UU10002",
+                                    "DD14857",
+                                    "HG14985",
+                                    "ER14525",
+                                    "DE66652"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "HG14985",
+                            "first_name": "Nelly",
+                            "last_name": "Brad",
+                            "birth_date": "5-10-2000",
+                            "rank": 0,
+                            "score": 2.0,
+                            "played_tournaments": {
+                                "name": "The Bulls",
+                                "played_against": [
+                                    "GY14589",
+                                    "RE55596",
+                                    "ER14525",
+                                    "HG14985",
+                                    "GY14589"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "GY14589",
+                            "first_name": "Bella",
+                            "last_name": "Stone",
+                            "birth_date": "5-12-1998",
+                            "rank": 0,
+                            "score": 3.0,
+                            "played_tournaments": {
+                                "name": "The Bulls",
+                                "played_against": [
+                                    "HG14985",
+                                    "DE66652",
+                                    "UU10002",
+                                    "GY14589",
+                                    "HG14985"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "DD14857",
+                            "first_name": "Berry",
+                            "last_name": "Frame",
+                            "birth_date": "5-12-1988",
+                            "rank": 0,
+                            "score": 2.0,
+                            "played_tournaments": {
+                                "name": "The Bulls",
+                                "played_against": [
+                                    "ER14528",
+                                    "ER14525",
+                                    "RE55596",
+                                    "DD14857",
+                                    "ER14528"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "ER14528",
+                            "first_name": "Henry",
+                            "last_name": "Stark",
+                            "birth_date": "8-8-1998",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "The Bulls",
+                                "played_against": [
+                                    "DD14857",
+                                    "UU10002",
+                                    "DE66652",
+                                    "ER14528",
+                                    "DD14857"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UU10002",
+                            "first_name": "Jason",
+                            "last_name": "Steal",
+                            "birth_date": "9-5-1992",
+                            "rank": 0,
+                            "score": 3.0,
+                            "played_tournaments": {
+                                "name": "The Bulls",
+                                "played_against": [
+                                    "ER14525",
+                                    "ER14528",
+                                    "GY14589",
+                                    "UU10002",
+                                    "RE55596"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "RE55596",
+                            "first_name": "Bella",
+                            "last_name": "Stone",
+                            "birth_date": "11-10-1988",
+                            "rank": 0,
+                            "score": 2.0,
+                            "played_tournaments": {
+                                "name": "The Bulls",
+                                "played_against": [
+                                    "DE66652",
+                                    "HG14985",
+                                    "DD14857",
+                                    "RE55596",
+                                    "UU10002"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.0
+                        }
+                    ]
+                ]
+            },
             "list_of_players": [
                 "GY14589",
                 "ER14525",
@@ -2709,7 +3934,7 @@
                 "DD14857",
                 "DE66652"
             ],
-            "current_round": 0
+            "current_round": 1
         },
         "7": {
             "tournament_id": 1234,
@@ -2740,7 +3965,217 @@
             "end_date": "15-10-2022",
             "rounds": 4,
             "comments": "no",
-            "list_rounds": {},
+            "list_rounds": {
+                "1": [
+                    "2023-05-04 17:14",
+                    "2023-05-04 17:14",
+                    [
+                        {
+                            "player_id": "UY14785",
+                            "first_name": "Bella",
+                            "last_name": "Donna",
+                            "birth_date": "11-11-1991",
+                            "rank": 0,
+                            "score": 7.5,
+                            "played_tournaments": {
+                                "name": "Handshake",
+                                "played_against": [
+                                    "UI52793",
+                                    "UY14257",
+                                    "ER55692",
+                                    "UY14785",
+                                    "JK555523",
+                                    "SD14587",
+                                    "HU25875",
+                                    "OL55524"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 7.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "OL55524",
+                            "first_name": "Anton",
+                            "last_name": "Radio",
+                            "birth_date": "22-1-1996",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "Handshake",
+                                "played_against": [
+                                    "ER55692",
+                                    "HU25875",
+                                    "UI52793",
+                                    "OL55524",
+                                    "UY14257",
+                                    "ER55692",
+                                    "UY14785"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "SD14587",
+                            "first_name": "Karl",
+                            "last_name": "Heat",
+                            "birth_date": "9-10-1980",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "Handshake",
+                                "played_against": [
+                                    "UY14257",
+                                    "UI52793",
+                                    "HU25875",
+                                    "SD14587",
+                                    "UY14785",
+                                    "RT99900",
+                                    "UY14257"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UY14257",
+                            "first_name": "Olly",
+                            "last_name": "Ox",
+                            "birth_date": "4-5-1985",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "Handshake",
+                                "played_against": [
+                                    "SD14587",
+                                    "UY14785",
+                                    "RT99900",
+                                    "UY14257",
+                                    "OL55524",
+                                    "UI52793",
+                                    "SD14587"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "RT99900",
+                            "first_name": "Kate",
+                            "last_name": "Kaplan",
+                            "birth_date": "4-12-1987",
+                            "rank": 0,
+                            "score": 4.0,
+                            "played_tournaments": {
+                                "name": "Handshake",
+                                "played_against": [
+                                    "HU25875",
+                                    "ER55692",
+                                    "UY14257",
+                                    "RT99900",
+                                    "ER55692",
+                                    "SD14587",
+                                    "HU25875"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "HU25875",
+                            "first_name": "Chuck",
+                            "last_name": "Dean",
+                            "birth_date": "2-1-1999",
+                            "rank": 0,
+                            "score": 5.5,
+                            "played_tournaments": {
+                                "name": "Handshake",
+                                "played_against": [
+                                    "RT99900",
+                                    "OL55524",
+                                    "SD14587",
+                                    "HU25875",
+                                    "UI52793",
+                                    "UY14785",
+                                    "RT99900"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 5.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "ER55692",
+                            "first_name": "Marvin",
+                            "last_name": "Gura",
+                            "birth_date": "4-4-1999",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "Handshake",
+                                "played_against": [
+                                    "HU55550",
+                                    "DE95990",
+                                    "HJ15932",
+                                    "UY14785",
+                                    "OL55524",
+                                    "RT99900",
+                                    "UY14785",
+                                    "ER55692",
+                                    "RT99900",
+                                    "OL55524",
+                                    "UI52793"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UI52793",
+                            "first_name": "Paul",
+                            "last_name": "Yenk",
+                            "birth_date": "8-10-1980",
+                            "rank": 0,
+                            "score": 4,
+                            "played_tournaments": {
+                                "name": "Handshake",
+                                "played_against": [
+                                    "UY14785",
+                                    "SD14587",
+                                    "OL55524",
+                                    "UI52793",
+                                    "HU25875",
+                                    "UY14257",
+                                    "ER55692"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4
+                        }
+                    ]
+                ]
+            },
             "list_of_players": [
                 "SD14587",
                 "RT99900",
@@ -2751,7 +4186,7 @@
                 "ER55692",
                 "UI52793"
             ],
-            "current_round": 0
+            "current_round": 2
         },
         "9": {
             "tournament_id": 7414,
@@ -2761,7 +4196,400 @@
             "end_date": "15-10-2022",
             "rounds": 4,
             "comments": "no",
-            "list_rounds": {},
+            "list_rounds": {
+                "1": [
+                    "2023-05-04 16:23",
+                    "2023-05-04 16:23",
+                    [
+                        {
+                            "player_id": "CV14852",
+                            "first_name": "Jane",
+                            "last_name": "Skinner",
+                            "birth_date": "5-10-1999",
+                            "rank": 0,
+                            "score": 0,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "QW96325",
+                                    "UU15233",
+                                    "EE88558",
+                                    "CV14852",
+                                    "UU15233"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UU15233",
+                            "first_name": "Name",
+                            "last_name": "Last",
+                            "birth_date": "11-11-1988",
+                            "rank": 0,
+                            "score": 3.0,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "GH95753",
+                                    "CV14852",
+                                    "IJ22200",
+                                    "UU15233",
+                                    "CV14852"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "IJ22200",
+                            "first_name": "Yannik",
+                            "last_name": "Orga",
+                            "birth_date": "22-10-1988",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "UR85285",
+                                    "EE88558",
+                                    "UU15233",
+                                    "IJ22200",
+                                    "GH95753"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "GH95753",
+                            "first_name": "Vincent",
+                            "last_name": "Condo",
+                            "birth_date": "4-7-1999",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "UU15233",
+                                    "QW96325",
+                                    "UR85285",
+                                    "GH95753",
+                                    "IJ22200"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "EE88558",
+                            "first_name": "Igor",
+                            "last_name": "Russov",
+                            "birth_date": "7-10-2001",
+                            "rank": 0,
+                            "score": 4.5,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "IO25987",
+                                    "IJ22200",
+                                    "CV14852",
+                                    "EE88558",
+                                    "IO25987"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "IO25987",
+                            "first_name": "Ray",
+                            "last_name": "Steward",
+                            "birth_date": "11-5-2000",
+                            "rank": 0,
+                            "score": 4.0,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "EE88558",
+                                    "UR85285",
+                                    "QW96325",
+                                    "IO25987",
+                                    "EE88558"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UR85285",
+                            "first_name": "Cole",
+                            "last_name": "Red",
+                            "birth_date": "5-10-1980",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "IJ22200",
+                                    "IO25987",
+                                    "GH95753",
+                                    "UR85285",
+                                    "QW96325"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "QW96325",
+                            "first_name": "Hanna",
+                            "last_name": "Bright",
+                            "birth_date": "5-9-2000",
+                            "rank": 0,
+                            "score": 1,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "CV14852",
+                                    "GH95753",
+                                    "IO25987",
+                                    "QW96325",
+                                    "UR85285"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1
+                        }
+                    ]
+                ],
+                "2": [
+                    "2023-05-04 18:19",
+                    "2023-05-04 18:19",
+                    [
+                        {
+                            "player_id": "CV14852",
+                            "first_name": "Jane",
+                            "last_name": "Skinner",
+                            "birth_date": "5-10-1999",
+                            "rank": 0,
+                            "score": 0,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "QW96325",
+                                    "UU15233",
+                                    "EE88558",
+                                    "CV14852",
+                                    "UU15233",
+                                    "UR85285",
+                                    "UR85285"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UR85285",
+                            "first_name": "Cole",
+                            "last_name": "Red",
+                            "birth_date": "5-10-1980",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "IJ22200",
+                                    "IO25987",
+                                    "GH95753",
+                                    "UR85285",
+                                    "QW96325",
+                                    "CV14852",
+                                    "CV14852"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "IJ22200",
+                            "first_name": "Yannik",
+                            "last_name": "Orga",
+                            "birth_date": "22-10-1988",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "UR85285",
+                                    "EE88558",
+                                    "UU15233",
+                                    "IJ22200",
+                                    "GH95753",
+                                    "GH95753",
+                                    "GH95753"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "GH95753",
+                            "first_name": "Vincent",
+                            "last_name": "Condo",
+                            "birth_date": "4-7-1999",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "UU15233",
+                                    "QW96325",
+                                    "UR85285",
+                                    "GH95753",
+                                    "IJ22200",
+                                    "IJ22200",
+                                    "IJ22200"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "IO25987",
+                            "first_name": "Ray",
+                            "last_name": "Steward",
+                            "birth_date": "11-5-2000",
+                            "rank": 0,
+                            "score": 4.5,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "EE88558",
+                                    "UR85285",
+                                    "QW96325",
+                                    "IO25987",
+                                    "EE88558",
+                                    "QW96325",
+                                    "QW96325"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "QW96325",
+                            "first_name": "Hanna",
+                            "last_name": "Bright",
+                            "birth_date": "5-9-2000",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "CV14852",
+                                    "GH95753",
+                                    "IO25987",
+                                    "QW96325",
+                                    "UR85285",
+                                    "IO25987",
+                                    "IO25987"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UU15233",
+                            "first_name": "Name",
+                            "last_name": "Last",
+                            "birth_date": "11-11-1988",
+                            "rank": 0,
+                            "score": 3.0,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "GH95753",
+                                    "CV14852",
+                                    "IJ22200",
+                                    "UU15233",
+                                    "CV14852",
+                                    "EE88558",
+                                    "EE88558"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "EE88558",
+                            "first_name": "Igor",
+                            "last_name": "Russov",
+                            "birth_date": "7-10-2001",
+                            "rank": 0,
+                            "score": 5.5,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "IO25987",
+                                    "IJ22200",
+                                    "CV14852",
+                                    "EE88558",
+                                    "IO25987",
+                                    "UU15233",
+                                    "UU15233"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 5.5
+                        }
+                    ]
+                ]
+            },
             "list_of_players": [
                 "QW96325",
                 "EE88558",
@@ -2772,7 +4600,7 @@
                 "IJ22200",
                 "GH95753"
             ],
-            "current_round": 0
+            "current_round": 2
         },
         "10": {
             "tournament_id": 8585,
@@ -2782,7 +4610,204 @@
             "end_date": "9-5-2022",
             "rounds": 4,
             "comments": "no",
-            "list_rounds": {},
+            "list_rounds": {
+                "1": [
+                    "2023-05-04 17:48",
+                    "2023-05-04 17:48",
+                    [
+                        {
+                            "player_id": "HI25825",
+                            "first_name": "Harold",
+                            "last_name": "Cooper",
+                            "birth_date": "4-9-2001",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "The Chess Club",
+                                "played_against": [
+                                    "UU5858",
+                                    "EC55213",
+                                    "II98598",
+                                    "HI25825",
+                                    "II98598",
+                                    "II98598"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "II98598",
+                            "first_name": "Jarry",
+                            "last_name": "Flinn",
+                            "birth_date": "11-7-2000",
+                            "rank": 0,
+                            "score": 3,
+                            "played_tournaments": {
+                                "name": "The Chess Club",
+                                "played_against": [
+                                    "YH15263",
+                                    "HH52793",
+                                    "HI25825",
+                                    "II98598",
+                                    "HI25825",
+                                    "HI25825"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "IJ59900",
+                            "first_name": "Aram",
+                            "last_name": "Mash",
+                            "birth_date": "6-6-1999",
+                            "rank": 0,
+                            "score": 3.0,
+                            "played_tournaments": {
+                                "name": "The Chess Club",
+                                "played_against": [
+                                    "EC55213",
+                                    "UU5858",
+                                    "HH44445",
+                                    "IJ59900",
+                                    "YH15263",
+                                    "YH15263"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "YH15263",
+                            "first_name": "Alina",
+                            "last_name": "Stark",
+                            "birth_date": "5-5-1999",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "The Chess Club",
+                                "played_against": [
+                                    "II98598",
+                                    "HH44445",
+                                    "UU5858",
+                                    "YH15263",
+                                    "IJ59900",
+                                    "IJ59900"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "EC55213",
+                            "first_name": "Hope",
+                            "last_name": "Water",
+                            "birth_date": "11-12-2000",
+                            "rank": 0,
+                            "score": 2.0,
+                            "played_tournaments": {
+                                "name": "The Chess Club",
+                                "played_against": [
+                                    "IJ59900",
+                                    "HI25825",
+                                    "HH52793",
+                                    "EC55213",
+                                    "UU5858",
+                                    "HH44445"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "HH44445",
+                            "first_name": "Jerry",
+                            "last_name": "Stone",
+                            "birth_date": "5-12-1999",
+                            "rank": 0,
+                            "score": 3.0,
+                            "played_tournaments": {
+                                "name": "The Chess Club",
+                                "played_against": [
+                                    "HH52793",
+                                    "YH15263",
+                                    "IJ59900",
+                                    "HH44445",
+                                    "HH52793",
+                                    "EC55213"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "HH52793",
+                            "first_name": "Cooper",
+                            "last_name": "Yale",
+                            "birth_date": "5-12-2000",
+                            "rank": 0,
+                            "score": 4.5,
+                            "played_tournaments": {
+                                "name": "The Chess Club",
+                                "played_against": [
+                                    "HH44445",
+                                    "II98598",
+                                    "EC55213",
+                                    "HH52793",
+                                    "HH44445",
+                                    "UU5858"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UU5858",
+                            "first_name": "Danny",
+                            "last_name": "Devito",
+                            "birth_date": "5-9-1998",
+                            "rank": 0,
+                            "score": 5.5,
+                            "played_tournaments": {
+                                "name": "The Chess Club",
+                                "played_against": [
+                                    "HI25825",
+                                    "IJ59900",
+                                    "YH15263",
+                                    "UU5858",
+                                    "EC55213",
+                                    "HH52793"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 5.5
+                        }
+                    ]
+                ]
+            },
             "list_of_players": [
                 "II98598",
                 "UU5858",
@@ -2793,17 +4818,1074 @@
                 "IJ59900",
                 "HH52793"
             ],
-            "current_round": 0
+            "current_round": 2
         },
         "15": {
             "tournament_id": 70,
             "name": "The James Bond Tournament",
             "city": "Budapest",
             "start_date": "7-7-2022",
-            "end_date": "14-7-2022",
+            "end_date": "2023-05-04 18:17",
             "rounds": 4,
             "comments": "no",
-            "list_rounds": {},
+            "list_rounds": {
+                "1": [
+                    "2023-05-04 18:16",
+                    "2023-05-04 18:16",
+                    [
+                        {
+                            "player_id": "OL74743",
+                            "first_name": "Garry",
+                            "last_name": "Carter",
+                            "birth_date": "11-4-1988",
+                            "rank": 0,
+                            "score": 5.0,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "CX555263",
+                                    "QW14293",
+                                    "DF100025",
+                                    "OL74743",
+                                    "HN15978",
+                                    "HN15978",
+                                    "UI14253",
+                                    "EW45245",
+                                    "IO25223",
+                                    "QW14293",
+                                    "UI14253",
+                                    "IO25223",
+                                    "DF100025"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 5.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "DF100025",
+                            "first_name": "Henry",
+                            "last_name": "Lower",
+                            "birth_date": "5-5-1998",
+                            "rank": 0,
+                            "score": 6.0,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "UI14253",
+                                    "HN15978",
+                                    "OL74743",
+                                    "DF100025",
+                                    "CX555263",
+                                    "QW14293",
+                                    "IO25223",
+                                    "CX555263",
+                                    "CX555263",
+                                    "CX555263",
+                                    "CX555263",
+                                    "QW14293",
+                                    "OL74743"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 6.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "CX555263",
+                            "first_name": "Ronald",
+                            "last_name": "Weddle",
+                            "birth_date": "8-8-1998",
+                            "rank": 0,
+                            "score": 5.0,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "OL74743",
+                                    "EW45245",
+                                    "UI14253",
+                                    "CX555263",
+                                    "DF100025",
+                                    "IO25223",
+                                    "HN15978",
+                                    "DF100025",
+                                    "DF100025",
+                                    "DF100025",
+                                    "DF100025",
+                                    "EW45245",
+                                    "QW14293"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 5.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "QW14293",
+                            "first_name": "Shela",
+                            "last_name": "Hat",
+                            "birth_date": "5-10-1998",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "EW45245",
+                                    "OL74743",
+                                    "HN15978",
+                                    "QW14293",
+                                    "IO25223",
+                                    "DF100025",
+                                    "EW45245",
+                                    "HN15978",
+                                    "UI14253",
+                                    "OL74743",
+                                    "HN15978",
+                                    "DF100025",
+                                    "CX555263"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "HN15978",
+                            "first_name": "Terry",
+                            "last_name": "Losh",
+                            "birth_date": "2-10-1999",
+                            "rank": 0,
+                            "score": 4.5,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "IO25223",
+                                    "DF100025",
+                                    "QW14293",
+                                    "HN15978",
+                                    "OL74743",
+                                    "OL74743",
+                                    "CX555263",
+                                    "QW14293",
+                                    "EW45245",
+                                    "IO25223",
+                                    "QW14293",
+                                    "UI14253",
+                                    "UI14253"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UI14253",
+                            "first_name": "Funny",
+                            "last_name": "Lose",
+                            "birth_date": "5-5-1999",
+                            "rank": 0,
+                            "score": 4.5,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "DF100025",
+                                    "IO25223",
+                                    "CX555263",
+                                    "UI14253",
+                                    "EW45245",
+                                    "EW45245",
+                                    "OL74743",
+                                    "IO25223",
+                                    "QW14293",
+                                    "EW45245",
+                                    "OL74743",
+                                    "HN15978",
+                                    "HN15978"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "IO25223",
+                            "first_name": "Dian",
+                            "last_name": "Blah",
+                            "birth_date": "6-10-1980",
+                            "rank": 0,
+                            "score": 2.0,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "HN15978",
+                                    "UI14253",
+                                    "EW45245",
+                                    "IO25223",
+                                    "QW14293",
+                                    "CX555263",
+                                    "DF100025",
+                                    "UI14253",
+                                    "OL74743",
+                                    "HN15978",
+                                    "EW45245",
+                                    "OL74743",
+                                    "EW45245"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "EW45245",
+                            "first_name": "Josh",
+                            "last_name": "Bash",
+                            "birth_date": "7-10-1980",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "QW14293",
+                                    "CX555263",
+                                    "IO25223",
+                                    "EW45245",
+                                    "UI14253",
+                                    "UI14253",
+                                    "QW14293",
+                                    "OL74743",
+                                    "HN15978",
+                                    "UI14253",
+                                    "IO25223",
+                                    "CX555263",
+                                    "IO25223"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ]
+                ],
+                "2": [
+                    "2023-05-04 18:16",
+                    "2023-05-04 18:16",
+                    [
+                        {
+                            "player_id": "DF100025",
+                            "first_name": "Henry",
+                            "last_name": "Lower",
+                            "birth_date": "5-5-1998",
+                            "rank": 0,
+                            "score": 6.0,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "UI14253",
+                                    "HN15978",
+                                    "OL74743",
+                                    "DF100025",
+                                    "CX555263",
+                                    "QW14293",
+                                    "IO25223",
+                                    "CX555263",
+                                    "CX555263",
+                                    "CX555263",
+                                    "CX555263",
+                                    "QW14293",
+                                    "OL74743",
+                                    "QW14293"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 6.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "QW14293",
+                            "first_name": "Shela",
+                            "last_name": "Hat",
+                            "birth_date": "5-10-1998",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "EW45245",
+                                    "OL74743",
+                                    "HN15978",
+                                    "QW14293",
+                                    "IO25223",
+                                    "DF100025",
+                                    "EW45245",
+                                    "HN15978",
+                                    "UI14253",
+                                    "OL74743",
+                                    "HN15978",
+                                    "DF100025",
+                                    "CX555263",
+                                    "DF100025"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "EW45245",
+                            "first_name": "Josh",
+                            "last_name": "Bash",
+                            "birth_date": "7-10-1980",
+                            "rank": 0,
+                            "score": 4.5,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "QW14293",
+                                    "CX555263",
+                                    "IO25223",
+                                    "EW45245",
+                                    "UI14253",
+                                    "UI14253",
+                                    "QW14293",
+                                    "OL74743",
+                                    "HN15978",
+                                    "UI14253",
+                                    "IO25223",
+                                    "CX555263",
+                                    "IO25223",
+                                    "HN15978"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "HN15978",
+                            "first_name": "Terry",
+                            "last_name": "Losh",
+                            "birth_date": "2-10-1999",
+                            "rank": 0,
+                            "score": 4.5,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "IO25223",
+                                    "DF100025",
+                                    "QW14293",
+                                    "HN15978",
+                                    "OL74743",
+                                    "OL74743",
+                                    "CX555263",
+                                    "QW14293",
+                                    "EW45245",
+                                    "IO25223",
+                                    "QW14293",
+                                    "UI14253",
+                                    "UI14253",
+                                    "EW45245"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "OL74743",
+                            "first_name": "Garry",
+                            "last_name": "Carter",
+                            "birth_date": "11-4-1988",
+                            "rank": 0,
+                            "score": 5.5,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "CX555263",
+                                    "QW14293",
+                                    "DF100025",
+                                    "OL74743",
+                                    "HN15978",
+                                    "HN15978",
+                                    "UI14253",
+                                    "EW45245",
+                                    "IO25223",
+                                    "QW14293",
+                                    "UI14253",
+                                    "IO25223",
+                                    "DF100025",
+                                    "CX555263"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 5.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "CX555263",
+                            "first_name": "Ronald",
+                            "last_name": "Weddle",
+                            "birth_date": "8-8-1998",
+                            "rank": 0,
+                            "score": 5.5,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "OL74743",
+                                    "EW45245",
+                                    "UI14253",
+                                    "CX555263",
+                                    "DF100025",
+                                    "IO25223",
+                                    "HN15978",
+                                    "DF100025",
+                                    "DF100025",
+                                    "DF100025",
+                                    "DF100025",
+                                    "EW45245",
+                                    "QW14293",
+                                    "OL74743"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 5.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "IO25223",
+                            "first_name": "Dian",
+                            "last_name": "Blah",
+                            "birth_date": "6-10-1980",
+                            "rank": 0,
+                            "score": 2.0,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "HN15978",
+                                    "UI14253",
+                                    "EW45245",
+                                    "IO25223",
+                                    "QW14293",
+                                    "CX555263",
+                                    "DF100025",
+                                    "UI14253",
+                                    "OL74743",
+                                    "HN15978",
+                                    "EW45245",
+                                    "OL74743",
+                                    "EW45245",
+                                    "UI14253"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UI14253",
+                            "first_name": "Funny",
+                            "last_name": "Lose",
+                            "birth_date": "5-5-1999",
+                            "rank": 0,
+                            "score": 5.5,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "DF100025",
+                                    "IO25223",
+                                    "CX555263",
+                                    "UI14253",
+                                    "EW45245",
+                                    "EW45245",
+                                    "OL74743",
+                                    "IO25223",
+                                    "QW14293",
+                                    "EW45245",
+                                    "OL74743",
+                                    "HN15978",
+                                    "HN15978",
+                                    "IO25223"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 5.5
+                        }
+                    ]
+                ],
+                "3": [
+                    "2023-05-04 18:16",
+                    "2023-05-04 18:16",
+                    [
+                        {
+                            "player_id": "DF100025",
+                            "first_name": "Henry",
+                            "last_name": "Lower",
+                            "birth_date": "5-5-1998",
+                            "rank": 0,
+                            "score": 6.0,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "UI14253",
+                                    "HN15978",
+                                    "OL74743",
+                                    "DF100025",
+                                    "CX555263",
+                                    "QW14293",
+                                    "IO25223",
+                                    "CX555263",
+                                    "CX555263",
+                                    "CX555263",
+                                    "CX555263",
+                                    "QW14293",
+                                    "OL74743",
+                                    "QW14293",
+                                    "IO25223"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 6.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "IO25223",
+                            "first_name": "Dian",
+                            "last_name": "Blah",
+                            "birth_date": "6-10-1980",
+                            "rank": 0,
+                            "score": 3.0,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "HN15978",
+                                    "UI14253",
+                                    "EW45245",
+                                    "IO25223",
+                                    "QW14293",
+                                    "CX555263",
+                                    "DF100025",
+                                    "UI14253",
+                                    "OL74743",
+                                    "HN15978",
+                                    "EW45245",
+                                    "OL74743",
+                                    "EW45245",
+                                    "UI14253",
+                                    "DF100025"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "EW45245",
+                            "first_name": "Josh",
+                            "last_name": "Bash",
+                            "birth_date": "7-10-1980",
+                            "rank": 0,
+                            "score": 5.5,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "QW14293",
+                                    "CX555263",
+                                    "IO25223",
+                                    "EW45245",
+                                    "UI14253",
+                                    "UI14253",
+                                    "QW14293",
+                                    "OL74743",
+                                    "HN15978",
+                                    "UI14253",
+                                    "IO25223",
+                                    "CX555263",
+                                    "IO25223",
+                                    "HN15978",
+                                    "HN15978"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 5.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "HN15978",
+                            "first_name": "Terry",
+                            "last_name": "Losh",
+                            "birth_date": "2-10-1999",
+                            "rank": 0,
+                            "score": 4.5,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "IO25223",
+                                    "DF100025",
+                                    "QW14293",
+                                    "HN15978",
+                                    "OL74743",
+                                    "OL74743",
+                                    "CX555263",
+                                    "QW14293",
+                                    "EW45245",
+                                    "IO25223",
+                                    "QW14293",
+                                    "UI14253",
+                                    "UI14253",
+                                    "EW45245",
+                                    "EW45245"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "CX555263",
+                            "first_name": "Ronald",
+                            "last_name": "Weddle",
+                            "birth_date": "8-8-1998",
+                            "rank": 0,
+                            "score": 6.0,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "OL74743",
+                                    "EW45245",
+                                    "UI14253",
+                                    "CX555263",
+                                    "DF100025",
+                                    "IO25223",
+                                    "HN15978",
+                                    "DF100025",
+                                    "DF100025",
+                                    "DF100025",
+                                    "DF100025",
+                                    "EW45245",
+                                    "QW14293",
+                                    "OL74743",
+                                    "UI14253"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 6.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UI14253",
+                            "first_name": "Funny",
+                            "last_name": "Lose",
+                            "birth_date": "5-5-1999",
+                            "rank": 0,
+                            "score": 6.0,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "DF100025",
+                                    "IO25223",
+                                    "CX555263",
+                                    "UI14253",
+                                    "EW45245",
+                                    "EW45245",
+                                    "OL74743",
+                                    "IO25223",
+                                    "QW14293",
+                                    "EW45245",
+                                    "OL74743",
+                                    "HN15978",
+                                    "HN15978",
+                                    "IO25223",
+                                    "CX555263"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 6.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "QW14293",
+                            "first_name": "Shela",
+                            "last_name": "Hat",
+                            "birth_date": "5-10-1998",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "EW45245",
+                                    "OL74743",
+                                    "HN15978",
+                                    "QW14293",
+                                    "IO25223",
+                                    "DF100025",
+                                    "EW45245",
+                                    "HN15978",
+                                    "UI14253",
+                                    "OL74743",
+                                    "HN15978",
+                                    "DF100025",
+                                    "CX555263",
+                                    "DF100025",
+                                    "OL74743"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "OL74743",
+                            "first_name": "Garry",
+                            "last_name": "Carter",
+                            "birth_date": "11-4-1988",
+                            "rank": 0,
+                            "score": 6.5,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "CX555263",
+                                    "QW14293",
+                                    "DF100025",
+                                    "OL74743",
+                                    "HN15978",
+                                    "HN15978",
+                                    "UI14253",
+                                    "EW45245",
+                                    "IO25223",
+                                    "QW14293",
+                                    "UI14253",
+                                    "IO25223",
+                                    "DF100025",
+                                    "CX555263",
+                                    "QW14293"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 6.5
+                        }
+                    ]
+                ],
+                "4": [
+                    "2023-05-04 18:17",
+                    "2023-05-04 18:17",
+                    [
+                        {
+                            "player_id": "UI14253",
+                            "first_name": "Funny",
+                            "last_name": "Lose",
+                            "birth_date": "5-5-1999",
+                            "rank": 0,
+                            "score": 7.0,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "DF100025",
+                                    "IO25223",
+                                    "CX555263",
+                                    "UI14253",
+                                    "EW45245",
+                                    "EW45245",
+                                    "OL74743",
+                                    "IO25223",
+                                    "QW14293",
+                                    "EW45245",
+                                    "OL74743",
+                                    "HN15978",
+                                    "HN15978",
+                                    "IO25223",
+                                    "CX555263",
+                                    "QW14293"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 7.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "QW14293",
+                            "first_name": "Shela",
+                            "last_name": "Hat",
+                            "birth_date": "5-10-1998",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "EW45245",
+                                    "OL74743",
+                                    "HN15978",
+                                    "QW14293",
+                                    "IO25223",
+                                    "DF100025",
+                                    "EW45245",
+                                    "HN15978",
+                                    "UI14253",
+                                    "OL74743",
+                                    "HN15978",
+                                    "DF100025",
+                                    "CX555263",
+                                    "DF100025",
+                                    "OL74743",
+                                    "UI14253"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "HN15978",
+                            "first_name": "Terry",
+                            "last_name": "Losh",
+                            "birth_date": "2-10-1999",
+                            "rank": 0,
+                            "score": 5.0,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "IO25223",
+                                    "DF100025",
+                                    "QW14293",
+                                    "HN15978",
+                                    "OL74743",
+                                    "OL74743",
+                                    "CX555263",
+                                    "QW14293",
+                                    "EW45245",
+                                    "IO25223",
+                                    "QW14293",
+                                    "UI14253",
+                                    "UI14253",
+                                    "EW45245",
+                                    "EW45245",
+                                    "EW45245"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 5.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "EW45245",
+                            "first_name": "Josh",
+                            "last_name": "Bash",
+                            "birth_date": "7-10-1980",
+                            "rank": 0,
+                            "score": 6.0,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "QW14293",
+                                    "CX555263",
+                                    "IO25223",
+                                    "EW45245",
+                                    "UI14253",
+                                    "UI14253",
+                                    "QW14293",
+                                    "OL74743",
+                                    "HN15978",
+                                    "UI14253",
+                                    "IO25223",
+                                    "CX555263",
+                                    "IO25223",
+                                    "HN15978",
+                                    "HN15978",
+                                    "HN15978"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 6.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "DF100025",
+                            "first_name": "Henry",
+                            "last_name": "Lower",
+                            "birth_date": "5-5-1998",
+                            "rank": 0,
+                            "score": 6.0,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "UI14253",
+                                    "HN15978",
+                                    "OL74743",
+                                    "DF100025",
+                                    "CX555263",
+                                    "QW14293",
+                                    "IO25223",
+                                    "CX555263",
+                                    "CX555263",
+                                    "CX555263",
+                                    "CX555263",
+                                    "QW14293",
+                                    "OL74743",
+                                    "QW14293",
+                                    "IO25223",
+                                    "CX555263"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 6.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "CX555263",
+                            "first_name": "Ronald",
+                            "last_name": "Weddle",
+                            "birth_date": "8-8-1998",
+                            "rank": 0,
+                            "score": 7.0,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "OL74743",
+                                    "EW45245",
+                                    "UI14253",
+                                    "CX555263",
+                                    "DF100025",
+                                    "IO25223",
+                                    "HN15978",
+                                    "DF100025",
+                                    "DF100025",
+                                    "DF100025",
+                                    "DF100025",
+                                    "EW45245",
+                                    "QW14293",
+                                    "OL74743",
+                                    "UI14253",
+                                    "DF100025"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 7.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "OL74743",
+                            "first_name": "Garry",
+                            "last_name": "Carter",
+                            "birth_date": "11-4-1988",
+                            "rank": 0,
+                            "score": 7.0,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "CX555263",
+                                    "QW14293",
+                                    "DF100025",
+                                    "OL74743",
+                                    "HN15978",
+                                    "HN15978",
+                                    "UI14253",
+                                    "EW45245",
+                                    "IO25223",
+                                    "QW14293",
+                                    "UI14253",
+                                    "IO25223",
+                                    "DF100025",
+                                    "CX555263",
+                                    "QW14293",
+                                    "IO25223"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 7.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "IO25223",
+                            "first_name": "Dian",
+                            "last_name": "Blah",
+                            "birth_date": "6-10-1980",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "The James Bond Tournament",
+                                "played_against": [
+                                    "HN15978",
+                                    "UI14253",
+                                    "EW45245",
+                                    "IO25223",
+                                    "QW14293",
+                                    "CX555263",
+                                    "DF100025",
+                                    "UI14253",
+                                    "OL74743",
+                                    "HN15978",
+                                    "EW45245",
+                                    "OL74743",
+                                    "EW45245",
+                                    "UI14253",
+                                    "DF100025",
+                                    "OL74743"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ]
+                ]
+            },
             "list_of_players": [
                 "OL74743",
                 "UI14253",
@@ -2814,7 +5896,7 @@
                 "IO25223",
                 "QW14293"
             ],
-            "current_round": 0
+            "current_round": 4
         },
         "17": {
             "tournament_id": 5586,

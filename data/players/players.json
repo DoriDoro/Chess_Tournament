@@ -6,11 +6,14 @@
             "last_name": "Phone",
             "birth_date": "5-12-2000",
             "rank": 0,
-            "score": 4,
+            "score": 5,
             "played_tournaments": {
                 "name": "Great Chance",
                 "played_against": [
-                    "SD14256"
+                    "SD14256",
+                    "PO12521",
+                    "DE77551",
+                    "RT55552"
                 ]
             }
         },
@@ -20,11 +23,14 @@
             "last_name": "Griff",
             "birth_date": "11-10-1999",
             "rank": 0,
-            "score": 2.0,
+            "score": 3.5,
             "played_tournaments": {
                 "name": "Great Chance",
                 "played_against": [
-                    "SL15963"
+                    "SL15963",
+                    "WE14512",
+                    "WE14512",
+                    "II78998"
                 ]
             }
         },
@@ -34,7 +40,7 @@
             "last_name": "Stripe",
             "birth_date": "15-12-1999",
             "rank": 0,
-            "score": 0.5,
+            "score": 2.0,
             "played_tournaments": {
                 "name": "Paris Tours",
                 "played_against": [
@@ -43,7 +49,11 @@
                     "JJ14523",
                     "II90025",
                     "IO45656",
-                    "JJ14589"
+                    "JJ14589",
+                    "JJ14523",
+                    "JJ14523",
+                    "JJ14523",
+                    "JJ14523"
                 ]
             }
         },
@@ -70,14 +80,17 @@
             "last_name": "Stone",
             "birth_date": "5-12-1999",
             "rank": 0,
-            "score": 2.5,
+            "score": 3.0,
             "played_tournaments": {
                 "name": "The Chess Club",
                 "played_against": [
                     "HH52793",
                     "YH15263",
                     "IJ59900",
-                    "HH44445"
+                    "HH44445",
+                    "HH52793",
+                    "EC55213",
+                    "UU5858"
                 ]
             }
         },
@@ -206,14 +219,17 @@
             "last_name": "Last",
             "birth_date": "11-11-1988",
             "rank": 0,
-            "score": 2.0,
+            "score": 3.0,
             "played_tournaments": {
                 "name": "The Magic Tournament",
                 "played_against": [
                     "GH95753",
                     "CV14852",
                     "IJ22200",
-                    "UU15233"
+                    "UU15233",
+                    "CV14852",
+                    "EE88558",
+                    "EE88558"
                 ]
             }
         },
@@ -359,15 +375,18 @@
             "last_name": "Donna",
             "birth_date": "11-11-1991",
             "rank": 0,
-            "score": 7.0,
+            "score": 7.5,
             "played_tournaments": {
-                "name": "The Princess",
+                "name": "Handshake",
                 "played_against": [
                     "UI52793",
                     "UY14257",
                     "ER55692",
                     "UY14785",
-                    "JK555523"
+                    "JK555523",
+                    "SD14587",
+                    "HU25875",
+                    "OL55524"
                 ]
             }
         },
@@ -377,15 +396,18 @@
             "last_name": "Donald",
             "birth_date": "11-11-1991",
             "rank": 0,
-            "score": 7.0,
+            "score": 7.5,
             "played_tournaments": {
-                "name": "The Princess",
+                "name": "Handshake",
                 "played_against": [
                     "UI52793",
                     "UY14257",
                     "ER55692",
                     "UY14785",
-                    "JK555523"
+                    "JK555523",
+                    "SD14587",
+                    "HU25875",
+                    "OL55524"
                 ]
             }
         },
@@ -395,7 +417,7 @@
             "last_name": "Stone",
             "birth_date": "4-4-1980",
             "rank": 0,
-            "score": 1,
+            "score": 2,
             "played_tournaments": {
                 "name": "Paris Tours",
                 "played_against": [
@@ -404,7 +426,11 @@
                     "IO45656",
                     "ER77854",
                     "ED14289",
-                    "JJ14523"
+                    "JJ14523",
+                    "JJ14589",
+                    "JJ14589",
+                    "JJ14589",
+                    "EE55585"
                 ]
             }
         },
@@ -431,7 +457,7 @@
             "last_name": "Milan",
             "birth_date": "5-8-2001",
             "rank": 0,
-            "score": 2.5,
+            "score": 4.0,
             "played_tournaments": {
                 "name": "Great Chance",
                 "played_against": [
@@ -439,7 +465,10 @@
                     "SD14256",
                     "DE77551",
                     "WE14512",
-                    "PO12521"
+                    "PO12521",
+                    "RT55552",
+                    "RT55552",
+                    "SL15963"
                 ]
             }
         },
@@ -449,7 +478,7 @@
             "last_name": "Bright",
             "birth_date": "7-11-2002",
             "rank": 0,
-            "score": 3.0,
+            "score": 4.5,
             "played_tournaments": {
                 "name": "Great Chance",
                 "played_against": [
@@ -457,7 +486,10 @@
                     "SL15963",
                     "HJ44695",
                     "PO12521",
-                    "WE14512"
+                    "WE14512",
+                    "II78998",
+                    "SL15963",
+                    "HJ44695"
                 ]
             }
         },
@@ -467,14 +499,17 @@
             "last_name": "Heat",
             "birth_date": "9-10-1980",
             "rank": 0,
-            "score": 1,
+            "score": 3.5,
             "played_tournaments": {
                 "name": "Handshake",
                 "played_against": [
                     "UY14257",
                     "UI52793",
                     "HU25875",
-                    "SD14587"
+                    "SD14587",
+                    "UY14785",
+                    "RT99900",
+                    "UY14257"
                 ]
             }
         },
@@ -484,14 +519,17 @@
             "last_name": "Kaplan",
             "birth_date": "4-12-1987",
             "rank": 0,
-            "score": 2.5,
+            "score": 4.0,
             "played_tournaments": {
                 "name": "Handshake",
                 "played_against": [
                     "HU25875",
                     "ER55692",
                     "UY14257",
-                    "RT99900"
+                    "RT99900",
+                    "ER55692",
+                    "SD14587",
+                    "HU25875"
                 ]
             }
         },
@@ -501,7 +539,7 @@
             "last_name": "Light",
             "birth_date": "11-4-1980",
             "rank": 0,
-            "score": 0.5,
+            "score": 1.0,
             "played_tournaments": {
                 "name": "Paris Tours",
                 "played_against": [
@@ -510,7 +548,11 @@
                     "II90025",
                     "JJ14523",
                     "DE12548",
-                    "ER77854"
+                    "ER77854",
+                    "II90025",
+                    "II90025",
+                    "II90025",
+                    "II90025"
                 ]
             }
         },
@@ -529,7 +571,11 @@
                     "DE12548",
                     "JJ14589",
                     "EE55585",
-                    "II90025"
+                    "II90025",
+                    "ER77854",
+                    "ER77854",
+                    "ER77854",
+                    "IO45656"
                 ]
             }
         },
@@ -593,14 +639,15 @@
             "last_name": "Stone",
             "birth_date": "5-12-1998",
             "rank": 0,
-            "score": 2.5,
+            "score": 3.0,
             "played_tournaments": {
                 "name": "The Bulls",
                 "played_against": [
                     "HG14985",
                     "DE66652",
                     "UU10002",
-                    "GY14589"
+                    "GY14589",
+                    "HG14985"
                 ]
             }
         },
@@ -610,14 +657,15 @@
             "last_name": "Stone",
             "birth_date": "5-5-1980",
             "rank": 0,
-            "score": 2.5,
+            "score": 3.5,
             "played_tournaments": {
                 "name": "The Bulls",
                 "played_against": [
                     "UU10002",
                     "DD14857",
                     "HG14985",
-                    "ER14525"
+                    "ER14525",
+                    "DE66652"
                 ]
             }
         },
@@ -627,14 +675,15 @@
             "last_name": "Stone",
             "birth_date": "11-10-1988",
             "rank": 0,
-            "score": 1.5,
+            "score": 2.0,
             "played_tournaments": {
                 "name": "The Bulls",
                 "played_against": [
                     "DE66652",
                     "HG14985",
                     "DD14857",
-                    "RE55596"
+                    "RE55596",
+                    "UU10002"
                 ]
             }
         },
@@ -644,14 +693,15 @@
             "last_name": "Stark",
             "birth_date": "8-8-1998",
             "rank": 0,
-            "score": 1.5,
+            "score": 2.5,
             "played_tournaments": {
                 "name": "The Bulls",
                 "played_against": [
                     "DD14857",
                     "UU10002",
                     "DE66652",
-                    "ER14528"
+                    "ER14528",
+                    "DD14857"
                 ]
             }
         },
@@ -661,7 +711,7 @@
             "last_name": "Hart",
             "birth_date": "9-10-2000",
             "rank": 0,
-            "score": 0,
+            "score": 1,
             "played_tournaments": {
                 "name": "Paris Tours",
                 "played_against": [
@@ -670,7 +720,11 @@
                     "ED14289",
                     "EE55585",
                     "JJ14589",
-                    "DE12548"
+                    "DE12548",
+                    "IO45656",
+                    "IO45656",
+                    "IO45656",
+                    "ER77854"
                 ]
             }
         },
@@ -680,7 +734,7 @@
             "last_name": "Oppenauer",
             "birth_date": "11-10-1998",
             "rank": 0,
-            "score": 1.5,
+            "score": 3.5,
             "played_tournaments": {
                 "name": "Paris Tours",
                 "played_against": [
@@ -689,7 +743,11 @@
                     "ER77854",
                     "IO45656",
                     "II90025",
-                    "ED14289"
+                    "ED14289",
+                    "EE55585",
+                    "EE55585",
+                    "EE55585",
+                    "JJ14589"
                 ]
             }
         },
@@ -699,14 +757,17 @@
             "last_name": "Flinn",
             "birth_date": "11-7-2000",
             "rank": 0,
-            "score": 1,
+            "score": 3,
             "played_tournaments": {
                 "name": "The Chess Club",
                 "played_against": [
                     "YH15263",
                     "HH52793",
                     "HI25825",
-                    "II98598"
+                    "II98598",
+                    "HI25825",
+                    "HI25825",
+                    "EC55213"
                 ]
             }
         },
@@ -716,14 +777,17 @@
             "last_name": "Devito",
             "birth_date": "5-9-1998",
             "rank": 0,
-            "score": 4,
+            "score": 5.5,
             "played_tournaments": {
                 "name": "The Chess Club",
                 "played_against": [
                     "HI25825",
                     "IJ59900",
                     "YH15263",
-                    "UU5858"
+                    "UU5858",
+                    "EC55213",
+                    "HH52793",
+                    "HH44445"
                 ]
             }
         },
@@ -733,14 +797,17 @@
             "last_name": "Bright",
             "birth_date": "5-9-2000",
             "rank": 0,
-            "score": 0,
+            "score": 1.5,
             "played_tournaments": {
                 "name": "The Magic Tournament",
                 "played_against": [
                     "CV14852",
                     "GH95753",
                     "IO25987",
-                    "QW96325"
+                    "QW96325",
+                    "UR85285",
+                    "IO25987",
+                    "IO25987"
                 ]
             }
         },
@@ -750,14 +817,17 @@
             "last_name": "Russov",
             "birth_date": "7-10-2001",
             "rank": 0,
-            "score": 4,
+            "score": 5.5,
             "played_tournaments": {
                 "name": "The Magic Tournament",
                 "played_against": [
                     "IO25987",
                     "IJ22200",
                     "CV14852",
-                    "EE88558"
+                    "EE88558",
+                    "IO25987",
+                    "UU15233",
+                    "UU15233"
                 ]
             }
         },
@@ -767,14 +837,26 @@
             "last_name": "Carter",
             "birth_date": "11-4-1988",
             "rank": 0,
-            "score": 0,
+            "score": 7.0,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
                 "played_against": [
                     "CX555263",
                     "QW14293",
                     "DF100025",
-                    "OL74743"
+                    "OL74743",
+                    "HN15978",
+                    "HN15978",
+                    "UI14253",
+                    "EW45245",
+                    "IO25223",
+                    "QW14293",
+                    "UI14253",
+                    "IO25223",
+                    "DF100025",
+                    "CX555263",
+                    "QW14293",
+                    "IO25223"
                 ]
             }
         },
@@ -784,14 +866,26 @@
             "last_name": "Lose",
             "birth_date": "5-5-1999",
             "rank": 0,
-            "score": 0,
+            "score": 7.0,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
                 "played_against": [
                     "DF100025",
                     "IO25223",
                     "CX555263",
-                    "UI14253"
+                    "UI14253",
+                    "EW45245",
+                    "EW45245",
+                    "OL74743",
+                    "IO25223",
+                    "QW14293",
+                    "EW45245",
+                    "OL74743",
+                    "HN15978",
+                    "HN15978",
+                    "IO25223",
+                    "CX555263",
+                    "QW14293"
                 ]
             }
         },
@@ -1104,14 +1198,26 @@
             "last_name": "Bash",
             "birth_date": "7-10-1980",
             "rank": 0,
-            "score": 0,
+            "score": 6.0,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
                 "played_against": [
                     "QW14293",
                     "CX555263",
                     "IO25223",
-                    "EW45245"
+                    "EW45245",
+                    "UI14253",
+                    "UI14253",
+                    "QW14293",
+                    "OL74743",
+                    "HN15978",
+                    "UI14253",
+                    "IO25223",
+                    "CX555263",
+                    "IO25223",
+                    "HN15978",
+                    "HN15978",
+                    "HN15978"
                 ]
             }
         },
@@ -1121,14 +1227,26 @@
             "last_name": "Losh",
             "birth_date": "2-10-1999",
             "rank": 0,
-            "score": 0,
+            "score": 5.0,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
                 "played_against": [
                     "IO25223",
                     "DF100025",
                     "QW14293",
-                    "HN15978"
+                    "HN15978",
+                    "OL74743",
+                    "OL74743",
+                    "CX555263",
+                    "QW14293",
+                    "EW45245",
+                    "IO25223",
+                    "QW14293",
+                    "UI14253",
+                    "UI14253",
+                    "EW45245",
+                    "EW45245",
+                    "EW45245"
                 ]
             }
         },
@@ -1138,14 +1256,26 @@
             "last_name": "Lower",
             "birth_date": "5-5-1998",
             "rank": 0,
-            "score": 0,
+            "score": 6.0,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
                 "played_against": [
                     "UI14253",
                     "HN15978",
                     "OL74743",
-                    "DF100025"
+                    "DF100025",
+                    "CX555263",
+                    "QW14293",
+                    "IO25223",
+                    "CX555263",
+                    "CX555263",
+                    "CX555263",
+                    "CX555263",
+                    "QW14293",
+                    "OL74743",
+                    "QW14293",
+                    "IO25223",
+                    "CX555263"
                 ]
             }
         },
@@ -1155,14 +1285,26 @@
             "last_name": "Weddle",
             "birth_date": "8-8-1998",
             "rank": 0,
-            "score": 0,
+            "score": 7.0,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
                 "played_against": [
                     "OL74743",
                     "EW45245",
                     "UI14253",
-                    "CX555263"
+                    "CX555263",
+                    "DF100025",
+                    "IO25223",
+                    "HN15978",
+                    "DF100025",
+                    "DF100025",
+                    "DF100025",
+                    "DF100025",
+                    "EW45245",
+                    "QW14293",
+                    "OL74743",
+                    "UI14253",
+                    "DF100025"
                 ]
             }
         },
@@ -1172,14 +1314,26 @@
             "last_name": "Blah",
             "birth_date": "6-10-1980",
             "rank": 0,
-            "score": 0,
+            "score": 3.5,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
                 "played_against": [
                     "HN15978",
                     "UI14253",
                     "EW45245",
-                    "IO25223"
+                    "IO25223",
+                    "QW14293",
+                    "CX555263",
+                    "DF100025",
+                    "UI14253",
+                    "OL74743",
+                    "HN15978",
+                    "EW45245",
+                    "OL74743",
+                    "EW45245",
+                    "UI14253",
+                    "DF100025",
+                    "OL74743"
                 ]
             }
         },
@@ -1189,14 +1343,26 @@
             "last_name": "Hat",
             "birth_date": "5-10-1998",
             "rank": 0,
-            "score": 0,
+            "score": 2.5,
             "played_tournaments": {
                 "name": "The James Bond Tournament",
                 "played_against": [
                     "EW45245",
                     "OL74743",
                     "HN15978",
-                    "QW14293"
+                    "QW14293",
+                    "IO25223",
+                    "DF100025",
+                    "EW45245",
+                    "HN15978",
+                    "UI14253",
+                    "OL74743",
+                    "HN15978",
+                    "DF100025",
+                    "CX555263",
+                    "DF100025",
+                    "OL74743",
+                    "UI14253"
                 ]
             }
         },
@@ -1206,7 +1372,7 @@
             "last_name": "Hentix",
             "birth_date": "11-10-2001",
             "rank": 0,
-            "score": 1.5,
+            "score": 2.5,
             "played_tournaments": {
                 "name": "Paris Tours",
                 "played_against": [
@@ -1215,7 +1381,11 @@
                     "JJ14589",
                     "DE12548",
                     "JJ14523",
-                    "EE55585"
+                    "EE55585",
+                    "ED14289",
+                    "ED14289",
+                    "ED14289",
+                    "ED14289"
                 ]
             }
         },
@@ -1225,7 +1395,7 @@
             "last_name": "Steal",
             "birth_date": "2-10-2000",
             "rank": 0,
-            "score": 1.5,
+            "score": 2.5,
             "played_tournaments": {
                 "name": "Paris Tours",
                 "played_against": [
@@ -1234,7 +1404,11 @@
                     "EE55585",
                     "ED14289",
                     "ER77854",
-                    "IO45656"
+                    "IO45656",
+                    "DE12548",
+                    "DE12548",
+                    "DE12548",
+                    "DE12548"
                 ]
             }
         },
@@ -1244,7 +1418,7 @@
             "last_name": "Gilbert",
             "birth_date": "11-7-1986",
             "rank": 0,
-            "score": 2.0,
+            "score": 4.0,
             "played_tournaments": {
                 "name": "Great Chance",
                 "played_against": [
@@ -1252,7 +1426,10 @@
                     "RT55552",
                     "WE14512",
                     "DE77551",
-                    "HJ44695"
+                    "HJ44695",
+                    "SL15963",
+                    "II78998",
+                    "SD14256"
                 ]
             }
         },
@@ -1262,7 +1439,7 @@
             "last_name": "Hastings",
             "birth_date": "2-2-1998",
             "rank": 0,
-            "score": 3.0,
+            "score": 5.0,
             "played_tournaments": {
                 "name": "Great Chance",
                 "played_against": [
@@ -1270,7 +1447,10 @@
                     "II78998",
                     "PO12521",
                     "HJ44695",
-                    "DE77551"
+                    "DE77551",
+                    "SD14256",
+                    "SD14256",
+                    "PO12521"
                 ]
             }
         },
@@ -1280,7 +1460,7 @@
             "last_name": "Breterman",
             "birth_date": "5-10-1999",
             "rank": 0,
-            "score": 0.5,
+            "score": 2.5,
             "played_tournaments": {
                 "name": "Great Chance",
                 "played_against": [
@@ -1288,7 +1468,10 @@
                     "PO12521",
                     "II78998",
                     "SL15963",
-                    "RT55552"
+                    "RT55552",
+                    "DE77551",
+                    "PO12521",
+                    "WE14512"
                 ]
             }
         },
@@ -1298,7 +1481,7 @@
             "last_name": "Albert",
             "birth_date": "4-8-1995",
             "rank": 0,
-            "score": 3.0,
+            "score": 3.5,
             "played_tournaments": {
                 "name": "Great Chance",
                 "played_against": [
@@ -1306,7 +1489,10 @@
                     "WE14512",
                     "RT55552",
                     "SD14256",
-                    "II78998"
+                    "II78998",
+                    "HJ44695",
+                    "HJ44695",
+                    "DE77551"
                 ]
             }
         },
@@ -1316,14 +1502,15 @@
             "last_name": "Steal",
             "birth_date": "9-5-1992",
             "rank": 0,
-            "score": 2.5,
+            "score": 3.0,
             "played_tournaments": {
                 "name": "The Bulls",
                 "played_against": [
                     "ER14525",
                     "ER14528",
                     "GY14589",
-                    "UU10002"
+                    "UU10002",
+                    "RE55596"
                 ]
             }
         },
@@ -1333,14 +1520,15 @@
             "last_name": "Brad",
             "birth_date": "5-10-2000",
             "rank": 0,
-            "score": 1.5,
+            "score": 2.0,
             "played_tournaments": {
                 "name": "The Bulls",
                 "played_against": [
                     "GY14589",
                     "RE55596",
                     "ER14525",
-                    "HG14985"
+                    "HG14985",
+                    "GY14589"
                 ]
             }
         },
@@ -1357,7 +1545,8 @@
                     "ER14528",
                     "ER14525",
                     "RE55596",
-                    "DD14857"
+                    "DD14857",
+                    "ER14528"
                 ]
             }
         },
@@ -1374,7 +1563,8 @@
                     "RE55596",
                     "GY14589",
                     "ER14528",
-                    "DE66652"
+                    "DE66652",
+                    "ER14525"
                 ]
             }
         },
@@ -1456,14 +1646,17 @@
             "last_name": "Radio",
             "birth_date": "22-1-1996",
             "rank": 0,
-            "score": 0,
+            "score": 2.5,
             "played_tournaments": {
                 "name": "Handshake",
                 "played_against": [
                     "ER55692",
                     "HU25875",
                     "UI52793",
-                    "OL55524"
+                    "OL55524",
+                    "UY14257",
+                    "ER55692",
+                    "UY14785"
                 ]
             }
         },
@@ -1473,14 +1666,17 @@
             "last_name": "Dean",
             "birth_date": "2-1-1999",
             "rank": 0,
-            "score": 3.0,
+            "score": 5.5,
             "played_tournaments": {
                 "name": "Handshake",
                 "played_against": [
                     "RT99900",
                     "OL55524",
                     "SD14587",
-                    "HU25875"
+                    "HU25875",
+                    "UI52793",
+                    "UY14785",
+                    "RT99900"
                 ]
             }
         },
@@ -1490,14 +1686,17 @@
             "last_name": "Ox",
             "birth_date": "4-5-1985",
             "rank": 0,
-            "score": 1.5,
+            "score": 2.5,
             "played_tournaments": {
                 "name": "Handshake",
                 "played_against": [
                     "SD14587",
                     "UY14785",
                     "RT99900",
-                    "UY14257"
+                    "UY14257",
+                    "OL55524",
+                    "UI52793",
+                    "SD14587"
                 ]
             }
         },
@@ -1507,7 +1706,7 @@
             "last_name": "Gura",
             "birth_date": "4-4-1999",
             "rank": 0,
-            "score": 1.0,
+            "score": 1.5,
             "played_tournaments": {
                 "name": "Handshake",
                 "played_against": [
@@ -1518,7 +1717,10 @@
                     "OL55524",
                     "RT99900",
                     "UY14785",
-                    "ER55692"
+                    "ER55692",
+                    "RT99900",
+                    "OL55524",
+                    "UI52793"
                 ]
             }
         },
@@ -1528,14 +1730,17 @@
             "last_name": "Yenk",
             "birth_date": "8-10-1980",
             "rank": 0,
-            "score": 3,
+            "score": 4,
             "played_tournaments": {
                 "name": "Handshake",
                 "played_against": [
                     "UY14785",
                     "SD14587",
                     "OL55524",
-                    "UI52793"
+                    "UI52793",
+                    "HU25875",
+                    "UY14257",
+                    "ER55692"
                 ]
             }
         },
@@ -1545,14 +1750,17 @@
             "last_name": "Red",
             "birth_date": "5-10-1980",
             "rank": 0,
-            "score": 1.5,
+            "score": 2.5,
             "played_tournaments": {
                 "name": "The Magic Tournament",
                 "played_against": [
                     "IJ22200",
                     "IO25987",
                     "GH95753",
-                    "UR85285"
+                    "UR85285",
+                    "QW96325",
+                    "CV14852",
+                    "CV14852"
                 ]
             }
         },
@@ -1562,14 +1770,17 @@
             "last_name": "Steward",
             "birth_date": "11-5-2000",
             "rank": 0,
-            "score": 3.5,
+            "score": 4.5,
             "played_tournaments": {
                 "name": "The Magic Tournament",
                 "played_against": [
                     "EE88558",
                     "UR85285",
                     "QW96325",
-                    "IO25987"
+                    "IO25987",
+                    "EE88558",
+                    "QW96325",
+                    "QW96325"
                 ]
             }
         },
@@ -1586,7 +1797,10 @@
                     "QW96325",
                     "UU15233",
                     "EE88558",
-                    "CV14852"
+                    "CV14852",
+                    "UU15233",
+                    "UR85285",
+                    "UR85285"
                 ]
             }
         },
@@ -1596,14 +1810,17 @@
             "last_name": "Orga",
             "birth_date": "22-10-1988",
             "rank": 0,
-            "score": 1.5,
+            "score": 3.5,
             "played_tournaments": {
                 "name": "The Magic Tournament",
                 "played_against": [
                     "UR85285",
                     "EE88558",
                     "UU15233",
-                    "IJ22200"
+                    "IJ22200",
+                    "GH95753",
+                    "GH95753",
+                    "GH95753"
                 ]
             }
         },
@@ -1620,7 +1837,10 @@
                     "UU15233",
                     "QW96325",
                     "UR85285",
-                    "GH95753"
+                    "GH95753",
+                    "IJ22200",
+                    "IJ22200",
+                    "IJ22200"
                 ]
             }
         },
@@ -1630,14 +1850,17 @@
             "last_name": "Water",
             "birth_date": "11-12-2000",
             "rank": 0,
-            "score": 1,
+            "score": 2.0,
             "played_tournaments": {
                 "name": "The Chess Club",
                 "played_against": [
                     "IJ59900",
                     "HI25825",
                     "HH52793",
-                    "EC55213"
+                    "EC55213",
+                    "UU5858",
+                    "HH44445",
+                    "II98598"
                 ]
             }
         },
@@ -1654,7 +1877,10 @@
                     "UU5858",
                     "EC55213",
                     "II98598",
-                    "HI25825"
+                    "HI25825",
+                    "II98598",
+                    "II98598",
+                    "YH15263"
                 ]
             }
         },
@@ -1664,14 +1890,17 @@
             "last_name": "Stark",
             "birth_date": "5-5-1999",
             "rank": 0,
-            "score": 0.5,
+            "score": 1.5,
             "played_tournaments": {
                 "name": "The Chess Club",
                 "played_against": [
                     "II98598",
                     "HH44445",
                     "UU5858",
-                    "YH15263"
+                    "YH15263",
+                    "IJ59900",
+                    "IJ59900",
+                    "HI25825"
                 ]
             }
         },
@@ -1681,14 +1910,17 @@
             "last_name": "Mash",
             "birth_date": "6-6-1999",
             "rank": 0,
-            "score": 2.0,
+            "score": 3.0,
             "played_tournaments": {
                 "name": "The Chess Club",
                 "played_against": [
                     "EC55213",
                     "UU5858",
                     "HH44445",
-                    "IJ59900"
+                    "IJ59900",
+                    "YH15263",
+                    "YH15263",
+                    "HH52793"
                 ]
             }
         },
@@ -1698,14 +1930,17 @@
             "last_name": "Yale",
             "birth_date": "5-12-2000",
             "rank": 0,
-            "score": 3.5,
+            "score": 4.5,
             "played_tournaments": {
                 "name": "The Chess Club",
                 "played_against": [
                     "HH44445",
                     "II98598",
                     "EC55213",
-                    "HH52793"
+                    "HH52793",
+                    "HH44445",
+                    "UU5858",
+                    "IJ59900"
                 ]
             }
         },

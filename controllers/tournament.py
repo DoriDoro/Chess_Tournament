@@ -66,10 +66,12 @@ class TournamentControllers:
 
     # option 3: start a tournament:
     def add_player_score_to_list_rounds_controller(
-        self, name_of_tournament, list_of_scores, current_round
+        self, name_of_tournament, list_of_scores
     ):
         tournament_table = self._get_tournament_table()
         get_list_rounds = self._get_tournament(name_of_tournament)["list_rounds"]
+        current_round = self._get_tournament(name_of_tournament)["current_round"]
+        print(current_round)
         round_start_date = self._serialize_date()
         round_end_date = "ongoing"
 
@@ -90,7 +92,7 @@ class TournamentControllers:
         pair_player_score.pop(1)
         pair_player_score.insert(1, round_end_date)
 
-        get_list_rounds[current_round + 1] = pair_player_score
+        get_list_rounds[current_round] = pair_player_score
 
         tournament_table.update(
             {"list_rounds": get_list_rounds}, Query().name == name_of_tournament
