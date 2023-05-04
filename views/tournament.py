@@ -10,6 +10,19 @@ class TournamentView:
         self.player_controller = PlayerControllers()
         self.tournament_controller = TournamentControllers()
 
+    # private function
+    def _reorganize_list_score_tournament(self, list_score_tournament):
+        dict_score_tournament = {}
+
+        for i, item in enumerate(list_score_tournament[:-1]):
+            dict_score_tournament[f"pair{i + 1}"] = {
+                "score": item[1],
+                "names": item[2],
+                "paired_players": item[0],
+            }
+
+        return dict_score_tournament
+
     # get tournaments for option 1: create a player and option 3: start a tournament
     def get_tournaments_view(self):
         database = TinyDB("data/tournaments/tournaments.json")
@@ -192,7 +205,7 @@ class TournamentView:
                             name, list_of_scores, current_round
                         )
 
-                        dict_score_tournament = self.tournament_controller.reorganize_list_score_tournament_controller(
+                        dict_score_tournament = self._reorganize_list_score_tournament(
                             list_score_tournament
                         )
 
@@ -247,7 +260,6 @@ class TournamentView:
         self.tournament_controller.set_end_date_controller(name_of_tournament)
 
         self.display_end_result_view()
-
 
     def display_end_result_view(self):
         print("--------------------------------------------------------------------------")

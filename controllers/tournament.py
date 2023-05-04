@@ -28,12 +28,6 @@ class TournamentControllers:
 
         return player_table.get(Query().player_id == player_id)
 
-    def _get_player_table(self):
-        db_player = TinyDB("data/players/players.json", indent=4)
-        player_table = db_player.table("all_players")
-
-        return player_table
-
     def _serialize_date(self):
         start_date = datetime.now().strftime("%Y-%m-%d %H:%M")
 
@@ -71,18 +65,6 @@ class TournamentControllers:
         db.close()
 
     # option 3: start a tournament:
-    def reorganize_list_score_tournament_controller(self, list_score_tournament):
-        dict_score_tournament = {}
-
-        for i, item in enumerate(list_score_tournament[:-1]):
-            dict_score_tournament[f"pair{i + 1}"] = {
-                "score": item[1],
-                "names": item[2],
-                "paired_players": item[0],
-            }
-
-        return dict_score_tournament
-
     def add_player_score_to_list_rounds_controller(
         self, name_of_tournament, list_of_scores, current_round
     ):

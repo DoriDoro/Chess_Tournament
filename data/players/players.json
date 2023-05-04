@@ -34,14 +34,16 @@
             "last_name": "Stripe",
             "birth_date": "15-12-1999",
             "rank": 0,
-            "score": 0,
+            "score": 0.5,
             "played_tournaments": {
                 "name": "Paris Tours",
                 "played_against": [
                     "ER77854",
                     "JJ14589",
                     "JJ14523",
-                    "II90025"
+                    "II90025",
+                    "IO45656",
+                    "JJ14589"
                 ]
             }
         },
@@ -393,14 +395,16 @@
             "last_name": "Stone",
             "birth_date": "4-4-1980",
             "rank": 0,
-            "score": 0,
+            "score": 1,
             "played_tournaments": {
                 "name": "Paris Tours",
                 "played_against": [
                     "II90025",
                     "ED14289",
                     "IO45656",
-                    "ER77854"
+                    "ER77854",
+                    "ED14289",
+                    "JJ14523"
                 ]
             }
         },
@@ -497,14 +501,16 @@
             "last_name": "Light",
             "birth_date": "11-4-1980",
             "rank": 0,
-            "score": 0,
+            "score": 0.5,
             "played_tournaments": {
                 "name": "Paris Tours",
                 "played_against": [
                     "IO45656",
                     "DE12548",
                     "II90025",
-                    "JJ14523"
+                    "JJ14523",
+                    "DE12548",
+                    "ER77854"
                 ]
             }
         },
@@ -514,14 +520,16 @@
             "last_name": "Bath",
             "birth_date": "5-11-2000",
             "rank": 0,
-            "score": 0,
+            "score": 1.5,
             "played_tournaments": {
                 "name": "Paris Tours",
                 "played_against": [
                     "ED14289",
                     "II90025",
                     "DE12548",
-                    "JJ14589"
+                    "JJ14589",
+                    "EE55585",
+                    "II90025"
                 ]
             }
         },
@@ -660,7 +668,9 @@
                     "DE12548",
                     "IO45656",
                     "ED14289",
-                    "EE55585"
+                    "EE55585",
+                    "JJ14589",
+                    "DE12548"
                 ]
             }
         },
@@ -670,14 +680,16 @@
             "last_name": "Oppenauer",
             "birth_date": "11-10-1998",
             "rank": 0,
-            "score": 0,
+            "score": 1.5,
             "played_tournaments": {
                 "name": "Paris Tours",
                 "played_against": [
                     "JJ14523",
                     "EE55585",
                     "ER77854",
-                    "IO45656"
+                    "IO45656",
+                    "II90025",
+                    "ED14289"
                 ]
             }
         },
@@ -1194,14 +1206,16 @@
             "last_name": "Hentix",
             "birth_date": "11-10-2001",
             "rank": 0,
-            "score": 0,
+            "score": 1.5,
             "played_tournaments": {
                 "name": "Paris Tours",
                 "played_against": [
                     "EE55585",
                     "JJ14523",
                     "JJ14589",
-                    "DE12548"
+                    "DE12548",
+                    "JJ14523",
+                    "EE55585"
                 ]
             }
         },
@@ -1211,14 +1225,16 @@
             "last_name": "Steal",
             "birth_date": "2-10-2000",
             "rank": 0,
-            "score": 0,
+            "score": 1.5,
             "played_tournaments": {
                 "name": "Paris Tours",
                 "played_against": [
                     "JJ14589",
                     "ER77854",
                     "EE55585",
-                    "ED14289"
+                    "ED14289",
+                    "ER77854",
+                    "IO45656"
                 ]
             }
         },
