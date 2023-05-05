@@ -36,20 +36,14 @@ class PlayerView:
                     print(f" You have chosen: {name}", end="\n\n")
                     tournament_found = True
 
-                    # TODO
                     if number_players == 8:
                         print(f"  {name} has already 8 players. Please choose an other tournament.")
                         print("   or choose * to go back to menu", end="\n\n")
                         break
 
                     else:
-                        # TODO
-                        number_of_player = 8
-                        while number_of_player > 0:
-                            self.create_player_view(name)
-                            number_of_player -= 1
-                            if number_of_player == 0:
-                                return
+                        self.create_player_view(name)
+                        return
             if not tournament_found:
                 print(" Invalid choice. Please enter the Tournament_ID.", end="\n\n")
 
