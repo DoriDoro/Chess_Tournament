@@ -71,7 +71,6 @@ class TournamentControllers:
         tournament_table = self._get_tournament_table()
         get_list_rounds = self._get_tournament(name_of_tournament)["list_rounds"]
         current_round = self._get_tournament(name_of_tournament)["current_round"]
-        print(current_round)
         round_start_date = self._serialize_date()
         round_end_date = "ongoing"
 

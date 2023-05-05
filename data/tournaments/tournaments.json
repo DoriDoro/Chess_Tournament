@@ -5,7 +5,7 @@
             "name": "The Golden Summer",
             "city": "Lisabon",
             "start_date": "22-4-2022",
-            "end_date": "2023-05-04 17:43",
+            "end_date": "2023-05-05 14:41",
             "rounds": 4,
             "comments": "no",
             "list_rounds": {
@@ -4193,7 +4193,7 @@
             "name": "The Magic Tournament",
             "city": "Oslo",
             "start_date": "5-10-2022",
-            "end_date": "15-10-2022",
+            "end_date": "2023-05-05 14:41",
             "rounds": 4,
             "comments": "no",
             "list_rounds": {
@@ -4588,6 +4588,438 @@
                             "score": 5.5
                         }
                     ]
+                ],
+                "3": [
+                    "2023-05-04 19:11",
+                    "2023-05-04 19:11",
+                    [
+                        {
+                            "player_id": "EE88558",
+                            "first_name": "Igor",
+                            "last_name": "Russov",
+                            "birth_date": "7-10-2001",
+                            "rank": 0,
+                            "score": 5.5,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "IO25987",
+                                    "IJ22200",
+                                    "CV14852",
+                                    "EE88558",
+                                    "IO25987",
+                                    "UU15233",
+                                    "UU15233",
+                                    "CV14852"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 5.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "CV14852",
+                            "first_name": "Jane",
+                            "last_name": "Skinner",
+                            "birth_date": "5-10-1999",
+                            "rank": 0,
+                            "score": 1,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "QW96325",
+                                    "UU15233",
+                                    "EE88558",
+                                    "CV14852",
+                                    "UU15233",
+                                    "UR85285",
+                                    "UR85285",
+                                    "EE88558"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UR85285",
+                            "first_name": "Cole",
+                            "last_name": "Red",
+                            "birth_date": "5-10-1980",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "IJ22200",
+                                    "IO25987",
+                                    "GH95753",
+                                    "UR85285",
+                                    "QW96325",
+                                    "CV14852",
+                                    "CV14852",
+                                    "UU15233"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UU15233",
+                            "first_name": "Name",
+                            "last_name": "Last",
+                            "birth_date": "11-11-1988",
+                            "rank": 0,
+                            "score": 3.0,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "GH95753",
+                                    "CV14852",
+                                    "IJ22200",
+                                    "UU15233",
+                                    "CV14852",
+                                    "EE88558",
+                                    "EE88558",
+                                    "UR85285"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "GH95753",
+                            "first_name": "Vincent",
+                            "last_name": "Condo",
+                            "birth_date": "4-7-1999",
+                            "rank": 0,
+                            "score": 4.0,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "UU15233",
+                                    "QW96325",
+                                    "UR85285",
+                                    "GH95753",
+                                    "IJ22200",
+                                    "IJ22200",
+                                    "IJ22200",
+                                    "IO25987"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "IO25987",
+                            "first_name": "Ray",
+                            "last_name": "Steward",
+                            "birth_date": "11-5-2000",
+                            "rank": 0,
+                            "score": 5.0,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "EE88558",
+                                    "UR85285",
+                                    "QW96325",
+                                    "IO25987",
+                                    "EE88558",
+                                    "QW96325",
+                                    "QW96325",
+                                    "GH95753"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 5.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "QW96325",
+                            "first_name": "Hanna",
+                            "last_name": "Bright",
+                            "birth_date": "5-9-2000",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "CV14852",
+                                    "GH95753",
+                                    "IO25987",
+                                    "QW96325",
+                                    "UR85285",
+                                    "IO25987",
+                                    "IO25987",
+                                    "IJ22200"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "IJ22200",
+                            "first_name": "Yannik",
+                            "last_name": "Orga",
+                            "birth_date": "22-10-1988",
+                            "rank": 0,
+                            "score": 4.5,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "UR85285",
+                                    "EE88558",
+                                    "UU15233",
+                                    "IJ22200",
+                                    "GH95753",
+                                    "GH95753",
+                                    "GH95753",
+                                    "QW96325"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.5
+                        }
+                    ]
+                ],
+                "4": [
+                    "2023-05-05 14:41",
+                    "2023-05-05 14:41",
+                    [
+                        {
+                            "player_id": "CV14852",
+                            "first_name": "Jane",
+                            "last_name": "Skinner",
+                            "birth_date": "5-10-1999",
+                            "rank": 0,
+                            "score": 1,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "QW96325",
+                                    "UU15233",
+                                    "EE88558",
+                                    "CV14852",
+                                    "UU15233",
+                                    "UR85285",
+                                    "UR85285",
+                                    "EE88558",
+                                    "UU15233"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UU15233",
+                            "first_name": "Name",
+                            "last_name": "Last",
+                            "birth_date": "11-11-1988",
+                            "rank": 0,
+                            "score": 4.0,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "GH95753",
+                                    "CV14852",
+                                    "IJ22200",
+                                    "UU15233",
+                                    "CV14852",
+                                    "EE88558",
+                                    "EE88558",
+                                    "UR85285",
+                                    "CV14852"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UR85285",
+                            "first_name": "Cole",
+                            "last_name": "Red",
+                            "birth_date": "5-10-1980",
+                            "rank": 0,
+                            "score": 4.5,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "IJ22200",
+                                    "IO25987",
+                                    "GH95753",
+                                    "UR85285",
+                                    "QW96325",
+                                    "CV14852",
+                                    "CV14852",
+                                    "UU15233",
+                                    "IJ22200"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "IJ22200",
+                            "first_name": "Yannik",
+                            "last_name": "Orga",
+                            "birth_date": "22-10-1988",
+                            "rank": 0,
+                            "score": 4.5,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "UR85285",
+                                    "EE88558",
+                                    "UU15233",
+                                    "IJ22200",
+                                    "GH95753",
+                                    "GH95753",
+                                    "GH95753",
+                                    "QW96325",
+                                    "UR85285"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "IO25987",
+                            "first_name": "Ray",
+                            "last_name": "Steward",
+                            "birth_date": "11-5-2000",
+                            "rank": 0,
+                            "score": 5.5,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "EE88558",
+                                    "UR85285",
+                                    "QW96325",
+                                    "IO25987",
+                                    "EE88558",
+                                    "QW96325",
+                                    "QW96325",
+                                    "GH95753",
+                                    "QW96325"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 5.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "QW96325",
+                            "first_name": "Hanna",
+                            "last_name": "Bright",
+                            "birth_date": "5-9-2000",
+                            "rank": 0,
+                            "score": 2.0,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "CV14852",
+                                    "GH95753",
+                                    "IO25987",
+                                    "QW96325",
+                                    "UR85285",
+                                    "IO25987",
+                                    "IO25987",
+                                    "IJ22200",
+                                    "IO25987"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "GH95753",
+                            "first_name": "Vincent",
+                            "last_name": "Condo",
+                            "birth_date": "4-7-1999",
+                            "rank": 0,
+                            "score": 4.0,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "UU15233",
+                                    "QW96325",
+                                    "UR85285",
+                                    "GH95753",
+                                    "IJ22200",
+                                    "IJ22200",
+                                    "IJ22200",
+                                    "IO25987",
+                                    "EE88558"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "EE88558",
+                            "first_name": "Igor",
+                            "last_name": "Russov",
+                            "birth_date": "7-10-2001",
+                            "rank": 0,
+                            "score": 6.5,
+                            "played_tournaments": {
+                                "name": "The Magic Tournament",
+                                "played_against": [
+                                    "IO25987",
+                                    "IJ22200",
+                                    "CV14852",
+                                    "EE88558",
+                                    "IO25987",
+                                    "UU15233",
+                                    "UU15233",
+                                    "CV14852",
+                                    "GH95753"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 6.5
+                        }
+                    ]
                 ]
             },
             "list_of_players": [
@@ -4600,7 +5032,7 @@
                 "IJ22200",
                 "GH95753"
             ],
-            "current_round": 2
+            "current_round": 4
         },
         "10": {
             "tournament_id": 8585,
@@ -4825,7 +5257,7 @@
             "name": "The James Bond Tournament",
             "city": "Budapest",
             "start_date": "7-7-2022",
-            "end_date": "2023-05-04 18:17",
+            "end_date": "2023-05-04 19:11",
             "rounds": 4,
             "comments": "no",
             "list_rounds": {

@@ -112,7 +112,7 @@ class TournamentView:
                 list_result_tournament
             )
 
-            self.display_tournament_results_view(
+            self.display_match_result_view(
                 list_of_scores, dict_result_tournament, name_of_tournament
             )
 
@@ -224,7 +224,7 @@ class TournamentView:
             else:
                 print(" Invalid choice. Please enter the Tournament_ID.", end="\n\n")
 
-    def display_tournament_results_view(
+    def display_match_result_view(
         self, list_of_scores, dict_result_tournament, name_of_tournament
     ):
         print("--------------------------------------------------------------------------")
