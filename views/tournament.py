@@ -324,7 +324,7 @@ class TournamentView:
             print(f"[Name of tournament]: {name_of_tournament}", end="\n\n")
             print("[Matches of players]: ")
             pair_count = 0
-            for rounds in results_tournaments[name_tournament]["list_rounds"].values():
+            for rounds in results_tournaments[name_of_tournament]["list_rounds"].values():
                 for i, player in enumerate(rounds.keys()):
                     if i % 2 == 0:
                         pair = [
