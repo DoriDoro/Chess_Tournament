@@ -44,8 +44,7 @@ open terminal
 5. Start a Tournament:
    1. Choose the Tournament you want to start:
    ![Choose a Tournament](/images_Readme/ChooseTournament.png)
-   2. The chosen Tournament starts the first round:
-   ![Start the Tournament](/images_Readme/StartTournament.png)
+   2. The chosen Tournament starts the first round
    3. Set the scores for the first round:
    ![Scores first round](/images_Readme/EnterScoreFirstMatch.png)
    4. Results of the first round:
