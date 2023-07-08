@@ -5,7 +5,7 @@
             "name": "The Golden Summer",
             "city": "Lisabon",
             "start_date": "22-4-2022",
-            "end_date": "2023-05-05 14:41",
+            "end_date": "2023-05-05 17:59",
             "rounds": 4,
             "comments": "no",
             "list_rounds": {
@@ -699,417 +699,13 @@
             "name": "The Sensation",
             "city": "Moscau",
             "start_date": "16-1-2022",
-            "end_date": "2023-04-24 19:30",
+            "end_date": "2023-07-08 09:44",
             "rounds": 4,
             "comments": "no",
             "list_rounds": {
                 "1": [
-                    "2023-04-24 19:41",
-                    "2023-04-24 19:41",
-                    [
-                        {
-                            "player_id": "II14563",
-                            "first_name": "Digory",
-                            "last_name": "Carter",
-                            "birth_date": "14-10-1990",
-                            "rank": 0,
-                            "score": 0,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "KS85236"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 0
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "KS85236",
-                            "first_name": "Pongo",
-                            "last_name": "Ville",
-                            "birth_date": "12-1-1977",
-                            "rank": 0,
-                            "score": 1,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "II14563"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 1
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "UU14789",
-                            "first_name": "Polly",
-                            "last_name": "Rouen",
-                            "birth_date": "3-1-2000",
-                            "rank": 0,
-                            "score": 1,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "UJ14521"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 1
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "UJ14521",
-                            "first_name": "Dulce",
-                            "last_name": "Young",
-                            "birth_date": "9-8-1999",
-                            "rank": 0,
-                            "score": 0,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "UU14789"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 0
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "IK52136",
-                            "first_name": "Stella",
-                            "last_name": "Darling",
-                            "birth_date": "10-2-2001",
-                            "rank": 0,
-                            "score": 0.5,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "OO10023"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 0.5
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "OO10023",
-                            "first_name": "Rodger",
-                            "last_name": "Hill",
-                            "birth_date": "3-12-1988",
-                            "rank": 0,
-                            "score": 0.5,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "IK52136"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 0.5
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "QQ19002",
-                            "first_name": "Thor",
-                            "last_name": "Weak",
-                            "birth_date": "4-12-1988",
-                            "rank": 0,
-                            "score": 0,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "JU74521"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 0
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "JU74521",
-                            "first_name": "Karl",
-                            "last_name": "Ben",
-                            "birth_date": "9-9-1999",
-                            "rank": 0,
-                            "score": 1,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "QQ19002"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 1
-                        }
-                    ]
-                ],
-                "2": [
-                    "2023-04-24 19:42",
-                    "2023-04-24 19:42",
-                    [
-                        {
-                            "player_id": "II14563",
-                            "first_name": "Digory",
-                            "last_name": "Carter",
-                            "birth_date": "14-10-1990",
-                            "rank": 0,
-                            "score": 0,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "KS85236",
-                                    "UJ14521"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 0
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "UJ14521",
-                            "first_name": "Dulce",
-                            "last_name": "Young",
-                            "birth_date": "9-8-1999",
-                            "rank": 0,
-                            "score": 1,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "UU14789",
-                                    "II14563"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 1
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "QQ19002",
-                            "first_name": "Thor",
-                            "last_name": "Weak",
-                            "birth_date": "4-12-1988",
-                            "rank": 0,
-                            "score": 1,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "JU74521",
-                                    "IK52136"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 1
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "IK52136",
-                            "first_name": "Stella",
-                            "last_name": "Darling",
-                            "birth_date": "10-2-2001",
-                            "rank": 0,
-                            "score": 0.5,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "OO10023",
-                                    "QQ19002"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 0.5
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "OO10023",
-                            "first_name": "Rodger",
-                            "last_name": "Hill",
-                            "birth_date": "3-12-1988",
-                            "rank": 0,
-                            "score": 1.0,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "IK52136",
-                                    "KS85236"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 1.0
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "KS85236",
-                            "first_name": "Pongo",
-                            "last_name": "Ville",
-                            "birth_date": "12-1-1977",
-                            "rank": 0,
-                            "score": 1.5,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "II14563",
-                                    "OO10023"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 1.5
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "UU14789",
-                            "first_name": "Polly",
-                            "last_name": "Rouen",
-                            "birth_date": "3-1-2000",
-                            "rank": 0,
-                            "score": 1,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "UJ14521",
-                                    "JU74521"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 1
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "JU74521",
-                            "first_name": "Karl",
-                            "last_name": "Ben",
-                            "birth_date": "9-9-1999",
-                            "rank": 0,
-                            "score": 2,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "QQ19002",
-                                    "UU14789"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 2
-                        }
-                    ]
-                ],
-                "3": [
-                    "2023-04-24 19:42",
-                    "2023-04-24 19:42",
-                    [
-                        {
-                            "player_id": "II14563",
-                            "first_name": "Digory",
-                            "last_name": "Carter",
-                            "birth_date": "14-10-1990",
-                            "rank": 0,
-                            "score": 0,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "KS85236",
-                                    "UJ14521",
-                                    "IK52136"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 0
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "IK52136",
-                            "first_name": "Stella",
-                            "last_name": "Darling",
-                            "birth_date": "10-2-2001",
-                            "rank": 0,
-                            "score": 1.5,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "OO10023",
-                                    "QQ19002",
-                                    "II14563"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 1.5
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "UJ14521",
-                            "first_name": "Dulce",
-                            "last_name": "Young",
-                            "birth_date": "9-8-1999",
-                            "rank": 0,
-                            "score": 2,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "UU14789",
-                                    "II14563",
-                                    "QQ19002"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 2
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "QQ19002",
-                            "first_name": "Thor",
-                            "last_name": "Weak",
-                            "birth_date": "4-12-1988",
-                            "rank": 0,
-                            "score": 1,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "JU74521",
-                                    "IK52136",
-                                    "UJ14521"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 1
-                        }
-                    ],
+                    "2023-07-08 09:41",
+                    "2023-07-08 09:41",
                     [
                         {
                             "player_id": "OO10023",
@@ -1123,167 +719,14 @@
                                 "played_against": [
                                     "IK52136",
                                     "KS85236",
-                                    "UU14789"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 1.5
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "UU14789",
-                            "first_name": "Polly",
-                            "last_name": "Rouen",
-                            "birth_date": "3-1-2000",
-                            "rank": 0,
-                            "score": 1.5,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "UJ14521",
-                                    "JU74521",
-                                    "OO10023"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 1.5
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "KS85236",
-                            "first_name": "Pongo",
-                            "last_name": "Ville",
-                            "birth_date": "12-1-1977",
-                            "rank": 0,
-                            "score": 2.0,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "II14563",
-                                    "OO10023",
-                                    "JU74521"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 2.0
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "JU74521",
-                            "first_name": "Karl",
-                            "last_name": "Ben",
-                            "birth_date": "9-9-1999",
-                            "rank": 0,
-                            "score": 2.5,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "QQ19002",
                                     "UU14789",
-                                    "KS85236"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 2.5
-                        }
-                    ]
-                ],
-                "4": [
-                    "2023-04-24 19:42",
-                    "2023-04-24 19:42",
-                    [
-                        {
-                            "player_id": "II14563",
-                            "first_name": "Digory",
-                            "last_name": "Carter",
-                            "birth_date": "14-10-1990",
-                            "rank": 0,
-                            "score": 0.5,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "KS85236",
-                                    "UJ14521",
-                                    "IK52136",
-                                    "QQ19002"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 0.5
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "QQ19002",
-                            "first_name": "Thor",
-                            "last_name": "Weak",
-                            "birth_date": "4-12-1988",
-                            "rank": 0,
-                            "score": 1.5,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
                                     "JU74521",
-                                    "IK52136",
-                                    "UJ14521",
-                                    "II14563"
+                                    "UJ14521"
                                 ]
                             }
                         },
                         {
                             "score": 1.5
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "IK52136",
-                            "first_name": "Stella",
-                            "last_name": "Darling",
-                            "birth_date": "10-2-2001",
-                            "rank": 0,
-                            "score": 2.0,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "OO10023",
-                                    "QQ19002",
-                                    "II14563",
-                                    "UU14789"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 2.0
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "UU14789",
-                            "first_name": "Polly",
-                            "last_name": "Rouen",
-                            "birth_date": "3-1-2000",
-                            "rank": 0,
-                            "score": 2.0,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "UJ14521",
-                                    "JU74521",
-                                    "OO10023",
-                                    "IK52136"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 2.0
                         }
                     ],
                     [
@@ -1292,57 +735,14 @@
                             "first_name": "Dulce",
                             "last_name": "Young",
                             "birth_date": "9-8-1999",
-                            "rank": 0,
-                            "score": 2.5,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "UU14789",
-                                    "II14563",
-                                    "QQ19002",
-                                    "KS85236"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 2.5
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "KS85236",
-                            "first_name": "Pongo",
-                            "last_name": "Ville",
-                            "birth_date": "12-1-1977",
-                            "rank": 0,
-                            "score": 2.5,
-                            "played_tournaments": {
-                                "name": "The Sensation",
-                                "played_against": [
-                                    "II14563",
-                                    "OO10023",
-                                    "JU74521",
-                                    "UJ14521"
-                                ]
-                            }
-                        },
-                        {
-                            "score": 2.5
-                        }
-                    ],
-                    [
-                        {
-                            "player_id": "JU74521",
-                            "first_name": "Karl",
-                            "last_name": "Ben",
-                            "birth_date": "9-9-1999",
                             "rank": 0,
                             "score": 3.5,
                             "played_tournaments": {
                                 "name": "The Sensation",
                                 "played_against": [
-                                    "QQ19002",
                                     "UU14789",
+                                    "II14563",
+                                    "QQ19002",
                                     "KS85236",
                                     "OO10023"
                                 ]
@@ -1354,6 +754,148 @@
                     ],
                     [
                         {
+                            "player_id": "UU14789",
+                            "first_name": "Polly",
+                            "last_name": "Rouen",
+                            "birth_date": "3-1-2000",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "UJ14521",
+                                    "JU74521",
+                                    "OO10023",
+                                    "IK52136",
+                                    "JU74521"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "JU74521",
+                            "first_name": "Karl",
+                            "last_name": "Ben",
+                            "birth_date": "9-9-1999",
+                            "rank": 0,
+                            "score": 4.0,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "QQ19002",
+                                    "UU14789",
+                                    "KS85236",
+                                    "OO10023",
+                                    "UU14789"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "II14563",
+                            "first_name": "Digory",
+                            "last_name": "Carter",
+                            "birth_date": "14-10-1990",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "KS85236",
+                                    "UJ14521",
+                                    "IK52136",
+                                    "QQ19002",
+                                    "KS85236"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "KS85236",
+                            "first_name": "Pongo",
+                            "last_name": "Ville",
+                            "birth_date": "12-1-1977",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "II14563",
+                                    "OO10023",
+                                    "JU74521",
+                                    "UJ14521",
+                                    "II14563"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "QQ19002",
+                            "first_name": "Thor",
+                            "last_name": "Weak",
+                            "birth_date": "4-12-1988",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "JU74521",
+                                    "IK52136",
+                                    "UJ14521",
+                                    "II14563",
+                                    "IK52136"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "IK52136",
+                            "first_name": "Stella",
+                            "last_name": "Darling",
+                            "birth_date": "10-2-2001",
+                            "rank": 0,
+                            "score": 3.0,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "OO10023",
+                                    "QQ19002",
+                                    "II14563",
+                                    "UU14789",
+                                    "QQ19002"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.0
+                        }
+                    ]
+                ],
+                "2": [
+                    "2023-07-08 09:44",
+                    "2023-07-08 09:44",
+                    [
+                        {
                             "player_id": "OO10023",
                             "first_name": "Rodger",
                             "last_name": "Hill",
@@ -1366,12 +908,598 @@
                                     "IK52136",
                                     "KS85236",
                                     "UU14789",
-                                    "JU74521"
+                                    "JU74521",
+                                    "UJ14521",
+                                    "II14563"
                                 ]
                             }
                         },
                         {
                             "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "II14563",
+                            "first_name": "Digory",
+                            "last_name": "Carter",
+                            "birth_date": "14-10-1990",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "KS85236",
+                                    "UJ14521",
+                                    "IK52136",
+                                    "QQ19002",
+                                    "KS85236",
+                                    "OO10023"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "QQ19002",
+                            "first_name": "Thor",
+                            "last_name": "Weak",
+                            "birth_date": "4-12-1988",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "JU74521",
+                                    "IK52136",
+                                    "UJ14521",
+                                    "II14563",
+                                    "IK52136",
+                                    "UU14789"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UU14789",
+                            "first_name": "Polly",
+                            "last_name": "Rouen",
+                            "birth_date": "3-1-2000",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "UJ14521",
+                                    "JU74521",
+                                    "OO10023",
+                                    "IK52136",
+                                    "JU74521",
+                                    "QQ19002"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "KS85236",
+                            "first_name": "Pongo",
+                            "last_name": "Ville",
+                            "birth_date": "12-1-1977",
+                            "rank": 0,
+                            "score": 3.0,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "II14563",
+                                    "OO10023",
+                                    "JU74521",
+                                    "UJ14521",
+                                    "II14563",
+                                    "IK52136"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "IK52136",
+                            "first_name": "Stella",
+                            "last_name": "Darling",
+                            "birth_date": "10-2-2001",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "OO10023",
+                                    "QQ19002",
+                                    "II14563",
+                                    "UU14789",
+                                    "QQ19002",
+                                    "KS85236"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UJ14521",
+                            "first_name": "Dulce",
+                            "last_name": "Young",
+                            "birth_date": "9-8-1999",
+                            "rank": 0,
+                            "score": 4.0,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "UU14789",
+                                    "II14563",
+                                    "QQ19002",
+                                    "KS85236",
+                                    "OO10023",
+                                    "JU74521"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "JU74521",
+                            "first_name": "Karl",
+                            "last_name": "Ben",
+                            "birth_date": "9-9-1999",
+                            "rank": 0,
+                            "score": 4.5,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "QQ19002",
+                                    "UU14789",
+                                    "KS85236",
+                                    "OO10023",
+                                    "UU14789",
+                                    "UJ14521"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.5
+                        }
+                    ]
+                ],
+                "3": [
+                    "2023-07-08 09:44",
+                    "2023-07-08 09:44",
+                    [
+                        {
+                            "player_id": "OO10023",
+                            "first_name": "Rodger",
+                            "last_name": "Hill",
+                            "birth_date": "3-12-1988",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "IK52136",
+                                    "KS85236",
+                                    "UU14789",
+                                    "JU74521",
+                                    "UJ14521",
+                                    "II14563",
+                                    "QQ19002"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "QQ19002",
+                            "first_name": "Thor",
+                            "last_name": "Weak",
+                            "birth_date": "4-12-1988",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "JU74521",
+                                    "IK52136",
+                                    "UJ14521",
+                                    "II14563",
+                                    "IK52136",
+                                    "UU14789",
+                                    "OO10023"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UU14789",
+                            "first_name": "Polly",
+                            "last_name": "Rouen",
+                            "birth_date": "3-1-2000",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "UJ14521",
+                                    "JU74521",
+                                    "OO10023",
+                                    "IK52136",
+                                    "JU74521",
+                                    "QQ19002",
+                                    "KS85236"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "KS85236",
+                            "first_name": "Pongo",
+                            "last_name": "Ville",
+                            "birth_date": "12-1-1977",
+                            "rank": 0,
+                            "score": 3.0,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "II14563",
+                                    "OO10023",
+                                    "JU74521",
+                                    "UJ14521",
+                                    "II14563",
+                                    "IK52136",
+                                    "UU14789"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "IK52136",
+                            "first_name": "Stella",
+                            "last_name": "Darling",
+                            "birth_date": "10-2-2001",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "OO10023",
+                                    "QQ19002",
+                                    "II14563",
+                                    "UU14789",
+                                    "QQ19002",
+                                    "KS85236",
+                                    "UJ14521"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UJ14521",
+                            "first_name": "Dulce",
+                            "last_name": "Young",
+                            "birth_date": "9-8-1999",
+                            "rank": 0,
+                            "score": 5.0,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "UU14789",
+                                    "II14563",
+                                    "QQ19002",
+                                    "KS85236",
+                                    "OO10023",
+                                    "JU74521",
+                                    "IK52136"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 5.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "JU74521",
+                            "first_name": "Karl",
+                            "last_name": "Ben",
+                            "birth_date": "9-9-1999",
+                            "rank": 0,
+                            "score": 5.0,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "QQ19002",
+                                    "UU14789",
+                                    "KS85236",
+                                    "OO10023",
+                                    "UU14789",
+                                    "UJ14521",
+                                    "II14563"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 5.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "II14563",
+                            "first_name": "Digory",
+                            "last_name": "Carter",
+                            "birth_date": "14-10-1990",
+                            "rank": 0,
+                            "score": 3.0,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "KS85236",
+                                    "UJ14521",
+                                    "IK52136",
+                                    "QQ19002",
+                                    "KS85236",
+                                    "OO10023",
+                                    "JU74521"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.0
+                        }
+                    ]
+                ],
+                "4": [
+                    "2023-07-08 09:44",
+                    "2023-07-08 09:44",
+                    [
+                        {
+                            "player_id": "UJ14521",
+                            "first_name": "Dulce",
+                            "last_name": "Young",
+                            "birth_date": "9-8-1999",
+                            "rank": 0,
+                            "score": 5.0,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "UU14789",
+                                    "II14563",
+                                    "QQ19002",
+                                    "KS85236",
+                                    "OO10023",
+                                    "JU74521",
+                                    "IK52136",
+                                    "OO10023"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 5.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "OO10023",
+                            "first_name": "Rodger",
+                            "last_name": "Hill",
+                            "birth_date": "3-12-1988",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "IK52136",
+                                    "KS85236",
+                                    "UU14789",
+                                    "JU74521",
+                                    "UJ14521",
+                                    "II14563",
+                                    "QQ19002",
+                                    "UJ14521"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "KS85236",
+                            "first_name": "Pongo",
+                            "last_name": "Ville",
+                            "birth_date": "12-1-1977",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "II14563",
+                                    "OO10023",
+                                    "JU74521",
+                                    "UJ14521",
+                                    "II14563",
+                                    "IK52136",
+                                    "UU14789",
+                                    "II14563"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "II14563",
+                            "first_name": "Digory",
+                            "last_name": "Carter",
+                            "birth_date": "14-10-1990",
+                            "rank": 0,
+                            "score": 3.5,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "KS85236",
+                                    "UJ14521",
+                                    "IK52136",
+                                    "QQ19002",
+                                    "KS85236",
+                                    "OO10023",
+                                    "JU74521",
+                                    "KS85236"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 3.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "UU14789",
+                            "first_name": "Polly",
+                            "last_name": "Rouen",
+                            "birth_date": "3-1-2000",
+                            "rank": 0,
+                            "score": 4.0,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "UJ14521",
+                                    "JU74521",
+                                    "OO10023",
+                                    "IK52136",
+                                    "JU74521",
+                                    "QQ19002",
+                                    "KS85236",
+                                    "IK52136"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "IK52136",
+                            "first_name": "Stella",
+                            "last_name": "Darling",
+                            "birth_date": "10-2-2001",
+                            "rank": 0,
+                            "score": 4.0,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "OO10023",
+                                    "QQ19002",
+                                    "II14563",
+                                    "UU14789",
+                                    "QQ19002",
+                                    "KS85236",
+                                    "UJ14521",
+                                    "UU14789"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 4.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "JU74521",
+                            "first_name": "Karl",
+                            "last_name": "Ben",
+                            "birth_date": "9-9-1999",
+                            "rank": 0,
+                            "score": 6.0,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "QQ19002",
+                                    "UU14789",
+                                    "KS85236",
+                                    "OO10023",
+                                    "UU14789",
+                                    "UJ14521",
+                                    "II14563",
+                                    "QQ19002"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 6.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "QQ19002",
+                            "first_name": "Thor",
+                            "last_name": "Weak",
+                            "birth_date": "4-12-1988",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "The Sensation",
+                                "played_against": [
+                                    "JU74521",
+                                    "IK52136",
+                                    "UJ14521",
+                                    "II14563",
+                                    "IK52136",
+                                    "UU14789",
+                                    "OO10023",
+                                    "JU74521"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
                         }
                     ]
                 ]
@@ -6356,12 +6484,694 @@
             "name": "Test Tournament",
             "city": "Test City",
             "start_date": "2023-04-10 15:15",
-            "end_date": "ongoing",
+            "end_date": "2023-05-05 17:15",
             "rounds": 4,
             "comments": "Test",
-            "list_rounds": {},
-            "list_of_players": [],
-            "current_round": 0
+            "list_rounds": {
+                "1": [
+                    "2023-05-05 17:13",
+                    "2023-05-05 17:13",
+                    [
+                        {
+                            "player_id": "DF42985",
+                            "first_name": "Jerry",
+                            "last_name": "Bean",
+                            "birth_date": "5-10-2000",
+                            "rank": 0,
+                            "score": 0,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "KK41598"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "KK41598",
+                            "first_name": "Gorden",
+                            "last_name": "Player",
+                            "birth_date": "10-02-2000",
+                            "rank": 0,
+                            "score": 1,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "DF42985"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "DE25362",
+                            "first_name": "Name",
+                            "last_name": "Last",
+                            "birth_date": "2-12-2000",
+                            "rank": 0,
+                            "score": 1,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "RE82163"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "RE82163",
+                            "first_name": "Walter",
+                            "last_name": "Glenn",
+                            "birth_date": "5-9-1997",
+                            "rank": 0,
+                            "score": 0,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "DE25362"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "NJ50002",
+                            "first_name": "Reymond",
+                            "last_name": "Helas",
+                            "birth_date": "8-1-1999",
+                            "rank": 0,
+                            "score": 0.5,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "ES47596"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 0.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "ES47596",
+                            "first_name": "Harry",
+                            "last_name": "Stone",
+                            "birth_date": "7-10-1998",
+                            "rank": 0,
+                            "score": 0.5,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "NJ50002"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 0.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "SD98312",
+                            "first_name": "Urs",
+                            "last_name": "Belert",
+                            "birth_date": "9-12-1989",
+                            "rank": 0,
+                            "score": 0,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "NV14293"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "NV14293",
+                            "first_name": "Name",
+                            "last_name": "Name",
+                            "birth_date": "2-12-2000",
+                            "rank": 0,
+                            "score": 1,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "SD98312"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1
+                        }
+                    ]
+                ],
+                "2": [
+                    "2023-05-05 17:15",
+                    "2023-05-05 17:15",
+                    [
+                        {
+                            "player_id": "DF42985",
+                            "first_name": "Jerry",
+                            "last_name": "Bean",
+                            "birth_date": "5-10-2000",
+                            "rank": 0,
+                            "score": 0,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "KK41598",
+                                    "RE82163"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "RE82163",
+                            "first_name": "Walter",
+                            "last_name": "Glenn",
+                            "birth_date": "5-9-1997",
+                            "rank": 0,
+                            "score": 1,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "DE25362",
+                                    "DF42985"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "SD98312",
+                            "first_name": "Urs",
+                            "last_name": "Belert",
+                            "birth_date": "9-12-1989",
+                            "rank": 0,
+                            "score": 1,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "NV14293",
+                                    "NJ50002"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "NJ50002",
+                            "first_name": "Reymond",
+                            "last_name": "Helas",
+                            "birth_date": "8-1-1999",
+                            "rank": 0,
+                            "score": 0.5,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "ES47596",
+                                    "SD98312"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 0.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "ES47596",
+                            "first_name": "Harry",
+                            "last_name": "Stone",
+                            "birth_date": "7-10-1998",
+                            "rank": 0,
+                            "score": 1.0,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "NJ50002",
+                                    "KK41598"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "KK41598",
+                            "first_name": "Gorden",
+                            "last_name": "Player",
+                            "birth_date": "10-02-2000",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "DF42985",
+                                    "ES47596"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "DE25362",
+                            "first_name": "Name",
+                            "last_name": "Last",
+                            "birth_date": "2-12-2000",
+                            "rank": 0,
+                            "score": 1,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "RE82163",
+                                    "NV14293"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "NV14293",
+                            "first_name": "Name",
+                            "last_name": "Name",
+                            "birth_date": "2-12-2000",
+                            "rank": 0,
+                            "score": 2,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "SD98312",
+                                    "DE25362"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2
+                        }
+                    ]
+                ],
+                "3": [
+                    "2023-05-05 17:15",
+                    "2023-05-05 17:15",
+                    [
+                        {
+                            "player_id": "DF42985",
+                            "first_name": "Jerry",
+                            "last_name": "Bean",
+                            "birth_date": "5-10-2000",
+                            "rank": 0,
+                            "score": 0.5,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "KK41598",
+                                    "RE82163",
+                                    "NJ50002"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 0.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "NJ50002",
+                            "first_name": "Reymond",
+                            "last_name": "Helas",
+                            "birth_date": "8-1-1999",
+                            "rank": 0,
+                            "score": 1.0,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "ES47596",
+                                    "SD98312",
+                                    "DF42985"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.0
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "RE82163",
+                            "first_name": "Walter",
+                            "last_name": "Glenn",
+                            "birth_date": "5-9-1997",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "DE25362",
+                                    "DF42985",
+                                    "SD98312"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "SD98312",
+                            "first_name": "Urs",
+                            "last_name": "Belert",
+                            "birth_date": "9-12-1989",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "NV14293",
+                                    "NJ50002",
+                                    "RE82163"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "ES47596",
+                            "first_name": "Harry",
+                            "last_name": "Stone",
+                            "birth_date": "7-10-1998",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "NJ50002",
+                                    "KK41598",
+                                    "DE25362"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "DE25362",
+                            "first_name": "Name",
+                            "last_name": "Last",
+                            "birth_date": "2-12-2000",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "RE82163",
+                                    "NV14293",
+                                    "ES47596"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "KK41598",
+                            "first_name": "Gorden",
+                            "last_name": "Player",
+                            "birth_date": "10-02-2000",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "DF42985",
+                                    "ES47596",
+                                    "NV14293"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "NV14293",
+                            "first_name": "Name",
+                            "last_name": "Name",
+                            "birth_date": "2-12-2000",
+                            "rank": 0,
+                            "score": 2,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "SD98312",
+                                    "DE25362",
+                                    "KK41598"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2
+                        }
+                    ]
+                ],
+                "4": [
+                    "2023-05-05 17:15",
+                    "2023-05-05 17:15",
+                    [
+                        {
+                            "player_id": "DF42985",
+                            "first_name": "Jerry",
+                            "last_name": "Bean",
+                            "birth_date": "5-10-2000",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "KK41598",
+                                    "RE82163",
+                                    "NJ50002",
+                                    "RE82163"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "RE82163",
+                            "first_name": "Walter",
+                            "last_name": "Glenn",
+                            "birth_date": "5-9-1997",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "DE25362",
+                                    "DF42985",
+                                    "SD98312",
+                                    "DF42985"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "SD98312",
+                            "first_name": "Urs",
+                            "last_name": "Belert",
+                            "birth_date": "9-12-1989",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "NV14293",
+                                    "NJ50002",
+                                    "RE82163",
+                                    "ES47596"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "ES47596",
+                            "first_name": "Harry",
+                            "last_name": "Stone",
+                            "birth_date": "7-10-1998",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "NJ50002",
+                                    "KK41598",
+                                    "DE25362",
+                                    "SD98312"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "DE25362",
+                            "first_name": "Name",
+                            "last_name": "Last",
+                            "birth_date": "2-12-2000",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "RE82163",
+                                    "NV14293",
+                                    "ES47596",
+                                    "KK41598"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "KK41598",
+                            "first_name": "Gorden",
+                            "last_name": "Player",
+                            "birth_date": "10-02-2000",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "DF42985",
+                                    "ES47596",
+                                    "NV14293",
+                                    "DE25362"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "NJ50002",
+                            "first_name": "Reymond",
+                            "last_name": "Helas",
+                            "birth_date": "8-1-1999",
+                            "rank": 0,
+                            "score": 1.5,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "ES47596",
+                                    "SD98312",
+                                    "DF42985",
+                                    "NV14293"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 1.5
+                        }
+                    ],
+                    [
+                        {
+                            "player_id": "NV14293",
+                            "first_name": "Name",
+                            "last_name": "Name",
+                            "birth_date": "2-12-2000",
+                            "rank": 0,
+                            "score": 2.5,
+                            "played_tournaments": {
+                                "name": "Test Tournament",
+                                "played_against": [
+                                    "SD98312",
+                                    "DE25362",
+                                    "KK41598",
+                                    "NJ50002"
+                                ]
+                            }
+                        },
+                        {
+                            "score": 2.5
+                        }
+                    ]
+                ]
+            },
+            "list_of_players": [
+                "KK41598",
+                "DF42985",
+                "ES47596",
+                "SD98312",
+                "NJ50002",
+                "RE82163",
+                "DE25362",
+                "NV14293"
+            ],
+            "current_round": 4
         },
         "20": {
             "tournament_id": 4455,
@@ -7698,6 +8508,45 @@
                 "XX55773"
             ],
             "current_round": 4
+        },
+        "22": {
+            "tournament_id": 7298,
+            "name": "The Orange Blues",
+            "city": "London",
+            "start_date": "2023-05-05 15:02",
+            "end_date": "ongoing",
+            "rounds": 4,
+            "comments": "no",
+            "list_rounds": {},
+            "list_of_players": [
+                "GF14293",
+                "JH5236"
+            ],
+            "current_round": 0
+        },
+        "23": {
+            "tournament_id": 5236,
+            "name": "The Tournament Name",
+            "city": "Rennes",
+            "start_date": "2023-05-05 17:11",
+            "end_date": "ongoing",
+            "rounds": 4,
+            "comments": "No",
+            "list_rounds": {},
+            "list_of_players": [],
+            "current_round": 0
+        },
+        "24": {
+            "tournament_id": 2569,
+            "name": "The Ulitmate One",
+            "city": "Cape Town",
+            "start_date": "2023-07-08 09:35",
+            "end_date": "ongoing",
+            "rounds": 4,
+            "comments": "The best Tournament ever!",
+            "list_rounds": {},
+            "list_of_players": [],
+            "current_round": 0
         }
     }
 }
