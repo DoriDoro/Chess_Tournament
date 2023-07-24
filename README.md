@@ -30,34 +30,34 @@ open terminal
 
 ## Visualisation of the project:
 1. start the program with `python3 main.py`
-2. The Main Menu:
+2. The Main Menu: <br>
 ![Main Menu](/images_Readme/MainMenu.png)
 3. Create a new Player:
-   1. Choose the Tournament for the new Player:
+   1. Choose the Tournament for the new Player: <br>
    ![Choose a Tournament for the new Player](/images_Readme/ChooseTournament.png)
-   2. Create a new Player:
+   2. Create a new Player: <br>
    ![Create a Player](/images_Readme/CreateAPlayer.png)
-   3. Tournament already all Players:
+   3. Tournament already all Players: <br>
    ![Tournament full](/images_Readme/Tournament_AlreadyAllPlayers.png)
-4. Create a new Tournament:
+4. Create a new Tournament: <br>
 ![Create a Tournament](/images_Readme/CreateTournament.png)
 5. Start a Tournament:
-   1. Choose the Tournament you want to start:
+   1. Choose the Tournament you want to start: <br>
    ![Choose a Tournament](/images_Readme/ChooseTournament.png)
    2. The chosen Tournament starts the first round
-   3. Set the scores for the first round:
+   3. Set the scores for the first round: <br>
    ![Scores first round](/images_Readme/EnterScoreFirstMatch.png)
-   4. Results of the first round:
+   4. Results of the first round: <br>
    ![Results first round](/images_Readme/ResultsFirstMatch.png)
    5. Question to continue with next round or quit Tournament:
       (I have chosen to quit the Tournament for demonstrate purpose)
    ![Quit Tournament](/images_Readme/QuitTournament.png)
-6. Resume Tournament:
-![Resume Tournament](/images_Readme/ResumeTournament.png)
+6. Resume Tournament: <br>
+![Resume Tournament](/images_Readme/ResumeTournament.png) <br>
 ![Second round](/images_Readme/SecondRound.png)
-7. Results of Tournaments:
-![Results all Players](/images_Readme/ResultDisplayAllPlayers.png)
-![Results names of Tournament](/images_Readme/ResultNamesOfTournament.png)
-![Results names and dates](/images_Readme/ResutlsNameDatesTournament.png)
-![Results players of Tournament](/images_Readme/ResultPlayerOfTournament.png)
-![Result of matches](/images_Readme/ResultsMachtesTournament.png)
+7. Results of Tournaments: <br>
+![Results all Players](/images_Readme/ResultDisplayAllPlayers.png) <br>
+![Results names of Tournament](/images_Readme/ResultNamesOfTournament.png) <br>
+![Results names and dates](/images_Readme/ResutlsNameDatesTournament.png) <br>
+![Results players of Tournament](/images_Readme/ResultPlayerOfTournament.png) <br>
+![Result of matches](/images_Readme/ResultsMachtesTournament.png) <br>
